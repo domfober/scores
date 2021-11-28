@@ -1,0 +1,129 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+
+$MSize = 12;
+$MPos = 20;
+
+$Hy = 17;
+$Ly = -15;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"Milonga para as Missoes", font="Helvetica">
+	\pageFormat<w=25cm, h=35.6cm, lm=2.5cm, rm=2.5cm, bm=3cm, tm=5cm>
+	\footer<"Typeset with Guido", dy=-2>
+	\footer<"https://guidoeditor.grame.fr", dy=-6>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\meter<"2/4", autoMeasuresNum="system">
+% tab: T C
+	_/8 e2/4 d2/8
+	\repeatBegin
+	\harmony<"Am", dy=$Hy>
+	\bm( \text<"A", fattrib="i", fsize=$MSize, dy=$MPos, dx=-1.5cm>(c2) e2 d2 c2 ) |
+
+ \stemsDown
+% tab: P C
+	\harmony<"E7", dy=$Hy>
+	b1/16 e2 d2 b1 e2 d2 b1 e2
+	b1 e2 d2 b1 e2 d2 c2 b1 |
+% tab: T C
+	\harmony<"Am", dy=$Hy>
+	a1 f2 e2 c2 f2 e2 c2 f2 |
+	\harmony<"Am", dy=$Hy>
+	a1 f2 e2 c2 f2 e2 d2 c2 |
+% tab: P C
+	\harmony<"E7", dy=$Hy>
+	b1 { b1, d2 } { b1, d2 } \tie( { b1, d2 }  { b1, d2 })
+	b1 c2 d2
+	e2 d2 c2 b1 e2 d2 c2 b1 |
+% tab: T C
+	\harmony<"Am", dy=$Hy>
+\voltaBegin<"1.", "|-|", dy=-4>
+\stemsAuto
+	a1/8 e2/4 d2/8
+\voltaEnd
+	\repeatEnd
+\voltaBegin<"2.", "|-|", dy=-4>
+\stemsUp
+	\harmony<"Am", dy=$Hy>
+	a1/16 c2 e1 e2 
+	e1 e2 e1 e2
+	a1 e1 a1 c2 
+	e2 e1 c2 e1
+\voltaEnd
+%\newLine
+\repeatBegin
+\text<"B", fattrib="i", fsize=$MSize, dy=$MPos, dx=-6>
+	(e2/16) e1 d2 e1 
+	e2 e1 d2 e1
+	e2/16 e1 d2 e1 
+	e2 e1 d2 e1
+	e2 e1 c2 c1 
+	e2 e1 c2 e1 
+	e2 e1 c2 e1 
+	e2 e1 d2 e1 |
+
+% tab: P C
+	\harmony<"E7", dy=$Hy>
+	\tie( \stemsDown e2/4 e2/16) b1 c2 d2
+\stemsAuto
+	e2 d2 c2 b1 
+	e2 d2 c2 b1 
+
+\voltaBegin<"1.", "|-|">
+\stemsUp
+	a1 c2 e1 e2
+ 	e1 e2 e1 e2
+	a1 e1 a1 c2
+	e2 e1 c2 e1
+\voltaEnd
+	\repeatEnd
+
+\voltaBegin<"2.", "|-|">
+	a1 e2 d2 c2
+	b1 a1 g1 f#1
+	f1 e1 d1 c1 
+	e1 d1 c1 b0
+\voltaEnd
+
+\text<"C", fattrib="i", fsize=$MSize, dy=$MPos, dx=10>
+	a0 b0 c1 d1
+	e1 f1 f#1 g1 |
+\stemsDown
+	a1 b1 c2 d2 
+	e2 d2 c2 b1 |
+
+	a1 e2 c2 a1
+	e2 c2 a1 e2 |
+	a1 e2 c2 a1
+	e2 d2 c2 b1 |
+	\harmony<"E7", dy=$Hy>
+	b1 e2 d2 b1
+	e2 d2 b1 e2 |
+	b1 e2 d2 b1
+	e2 d2 c2 b1 |
+
+% tab: T C
+	\harmony<"A", dy=$Hy>
+	a1 f2 e2 c2
+	f2 e2 c2 f2 |
+	c2 f2 e2 c2
+	f2 e2 d2 c2 |
+
+% tab: P C
+	\harmony<"E7", dy=$Hy>
+	b1 { b1, d2 } { b1, d2 } \tie( { b1, d2 }  { b1, d2 })
+	b1 c2 d2 |
+	e2 d2 c2 b1 
+	e2 d2 c2 b1 |
+% tab: T C
+	\harmony<"Am", dy=$Hy>
+	a1/2	
+]
+}

@@ -1,0 +1,5 @@
+#!/bin/sh
+cat header.txt
+cat $1 | awk -f tab2gmn.awk
+cat footer.txt
+ 

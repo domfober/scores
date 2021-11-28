@@ -1,0 +1,155 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"Scottish fait main">
+	\title<"Les Zéoles", fsize=14pt,  dy=-8>
+	\pageFormat<w=23cm, h=32.6cm, lm=2cm, rm=1.5cm, bm=4cm, tm=6cm>
+	\footer<"Typeset with Guido", dy=-6>
+	\footer<"https://guidoeditor.grame.fr", dy=-10>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"4/4", autoMeasuresNum="system"> 
+
+% mesure 1
+	\lyrics<"7 6' 8- 6' 7 8", dy=$Py, fattrib="b">( 
+	\harmony<"E", dy=$hdy1, dx=3, fsize=16pt> b/8 
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> c2/16 \tieBegin d 
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt> d \tieEnd c/16 
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> b1 d2  )
+	\lyrics<"4' 6 6' 8 7' 8 6' 7'", dy=$Py, fattrib="b">( 
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> d1 g 
+	\harmony<"c", dy=$hdy1, dx=0, fsize=16pt> c2 d 
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> e d 
+	\harmony<"c", dy=$hdy1, dx=0, fsize=16pt> c e) |
+
+% mesure 2
+	\lyrics<"7' 8 6' 7' 8 6' 8 6'", dy=$Ty, fattrib="b">( 
+	\harmony<"G", dy=$hdy1, dx=-1, fsize=16pt> d c 
+	\harmony<"g", dy=$hdy1, dx=-1, fsize=16pt> b1 d2 
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt> c2 b1 
+	\harmony<"g", dy=$hdy1, dx=0, fsize=16pt> c2 b1)
+	\lyrics<"8 6' 7' 3' 7' 8 6' 7", dy=$Ty, fattrib="b">( 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt> c2 b1 
+	\harmony<"d", dy=$hdy1, dx=0, fsize=16pt> a d 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt> d2 c 
+	\harmony<"d", dy=$hdy1, dx=0, fsize=16pt> b1 a) |
+
+% mesure 3
+	\lyrics<"7 6' 8- 6' 7 8", dy=$Py, fattrib="b">( 
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt> b/8 
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> c2/16 \tieBegin d 
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt> d \tieEnd c/16 
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> b1 d2  )
+	\lyrics<"4' 6 6' 8 7' 8 6' 7'", dy=$Py, fattrib="b">( 
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> d1 g 
+	\harmony<"c", dy=$hdy1, dx=0, fsize=16pt> c2 d 
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> e d 
+	\harmony<"c", dy=$hdy1, dx=0, fsize=16pt> c e) |
+
+% mesure 4
+	\lyrics<"7' 8 6' 8 6' 7 8 7'", dy=$Ty, fattrib="b">( 
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt> d c 
+	\harmony<"g", dy=$hdy1, dx=-1, fsize=16pt> b1 c2 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt> b1 a 
+	\harmony<"d", dy=$hdy1, dx=0, fsize=16pt> c2 d)
+
+	\lyrics<"7 6' 7 6", dy=$Py, fattrib="b">( 
+	\harmony<"E", dy=$hdy1, dx=-1, fsize=16pt> b1 c2 
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> b1 g)
+\voltaBegin<"1.","|-">
+	\lyrics<"4' 7 4' 4'", dy=$Py, fattrib="b">( 
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt> e b 
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> {e, b} {e, b} )
+	\space<6mm>
+\repeatEnd
+\voltaEnd
+
+\newLine
+\voltaBegin<"2.", "|-">
+	\lyrics<"4' 7 4' 5", dy=$Py, fattrib="b">( 
+	\harmony<"E", dy=$hdy1, dx=2, fsize=16pt> e b 
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> {e, b} {d, b} )
+\voltaEnd
+	\space<6mm>
+	\repeatBegin
+
+% mesure 5
+	\lyrics<"3' 5' 4' 7 6' 7 6 4'", dy=$Py, fattrib="b">( 
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> c g
+	\harmony<"c", dy=$hdy1, dx=0, fsize=16pt> e b \stemsUp
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> c2 b1
+	\harmony<"c", dy=$hdy1, dx=0, fsize=16pt> g e) \stemsAuto
+	\lyrics<"6 4 7 6' 8 6' 7", dy=$Py, fattrib="b">( 
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt> g/8
+	\harmony<"g", dy=$hdy1, dx=0, fsize=16pt> b0/16 b1
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt> c2 d
+	\harmony<"g", dy=$hdy1, dx=0, fsize=16pt> c b1) |
+
+% mesure 6
+	\lyrics<"7 3' 5 4' 6 7 8 7", dy=$Ty, fattrib="b">( 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt> a d
+	\harmony<"d", dy=$hdy1, dx=0, fsize=16pt> e f
+	\harmony<"D", dy=$hdy1, dx=2, fsize=16pt> f# a
+	\harmony<"d", dy=$hdy1, dx=0, fsize=16pt> c2 a1)
+	\lyrics<"7 6' 8 7' 8 6' 7' 6'", dy=$Py, fattrib="b">( 
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt> b/16 c2 
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> d e
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt> d c
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> e c) |
+
+% mesure 7
+	\lyrics<"3' 5' 4' 7 6' 7 6 4'", dy=$Py, fattrib="b">( 
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> c1 g
+	\harmony<"c", dy=$hdy1, dx=0, fsize=16pt> e b \stemsUp
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> c2 b1
+	\harmony<"c", dy=$hdy1, dx=0, fsize=16pt> g e) \stemsAuto
+	\lyrics<"6 4 7 6' 8 6' 7", dy=$Py, fattrib="b">( 
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt> g/8
+	\harmony<"g", dy=$hdy1, dx=0, fsize=16pt> b0/16 b1
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt> c2 d
+	\harmony<"g", dy=$hdy1, dx=0, fsize=16pt> c b1) |
+
+% mesure 8
+	\lyrics<"7 6' 7 3' 4 8 6' 7", dy=$Ty, fattrib="b">( 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt> a b 
+	\harmony<"d", dy=$hdy1, dx=-1, fsize=16pt> a d 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt> c c2
+	\harmony<"d", dy=$hdy1, dx=0, fsize=16pt> b1 a)
+
+\voltaBegin<"1.","|-">
+	\lyrics<"7 6 4'- 7 4 5", dy=$Py, fattrib="b">( \stemsUp 
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt> b/8 
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> a/16 \tieBegin e
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt> e \tieEnd b 
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> e d)
+	\space<6mm>
+\repeatEnd
+\voltaEnd
+
+\voltaBegin<"2.", "|-">
+	\lyrics<"7 6 4'", dy=$Py, fattrib="b">( \stemsUp 
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt> b/8 
+	\harmony<"e", dy=$hdy1, dx=0, fsize=16pt> a/16 \tieBegin e
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt> e/4 \tieEnd
+	\harmony<"e", dy=$hdy1, dx=-3, fsize=16pt> )
+\voltaEnd
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=10> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+	empty*16/4 \repeatEnd
+	empty*1/4  \repeatBegin
+	empty*16/4 \repeatEnd
+	empty*2/4
+]
+}

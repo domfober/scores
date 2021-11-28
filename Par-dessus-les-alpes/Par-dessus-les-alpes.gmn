@@ -1,0 +1,96 @@
+(*
+  
+*)
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"Par-dessus les Alpes", font="Helvetica">
+	\title<"Mazurka", font="Helvetica", fsize=12pt, dy=-7>
+	\footer<"Typeset with Guido", dy=-8>
+	\footer<"https://guidoeditor.grame.fr", dy=-12>
+	\composer<"Freddy Dussaillant", dy=7>
+	\pageFormat<w=21cm, h=29.7cm, lm=2cm, rm=2cm, bm=4cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"3/4", autoMeasuresNum="system"> 
+% section A ----------------
+\stemsUp
+\mark<"A", enclosure="square", fsize=20pt, dy=8, dx=-13>
+_/4. 
+	\lyrics<"7 ", dy=$Ty, fattrib="b">( a1/8  )
+	\harmony<"a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6' 8", dy=$Ty, fattrib="b">( b1 c2 )
+\repeatBegin
+	\harmony<"A    a      a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9 9 7' 9 8'", dy=$Ty, fattrib="b">( e2/4 e2/8 d2 e2 f2 )
+	\harmony<"A   a    a", dy=$hdy1, dx=2.5, fsize=16pt>
+	\lyrics<"9 7' 8", dy=$Ty, fattrib="b">( e2/4 d2 c2 )
+	\harmony<"F    f       f", dy=$hdy1, dx=2.5, fsize=16pt>
+	\lyrics<"8 8 6' 8 7'", dy=$Py, fattrib="b">( d2 d2/8 c2 d2 e2 )
+	\harmony<"F   f     f", dy=$hdy1, dx=2.5, fsize=16pt>
+	\lyrics<"8 ", dy=$Py, fattrib="b">( d2/4.  )
+	\lyrics<"7 6' 8", dy=$Ty, fattrib="b">( a1/8 b1 c2 )
+\newLine
+% --------------------------------
+	\harmony<"G    g      g", dy=$hdy1, dx=1.6, fsize=16pt>
+	\lyrics<"7' 7' 8 7' 9", dy=$Ty, fattrib="b">( d2/4 d2/8 c2 d2 e2 )
+	\harmony<"G    g    g", dy=$hdy1, dx=2, fsize=16pt>
+	\lyrics<"7' 8 7'", dy=$Ty, fattrib="b">( d2/4 c2 d2 )
+	\harmony<"C    c       c", dy=$hdy1, dx=2, fsize=16pt>
+	\lyrics<"7' 9 7' 8 6'", dy=$Py, fattrib="b">( e2 g2/8 e2 d2 c2 )
+\voltaBegin<"1", "|-|">
+	\harmony<"E   e     a", dy=$hdy1, dx=2.5, fsize=16pt>
+	\lyrics<"7", dy=$Py, fattrib="b">( b1/4. )
+	\lyrics<"7 6' 8", dy=$Ty, fattrib="b">( a1/8 b1 c2 )
+\voltaEnd
+\repeatEnd
+\voltaBegin<"2", "|-">
+	\harmony<"E   e     a", dy=$hdy1, dx=-0.7, fsize=16pt>
+	\lyrics<"7", dy=$Py, fattrib="b">( b1/4. )
+	\lyrics<"7 7 7", dy=$Ty, fattrib="b">( a1/8 a1 a1 )
+\voltaEnd
+\newLine
+% section B ----------------
+\mark<"B", enclosure="square", fsize=20pt, dy=8, dx=-8>
+%\repeatBegin
+	\harmony<"A       a       a", dy=$hdy1, dx=2.5, fsize=16pt>
+	\lyrics<"8 7 7 8 7 7", dy=$Ty, fattrib="b">( c2/8 a1 a1 c2 a1 a1 )
+	\harmony<"A       a       a", dy=$hdy1, dx=3, fsize=16pt>
+	\lyrics<"8 7 7 8 7 8", dy=$Ty, fattrib="b">( c2/8 a1 a1 c2 a1 c2 )
+	\harmony<"G       g       g", dy=$hdy1, dx=2.5, fsize=16pt>
+	\lyrics<"8 7' 8 6' 7 6'", dy=$Py, fattrib="b">( d2 e2 d2 c2 b1 c2 )
+	\harmony<"G      g       g", dy=$hdy1, dx=3, fsize=16pt>
+	\lyrics<"8 6 7 8 6 7", dy=$Py, fattrib="b">( d2 g1 b1 d2 g1 b1 )
+\newLine
+% --------------------------------
+	\harmony<"F        f       f", dy=$hdy1, dx=3, fsize=16pt>
+	\lyrics<"7 8' 9 7' 8", dy=$Ty, fattrib="b">( a1 f2 e2/6 d2 c2 )
+	\harmony<"F             f       f", dy=$hdy1, dx=3, fsize=16pt>
+	\lyrics<"6' 7 6' 8 7' 8 7' ", dy=$Ty, fattrib="b">( b1/16 a1 b1 c2 d2/4 c2/8 d2  )
+	\harmony<"C     c        c", dy=$hdy1, dx=3, fsize=16pt>
+	\lyrics<"7' 9 7' 8 6'", dy=$Py, fattrib="b">( e2/4 g2/8 e2 d2 c2 )
+	\harmony<"E    e      a", dy=$hdy1, dx=3.5, fsize=16pt>
+	\lyrics<"7", dy=$Py, fattrib="b">( b1/4. )
+	\lyrics<"7 6' 8", dy=$Ty, fattrib="b">( a1/8 b1 c2 )
+\repeatEnd
+
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=10> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+	empty*3/4 \repeatBegin
+	empty*24/4 \repeatEnd
+	empty*3/4
+	empty*24/4 \repeatEnd
+]
+}

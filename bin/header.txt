@@ -1,0 +1,21 @@
+(*
+  gmn file converted from tab file
+*)
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"Titre", font="Helvetica">
+	\title<"sous-titre", font="Helvetica", fsize=12pt, dy=-6>
+	\composer<"compositeur", dy=7>
+	\pageFormat<w=21cm, h=29.7cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"3/4", autoMeasuresNum="system"> 
+

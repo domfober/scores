@@ -1,0 +1,137 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+
+$MSize = 11;
+$MPos = 20;
+
+$Hy = -14;
+$Ly = -15;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"Milonga para as Missoes", font="Helvetica">
+	\pageFormat<w=25.2cm, h=35.64cm, lm=2cm, rm=2cm, bm=3cm, tm=4cm>
+	\footer<"Typeset with Guido", dy=-29>
+	\footer<"https://guidoeditor.grame.fr", dy=-34>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\meter<"2/4", autoMeasuresNum="system">
+% tab: T C
+	_/8 \lyrics<"9", dy=$Ty> (e2/4) \lyrics<"7'", dy=$Ty> (d2/8)
+	\repeatBegin
+	\harmony<"Am", dy=$Hy>
+	\bm( \text<"A", fattrib="i", fsize=$MSize, dy=$MPos, dx=-1.5cm>(\lyrics<"8", dy=$Ty> (c2)) \lyrics<"9", dy=$Ty> (e2) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"8", dy=$Ty> (c2) ) |
+
+ \stemsDown
+% tab: P C
+	\harmony<"E7", dy=$Hy>
+	\lyrics<"7", dy=$Py> (b1/16) \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"7", dy=$Py> (b1) \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"7", dy=$Py> (b1) \lyrics<"7'", dy=$Py> (e2)
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"7", dy=$Py> (b1) \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) |
+% tab: T C
+	\harmony<"Am", dy=$Hy>
+	\lyrics<"5'", dy=$Ty> (a1) \lyrics<"8'", dy=$Ty> (f2) \lyrics<"9", dy=$Ty> (e2) \lyrics<"8", dy=$Ty> (c2) \lyrics<"8'", dy=$Ty> (f2) \lyrics<"9", dy=$Ty> (e2) \lyrics<"8", dy=$Ty> (c2) \lyrics<"8'", dy=$Ty> (f2) |
+	\harmony<"Am", dy=$Hy>
+	\lyrics<"5'", dy=$Ty> (a1) \lyrics<"8'", dy=$Ty> (f2) \lyrics<"9", dy=$Ty> (e2) \lyrics<"8", dy=$Ty> (c2) \lyrics<"8'", dy=$Ty> (f2) \lyrics<"9", dy=$Ty> (e2) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"8", dy=$Ty> (c2) |
+% tab: P C
+	\harmony<"E7", dy=$Hy>
+	\lyrics<"7", dy=$Py> (b1) { \lyrics<"7", dy=$Py> (b1), \lyrics<"8", dy=$Py> (d2) } { \lyrics<"7", dy=$Py> (b1), \lyrics<"8", dy=$Py> (d2) } \tie( { \lyrics<"7", dy=$Py> (b1), \lyrics<"8", dy=$Py> (d2) }  { \lyrics<"7", dy=$Py> (b1), \lyrics<"8", dy=$Py> (d2) })
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"6'", dy=$Py> (c2) \lyrics<"8", dy=$Py> (d2)
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) |
+% tab: T C
+	\harmony<"Am", dy=$Hy>
+\voltaBegin<"1.", "|-|">
+\stemsAuto
+	\lyrics<"5'", dy=$Ty> (a1/8) \lyrics<"9", dy=$Ty> (e2/4) \lyrics<"7'", dy=$Ty> (d2/8)
+\voltaEnd
+	\repeatEnd
+\voltaBegin<"2.", "|-">
+\stemsUp
+	\harmony<"Am", dy=$Hy>
+	\lyrics<"5'", dy=$Ty> (a1/16) \lyrics<"8", dy=$Ty> (c2) \lyrics<"5", dy=$Ty> (e1) \lyrics<"9", dy=$Ty> (e2) 
+	\lyrics<"5", dy=$Ty> (e1) \lyrics<"9", dy=$Ty> (e2) \lyrics<"5", dy=$Ty> (e1) \lyrics<"9", dy=$Ty> (e2)
+	\lyrics<"5'", dy=$Ty> (a1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"8", dy=$Ty> (c2) 
+	\lyrics<"9", dy=$Ty> (e2) \lyrics<"5", dy=$Ty> (e1) \lyrics<"8", dy=$Ty> (c2) \lyrics<"5", dy=$Ty> (e1)
+\voltaEnd
+%\newLine
+\repeatBegin
+\text<"B", fattrib="i", fsize=$MSize, dy=$MPos, dx=-6>
+	(\lyrics<"9", dy=$Ty> (e2/16)) \lyrics<"5", dy=$Ty> (e1) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"5", dy=$Ty> (e1) 
+	\lyrics<"9", dy=$Ty> (e2) \lyrics<"5", dy=$Ty> (e1) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"5", dy=$Ty> (e1)
+	\lyrics<"9", dy=$Ty> (e2/16) \lyrics<"5", dy=$Ty> (e1) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"5", dy=$Ty> (e1) 
+	\lyrics<"9", dy=$Ty> (e2) \lyrics<"5", dy=$Ty> (e1) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"5", dy=$Ty> (e1)
+	\lyrics<"9", dy=$Ty> (e2) \lyrics<"5", dy=$Ty> (e1) \lyrics<"8", dy=$Ty> (c2) \lyrics<"4", dy=$Ty> (c1) 
+	\lyrics<"9", dy=$Ty> (e2) \lyrics<"5", dy=$Ty> (e1) \lyrics<"8", dy=$Ty> (c2) \lyrics<"5", dy=$Ty> (e1) 
+	\lyrics<"9", dy=$Ty> (e2) \lyrics<"5", dy=$Ty> (e1) \lyrics<"8", dy=$Ty> (c2) \lyrics<"5", dy=$Ty> (e1) 
+	\lyrics<"9", dy=$Ty> (e2) \lyrics<"5", dy=$Ty> (e1) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"5", dy=$Ty> (e1) |
+
+% tab: P C
+	\harmony<"E7", dy=$Hy>
+	\tie( \stemsDown \lyrics<"7'", dy=$Py> (e2/4) \lyrics<"7'", dy=$Py> (e2/16)) \lyrics<"7", dy=$Py> (b1) \lyrics<"6'", dy=$Py> (c2) \lyrics<"8", dy=$Py> (d2)
+\stemsAuto
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) 
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) 
+
+\voltaBegin<"1.", "|-|">
+\stemsUp
+	\lyrics<"5''", dy=$Py> (a1) \lyrics<"6'", dy=$Py> (c2) \lyrics<"4'", dy=$Py> (e1) \lyrics<"7'", dy=$Py> (e2)
+ 	\lyrics<"4'", dy=$Py> (e1) \lyrics<"7'", dy=$Py> (e2) \lyrics<"4'", dy=$Py> (e1) \lyrics<"7'", dy=$Py> (e2)
+	\lyrics<"5''", dy=$Py> (a1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"5''", dy=$Py> (a1) \lyrics<"6'", dy=$Py> (c2)
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"4'", dy=$Py> (e1) \lyrics<"6'", dy=$Py> (c2) \lyrics<"4'", dy=$Py> (e1)
+\voltaEnd
+	\repeatEnd
+
+\voltaBegin<"2.", "|-">
+	\lyrics<"5''", dy=$Py> (a1) \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2)
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"5''", dy=$Py> (a1) \lyrics<"5'", dy=$Py> (g1) \lyrics<"6", dy=$Ty> (f#1)
+	\lyrics<"4'", dy=$Ty> (f1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"5", dy=$Py> (d1) \lyrics<"3'", dy=$Py> (c1) 
+	\lyrics<"4'", dy=$Py> (e1) \lyrics<"5", dy=$Py> (d1) \lyrics<"3'", dy=$Py> (c1) \lyrics<"4", dy=$Py> (b0)
+\voltaEnd
+
+\text<"C", fattrib="i", fsize=$MSize, dy=$MPos, dx=10>
+	\lyrics<"2''", dy=$Py> (a0) \lyrics<"4", dy=$Py> (b0) \lyrics<"3'", dy=$Py> (c1) \lyrics<"5", dy=$Py> (d1)
+	\lyrics<"4'", dy=$Py> (e1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"5'", dy=$Py> (g1) |
+\stemsDown
+	\lyrics<"5''", dy=$Py> (a1) \lyrics<"7", dy=$Py> (b1) \lyrics<"6'", dy=$Py> (c2) \lyrics<"8", dy=$Py> (d2) 
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) |
+
+	\lyrics<"5''", dy=$Py> (a1) \lyrics<"7'", dy=$Py> (e2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"5''", dy=$Py> (a1)
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"5''", dy=$Py> (a1) \lyrics<"7'", dy=$Py> (e2) |
+	\lyrics<"5''", dy=$Py> (a1) \lyrics<"7'", dy=$Py> (e2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"5''", dy=$Py> (a1)
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) |
+\newLine
+	\harmony<"E7", dy=$Hy>
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"7", dy=$Py> (b1)
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"7", dy=$Py> (b1) \lyrics<"7'", dy=$Py> (e2) |
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"7", dy=$Py> (b1)
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) |
+
+% tab: T C
+	\harmony<"A", dy=$Hy>
+	\lyrics<"5'", dy=$Ty> (a1) \lyrics<"8'", dy=$Ty> (f2) \lyrics<"9", dy=$Ty> (e2) \lyrics<"8", dy=$Ty> (c2)
+	\lyrics<"8'", dy=$Ty> (f2) \lyrics<"9", dy=$Ty> (e2) \lyrics<"8", dy=$Ty> (c2) \lyrics<"8'", dy=$Ty> (f2) |
+	\lyrics<"8", dy=$Ty> (c2) \lyrics<"8'", dy=$Ty> (f2) \lyrics<"9", dy=$Ty> (e2) \lyrics<"8", dy=$Ty> (c2)
+	\lyrics<"8'", dy=$Ty> (f2) \lyrics<"9", dy=$Ty> (e2) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"8", dy=$Ty> (c2) |
+
+% tab: P C
+	\harmony<"E7", dy=$Hy>
+	\lyrics<"7", dy=$Py> (b1) { \lyrics<"7", dy=$Py> (b1), \lyrics<"8", dy=$Py> (d2) } { \lyrics<"7", dy=$Py> (b1), \lyrics<"8", dy=$Py> (d2) } \tie( { \lyrics<"7", dy=$Py> (b1), \lyrics<"8", dy=$Py> (d2) }  { \lyrics<"7", dy=$Py> (b1), \lyrics<"8", dy=$Py> (d2) })
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"6'", dy=$Py> (c2) \lyrics<"8", dy=$Py> (d2) |
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) 
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) |
+% tab: T C
+	\harmony<"Am", dy=$Hy>
+	\lyrics<"5'", dy=$Ty> (a1/2	)
+]
+,
+[
+\set<autoEndBar="off">
+\staffFormat<"1-line", distance=10> \clef<"none">
+\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+]
+}

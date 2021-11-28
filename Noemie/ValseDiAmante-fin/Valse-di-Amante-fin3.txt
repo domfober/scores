@@ -1,0 +1,32 @@
+\clef<"g"> \meter<"3/4">
+H A a a
+T3/8 T2' T3 T2' T4 T2' 
+H A a a
+T4 T3' T4 T3' T5 T4' 
+H A a a
+T5 T3' T5 T3' T4 T3' |
+H G g g
+P3' P4 P3' P5 P3' P5 
+H G g g
+P4' P5 P4' P6 P7 P6'
+H A a a
+T7/2.
+
+H A a a
+T7/8 T6' T7 T6' T8 T6'
+H A a a
+T8 T7' T8 T7' T9 T8'
+H A a a
+T9 T7' T9 T7' T8 T7' |
+H G g g
+P6' P7 P6' P8 P6' P8 
+H G g g
+P7' P8 P7' P9 P10 P9'
+H A a a
+T9'/2.
+H A a a
+T9'/2.. T12/16 T10' 
+H A a a
+T9'/2.. T12/16 T10' 
+H A a a
+T9'/2.. T12/16 T10' 

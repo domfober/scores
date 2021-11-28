@@ -1,0 +1,60 @@
+% section A ----------------
+\stemsUp
+\mark<"A", enclosure="square", fsize=20pt, dy=8, dx=-8>
+_/4. 
+T7/8 
+H a
+T6' T8
+\repeatBegin
+H A a a
+T9/4 T9/8 T7' T9 T8'
+H A a a
+T9/4 T7' T8
+H F f f
+P8 P8/8 P6' P8 P7'
+H F f f
+P8/4. 
+T7/8 T6' T8
+\newLine
+% --------------------------------
+H G g g
+T7'/4 T7'/8 T8 T7' T9
+H G g g
+T7'/4 T8 T7'
+H C c c
+P7' P9/8 P7' P8 P6'
+\voltaBegin<"1", "|-|">
+H E e a
+P7/4.
+T7/8 T6' T8
+\voltaEnd
+\repeatEnd
+\voltaBegin<"2", "|-">
+H E e a
+P7/4.
+T7/8 T7 T7
+\voltaEnd
+\newLine
+% section B ----------------
+\mark<"B", enclosure="square", fsize=20pt, dy=8, dx=-8>
+%\repeatBegin
+H A a a
+T8/8 T7 T7 T8 T7 T7
+H A a a
+T8/8 T7 T7 T8 T7 T8
+H G g g
+P8 P7' P8 P6' P7 P6'
+H G g g
+P8 P6 P7 P8 P6 P7
+\newLine
+% --------------------------------
+H F f f
+T7 T8' T9/6 T7' T8
+H F f f
+T6'/16 T7 T6' T8 T7'/4 T8/8 T7' 
+H C c c
+P7'/4 P9/8 P7' P8 P6'
+H E e a
+P7/4.
+T7/8 T6' T8
+\repeatEnd

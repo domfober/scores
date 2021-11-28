@@ -1,0 +1,68 @@
+
+$hdy1 = -15;
+$hdy2 = -14;
+$Ty = -11;
+$Py = -6;
+
+$D1 = "d2/8 a1 f a f a";
+$A1 = "c2 a1 e a e a";
+$C1 = "e2 g1 e g e g";
+
+{
+[
+	\title<"Valse d'Amélie">
+	\title<"Contrechant", fsize=14pt,  dy=-8>
+	\composer<"Noémie Dessaint", dy=5>
+	\footer<"Typeset with Guido", dy=-11>
+	\footer<"https://guidoeditor.grame.fr", dy=-16>
+	\pageFormat<"a4",bm=5cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"3/4", autoMeasuresNum="system"> 
+	\harmony<"D", dy=$hdy1, dx=3>
+	\lyrics<"7' 5' 4' 5' 4' 5'",  dy=$Ty, fattrib="b">( $D1 ) 
+	\harmony<"D", dy=$hdy1, dx=5>
+	\lyrics<"9 5' 4' 5' 4' 5'",  dy=$Ty, fattrib="b">(g2 a1 f a f a)
+	\harmony<"D", dy=$hdy1, dx=5>
+	\lyrics<"7' 5' 4' 5' 4' 5'",  dy=$Ty, fattrib="b">( $D1 ) |
+
+	\harmony<"A", dy=$hdy1, dx=0>
+	\lyrics<"8 7 5 7 5 7",  dy=$Ty, fattrib="b">( $A1 )
+	\harmony<"A", dy=$hdy1, dx=5>
+	\lyrics<"7' 7 5 7 5 7",  dy=$Ty, fattrib="b">(d2 a1 e a e a)
+	\harmony<"A", dy=$hdy1, dx=5>
+	\lyrics<"8 7 5 7 5 7",  dy=$Ty, fattrib="b">( $A1 ) 
+	\repeatEnd
+
+	\harmony<"F", dy=$hdy1, dx=0>
+	\lyrics<"8 7 4' 7 4' 7",  dy=$Ty, fattrib="b">(c2 a1 f a f a )
+	\harmony<"F", dy=$hdy1, dx=3>
+	\lyrics<"7' 7 4' 7 4' 7",  dy=$Ty, fattrib="b">(d2 a1 f a f a) |
+
+	\harmony<"C", dy=$hdy2, dx=-1>
+	\lyrics<"7' 5' 4' 5' 4' 5'",  dy=$Py, fattrib="b">( $C1 ) |
+	\harmony<"C", dy=$hdy2, dx=-1>
+	\lyrics<"7' 5' 4' 5' 4' 5'",  dy=$Py, fattrib="b">( $C1 ) |
+
+	\newLine
+	\harmony<"F", dy=$hdy1, dx=3>
+	\lyrics<"8 7 4' 7 4' 7",  dy=$Ty, fattrib="b">(c2 a1 f a f a )
+	\harmony<"F", dy=$hdy1, dx=3.5>
+	\lyrics<"7' 7 4' 7 4' 7",  dy=$Ty, fattrib="b">(d2 a1 f a f a)
+
+	\harmony<"C", dy=$hdy2, dx=3>
+	\lyrics<"7' 5' 4' 5' 4' 5'",  dy=$Py, fattrib="b">(e2 g1 e g e/4)
+	\harmony<"C", dy=$hdy2, dx=3>
+	\text<"4'", dx=-1.5, dy=$Py, fattrib="b">(\lyrics<"7'", dy=-3, fattrib="b">({ e2*3/4, e1 }))
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=10> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+	empty*18/4 	\repeatEnd
+
+]
+}

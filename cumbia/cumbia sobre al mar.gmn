@@ -1,0 +1,88 @@
+(*
+  
+*)
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"cumbia sobre al mar", font="Comic Sans MS">
+	\pageFormat<w=21cm, h=29.7cm, lm=2cm, rm=2cm, bm=3cm, tm=4cm>
+	\footer<"Typeset with Guido", dy=-7>
+	\footer<"https://guidoeditor.grame.fr", dy=-11>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> 	\key<1>	\meter<"4/4", autoMeasuresNum="system">  
+	\mrest<6>(_/1)
+
+	\harmony<"Em", dy=$hdy1, dx=3>
+	\lyrics<"4' 7 7 7", dy=$Py, fattrib="b">(e/4. b/8 b/4 b)
+	\harmony<"D", dy=$hdy1, dx=3>
+	\lyrics<"7 6 8 7", dy=$Ty, fattrib="b">(a/4. f#/8 c2/4 a1)
+	\harmony<"D", dy=$hdy1, dx=3>
+	\lyrics<"6 7 7' 7", dy=$Ty, fattrib="b">(f#/4. a/8 b/4 a) |
+	\harmony<"Em", dy=$hdy1, dx=-1>
+	\lyrics<"6 4' 8 6", dy=$Py, fattrib="b">(g/4. e/8 b/4 g)
+	\harmony<"Em", dy=$hdy1, dx=3>
+	\lyrics<"4' 7 7 7", dy=$Py, fattrib="b">(e/4. b/8 b/4 b)
+	\harmony<"D", dy=$hdy1, dx=3>
+	\lyrics<"7 6 8 7", dy=$Ty, fattrib="b">(a/4. f#/8 c2/4 a1)
+	\harmony<"D", dy=$hdy1, dx=3>
+	\lyrics<"6 7 7' 7", dy=$Ty, fattrib="b">(f#/4. a/8 b/4 a) |
+	\harmony<"Em", dy=$hdy1, dx=-1>
+	\lyrics<"6 4' 8 6", dy=$Py, fattrib="b">(g/4. e/8 b/4 g)
+
+	\repeatBegin
+	\harmony<"Em", dy=$hdy1, dx=3>
+	\lyrics<"4' 7 7 7", dy=$Py, fattrib="b">(e/4. b/8 b/4 b)
+	\harmony<"D", dy=$hdy1, dx=3>
+	\lyrics<"7 6 8 7", dy=$Ty, fattrib="b">(a/4. f#/8 c2/4 a1)
+	\harmony<"D", dy=$hdy1, dx=3>
+	\lyrics<"6 7 7' 7", dy=$Ty, fattrib="b">(f#/4. a/8 b/4 a) |
+	\harmony<"Em", dy=$hdy1, dx=-1>
+	\lyrics<"6 4' 8 6", dy=$Py, fattrib="b">(g/4. e/8 b/4 g)
+	\harmony<"Em", dy=$hdy1, dx=3>
+	\lyrics<"4' 7 7 7", dy=$Py, fattrib="b">(e/4. b/8 b/4 b)
+	\harmony<"D", dy=$hdy1, dx=3>
+	\lyrics<"7 6 8 7", dy=$Ty, fattrib="b">(a/4. f#/8 c2/4 a1)
+	\harmony<"D", dy=$hdy1, dx=3>
+	\lyrics<"6 7 7' 7", dy=$Ty, fattrib="b">(f#/4. a/8 b/4 a) |
+	\harmony<"Em", dy=$hdy1, dx=-1>
+	\lyrics<"6 4' 8 6", dy=$Py, fattrib="b">(g/4. e/8 b/4 g)
+
+
+	\harmony<"G", dy=$hdy1, dx=3>
+	\lyrics<"6 7 8", dy=$Py, fattrib="b">(g1/4. b/8 d2/2) |
+	\harmony<"G7", dy=$hdy1, dx=-1>
+	\lyrics<"6 7 8", dy=$Py, fattrib="b">(g1/4. b/8 d2/2) |
+	\harmony<"Am", dy=$hdy1, dx=-1>
+	\lyrics<"5 6 7", dy=$Ty, fattrib="b">(a1/4. c2/8 e/2) |
+	\harmony<"Am", dy=$hdy1, dx=-1>
+	\lyrics<"5 6 7", dy=$Ty, fattrib="b">(a1/4. c2/8 e/2)
+	\harmony<"G", dy=$hdy1, dx=1>
+	\lyrics<"8 8 7 6", dy=$Py, fattrib="b">(d2/4. d/8 b1/4 g) |
+	\harmony<"G", dy=$hdy1, dx=-1>
+	\lyrics<"7", dy=$Py, fattrib="b">(b/4.) 
+	\lyrics<"7", dy=$Ty, fattrib="b">(a/8 _/2) 
+
+	\harmony<"Am", dy=$hdy1, dx=2>
+	\lyrics<"9 9 8 7", dy=$Ty, fattrib="b">(e2/4. e/8 c/4 a1) |
+	\harmony<"G", dy=$hdy1, dx=-1>
+	\lyrics<"7 6 7 6", dy=$Py, fattrib="b">(b/4. g/8 b/4 g)
+
+	\repeatEnd
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=10> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+%	empty*9 	\repeatBegin
+]
+}

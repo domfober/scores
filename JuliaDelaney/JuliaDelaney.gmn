@@ -1,0 +1,111 @@
+(*
+  
+*)
+
+$hdy1 = -15;
+$Ty = -11;
+$Py = -6;
+$My = 18;
+
+{
+[
+	\title<"Julia Delaney's Reel", font="Helvetica">
+	\pageFormat<w=23.1cm, h=32.7cm, lm=2cm, rm=2cm, bm=3cm, tm=4 cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \key<0> \meter<"C/", autoMeasuresNum="system"> 
+	
+	\mark<"A", enclosure="square", dx=-12.5, dy=3.5, fsize=18pt> \tempo<"[1/4]=206">
+% tab: T G
+	\harmony<"D", dy=$hdy1, dx=4, fsize=16pt>
+	d2/8 c2 a1 g1 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	f1/4 d1/8 f1 | 
+% tab: P
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	e1/4 c1/8 e1 
+% tab: T G
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f1/4 d1/8 f1 |
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d2/8 c2 a1 g1 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	f1/4 d1/8 f1 | 
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	f1 d2 d2 c2 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d2 e2 f2 e2 |
+
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d2/8 c2 a1 g1 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	f1/4 d1/8 f1 | 
+% tab: P
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	e1/4 c1/8 e1 
+% tab: T G
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f1 e1 d1 f1 |
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d2/8 c2 a1 g1 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	f1/4 d1/8 f1 |
+
+	\voltaBegin<"1.", "|-|">
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	a1 d2 d2 c2 
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	d2/4 d2/8 e2
+	\voltaEnd 
+	\repeatEnd
+
+	\voltaBegin<"2.", "|-">
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	a1 d2 d2 c2 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d2/2 |
+	\voltaEnd 
+
+\newLine
+	\mark<"B", enclosure="square", dx=-8, dy=5, fsize=18pt>
+	\harmony<"D", dy=$hdy1, dx=3, fsize=16pt>
+	f2/8 e2 d2 e2 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f2/8 a2 g2 f2 | 
+% tab: P G
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	\stacc(e2 c2 g2 c2) 
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	\stacc (a2 c2 g2 c2) |
+% tab: T G
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f2/8 e2 d2 e2 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f2/8 a2 g2 f2 | 
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	e2 d2 c2 b1 
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	a1 d2 d2 e2 |
+
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f2/8 e2 d2 e2 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f2/8 a2 g2 f2 | 
+% tab: P G
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	\stacc(e2 c2 g2 c2) 
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	\stacc (a2 c2 g2 c2) |
+
+% tab: T G
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	f2 e2 d2
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	f2 e2 d2
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	c2 b1 |
+	a1 d2 d2 c2 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d2/2
+]
+}

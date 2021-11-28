@@ -1,0 +1,127 @@
+(*
+  
+*)
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+{
+% Première voix 
+[
+	\pageFormat<w=25cm, h=35cm, lm=2cm, rm=2cm, bm=4cm, tm=4cm>
+	\title<"Duo">
+	\title<"Voix 1", fsize=14pt,  dy=-8>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \meter<"3/4">
+H A a a
+\text<"Partie A (x2)", dy=16, dx=-15, fsize=14pt> (
+T5/2 T7/4
+)
+H A a a
+T5/2 T3'/4
+H A a a
+T5/2.
+
+H F f f 
+T3/4 T4 T5
+H F f f 
+T7/2 P6/4
+H G g g
+P4'/2 P5/4
+
+H C c c
+P4'/2.
+H C c c
+P5/2.
+H A a a
+T5/2 T7/4
+H A a a
+T5/2 T3'/4
+H A a a
+T5/2.
+H F f f 
+T3/4 T4 T5
+
+H F f f 
+T7/2 P6/4
+H G g g
+P4'/2 P5/4
+H C c c
+P4'/2.
+H G g g
+P4/2.
+\newLine
+H F f f 
+\text<"Partie B (x2)", dy=16, dx=-15, fsize=14pt> (
+T3/4 T4 T3'
+)
+H F f f 
+T5/2.
+H C c c
+{ 
+P3'/4 
+, 
+P4' 
+} 
+{ 
+P4' 
+, 
+P5' 
+} 
+{ 
+P5' 
+, 
+P6' 
+}
+H G g g
+T5 T7/2
+H G g g 
+P7/4 P6' P8
+H E e e
+P6'/2 P7/4
+\voltaBegin<"1.", "|-">
+H A a a
+T6' T7/2
+\voltaEnd
+\voltaBegin<"2.", "|-">
+H A a a
+T8/12 T7 T5 T4/2
+\voltaEnd
+\repeatEnd
+\newLine
+H A a a
+\text<"Partie C (x2)", dy=16, dx=-15, fsize=14pt> (
+T8/8 T7 T5 T7' T7 T5
+)
+H A a a
+T8/8 T7 T5 T7' T7 T5
+H F f f 
+T8/8 T7 T4 T7' T7 T4
+H F f f 
+T8/8 T7 T4 T7' T7 T4
+H D d d
+T7' T5' T4' T9 T5' T4'
+H D d d
+T7' T5' T4' T9 T5' T4'
+H G g g
+P8 P7 P6 P7' P7 P6
+\voltaBegin<"1.", "|-">
+H G g g
+P8 P7 P6 P7' P7 P6
+\voltaEnd
+\voltaBegin<"2.", "|-">
+H G g g
+P6 P7 P8/2
+\voltaEnd
+\repeatEnd
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=10> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+]
+}

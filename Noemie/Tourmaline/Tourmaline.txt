@@ -1,0 +1,90 @@
+% Partie A ----------------
+\mark<"A", enclosure="square", fsize=20pt, dy=8, dx=-8>
+H A a a
+T8/4 T8/8 T6' T8 T7' 
+H A a a
+T9/4 T7' T8
+H E e e
+P7/4 P7/8
+T7 
+P7 P6'
+H E e e
+P7/4 P6 P4'
+H D d d
+T4'/4 T4'/8 T5 T4' 
+P6'
+H D d d
+T7/4 T6' T8
+H E e e
+P7/4 P7/8 P6' P8 P6' 
+H E e
+P7/4 P6' 
+H G#
+P8
+H A a a
+T8/4 T8/8 T6' T8 T7' 
+H A a a
+T9/4 T7' T8
+H E e e
+P7/4 P7/8
+T7 
+P7 P6'
+H E e e
+P7/4 P6 P4'
+H F f f
+T4'/4 T4'/8 T5 T4' 
+P6'
+H F f f
+T7/4 T6' T8
+H G g g
+P7/4 P6' P8
+\newline
+% Partie B ----------------
+\mark<"B", enclosure="square", fsize=20pt, dy=8, dx=-8>
+H A a a
+T9/2 T9/4
+H A a
+T7'/4 T9 
+H B
+T7''  
+H C c c
+P7'/2 P7'/4
+H C c
+P8/4 P7'
+H E
+P9
+H F f f 
+T9/2 T9/4
+H F f f
+T7' T9
+P9
+H G g g
+P9'/2 P10/4
+H G g g
+P9/4. P7'/8 P8 P6'
+H A a a
+T9/2 T9/4
+% ligne 2
+H A a
+T7'/4 T9 
+H B
+T7''  
+H C c c
+P7'/2 P7'/4
+H C c
+P8/4 P7'
+H E
+P9
+H F f f 
+T9/2.
+H F f f
+T7'/4 T9 T7'
+H G g g
+P7'/2.
+H G g g
+P8/4 P6' P8
+\repeatEnd
+H G g g
+P5'/4. P7'
+H E e e
+P4'' P7'

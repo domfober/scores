@@ -1,0 +1,239 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+$NL = "\bar";
+$MT = "\newPage";    % la moitié 
+$NT = "\newPage"; 
+$ET = "\doubleBar";
+$TDY = 18;
+
+{
+[
+	\title<"La Noyée">
+	\title<"Yann Tersen (adaptation valse à 3 temps)", fsize=14pt,  dy=-8>
+	\pageFormat<w=24.15cm, h=34.15cm, lm=2.5cm, rm=2.5cm, bm=4.5cm, tm=5cm>
+	\footer<"Typeset with Guido", dy=-4>
+	\footer<"https://guidoeditor.grame.fr", dy=-8>
+
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+\clef<"g"> \key<0> \meter<"3/4", autoMeasuresNum="system">
+
+% theme 
+\text<"Thème", dy=$TDY, dx=-15, fsize=14pt> (
+	\harmony<"A          a          a", dy=$hdy1, dx=4, fsize=16pt>
+	\lyrics<"7", dy=$Ty, fattrib="b">( a1/2. )
+)
+	\harmony<"A           a           a", dy=$hdy1, dx=9, fsize=16pt>
+	\lyrics<"6'", dy=$Ty, fattrib="b">( b1 )
+	\harmony<"A             a               a", dy=$hdy1, dx=9.5, fsize=16pt>
+	\lyrics<"8 6' 8", dy=$Ty, fattrib="b">( c2/4 b1 c2 ) |
+	\harmony<"A            a            a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6'", dy=$Ty, fattrib="b">( d2 c2 b1 ) 
+$NL
+	\harmony<"C            c            c", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6' 7 6'", dy=$Py, fattrib="b">( c2 b1 c2 )
+	\harmony<"C            c            c", dy=$hdy1, dx=7, fsize=16pt>
+	\lyrics<"8 6' 7", dy=$Py, fattrib="b">( d2 c2 b1 ) |
+	\harmony<"C            c            c", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"6'", dy=$Py, fattrib="b">( c2/2. )
+	\harmony<"C             c            c", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"8", dy=$Py, fattrib="b">( d2 ) 
+$NL
+	\harmony<"G             g            g ", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"6'", dy=$Ty, fattrib="b">( b1/2. ) |
+	\harmony<"G          g          g ", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"8", dy=$Ty, fattrib="b">( c2 )
+	\harmony<"G             g             g ", dy=$hdy1, dx=8, fsize=16pt>
+	\lyrics<"7' 8 7'", dy=$Ty, fattrib="b">( d2/4 c2 d2 )
+	\harmony<"G            g              g ", dy=$hdy1, dx=9, fsize=16pt>
+	\lyrics<"9 8' 9", dy=$Ty, fattrib="b">( e2 f2 e2 )
+$NL
+	\harmony<"D           d           d", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"7'", dy=$Ty, fattrib="b">( d2/2. )
+	\harmony<"D           d           d", dy=$hdy1, dx=9, fsize=16pt>
+	\lyrics<"9", dy=$Ty, fattrib="b">( e2 )
+	\harmony<"D              d               d", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"7' 9 7'", dy=$Ty, fattrib="b">( d2/4 e2 d2 ) |
+	\harmony<"D      d       d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8 7' 8", dy=$Ty, fattrib="b">( c2 d2 c2 )
+$NL
+	\harmony<"E    e    e", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7", dy=$Py, fattrib="b">( b1/2. )
+	\harmony<"E    e     e", dy=$hdy1, dx=4, fsize=16pt>
+	\lyrics<"6'", dy=$Py, fattrib="b">( c2 )
+	\harmony<"E       e       e", dy=$hdy1, dx=4, fsize=16pt>
+	\lyrics<"7 6' 7", dy=$Py, fattrib="b">( b1/4 c2 b1 )
+	\harmony<"E       e       e", dy=$hdy1, dx=4, fsize=16pt>
+	\lyrics<"8 6' 7", dy=$Py, fattrib="b">( d2 c2 b1 ) 
+$ET
+
+% variation : thème avec 2 touches
+$NT
+	\stemsDown
+	\harmony<"A             a           a", dy=$hdy1, dx=3, fsize=16pt>
+\text<"Variation : thème avec 2 touches", dy=$TDY, dx=-15, fsize=14pt> (
+	\lyrics<"7,8", dy=$Ty, fattrib="b">( {c2/2., a1} )
+)
+	\harmony<"A             a           a", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"6',7'", dy=$Ty, fattrib="b">( {d2, b1} )
+	\harmony<"A             a           a", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"8,9", dy=$Ty, fattrib="b">( {e2, c} ) |
+	\harmony<"A             a           a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6',7'", dy=$Ty, fattrib="b">( {d2, b1} )
+$NL
+	\harmony<"C             c             c", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6',7'", dy=$Py, fattrib="b">( {e2,c} )
+	\harmony<"C             c             c", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"7,8", dy=$Py, fattrib="b">( {d2, b1} ) |
+	\harmony<"C             c             c", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6',7'", dy=$Py, fattrib="b">( {e2, c} )
+	\harmony<"C             c             c", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"8,9", dy=$Py, fattrib="b">( {g2, e} )
+$NL
+	\harmony<"G             g             g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6',7'", dy=$Ty, fattrib="b">( {d2, b1} ) |
+	\harmony<"G             g             g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7,8", dy=$Ty, fattrib="b">( {c2, a1} )
+	\harmony<"G             g             g", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"6',7'", dy=$Ty, fattrib="b">( {d2, b1} )
+	\harmony<"G             g             g", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"8,9", dy=$Ty, fattrib="b">( {e2, c} )
+$NL
+	\harmony<"D             d             d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7,7'", dy=$Ty, fattrib="b">( {d2, a1} )
+	\harmony<"D             d             d", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"8,9", dy=$Ty, fattrib="b">( {e2, c} )
+	\harmony<"D             d             d", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"7,7'", dy=$Ty, fattrib="b">( {d2, a1} ) |
+	\harmony<"D     d     d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7,8", dy=$Ty, fattrib="b">( {c2, a1} )
+$NL
+	\stemsAuto
+	\harmony<"E     e     e", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"5,7", dy=$Py, fattrib="b">( {b1,d} )
+	\harmony<"E      e      e", dy=$hdy1, dx=5, fsize=16pt>
+	\lyrics<"4',6'", dy=$Py, fattrib="b">( {c2, e1} )
+	\harmony<"E       e        e", dy=$hdy1, dx=5, fsize=16pt>
+	\lyrics<"7 6' 7", dy=$Py, fattrib="b">( b1/4 c2 b1 )
+	\harmony<"E       e        e", dy=$hdy1, dx=5, fsize=16pt>
+	\lyrics<"8 6' 7", dy=$Py, fattrib="b">( d2 c2 b1 )
+$ET
+
+% variation thème 2
+$MT 
+	\harmony<"A            a           a", dy=$hdy1, dx=4, fsize=16pt>
+\text<"Variation : thème 2", dy=$TDY, dx=-15, fsize=14pt> (
+	\lyrics<"8", dy=$Ty, fattrib="b">( c2/2. )
+)
+	\harmony<"A             a               a", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"8 6' 7", dy=$Ty, fattrib="b">( c2/4 b1 a1 )
+	\harmony<"A            a           a", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"8", dy=$Ty, fattrib="b">( c2/2. ) |
+	\harmony<"A            a              a", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"8 6' 7", dy=$Ty, fattrib="b">( c2/4 b1 a1 )
+$NL
+	\harmony<"C             c             c", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6", dy=$Py, fattrib="b">( g1/2. )
+	\harmony<"C             g             c", dy=$hdy1, dx=9, fsize=16pt>
+	\lyrics<"6", dy=$Py, fattrib="b">( g1/4 ) 
+	\lyrics<"7", dy=$Ty, fattrib="b">( a1 )
+	\lyrics<"7", dy=$Py, fattrib="b">( b1 ) |
+	\harmony<"C             c             c", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"6", dy=$Py, fattrib="b">( g1/2. )
+	\harmony<"C              g              c", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"6", dy=$Py, fattrib="b">( g1/4 )
+	\lyrics<"7", dy=$Ty, fattrib="b">( a1 )
+	\lyrics<"7", dy=$Py, fattrib="b">( b1 )
+$NL
+	\harmony<"G             g             g", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"7'", dy=$Ty, fattrib="b">( d2/2. ) |
+	\harmony<"G             g             g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6'", dy=$Ty, fattrib="b">( d2/4 c2 b1 ) 
+	\harmony<"G             g             g", dy=$hdy1, dx=8, fsize=16pt>
+	\lyrics<"7'", dy=$Ty, fattrib="b">( d2/2. )
+	\harmony<"G             g             g", dy=$hdy1, dx=8, fsize=16pt>
+	\lyrics<"7' 8 6'", dy=$Ty, fattrib="b">( d2/4 c2 b1 )
+$NL
+	\harmony<"D             d             d", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"7", dy=$Ty, fattrib="b">( a1/2. )
+	\harmony<"D             d               d", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"7 6' 8", dy=$Ty, fattrib="b">( a1/4 b1 c2 )
+	\harmony<"D             d             d", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"7", dy=$Ty, fattrib="b">( a1/2. ) |
+	\harmony<"D      d       d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 6' 8", dy=$Ty, fattrib="b">( a1/4 b1 c2 )
+$NL
+	\harmony<"E     e     e", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7", dy=$Py, fattrib="b">( b1/2. )
+	\harmony<"E      e       e", dy=$hdy1, dx=5, fsize=16pt>
+	\lyrics<"7 6' 8", dy=$Py, fattrib="b">( b1/4 c2 d2 )
+	\harmony<"E      e      a", dy=$hdy1, dx=5, fsize=16pt>
+	\lyrics<"7 6", dy=$Py, fattrib="b">( b1/4 g )
+	\lyrics<"7", dy=$Ty, fattrib="b">( a )
+	\harmony<"E      e       e", dy=$hdy1, dx=5, fsize=16pt>
+	\lyrics<"7 6' 8", dy=$Py, fattrib="b">( b1/4 c2 d2 )
+$ET
+
+% variation thème 2 à la tierce
+$NT
+	\harmony<"A            a           a", dy=$hdy1, dx=4, fsize=16pt>
+\text<"Variation : thème 2 à la tierce", dy=$TDY, dx=-15, fsize=14pt> (
+	\lyrics<"9", dy=$Ty, fattrib="b">( e2/2. )
+)
+	\harmony<"A              a               a", dy=$hdy1, dx=9, fsize=16pt>
+	\lyrics<"9 7' 8", dy=$Ty, fattrib="b">( e2/4 d2 c2 )
+	\harmony<"A            a           a", dy=$hdy1, dx=10, fsize=16pt>
+	\lyrics<"9", dy=$Ty, fattrib="b">( e2/2. ) |
+	\harmony<"A            a              a", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"9 7' 8", dy=$Ty, fattrib="b">( e2/4 d2 c2 )
+$NL
+	\harmony<"C             c             c", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7", dy=$Py, fattrib="b">( b1/2. )
+	\harmony<"C             c             c", dy=$hdy1, dx=9, fsize=16pt>
+	\lyrics<"7 6' 8", dy=$Py, fattrib="b">( b1/4 c2 d2 ) |
+	\harmony<"C             c             c", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"7", dy=$Py, fattrib="b">( b1/2. )
+	\harmony<"C              c               c", dy=$hdy1, dx=9, fsize=16pt>
+	\lyrics<"7 6' 8", dy=$Py, fattrib="b">( b1/4 c2 d2 )
+$NL
+	\harmony<"G             g             g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8'", dy=$Ty, fattrib="b">( f2/2. ) |
+	\harmony<"G             g             g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' 9 7'", dy=$Ty, fattrib="b">( f2/4 e2 d2 )
+	\harmony<"G            g            g", dy=$hdy1, dx=8, fsize=16pt>
+	\lyrics<"8'", dy=$Ty, fattrib="b">( f2/2. )
+	\harmony<"G             g             g", dy=$hdy1, dx=8, fsize=16pt>
+	\lyrics<"8' 9 7'", dy=$Ty, fattrib="b">( f2/4 e2 d2 )
+$NL
+	\harmony<"D            d            d", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"7'", dy=$Ty, fattrib="b">( d2/2. )
+	\harmony<"D              d              d", dy=$hdy1, dx=9, fsize=16pt>
+	\lyrics<"7' 9 8'", dy=$Ty, fattrib="b">( d2/4 e2 f2 )
+	\harmony<"D            d            d", dy=$hdy1, dx=9, fsize=16pt>
+	\lyrics<"7'", dy=$Ty, fattrib="b">( d2/2. ) |
+	\harmony<"D       d        d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 9 8'", dy=$Ty, fattrib="b">( d2/4 e2 f2 )
+$NL
+	\harmony<"E      e      e", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7'", dy=$Py, fattrib="b">( e2/2. )
+	\harmony<"E       e       e", dy=$hdy1, dx=5, fsize=16pt>
+	\lyrics<"8", dy=$Py, fattrib="b">( d2 )
+	\harmony<"E      e      e", dy=$hdy1, dx=5, fsize=16pt>
+	\lyrics<"6'", dy=$Py, fattrib="b">( c2 )
+	\harmony<"E      e      e", dy=$hdy1, dx=5, fsize=16pt>
+	\lyrics<"7", dy=$Py, fattrib="b">( b1 )
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=10> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+]
+
+}

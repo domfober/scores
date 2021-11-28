@@ -1,0 +1,14 @@
+H F f f
+T8/8 T6' T7 T5 T7 T6' 
+H F f f
+T8/8 T6' T7 T5 T7 T6' 
+H G g g
+T8/8 T6' T7 T5 T7 T6' 
+H G g g
+T8/8 T6' T7 T5 T7 T6' 
+H A a a
+T8/4. T6'/8 T7 T5
+H A a a
+T4/2 T2'/4
+H A a e
+T3/2 P3/4

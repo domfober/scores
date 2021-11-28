@@ -1,0 +1,79 @@
+
+$hdy1 = -15;
+$hdy2 = -15;
+$Ty = -11;
+$Py = -6;
+
+$D1 = "d2/8 a1 f a f a";
+$A1 = "c2 a1 e a e a";
+$C1 = "e2 g1 e g e g";
+
+{
+[
+	\title<"Mazurka">
+	\title<"reprise par les Balbelettes", fsize=14pt,  dy=-8>
+	\pageFormat<w=21cm, h=29cm, lm=2cm, rm=2cm, bm=4cm, tm=5cm>
+	\footer<"Typeset with Guido", dy=-6>
+	\footer<"https://guidoeditor.grame.fr", dy=-10>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"3/4"> 
+	\stemsDown
+	\text<"Partie A (x2)", dy=19, dx=-19, fsize=14pt>(
+	\harmony<"A", dy=$hdy1, dx=3>
+	\lyrics<"7 6' 8 7' 8 6'",  dy=$Ty, fattrib="b">( a/8 b c2/8 d c/8 b1)) 
+	\harmony<"F", dy=$hdy1, dx=5>
+	\lyrics<"7 6' 8 7' 8 7'",  dy=$Ty, fattrib="b">( a/8 b c2/8 d c/8 d ) |
+	\harmony<"C", dy=$hdy2, dx=0>
+	\lyrics<"7' 8 6' 8",  dy=$Py, fattrib="b">( e/4. d/8 c/8 d) |
+	\voltaBegin<"1", "|-|">
+	\harmony<"E", dy=$hdy2, dx=0>
+	\lyrics<"7'",  dy=$Py, fattrib="b">( e/2. )
+	\voltaEnd
+	\repeatEnd
+	\voltaBegin<"2", "|-">
+	\harmony<"E", dy=$hdy2, dx=0>
+	\lyrics<"7",  dy=$Py, fattrib="b">( b1/2. ) |
+	\voltaEnd
+
+\newLine
+	\text<"Partie B", dy=16, dx=-15, fsize=14pt>(
+	\harmony<"A", dy=$hdy1, dx=3>
+	\lyrics<"9 9 9 9 8' 9",  dy=$Ty, fattrib="b">(e2/8 e e/8 e f/8 e))
+	\harmony<"A", dy=$hdy1, dx=5>
+	\lyrics<"9 9 9 9 8' 9",  dy=$Ty, fattrib="b">(e2/8 e e/8 e f/8 e) |
+	\harmony<"G", dy=$hdy2, dx=0>
+	\lyrics<"8 8 8 8 7' 8",  dy=$Py, fattrib="b">(d/8 d d/8 d e/8 d) |
+	\harmony<"G", dy=$hdy2, dx=-1>
+	\lyrics<"8 8 8 8 7' 8",  dy=$Py, fattrib="b">(d/8 d d/8 d e/8 d) |
+	\harmony<"F", dy=$hdy1, dx=0>
+	\lyrics<"9 9 9 9 8' 9",  dy=$Ty, fattrib="b">(e2/8 e e/8 e f/8 e)
+	\harmony<"F", dy=$hdy1, dx=5>
+	\lyrics<"9 9 9 9 8' 9",  dy=$Ty, fattrib="b">(e2/8 e e/8 e f/8 e) |
+	\voltaBegin<"1", "|-", dy=1>
+	\harmony<"G", dy=$hdy1, dx=-1>
+	\lyrics<"8 6' 7",  dy=$Py, fattrib="b">(d/4 c b1) 
+	\harmony<"A", dy=$hdy1, dx=2>
+	\lyrics<"7",  dy=$Ty, fattrib="b">(a/2.)
+	\voltaEnd
+	\repeatEnd
+
+	\voltaBegin<"2", "|-|", dy=1>
+	\harmony<"G", dy=$hdy1, dx=-1>
+	\lyrics<"8 6' 8 6' 7' 6' 7",  dy=$Py, fattrib="b">(e2/4 \tuplet<"3", position="above">(d/12 e d) \tuplet<"3", position="above">(f d b1)) |
+	\harmony<"A", dy=$hdy1, dx=-1>
+	\lyrics<"7",  dy=$Ty, fattrib="b">(a/2.)
+	\voltaEnd
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=10> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+	empty*12/4 	\repeatEnd
+	empty*27/4 	\repeatEnd
+
+]
+}
