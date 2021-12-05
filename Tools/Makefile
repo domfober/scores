@@ -5,16 +5,14 @@ OUTGMN 	:= $(GMN:%.gmn=%.tab.gmn)
 TXT 	:= rang3.txt
 OUTTXT 	:= $(TXT:%.txt=%.gmn)
 
+PDF		:= $(OUTGMN:%.gmn=%.pdf) $(OUTTXT:%.gmn=%.pdf) 
+
 all : $(OUTGMN) $(OUTTXT)
 
-chroma.tab.gmn: chroma.gmn
-chroma-raw.tab.gmn: chroma-raw.gmn
-
-rang3.gmn: rang3.txt
-
+pdf : $(PDF)
 
 clean: 
-	rm -f $(OUTGMN) $(OUTTXT)
+	rm -f $(OUTGMN) $(OUTTXT) $(PDF)
 
 test: 
 	echo $(OUTGMN)
@@ -30,3 +28,8 @@ test:
 %.tab.gmn: %.gmn
 	../bin/gmn2tab $< > $@ || (rm $@; false)
 
+
+#########################################
+# rule to convert from gmn to pdf
+%.pdf: %.gmn
+	guido2image -f $< -o $@
