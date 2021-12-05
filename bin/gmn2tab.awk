@@ -10,7 +10,9 @@ function getTire(line) {
 	line = gensub( /(a0[^ ,]*)/, "\\\\lyrics<\"3\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(b0[^ ,]*)/, "\\\\lyrics<\"2'\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(b1[^ ,]*)/, "\\\\lyrics<\"6'\", dy=$Ty> (\\1)", "g", line);
+	line = gensub( /(c&2[^ ,]*)/, "\\\\lyrics<\"6'\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(b2[^ ,]*)/, "\\\\lyrics<\"10'\", dy=$Ty> (\\1)", "g", line);
+	line = gensub( /(c&3[^ ,]*)/, "\\\\lyrics<\"10'\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(c1[^ ,]*)/, "\\\\lyrics<\"4\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(c2[^ ,]*)/, "\\\\lyrics<\"8\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(c3[^ ,]*)/, "\\\\lyrics<\"12\", dy=$Ty> (\\1)", "g", line);
@@ -54,7 +56,9 @@ function getPousse(line) {
 	line = gensub( /(a2[^ ,]*)/, "\\\\lyrics<\"8''\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(b0[^ ,]*)/, "\\\\lyrics<\"4\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(b1[^ ,]*)/, "\\\\lyrics<\"7\", dy=$Py> (\\1)", "g", line);
+	line = gensub( /(c&2[^ ,]*)/, "\\\\lyrics<\"7\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(b2[^ ,]*)/, "\\\\lyrics<\"10\", dy=$Py> (\\1)", "g", line);
+	line = gensub( /(c&3[^ ,]*)/, "\\\\lyrics<\"10\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(c1[^ ,]*)/, "\\\\lyrics<\"3'\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(c2[^ ,]*)/, "\\\\lyrics<\"6'\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(c3[^ ,]*)/, "\\\\lyrics<\"9'\", dy=$Py> (\\1)", "g", line);
@@ -101,6 +105,7 @@ function getNonAmbigu(line) {
 	line = gensub( /(b&2[^ ,]*)/, "\\\\lyrics<\"9''\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(b-1[^ ,]*)/, "\\\\lyrics<\"1\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(c#1[^ ,]*)/, "\\\\lyrics<\"2''\", dy=$Ty> (\\1)", "g", line);
+	line = gensub( /(d&1[^ ,]*)/, "\\\\lyrics<\"2''\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(c#2[^ ,]*)/, "\\\\lyrics<\"6''\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(c#3[^ ,]*)/, "\\\\lyrics<\"10''\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(d&2[^ ,]*)/, "\\\\lyrics<\"6''\", dy=$Ty> (\\1)", "g", line);
@@ -136,7 +141,9 @@ function getAmbigu(line) {
 	line = gensub( /(a2[^ ,]*)/, "\\\\lyrics<\"P8''|T9'|T11\", dy=$Ly> (\\1)", "g", line);
 	line = gensub( /(b0[^ ,]*)/, "\\\\lyrics<\"P4|T2'\", dy=$Ly> (\\1)", "g", line);
 	line = gensub( /(b1[^ ,]*)/, "\\\\lyrics<\"P7|T6'\", dy=$Ly> (\\1)", "g", line);
+	line = gensub( /(c&2[^ ,]*)/, "\\\\lyrics<\"P7|T6'\", dy=$Ly> (\\1)", "g", line);
 	line = gensub( /(b2[^ ,]*)/, "\\\\lyrics<\"P10|T10'\", dy=$Ly> (\\1)", "g", line);
+	line = gensub( /(c&3[^ ,]*)/, "\\\\lyrics<\"P10|T10'\", dy=$Ly> (\\1)", "g", line);
 	line = gensub( /(c1[^ ,]*)/, "\\\\lyrics<\"P3'|T4\", dy=$Ly> (\\1)", "g", line);
 	line = gensub( /(c2[^ ,]*)/, "\\\\lyrics<\"P6'|T8\", dy=$Ly> (\\1)", "g", line);
 	line = gensub( /(c3[^ ,]*)/, "\\\\lyrics<\"P9'|T12\", dy=$Ly> (\\1)", "g", line);

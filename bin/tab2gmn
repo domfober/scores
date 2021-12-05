@@ -1,5 +1,7 @@
 #!/bin/sh
-cat header.txt
-cat $1 | awk -f tab2gmn.awk
-cat footer.txt
+DIR=$(dirname $0)
+cat $DIR/header.txt || exit 1
+cat $1 | awk -f $DIR/tab2gmn.awk  || exit 1
+cat $DIR/footer.txt || exit 1
+exit 0
  
