@@ -1,0 +1,134 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+
+$MSize = 12;
+$MPos = 20;
+
+$Hy = -15;
+$Ly = -15;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"La Bohème", font="Helvetica">
+	\composer<"Charles Aznavour", dy=2>
+	\pageFormat<w=25cm, h=35.6cm, lm=2.5cm, rm=2.5cm, bm=3cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<-3> \meter<"3/4", autoMeasuresNum="system">
+
+% tab: T C
+	_ c3 b2 |
+	\harmony<"Fm", dy=$Hy>
+	c3 \tieBegin f2/2 |
+	f/4 \tieEnd c3 b2 |
+% tab: P C
+	\harmony<"Cm", dy=$Hy>
+	c3 \tieBegin g2/2 |
+	g/8 \tieEnd g2 f#2 g2 b&2 a2 |
+% tab: T C
+	\harmony<"Fm", dy=$Hy>
+	a&2/2 f2/4 |
+% tab: P G
+	\harmony<"G", dy=$Hy>
+	g2/2 f2/4 | 
+% tab: P C
+	\harmony<"Cm", dy=$Hy>
+	g2 f2 e&2 |
+	\harmony<"Cmaj", dy=$Hy>
+	b&1  _/2 
+	\repeatBegin
+
+% tab: T C
+	\harmony<"Fm", dy=$Hy>
+	_/8 f1 f1 g1 f1 g1 |
+	a&1 g1 a&1 b&1 a&1 b&1 |
+	c2 b1 c2 d2 c2 d2 |
+
+% tab: P C
+	\harmony<"Cm", dy=$Hy>
+	e&2/4 g1/2 |
+
+	_/8 e&2 d2 c2 e&2 d2 |
+
+% tab: T G
+	\harmony<"Fm", dy=$Hy>
+	a&1/2. |
+	_/8 e&2 d2 c2 e&2 d2 |
+
+% tab: P G
+	\harmony<"Cm", dy=$Hy>
+	g1 g1 f#1 g1 b&1 a1 |
+
+% tab: T C
+	\harmony<"Fm", dy=$Hy>
+	a&1 g1 f1 g1 f1 g1 |
+	a&1 g1 a&1 b&1 a&1 b&1 |
+	c2 b1 c2 d2 c2 d2 |
+% tab: P C
+	\harmony<"Cm", dy=$Hy>
+	e&2/4 e&2/2 |
+	_/8 e&2 d2 e&2 g2 f2 |
+
+% tab: T C
+	\harmony<"Fm", dy=$Hy>
+	f2 e&2 e&2 d2 f2 e&2 |
+% tab: P G
+	\harmony<"G7", dy=$Hy>
+	e&2 d2 e&2 d2 c2 b1 |
+% tab: P C
+	\harmony<"Cm", dy=$Hy>
+	\tieBegin c2/2. |
+	c/4 \tieEnd c2 b1 |
+
+% tab: T G
+	\harmony<"Fm", dy=$Hy>
+	c2 \tieBegin f1/2 |
+	f/4 \tieEnd c2 b1 |
+% tab: P C
+	\harmony<"Cm", dy=$Hy>
+	c2 g1/2 |
+	g1/4 b&1 a1 |
+% tab: T G
+	\harmony<"Fm", dy=$Hy>
+	a&1/2 g1 |
+% tab: P G
+	\harmony<"G7", dy=$Hy>
+	d1/2 d1/4 |
+% tab: P C
+	\harmony<"Cm", dy=$Hy>
+	\tieBegin g1/2. |
+	g/4 \tieEnd c2 b1 |
+% tab: T C
+	\harmony<"Fm", dy=$Hy>
+	c2 \tieBegin f1/2 |
+	f1/4 \tieEnd d2 c2 |
+% tab: P C
+	\harmony<"Cm", dy=$Hy>
+	e&2 g1/2 | 
+	e&2/4 d2 c2 |
+% tab: T G
+	\harmony<"Fm", dy=$Hy>
+	b&1/2 a&1 |
+% tab: P C
+	\harmony<"G7", dy=$Hy>
+	g1/2 f1/4 |
+
+	\voltaBegin<"1.", "|-|">
+	\harmony<"Cm", dy=$Hy>
+	g1*5/4 _/4
+	\voltaEnd
+	\repeatEnd
+
+	\voltaBegin<"2.", "|-">
+	\harmony<"G7", dy=$Hy>
+	g1/2 b1/4 |
+	\voltaEnd
+	\harmony<"Cm", dy=$Hy>
+	c2*3/2
+]
+}

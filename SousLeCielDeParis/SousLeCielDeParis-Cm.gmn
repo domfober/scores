@@ -1,0 +1,239 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+
+$MSize = 12;
+$MPos = 20;
+
+$Hy = -15;
+$Ly = -15;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"Sous les toits de Paris", font="Helvetica">
+	\pageFormat<w=25cm, h=35.6cm, lm=2.5cm, rm=2.5cm, bm=3cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<-3> \meter<"3/4", autoMeasuresNum="system">
+
+% tab: P C
+	\harmony<"C", dy=$Hy>
+	g1 c2 d2 |
+	\harmony<"C", dy=$Hy>
+	e&2/2 f2/4 |
+	\harmony<"C", dy=$Hy>
+	g2 f2 e&2 |
+	\harmony<"C", dy=$Hy>
+	d2 c2 b&1 |
+% tab: T
+	\harmony<"F", dy=$Hy>
+	a&1/2. |
+	\harmony<"F", dy=$Hy>
+	a&1/4 c2 g2 |
+	\harmony<"F", dy=$Hy>
+%	\tieBegin 
+	a&1 c2 f2 |
+	\harmony<"F", dy=$Hy>
+	a&1 c2 f2 |
+%	\tieEnd  _/2 |
+
+% tab: P C
+	\harmony<"G", dy=$Hy>
+	g1 b1 c2 |
+	\harmony<"G", dy=$Hy>
+	d2/2 e&2/4 |
+% tab: T
+	\harmony<"F", dy=$Hy>
+	f2 a&2 g2 |
+% tab: T 
+	\harmony<"G", dy=$Hy>
+	f2 e&2 d2 |
+	\harmony<"C", dy=$Hy>
+	c2/2. |
+% tab: T
+	\harmony<"F", dy=$Hy>
+	f1/4 a&1 c2 |
+% tab: P C
+	\harmony<"C", dy=$Hy>
+	\tieBegin 
+	e&1 g1 c2 |
+	\harmony<"C", dy=$Hy>
+\voltaBegin<"1.", "|-|">
+	e&1 g1 c2 
+	\tieEnd 
+\voltaEnd
+	\repeatEnd
+
+%===========================================
+% tab: P
+	\harmony<"C", dy=$Hy>
+\voltaBegin<"2.", "|-">
+	d2 e&2 d2 |
+\voltaEnd
+% tab: T 
+	\harmony<"F", dy=$Hy>
+	c2/2. |
+	\harmony<"F", dy=$Hy>
+	b1 |
+	\harmony<"F", dy=$Hy>
+	c2/2. |
+% tab: P 
+	\harmony<"F", dy=$Hy>
+	d2/4 e&2 d2 |
+% tab: P 
+	\harmony<"C", dy=$Hy>
+	c2/2. |
+	\harmony<"C", dy=$Hy>
+	b1 |
+	\harmony<"C", dy=$Hy>
+	c2/2. |
+	\harmony<"C", dy=$Hy>
+	d2/4 e&2 d2 |
+% tab: T
+	\harmony<"F", dy=$Hy>
+	c2/2. |
+	\harmony<"F", dy=$Hy>
+	d2/4 e&2 f2 |
+	\harmony<"F", dy=$Hy>
+	g2 a&2 b&2 |
+	\harmony<"F", dy=$Hy>
+	a&2 g2 f2 |
+% tab: P C
+	\harmony<"G", dy=$Hy>
+	g2/2. 	|
+	\harmony<"F", dy=$Hy>
+	_ |
+	\harmony<"Eb", dy=$Hy>
+	_ |
+	\harmony<"D", dy=$Hy>
+	_ |
+
+% reprise ===========================================
+% tab: P C
+	\harmony<"C", dy=$Hy>
+	g1/4 c2 d2 |
+	\harmony<"C", dy=$Hy>
+	e&2/2 f2/4 |
+	\harmony<"C", dy=$Hy>
+	g2 f2 e&2 |
+	\harmony<"C", dy=$Hy>
+	d2 c2 b&1 |
+% tab: T
+	\harmony<"F", dy=$Hy>
+	a&1/2. |
+	\harmony<"F", dy=$Hy>
+	a&1/4 c2 g2 |
+	\harmony<"F", dy=$Hy>
+%	\tieBegin 
+	a&1 c2 f2 |
+	\harmony<"F", dy=$Hy>
+	a&1 c2 f2 |
+%	\tieEnd  _/2 |
+
+% var 1 ===========================================
+% tab: P C
+	\harmony<"G", dy=$Hy>
+	g1 b1 c2 |
+	\harmony<"G", dy=$Hy>
+	d2/2 e&2/4 |
+% tab: T
+	\harmony<"F", dy=$Hy>
+	f2 a&2 g2 |
+
+	\harmony<"G", dy=$Hy>
+	f2 e2 d2 |
+
+% tab: P C
+	\harmony<"C", dy=$Hy>
+	\tieBegin e2/2. |
+	\harmony<"C", dy=$Hy>
+	e |
+	\harmony<"C", dy=$Hy>
+	e/4 _\tieEnd g2 |
+
+	\harmony<"C", dy=$Hy>
+	g2 e2 c2 |
+	\harmony<"C", dy=$Hy>
+
+	\tieBegin b1/2. |
+	\harmony<"C", dy=$Hy>
+	b |
+	\harmony<"C", dy=$Hy>
+	b/4 _\tieEnd g2 |
+
+	\harmony<"C", dy=$Hy>
+	g2 e2 c2 |
+	\harmony<"C", dy=$Hy>
+
+	\tieBegin b&1/2. |
+	\harmony<"C", dy=$Hy>
+	b& |
+	\harmony<"C", dy=$Hy>
+	b&/4 _\tieEnd g2 |
+
+	\harmony<"C", dy=$Hy>
+	g2 e2 c2 |
+
+% tab: T C
+	\harmony<"F", dy=$Hy>
+	\tieBegin a&1/2. |
+	a& |
+	\harmony<"F", dy=$Hy>
+	a&/4 _\tieEnd f2 |
+
+	\harmony<"F", dy=$Hy>
+	f2 c2 a&1 |	
+
+	\tieBegin a1/2. |
+	\harmony<"F", dy=$Hy>
+	a |
+	\harmony<"F", dy=$Hy>
+	a/4 _\tieEnd c2 |
+
+	\harmony<"F", dy=$Hy>
+	c2 b&1 a&1 |
+
+% fin ===========================================
+% tab: P C
+	\harmony<"C", dy=$Hy>
+	g1/2 g1/4 |
+	\harmony<"C", dy=$Hy>
+	a&1/2 a&1/4 |
+% tab: T C 
+	\harmony<"F", dy=$Hy>
+	a1/2 a1/4 |
+	\harmony<"G", dy=$Hy>
+	b1/2 b1/4 |
+% tab: P
+	\harmony<"C", dy=$Hy>
+	c2/2 c2/4 |
+	\harmony<"G", dy=$Hy>
+	d2/2 d2/4 |
+	\harmony<"C", dy=$Hy>
+	e2/2. |
+% tab: T
+	\harmony<"F", dy=$Hy>
+	f2/4 e2 f2 |
+	\harmony<"G", dy=$Hy>
+	\tieBegin g2/2. |
+	\harmony<"G", dy=$Hy>
+	g |	
+	\harmony<"G", dy=$Hy>
+	g/4 \tieEnd _ a&2 |
+
+% tab: P G
+	\harmony<"Eb", dy=$Hy>
+	a2 f2 d2 |
+
+	\harmony<"G", dy=$Hy>
+	\tieBegin g2/2. |
+	\harmony<"G", dy=$Hy>
+	g |	
+	\harmony<"G", dy=$Hy>
+	g/4 \tieEnd _/2 
+]
+}

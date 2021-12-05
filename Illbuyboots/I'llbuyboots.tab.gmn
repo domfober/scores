@@ -11,9 +11,9 @@ $My = 18;
 [
 	\title<"I'll Buy Boots for Maggie">
 	\composer<"Irish Polka", dy=2>
-	\pageFormat<w=23.1cm, h=32.7cm, lm=2.5cm, rm=2.5cm, bm=3cm, tm=5cm>
-	\footer<"Typeset with Guido", dy=-11>
-	\footer<"https://guidoeditor.grame.fr", dy=-16>
+	\pageFormat<w=23.1cm, h=32.7cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=5cm>
+	\footer<"Typeset with Guido", dy=-9>
+	\footer<"https://guidoeditor.grame.fr", dy=-14>
 	\accolade<id=1, type="none">
 	\barFormat<"system">
 	\clef<"g"> \key<0> \meter<"2/4", autoMeasuresNum="system"> 

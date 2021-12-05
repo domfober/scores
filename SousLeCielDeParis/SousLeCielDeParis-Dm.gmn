@@ -1,0 +1,106 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+
+$MSize = 12;
+$MPos = 20;
+
+$Hy = -15;
+$Ly = -15;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"Sous les toits de Paris", font="Helvetica">
+	\pageFormat<w=25cm, h=35.6cm, lm=2.5cm, rm=2.5cm, bm=3cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<-1> \meter<"3/4", autoMeasuresNum="system">
+
+% tab: T C
+	\harmony<"D", dy=$Hy>
+	a1 d2 e2 |
+	\harmony<"D", dy=$Hy>
+	f2/2 g2/4 |
+	\harmony<"D", dy=$Hy>
+	a2 g2 f2 |
+	\harmony<"D", dy=$Hy>
+	e2 d2 c2 |
+% tab: P 
+	\harmony<"G", dy=$Hy>
+	b&1/2. |
+	\harmony<"G", dy=$Hy>
+% tab: T G
+	b&1/4 d2 a2 |
+	\harmony<"G", dy=$Hy>
+%	\tieBegin 
+	b&1/4  d2  g2 |
+	\harmony<"G", dy=$Hy>
+	b&1/4 d2 g2 
+%	\tieEnd  _/2 |
+
+% tab: T C
+	\harmony<"A", dy=$Hy>
+	a1/4 c#2 d2 |
+	\harmony<"A", dy=$Hy>
+	e2/2 f2/4 |
+% tab: P C
+	\harmony<"G", dy=$Hy>
+	g2 b&2 a2 |
+% tab: T 
+	\harmony<"A", dy=$Hy>
+	g2 f2 e2 |
+	\harmony<"D", dy=$Hy>
+	d2/2. |
+% tab: T 
+	\harmony<"G", dy=$Hy>
+	g1/4 b&1 d2 |
+% tab: T C
+	\harmony<"D", dy=$Hy>
+	\tieBegin 
+	f1 a1 d2
+\voltaBegin<"1.", "|-|">
+	f1 a1 d2
+	\tieEnd 
+\voltaEnd
+	\repeatEnd
+
+	\harmony<"D", dy=$Hy>
+\voltaBegin<"2.", "|-">
+	e2/4 f2 e2 |
+\voltaEnd
+% tab: P 
+	\harmony<"G", dy=$Hy>
+	d2/2. |
+	\harmony<"G", dy=$Hy>
+	c#2 |
+	\harmony<"G", dy=$Hy>
+	d2/2. |
+	\harmony<"G", dy=$Hy>
+	e2/4 f2 e2 |
+% tab: T 
+	\harmony<"D", dy=$Hy>
+	d2/2. |
+	\harmony<"D", dy=$Hy>
+	c#2 |
+	\harmony<"D", dy=$Hy>
+	d2/2. |
+	\harmony<"D", dy=$Hy>
+	e2/4 f2 e2 |
+% tab: P C
+	\harmony<"G", dy=$Hy>
+	d2/2. |
+	\harmony<"G", dy=$Hy>
+	e2/4 f2 g2 |
+	\harmony<"G", dy=$Hy>
+	a2 b&2 c3 |
+	\harmony<"G", dy=$Hy>
+	b&2 a2 g2 |
+% tab: T C
+	\harmony<"A", dy=$Hy>
+	a2/2. 	
+]
+}
