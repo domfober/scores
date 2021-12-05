@@ -1,0 +1,80 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+
+$MSize = 12;
+$MPos = 20;
+
+$Hy = -15;
+$Ly = -15;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"VALS efter \"Jonte i Byom\"", font="Helvetica">
+	\pageFormat<w=21cm, h=29.7cm, lm=2.5cm, rm=2.5cm, bm=5cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\meter<"3/4", autoMeasuresNum="system">
+% tab: T G
+	a0 |
+	\harmony<"A", dy=$Hy>
+	a0 e1 e1 |
+	\harmony<"F", dy=$Hy>
+	e1 a0 c1 |
+	\harmony<"D", dy=$Hy>
+	f1 _ e1 |
+% tab: P C
+	\harmony<"E", dy=$Hy>
+	a0 e1 d1 |
+	\harmony<"C", dy=$Hy>
+	c1/2 c1/4 |
+	\harmony<"E", dy=$Hy>
+	e1/2 e1/4 |
+% tab: T G
+	\harmony<"A", dy=$Hy>
+	e1/2 e1/4 |
+	\harmony<"A", dy=$Hy>
+	e1/2 
+	\repeatEnd
+	\newLine
+
+	_/4 |
+% tab: P C
+	\harmony<"C", dy=$Hy>
+	c1/2 c1/4 |
+% tab: T G
+	\harmony<"F", dy=$Hy>
+	c1/2 c1/4 |
+% tab: P C
+	\harmony<"C", dy=$Hy>
+	c1/2 c1/4 |
+% tab: T G
+	\harmony<"F", dy=$Hy>
+	c1/2 c1/4 |
+% tab: P G
+	\harmony<"G", dy=$Hy>
+	g0/2 g1/4 |
+	\harmony<"E", dy=$Hy>
+	g1/2 d1/8 b0 |
+	\harmony<"D", dy=$Hy>
+	g0/2 g1/4 |
+	\harmony<"C", dy=$Hy>
+	c1/4 _ _ |
+	\harmony<"E", dy=$Hy>
+	b0/4. e1/8 e1/4 |
+% tab: T G
+	\harmony<"A", dy=$Hy>
+	e1/2 c1/8 a0 |
+% tab: P C
+	\harmony<"E", dy=$Hy>
+	e1/2 e1/4 |
+% tab: T G
+	\harmony<"A", dy=$Hy>
+	a0/2 
+	\repeatEnd
+]
+}

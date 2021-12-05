@@ -1,0 +1,74 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+
+$MSize = 12;
+$MPos = 20;
+
+$Hy = -17;
+$Ly = -15;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"Gånglåt från Äppelbo", font="Helvetica">
+	\pageFormat<w=21cm, h=29.7cm, lm=2.5cm, rm=2.5cm, bm=5cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\key<1> \meter<"2/4", autoMeasuresNum="system">
+% tab: P G
+	d1/8 |
+	\harmony<"G", dy=$Hy>
+	b0 b0/16 g0 b0/8 d1 |
+	\harmony<"G", dy=$Hy>
+	g1/4. b0/16 d1 |
+	\harmony<"G", dy=$Hy>
+	g1/8 b0/16 d1 g1/8 g1 |
+% tab: T C
+	\harmony<"D", dy=$Hy>
+	f#1/8 f#1/16 g1 a1/8 a1/16  g1 |
+	\harmony<"D", dy=$Hy>
+	f#1/8 d1/16 e1 f#1/8 d1/16 a0 |
+% tab: P G
+	\harmony<"G", dy=$Hy>
+	b0/8 b0/16 d1 g0/8 c1/16 b0 |
+% tab: T C
+	\harmony<"D", dy=$Hy>
+	d1/8 d1/16 c1 d1 c1 b0 a0 |
+% tab: P G
+	\harmony<"G", dy=$Hy>
+	g0/4. 
+	\repeatEnd
+	\newLine
+
+	\bm(d1/16 c1) |
+	\harmony<"G", dy=$Hy>
+	b1/8 b1 b1 a1/16 g1 |
+% tab: T C
+	\harmony<"D", dy=$Hy>
+	a1/8 a1 a1 _ |
+% tab: P G
+	\harmony<"E", dy=$Hy>
+	c2 c2 c2 c2 |
+% tab: T G
+	\harmony<"A", dy=$Hy>
+	c2 b1
+	\harmony<"D", dy=$Hy>
+	b1 f#1/16 g1 |
+	\harmony<"D", dy=$Hy>
+	d1/8 d/16 e1 f#1/8 d1/16 a0 |
+% tab: P G
+	\harmony<"G", dy=$Hy>
+	b0/8 b0/16 d1 g0/8 c1/16 b0 |
+% tab: T G
+	\harmony<"D", dy=$Hy>
+	a0/8 a0/16 d1 d1 c1 b0 a0 |
+% tab: P G
+	\harmony<"G", dy=$Hy>
+	g0/4.
+	\repeatEnd
+]
+}
