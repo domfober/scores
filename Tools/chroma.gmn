@@ -1,0 +1,149 @@
+(*
+  gmn file converted from tab file
+*)
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ly = -12;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"Chromatic scale", font="Helvetica">
+	\pageFormat<w=25cm, h=35cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"4/4", autoMeasuresNum="system"> 
+% tab: P
+	g0/4 
+	g#0
+	a0
+%% tab: T
+	a#0
+	b0
+	c1
+	c#1
+%% tab: P
+	d1
+	d#1
+%% tab: T
+	e1
+	f1
+	f#1
+	g1
+	g#1
+	a1
+	a#1
+	b1
+	c2
+	c#2
+	d2
+	d#2
+	e2
+	f2
+	f#2
+	g2
+	g#2
+	a2
+	a#2
+	b2
+	c3
+	c#3
+	d3
+	d#3
+	e3
+	f#3
+	g3
+	g#3/1
+	\doubleBar
+
+\newLine
+% tab: T
+	g0/4 
+	g#0
+	a0
+	a#0
+	b0
+	c1
+	c#1
+	d1
+	d#1
+	e1
+	f1
+	f#1
+	g1
+	g#1
+	a1
+	a#1
+	b1
+	c2
+	c#2
+	d2
+	d#2
+	e2
+	f2
+	f#2
+	g2
+	g#2
+	a2
+	a#2
+	b2
+	c3
+	c#3
+	d3
+	d#3
+	e3
+	f#3
+	g3
+	g#3/1
+	\doubleBar
+
+\newLine
+% tab: P C
+	g0/4 
+	g#0
+	a0
+% tab: T
+	a#0
+	b0
+	c1
+	c#1
+% tab: P
+	d1
+	d#1
+	e1
+% tab: T C
+	f1
+	f#1
+	g1
+	g#1
+	a1
+	a#1
+	b1
+	c2
+	c#2
+% tab: P
+	d2
+	d#2
+	e2
+% tab: T C
+	f2
+	f#2
+	g2
+	g#2
+	a2
+	a#2
+	b2
+	c3
+	c#3
+	d3
+	d#3
+	e3
+	f#3
+	g3
+	g#3/1
+]
+}

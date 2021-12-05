@@ -1,0 +1,262 @@
+
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ly = -12;
+$Ty = -11;
+$Py = -6;
+$NL = "\doubleBar"; % \newLine";
+
+{
+[
+	\title<"Minor scales", font="Helvetica">
+	\pageFormat<w=29cm, h=41cm, lm=2.5cm, rm=2cm, bm=3cm, tm=4cm>
+	\accolade<id=1, type="none"> 
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"4/4", autoMeasuresNum="system"> 
+% tab: P C
+	\key<-3, hideNaturals="on">
+	\harmony<"C", dy=$hdy1, dx=0>
+	c1/4 
+	d1
+	e&1
+	f1
+	g1
+	a&1
+	b1
+	c2
+	d2
+	e&2
+	f2
+	g2
+	a2
+	b2
+	c3/2
+	$NL
+
+% tab: T
+	\key<4, hideNaturals="on">
+	\harmony<"C#", dy=$hdy1, dx=0>
+	c#1/4 
+	d#1
+	e&1
+	f#1
+	g#1
+	a1
+	b#1
+	c#2
+	d#2
+	e2
+	f#2
+	g#2
+	a2
+	b#2
+	c#3/2
+	$NL
+
+% tab: T C
+	\key<-1, hideNaturals="on">
+	\harmony<"D", dy=$hdy1, dx=0>
+	d1/4
+	e1
+	f1
+	g1
+	a1
+	b&1
+	c#2
+	d2
+	e2
+	f2
+	g2
+	a2
+	b&2
+	c#3
+	d3/2
+	$NL
+
+% tab: T C
+	\key<-6, hideNaturals="on">
+	\harmony<"E&", dy=$hdy1, dx=0>
+	e&1/4
+	f1
+	g&1
+	a&1
+	b&1
+	c&2
+	d2
+	e&2
+	f2
+	g&2
+	a&2
+	b&2
+	c&3
+	d3
+	e&3/2
+	$NL
+
+% tab: T C
+	\key<1, hideNaturals="on">
+	\harmony<"E", dy=$hdy1, dx=0>
+	e1/4
+	f#1
+	g1
+	a1
+	b1
+	c2
+	d#2
+	e2
+	f#2
+	g2
+	a2
+	b2
+	c3
+	d#3
+	e3/2
+	$NL
+
+% tab: T C
+	\key<-4, hideNaturals="on">
+	\harmony<"F", dy=$hdy1, dx=0>
+	c1/4 
+	d&1
+	e1
+	f1
+	g1
+	a&1
+	b&1
+	c2
+	d&2
+	e2
+	f2
+	g2
+	a&2
+	b&2
+	c3/2
+	$NL
+
+% tab: T
+	\key<3, hideNaturals="on">
+	\harmony<"F#", dy=$hdy1, dx=0>
+	c1/4 
+	d1 
+	e#1
+	f#1
+	g#1
+	a1
+	b1
+	c#2
+	d2
+	e#2
+	f#2
+	g#2
+	a2
+	b2
+	c&3/2
+	$NL
+
+% tab: T C
+	\key<-2, hideNaturals="on">
+	\harmony<"G", dy=$hdy1, dx=0>
+	d1/4 
+	e&1
+	f#1
+	g1
+	a1
+	b1
+	c2
+	d2
+	e2
+	f#2
+	g2
+	a2
+	b2
+	c3
+	d3/2
+	$NL
+
+% tab: T
+	\key<5, hideNaturals="on">
+	\harmony<"G#", dy=$hdy1, dx=0>
+	d#1/4
+	e1
+	f##1
+	g#1
+	a#1
+	b1
+	c#2
+	d#2
+	e2
+	f##2
+	g#2
+	a#2
+	b2
+	c#3
+	d#3
+	e3
+	f##3
+	g#3/2
+	$NL
+
+% tab: T C
+	\key<0, hideNaturals="on">
+	\harmony<"A", dy=$hdy1, dx=0>
+	e1/4
+	f1
+	g#1
+	a1
+	b1
+	c2
+	d2
+	e2
+	f2
+	g#2
+	a2
+	b2
+	c3
+	d3
+	e3/2
+	$NL
+
+% tab: T C
+	\key<-5, hideNaturals="on">
+	\harmony<"B&", dy=$hdy1, dx=0>
+	b&0/4
+	c1
+	d&1
+	e&1
+	f1
+	g&1
+	a1
+	b&1
+	c2
+	d&2
+	e&2
+	f2
+	g&2
+	a2
+	b&2/2
+	$NL
+
+% tab: T
+	\key<2, hideNaturals="on">
+	\harmony<"B", dy=$hdy1, dx=0>
+	b0/4
+	c#1
+	d1
+	e1
+	f#1
+	g1
+	a#1
+	b1
+	c2
+	d2
+	e2
+	f#2
+	g2
+	a#2
+	b2/2
+	
+]
+}
