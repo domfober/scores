@@ -1,23 +1,28 @@
+(*
+ use system layout settings : set maximum distance to 7
+ add 
+ empty*4 $NL
+ empty*4 $NL
+ to 2nd voice
+*)
 
 
-$hdy1 = -15;
-$hdy2 = -13;
-$hdy3 = -16;
+$hdy1 = 16;
 $Ly = -12;
 $Ty = -11;
 $Py = -6;
-$NL = "\doubleBar"; % \newLine";
+$NL = "\doubleBar \newLine";
 
 {
 [
 	\title<"Major scales", font="Helvetica">
-	\pageFormat<w=29cm, h=41cm, lm=2.5cm, rm=2cm, bm=3cm, tm=4cm>
+	\pageFormat<w=23cm, h=32.6cm, lm=2.5cm, rm=2cm, bm=4cm, tm=3cm>
 	\accolade<id=1, type="none"> 
 	\barFormat<"system">
 
-	\clef<"g"> \meter<"4/4", autoMeasuresNum="system"> 
+	\clef<"g"> \meter<"4/4"> 
 % tab: P C
-	\harmony<"C", dy=$hdy1, dx=0>
+	\harmony<"CM", dy=$hdy1, dx=0>
 	c1/4 
 	d1
 	e1
@@ -37,7 +42,7 @@ $NL = "\doubleBar"; % \newLine";
 
 % tab: T
 	\key<-5, hideNaturals="on">
-	\harmony<"D&", dy=$hdy1, dx=0>
+	\harmony<"D&M", dy=$hdy1, dx=0>
 	d&1/4
 	e&1
 	f1
@@ -57,7 +62,7 @@ $NL = "\doubleBar"; % \newLine";
 
 % tab: T C
 	\key<2, hideNaturals="on">
-	\harmony<"D", dy=$hdy1, dx=0>
+	\harmony<"DM", dy=$hdy1, dx=0>
 	d1/4
 	e1
 	f#1
@@ -77,7 +82,7 @@ $NL = "\doubleBar"; % \newLine";
 
 % tab: T C
 	\key<-3, hideNaturals="on">
-	\harmony<"E&", dy=$hdy1, dx=0>
+	\harmony<"E&M", dy=$hdy1, dx=0>
 	e&1/4
 	f1
 	g1
@@ -97,7 +102,7 @@ $NL = "\doubleBar"; % \newLine";
 
 % tab: T C
 	\key<4, hideNaturals="on">
-	\harmony<"E", dy=$hdy1, dx=0>
+	\harmony<"EM", dy=$hdy1, dx=0>
 	e1/4
 	f#1
 	g#1
@@ -117,11 +122,8 @@ $NL = "\doubleBar"; % \newLine";
 
 % tab: T C
 	\key<-1, hideNaturals="on">
-	\harmony<"F", dy=$hdy1, dx=0>
-	c1/4 
-	d1
-	e1
-	f1
+	\harmony<"FM", dy=$hdy1, dx=0>
+	f1/4
 	g1
 	a1
 	b&1
@@ -132,13 +134,21 @@ $NL = "\doubleBar"; % \newLine";
 	g2
 	a2
 	b&2
-	c3/2
+	c3
+	d3
+	e3
+	f3/2
 	$NL
 
 % tab: T
 	\key<-6, hideNaturals="on">
-	\harmony<"G&", dy=$hdy1, dx=0>
-	d&1/4 
+	\harmony<"G&M", dy=$hdy1, dx=0>
+	
+	g&0/4 
+	a&0
+	b&0
+	c&1
+	d&1
 	e&1
 	f1
 	g&1
@@ -148,17 +158,17 @@ $NL = "\doubleBar"; % \newLine";
 	d&2
 	e&2
 	f2
-	g&2
-	a&2
-	b&2
-	c&3
-	d&3/2
+	g&2/2
 	$NL
 
 % tab: T C
 	\key<1, hideNaturals="on">
-	\harmony<"G", dy=$hdy1, dx=0>
-	d1/4 
+	\harmony<"GM", dy=$hdy1, dx=0>
+	g0/4
+	a0
+	b0
+	c1
+	d1 
 	e1
 	f#1
 	g1
@@ -169,16 +179,16 @@ $NL = "\doubleBar"; % \newLine";
 	e2
 	f#2
 	g2
-	a2
-	b2
-	c3
-	d3/2
 	$NL
 
 % tab: T
 	\key<-4, hideNaturals="on">
-	\harmony<"A&", dy=$hdy1, dx=0>
-	e&1/4
+	\harmony<"A&M", dy=$hdy1, dx=0>
+	a&0/4
+	b&0
+	c1
+	d&1
+	e&1
 	f1
 	g1
 	a&1
@@ -188,17 +198,17 @@ $NL = "\doubleBar"; % \newLine";
 	e&2
 	f2
 	g2
-	a&2
-	b&2
-	c3
-	d&3
-	e&3/2
+	a&2/2
 	$NL
 
 % tab: T C
 	\key<3, hideNaturals="on">
-	\harmony<"A", dy=$hdy1, dx=0>
-	e1/4
+	\harmony<"AM", dy=$hdy1, dx=0>
+	a0/4
+	b0
+	c#1
+	d1
+	e1
 	f#1
 	g#1
 	a1
@@ -208,16 +218,12 @@ $NL = "\doubleBar"; % \newLine";
 	e2
 	f#2
 	g#2
-	a2
-	b2
-	c#3
-	d#3
-	e3/2
+	a2/2
 	$NL
 
 % tab: T C
 	\key<-2, hideNaturals="on">
-	\harmony<"B&", dy=$hdy1, dx=0>
+	\harmony<"B&M", dy=$hdy1, dx=0>
 	b&0/4
 	c1
 	d1
@@ -237,7 +243,7 @@ $NL = "\doubleBar"; % \newLine";
 
 % tab: T
 	\key<5, hideNaturals="on">
-	\harmony<"B", dy=$hdy1, dx=0>
+	\harmony<"BM", dy=$hdy1, dx=0>
 	b0/4
 	c#1
 	d#1
