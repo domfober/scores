@@ -9,6 +9,7 @@ function test(line) {
 function getTire(line) {
 	line = gensub( /(a0[^ ,]*)/, "\\\\lyrics<\"3\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(b0[^ ,]*)/, "\\\\lyrics<\"2'\", dy=$Ty> (\\1)", "g", line);
+	line = gensub( /(c&1[^ ,]*)/, "\\\\lyrics<\"2'\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(b1[^ ,]*)/, "\\\\lyrics<\"6'\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(c&2[^ ,]*)/, "\\\\lyrics<\"6'\", dy=$Ty> (\\1)", "g", line);
 	line = gensub( /(b2[^ ,]*)/, "\\\\lyrics<\"10'\", dy=$Ty> (\\1)", "g", line);
@@ -60,6 +61,7 @@ function getPousse(line) {
 	line = gensub( /(a1[^ ,]*)/, "\\\\lyrics<\"5''\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(a2[^ ,]*)/, "\\\\lyrics<\"8''\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(b0[^ ,]*)/, "\\\\lyrics<\"4\", dy=$Py> (\\1)", "g", line);
+	line = gensub( /(c&1[^ ,]*)/, "\\\\lyrics<\"4\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(b1[^ ,]*)/, "\\\\lyrics<\"7\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(c&2[^ ,]*)/, "\\\\lyrics<\"7\", dy=$Py> (\\1)", "g", line);
 	line = gensub( /(b2[^ ,]*)/, "\\\\lyrics<\"10\", dy=$Py> (\\1)", "g", line);
@@ -157,6 +159,7 @@ function getAmbigu(line) {
 	line = gensub( /(a1[^ ,]*)/, "\\\\lyrics<\"P5''|T5'|T7\", dy=$Ly> (\\1)", "g", line);
 	line = gensub( /(a2[^ ,]*)/, "\\\\lyrics<\"P8''|T9'|T11\", dy=$Ly> (\\1)", "g", line);
 	line = gensub( /(b0[^ ,]*)/, "\\\\lyrics<\"P4|T2'\", dy=$Ly> (\\1)", "g", line);
+	line = gensub( /(c&1[^ ,]*)/, "\\\\lyrics<\"P4|T2'\", dy=$Ly> (\\1)", "g", line);
 	line = gensub( /(b1[^ ,]*)/, "\\\\lyrics<\"P7|T6'\", dy=$Ly> (\\1)", "g", line);
 	line = gensub( /(c&2[^ ,]*)/, "\\\\lyrics<\"P7|T6'\", dy=$Ly> (\\1)", "g", line);
 	line = gensub( /(b2[^ ,]*)/, "\\\\lyrics<\"P10|T10'\", dy=$Ly> (\\1)", "g", line);
