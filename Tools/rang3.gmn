@@ -1,0 +1,53 @@
+(*
+  gmn file converted from tab file
+*)
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+$Ly = -12;
+
+{
+[
+	\title<"Titre", font="Helvetica">
+	\title<"sous-titre", font="Helvetica", fsize=12pt, dy=-6>
+	\composer<"compositeur", dy=7>
+	\pageFormat<w=21cm, h=29.7cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"3/4", autoMeasuresNum="system"> 
+
+
+	\lyrics<"1'' ", dy=$Ty, fattrib="b">( a#0  )
+	\lyrics<"1''", dy=$Py, fattrib="b">( g#0 )
+	\lyrics<"2''", dy=$Ty, fattrib="b">( c#1 )
+	\lyrics<"2''", dy=$Py, fattrib="b">( a0 )
+	\lyrics<"3''", dy=$Ty, fattrib="b">( g1 )
+	\lyrics<"3''", dy=$Py, fattrib="b">( d#1 )
+	\lyrics<"4''", dy=$Ty, fattrib="b">( g#1 )
+	\lyrics<"4''", dy=$Py, fattrib="b">( g#1 )
+	\lyrics<"5''", dy=$Ty, fattrib="b">( a#1 )
+	\lyrics<"5''", dy=$Py, fattrib="b">( a1 )
+	\lyrics<"6''", dy=$Ty, fattrib="b">( c#2 )
+	\lyrics<"6''", dy=$Py, fattrib="b">( d#2 )
+	\lyrics<"7''", dy=$Ty, fattrib="b">( g2 )
+	\lyrics<"7''", dy=$Py, fattrib="b">( g#2 )
+	\lyrics<"8''", dy=$Ty, fattrib="b">( g#2 )
+	\lyrics<"8''", dy=$Py, fattrib="b">( a2 )
+	\lyrics<"9''", dy=$Ty, fattrib="b">( a#2 )
+	\lyrics<"9''", dy=$Py, fattrib="b">( d#3 )
+	\lyrics<"10''", dy=$Ty, fattrib="b">( c#3 )
+	\lyrics<"10''", dy=$Py, fattrib="b">( g#3 )
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=10> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+
+]
+}
