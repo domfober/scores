@@ -1,0 +1,137 @@
+(*
+  lyrics for measure 1, 2, 3:
+	_ \lyrics<"4,3',4'", dy=$Py> ({ b0/4, c1, e1}) _/4 |
+  lyrics for measure 4:
+	\lyrics<"4'',8,9", dy=$Py> ({ g#1/2., d2, g2} ) 
+
+  lyrics for measure 16, 17:
+% tab: P C
+	\lyrics<"5,5',8'", dy=$Py> ({d1/2., g1, g2}) |
+% tab: T
+	\lyrics<"3',3'',8'", dy=$Ty> ( { d1, g1, f2 }) |
+
+
+  lyrics for measure 18:
+	\lyrics<"1'',4,4'", dy=$Py> ({g#0/4, b0, e1 }) |
+	\lyrics<"7'", dy=$Py> (e2/2) 
+	\lyrics<"1'',4,5", dy=$Py> ({g#0/4, b0, d1 }) |
+
+  
+  for tab line:
+  \staffFormat<"1-line", distance=12>
+*)
+
+$hdy1 = -17;
+$Ly = -14;
+$Ty = -13;
+$Py = -8;
+$My = 18;
+
+{
+[
+	\title<"Il camino">
+	\composer<"Aldo Romano", dy=2>
+	\pageFormat<w=23.1cm, h=32.7cm, lm=2.5cm, rm=2.5cm, bm=3cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \key<0> \meter<"3/4", autoMeasuresNum="system"> 
+	
+	\tempo<"[1/4] = 80", dy=2>
+
+% mesure 1
+% tab: P
+	\harmony<"Am9", dy=$hdy1, dx=0, fsize=16pt>
+	_ b0/16 c1 e1/8 _/4 |
+	_ b0/16 c1 e1/8 _/4 |
+	_ b0/16 c1 e1/8 _/4 |
+
+	\harmony<"E9+", dy=$hdy1, dx=0, fsize=16pt>
+	g#1/4 d2 g2 
+	\repeatBegin
+
+% mesure 5
+% tab: T G
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
+	f1/8 e1 e1 f1 e1 f1 |
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
+	f1 e1 e1 a1 c2 e2 |
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	e2/2. |
+	d2/2. |
+
+% mesure 8
+% tab: P
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	f1/8 e1 e1 f1 e1 f1 |
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	f1 e1 e1 g#1 b1 d2 |
+% tab: T C
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
+	d2/2. |
+	c2/2. |
+
+% mesure 12
+	\harmony<"A7", dy=$hdy1, dx=0, fsize=16pt>
+	b&1/8 a1 a1 b&1 a1 b&1 |
+	b&1/8 a1 a1 c#2 e2 g2 |
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	g2/2. |
+	f2 |
+	\harmony<"G7", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P C
+	d1/16 g1 \tie(g2/8 g/2)|
+% tab: T
+	d1/16 g1 \tie(f2/8 f/2) |
+
+% mesure 18
+% tab: P
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	f2/2 
+	g#0/12 b0 e1 |
+	e2/2 
+	g#0/12 b0 d1 |
+% tab: T C
+	\harmony<"A5", dy=$hdy1, dx=0, fsize=16pt>
+	c#2/4 b1/8 a1 g#1 b1 |
+	b1/4 a1/8 g#1 f#1 a1 |
+	\harmony<"Bm", dy=$hdy1, dx=0, fsize=16pt>
+	a1/2. |
+% tab: P
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	g#1/2. |
+% mesure 24
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	b1/4. 
+% tab: T C
+	a1/8 g#1 f#1 |
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P
+	a1/4. 
+% tab: T
+	g#1/8 f#1 e1 |
+
+% tab: P
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	g#1/2. |
+% tab: T
+	\harmony<"F#7", dy=$hdy1, dx=0, fsize=16pt>
+	f#1/2. |
+	\harmony<"Bm", dy=$hdy1, dx=0, fsize=16pt>
+	e1/8 d1 d1 e1 d1 e1 |
+	d1/2. |
+	\harmony<"A+", dy=$hdy1, dx=0, fsize=16pt>
+	d1/8 c#1 c#1 d1 c#1 d1 |
+	\harmony<"F#7", dy=$hdy1, dx=0, fsize=16pt>
+	c#1/2. |
+	\harmony<"Bm", dy=$hdy1, dx=0, fsize=16pt>
+	c#1/8 b0 b0 c#1 b0 c#1  |
+% tab: P
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	b0/2. |
+% tab: T
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	b0/8 a0 a0 b0 a0 b0 |
+	a0/2.
+	\repeatEnd
+]
+}

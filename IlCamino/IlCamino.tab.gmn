@@ -1,0 +1,142 @@
+(*
+  lyrics for measure 1, 2, 3:
+	_ \lyrics<"4,3',4'", dy=$Py> ({ b0/4, c1, e1}) _/4 |
+
+  lyrics for measure 16, 17:
+% tab: P C
+	\lyrics<"5,5',8'", dy=$Py> ({d1/2., g1, g2}) |
+% tab: T
+	\lyrics<"5,5',8'", dy=$Py> ({d1/2., g1, f2}) |
+
+
+  lyrics for measure 18:
+	\lyrics<"1'',4,4'", dy=$Py> ({g#0/4, b0, e1 }) |
+	\lyrics<"7'", dy=$Py> (e2/2) 
+	\lyrics<"1'',4,5", dy=$Py> ({g#0/4, b0, d1 }) |
+
+  
+  for tab line:
+  \staffFormat<"1-line", distance=12>
+*)
+
+$hdy1 = -17;
+$Ly = -14;
+$Ty = -13;
+$Py = -8;
+$My = 18;
+
+{
+[
+	\title<"Il camino">
+	\composer<"Aldo Romano", dy=2>
+	\pageFormat<w=23.1cm, h=32.7cm, lm=2.5cm, rm=2.5cm, bm=3cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \key<0> \meter<"3/4", autoMeasuresNum="system"> 
+	
+	\tempo<"[1/4] = 80", dy=2>
+
+% mesure 1
+% tab: P
+	\harmony<"Am9", dy=$hdy1, dx=00, fsize=16pt>
+	_ \lyrics<"4,3',4'", dy=$Py> ({ b0/4, c1, e1}) _/4 |
+	_ \lyrics<"4,3',4'", dy=$Py> ({ b0/4, c1, e1}) _/4 |
+	_ \lyrics<"4,3',4'", dy=$Py> ({ b0/4, c1, e1}) _/4 |
+
+	\harmony<"E9+", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4'',8,9", dy=$Py> ({ g#1/2., d2, g2} ) 
+	\repeatBegin
+
+% mesure 5
+% tab: T G
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4'", dy=$Ty> (f1/8) \lyrics<"5", dy=$Ty> (e1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"4'", dy=$Ty> (f1) |
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4'", dy=$Ty> (f1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"7", dy=$Ty> (a1) \lyrics<"8", dy=$Ty> (c2) \lyrics<"9", dy=$Ty> (e2) |
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9", dy=$Ty> (e2/2.) |
+	\lyrics<"7'", dy=$Ty> (d2/2.) |
+
+% mesure 8
+% tab: P
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4'", dy=$Ty> (f1/8) \lyrics<"4'", dy=$Py> (e1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"4'", dy=$Ty> (f1) |
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4'", dy=$Ty> (f1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"4''", dy=$Py> (g#1) \lyrics<"7", dy=$Py> (b1) \lyrics<"8", dy=$Py> (d2) |
+% tab: T C
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7'", dy=$Ty> (d2/2.) |
+	\lyrics<"8", dy=$Ty> (c2/2.) |
+
+% mesure 12
+	\harmony<"A7", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"5''", dy=$Ty> (b&1/8) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"5''", dy=$Ty> (b&1) |
+	\lyrics<"5''", dy=$Ty> (b&1/8) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"6''", dy=$Ty> (c#2) \lyrics<"9", dy=$Ty> (e2) \lyrics<"7''", dy=$Ty> (g2) |
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7''", dy=$Ty> (g2/2.) |
+	\lyrics<"8'", dy=$Ty> (f2) |
+	\harmony<"G7", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P C
+	\lyrics<"5,5',8'", dy=$Py> ({d1/2., g1, g2}) |
+% tab: T
+	\lyrics<"3',3'',8'", dy=$Ty> ( { d1, g1, f2 }) |
+
+% mesure 18
+% tab: P
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8'", dy=$Ty> (f2/2) 
+	\lyrics<"1'',4,4'", dy=$Py> ({g#0/4, b0, e1 }) |
+	\lyrics<"7'", dy=$Py> (e2/2) 
+	\lyrics<"1'',4,5", dy=$Py> ({g#0/4, b0, d1 }) |
+% tab: T C
+	\harmony<"A5", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6''", dy=$Ty> (c#2/4) \lyrics<"6'", dy=$Ty> (b1/8) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"4''", dy=$Ty> (g#1) \lyrics<"6'", dy=$Ty> (b1) |
+	\lyrics<"6'", dy=$Ty> (b1/4) \lyrics<"5'", dy=$Ty> (a1/8) \lyrics<"4''", dy=$Ty> (g#1) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"5'", dy=$Ty> (a1) |
+	\harmony<"Bm", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"5'", dy=$Ty> (a1/2.) |
+% tab: P
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4''", dy=$Py> (g#1/2.) |
+% mesure 24
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7", dy=$Py> (b1/4.) 
+% tab: T C
+	\lyrics<"5'", dy=$Ty> (a1/8) \lyrics<"4''", dy=$Ty> (g#1) \lyrics<"6", dy=$Ty> (f#1) |
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P
+	\lyrics<"5''", dy=$Py> (a1/4.) 
+% tab: T
+	\lyrics<"4''", dy=$Ty> (g#1/8) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1) |
+
+% tab: P
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4''", dy=$Py> (g#1/2.) |
+% tab: T
+	\harmony<"F#7", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6", dy=$Ty> (f#1/2.) |
+	\harmony<"Bm", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"5", dy=$Ty> (e1/8) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"5", dy=$Ty> (e1) |
+	\lyrics<"3'", dy=$Ty> (d1/2.) |
+	\harmony<"A+", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"3'", dy=$Ty> (d1/8) \lyrics<"2''", dy=$Ty> (c#1) \lyrics<"2''", dy=$Ty> (c#1) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"2''", dy=$Ty> (c#1) \lyrics<"3'", dy=$Ty> (d1) |
+	\harmony<"F#7", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"2''", dy=$Ty> (c#1/2.) |
+	\harmony<"Bm", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"2''", dy=$Ty> (c#1/8) \lyrics<"2'", dy=$Ty> (b0) \lyrics<"2'", dy=$Ty> (b0) \lyrics<"2''", dy=$Ty> (c#1) \lyrics<"2'", dy=$Ty> (b0) \lyrics<"2''", dy=$Ty> (c#1)  |
+% tab: P
+	\harmony<"E7", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4", dy=$Py> (b0/2.) |
+% tab: T
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"2'", dy=$Ty> (b0/8) \lyrics<"3", dy=$Ty> (a0) \lyrics<"3", dy=$Ty> (a0) \lyrics<"2'", dy=$Ty> (b0) \lyrics<"3", dy=$Ty> (a0) \lyrics<"2'", dy=$Ty> (b0) |
+	\lyrics<"3", dy=$Ty> (a0/2.)
+	\repeatEnd
+]
+,
+[
+\set<autoEndBar="off">
+\staffFormat<"1-line", distance=12> \clef<"none">
+\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+]
+}
