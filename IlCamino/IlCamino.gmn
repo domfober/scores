@@ -2,7 +2,7 @@
   lyrics for measure 1, 2, 3:
 	_ \lyrics<"4,3',4'", dy=$Py> ({ b0/4, c1, e1}) _/4 |
   lyrics for measure 4:
-	\lyrics<"4'',8,9", dy=$Py> ({ g#1/2., d2, g2} ) 
+	_ \lyrics<"4'',8,9", dy=$Py> ({ g#1/2, d2, g2} ) 
 
   lyrics for measure 16, 17:
 % tab: P C
@@ -15,10 +15,7 @@
 	\lyrics<"1'',4,4'", dy=$Py> ({g#0/4, b0, e1 }) |
 	\lyrics<"7'", dy=$Py> (e2/2) 
 	\lyrics<"1'',4,5", dy=$Py> ({g#0/4, b0, d1 }) |
-
   
-  for tab line:
-  \staffFormat<"1-line", distance=12>
 *)
 
 $hdy1 = -17;
@@ -26,6 +23,7 @@ $Ly = -14;
 $Ty = -13;
 $Py = -8;
 $My = 18;
+$dist = 12;
 
 {
 [
@@ -89,7 +87,9 @@ $My = 18;
 	f2/2 
 	g#0/12 b0 e1 |
 	e2/2 
-	g#0/12 b0 d1 |
+	g#0/12 b0 d1 
+	\repeatEnd
+	\repeatBegin
 % tab: T C
 	\harmony<"A5", dy=$hdy1, dx=0, fsize=16pt>
 	c#2/4 b1/8 a1 g#1 b1 |

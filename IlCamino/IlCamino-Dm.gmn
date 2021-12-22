@@ -15,9 +15,6 @@
 	\lyrics<"9'", dy=$Ty> (a2/2) 
 	\lyrics<"2'',5,3''", dy=$Ty> ({c#1/4, e1, g1 })
 
-  
-  for tab line:
-  \staffFormat<"1-line", distance=12>
 *)
 
 $hdy1 = -17;
@@ -25,6 +22,7 @@ $Ly = -14;
 $Ty = -13;
 $Py = -8;
 $My = 18;
+$dist = 12;
 
 {
 [

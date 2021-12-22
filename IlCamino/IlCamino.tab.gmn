@@ -1,12 +1,14 @@
 (*
   lyrics for measure 1, 2, 3:
 	_ \lyrics<"4,3',4'", dy=$Py> ({ b0/4, c1, e1}) _/4 |
+  lyrics for measure 4:
+	\lyrics<"4'',8,9", dy=$Py> ({ g#1/2., d2, g2} ) 
 
   lyrics for measure 16, 17:
 % tab: P C
 	\lyrics<"5,5',8'", dy=$Py> ({d1/2., g1, g2}) |
 % tab: T
-	\lyrics<"5,5',8'", dy=$Py> ({d1/2., g1, f2}) |
+	\lyrics<"3',3'',8'", dy=$Ty> ( { d1, g1, f2 }) |
 
 
   lyrics for measure 18:
@@ -38,13 +40,13 @@ $My = 18;
 
 % mesure 1
 % tab: P
-	\harmony<"Am9", dy=$hdy1, dx=00, fsize=16pt>
+	\harmony<"Am9", dy=$hdy1, dx=0, fsize=16pt>
 	_ \lyrics<"4,3',4'", dy=$Py> ({ b0/4, c1, e1}) _/4 |
 	_ \lyrics<"4,3',4'", dy=$Py> ({ b0/4, c1, e1}) _/4 |
 	_ \lyrics<"4,3',4'", dy=$Py> ({ b0/4, c1, e1}) _/4 |
 
 	\harmony<"E9+", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"4'',8,9", dy=$Py> ({ g#1/2., d2, g2} ) 
+	_ \lyrics<"4'',8,9", dy=$Py> ({ g#1/2, d2, g2} ) |
 	\repeatBegin
 
 % mesure 5
@@ -87,7 +89,9 @@ $My = 18;
 	\lyrics<"8'", dy=$Ty> (f2/2) 
 	\lyrics<"1'',4,4'", dy=$Py> ({g#0/4, b0, e1 }) |
 	\lyrics<"7'", dy=$Py> (e2/2) 
-	\lyrics<"1'',4,5", dy=$Py> ({g#0/4, b0, d1 }) |
+	\lyrics<"1'',4,5", dy=$Py> ({g#0/4, b0, d1 }) 
+	\repeatEnd
+	\repeatBegin
 % tab: T C
 	\harmony<"A5", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"6''", dy=$Ty> (c#2/4) \lyrics<"6'", dy=$Ty> (b1/8) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"4''", dy=$Ty> (g#1) \lyrics<"6'", dy=$Ty> (b1) |
@@ -138,5 +142,8 @@ $My = 18;
 \staffFormat<"1-line", distance=12> \clef<"none">
 \instr<"P", fsize=16pt, dx=-10, dy=1.5>
 \instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+empty*3 
+empty*12
+empty*12
 ]
 }
