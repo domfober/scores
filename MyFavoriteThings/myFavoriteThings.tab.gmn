@@ -1,0 +1,204 @@
+(*
+ 2 dernières harmonies:
+ 	\harmony<"F#M7&5", dy=$hdy1, dx=-2, fsize=14pt>
+	_/2. |
+	\harmony<"B7", dy=$hdy1, dx=1, fsize=14pt>
+
+*)
+
+$hdy1 = 15;
+$Ly = -14;
+$Ty = -11;
+$Py = -6;
+$My = 18;
+$dist = 10;
+
+{
+[
+	\title<"My Favorite Things", font="Helvetica">
+	\composer<"Richard Rodgers", font="Helvetica", dy=9>
+	\pageFormat<w=23.1cm, h=32.7cm, lm=2cm, rm=2cm, bm=2cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<1> \meter<"3/4", autoMeasuresNum="system"> 
+	
+
+
+%%%%%%%%%%%%%%%%% mesure 1
+% tab: P
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"4'", dy=$Py> (e1/4) \lyrics<"7", dy=$Py> (b1) \lyrics<"7", dy=$Py> (b1) |
+% tab: T
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"5", dy=$Ty> (e1) |
+% tab: P
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"4", dy=$Py> (b0/4) \lyrics<"4'", dy=$Py> (e1) \lyrics<"4'", dy=$Py> (e1) |
+% tab: T
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1/2) |
+
+%%%%%%%%%%%%%%%%% mesure 5
+% tab: P
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"4'", dy=$Py> (e1/4) \lyrics<"7", dy=$Py> (b1) \lyrics<"7", dy=$Py> (b1) |
+% tab: T
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"5", dy=$Ty> (e1) |
+% tab: P
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"4", dy=$Py> (b0/4) \lyrics<"4'", dy=$Py> (e1) \lyrics<"4'", dy=$Py> (e1) |
+% tab: T
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1/2) |
+
+%%%%%%%%%%%%%%%%% mesure 9
+% tab: T G
+	\harmony<"Am7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"5", dy=$Ty> (e1/4) \lyrics<"6'", dy=$Ty> (b1) \lyrics<"7", dy=$Ty> (a1) |
+	\harmony<"D7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"5", dy=$Ty> (e1) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1) |
+% tab: P C
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"5", dy=$Py> (d1) \lyrics<"5''", dy=$Py> (a1) \lyrics<"5'", dy=$Py> (g1) |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"3'", dy=$Py> (c1/2.) |
+%%%%%%%%%%%%%%%%% mesure 13
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"4", dy=$Py> (b0/4) \lyrics<"3'", dy=$Py> (c1) \lyrics<"5", dy=$Py> (d1) |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"5'", dy=$Py> (g1) |
+% tab: T C
+	\harmony<"F#m7&5", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"5'", dy=$Ty> (a1) \lyrics<"6'", dy=$Ty> (b1) \lyrics<"5'", dy=$Ty> (a1) |
+% tab: P
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"3''", dy=$Py> (d#1/2.)
+	\repeatEnd
+
+%%%%%%%%%%%%%%%%% mesure 17
+% tab: P
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"4'", dy=$Py> (e1/4) \lyrics<"7", dy=$Py> (b1) \lyrics<"7", dy=$Py> (b1) |
+% tab: T
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"5", dy=$Ty> (e1) |
+% tab: P
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"4", dy=$Py> (b0/4) \lyrics<"4'", dy=$Py> (e1) \lyrics<"4'", dy=$Py> (e1) |
+% tab: T
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1/2) |
+
+%%%%%%%%%%%%%%%%% mesure 21
+% tab: T
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"5", dy=$Ty> (e1/4) \lyrics<"6'", dy=$Ty> (b1) \lyrics<"6'", dy=$Ty> (b1) |
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"5", dy=$Ty> (e1) |
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"2'", dy=$Ty> (b0/4) \lyrics<"5", dy=$Ty> (e1) \lyrics<"5", dy=$Ty> (e1) |
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1/2) |
+
+%%%%%%%%%%%%%%%%% mesure 25
+% tab: T C
+	\harmony<"Am7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"5", dy=$Ty> (e1/4) \lyrics<"6'", dy=$Ty> (b1) \lyrics<"5'", dy=$Ty> (a1) |
+	\harmony<"D7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"5", dy=$Ty> (e1) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1) |
+% tab: P C
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"5", dy=$Py> (d1) \lyrics<"5''", dy=$Py> (a1) \lyrics<"5'", dy=$Py> (g1) |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"3'", dy=$Py> (c1/2.) |
+%%%%%%%%%%%%%%%%% mesure 29
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"4", dy=$Py> (b0/4) \lyrics<"3'", dy=$Py> (c1) \lyrics<"5", dy=$Py> (d1) |
+% tab: P C
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"5'", dy=$Py> (g1) |
+% tab: T C
+	\harmony<"F#m7&5", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"5'", dy=$Ty> (a1) \lyrics<"5''", dy=$Ty> (a#1) \lyrics<"6'", dy=$Ty> (b1) |
+% tab: P
+	\harmony<"B7&9", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6'", dy=$Py> (c2/2.) |
+
+%%%%%%%%%%%%%%%%% mesure 33
+% tab: P
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	_/4 \lyrics<"7", dy=$Py> (b1/4) \lyrics<"7", dy=$Py> (b1) |
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"7", dy=$Py> (b1/2) \lyrics<"4'", dy=$Py> (e1/4) |
+% tab: T G
+	\harmony<"F#m7&5", dy=$hdy1, dx=0, fsize=14pt>
+	_ \lyrics<"7", dy=$Ty> (a1) \lyrics<"7", dy=$Ty> (a1) |
+% tab: P
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"5''", dy=$Py> (a1/2) \lyrics<"3''", dy=$Py> (d#1/4) |
+
+%%%%%%%%%%%%%%%%% mesure 37
+% tab: P G
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	_ \lyrics<"6", dy=$Py> (g1) \lyrics<"6", dy=$Py> (g1) |
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6", dy=$Py> (g1/2) \lyrics<"4", dy=$Py> (b0/4) |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\tieBegin \lyrics<"4'", dy=$Py> (e1/2.) |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	e/2 \tieEnd \lyrics<"4'", dy=$Py> (e1/4) |
+
+%%%%%%%%%%%%%%%%% mesure 41
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"4'", dy=$Py> (e1/4) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"4'", dy=$Py> (e1) |
+% tab: T C
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6", dy=$Ty> (f#1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"6", dy=$Ty> (f#1) |
+	\harmony<"A7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"3''", dy=$Ty> (g1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) |
+	\harmony<"A7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"5'", dy=$Ty> (a1/2) \lyrics<"3''", dy=$Ty> (g1/4) |
+
+%%%%%%%%%%%%%%%%% mesure 45
+% tab: P
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"7", dy=$Py> (b1/4) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\tieBegin \lyrics<"6'", dy=$Py> (c2/2.) |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	c \tieEnd |
+% tab: T
+	\harmony<"D7", dy=$hdy1, dx=0, fsize=14pt>
+	\lyrics<"6'", dy=$Ty> (b1) |
+
+%%%%%%%%%%%%%%%%% mesure 49
+% tab: P C
+	\harmony<"G6", dy=$hdy1, dx=0, fsize=14pt>
+	\tieBegin \lyrics<"5'", dy=$Py> (g1/2.) |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	g |
+	\harmony<"G6", dy=$hdy1, dx=0, fsize=14pt>
+	g |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	g \tieEnd |
+
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	_/2. |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	_/2. |
+ 	\harmony<"F#M7&5", dy=$hdy1, dx=-2, fsize=14pt>
+	_/2. |
+	\harmony<"B7", dy=$hdy1, dx=1, fsize=14pt>
+	_/2. 
+	\repeatEnd
+]
+,
+[
+\set<autoEndBar="off">
+\staffFormat<"1-line", distance=$dist> \clef<"none">
+\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+]
+}

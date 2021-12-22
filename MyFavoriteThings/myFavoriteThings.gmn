@@ -1,0 +1,197 @@
+(*
+ 2 dernières harmonies:
+ 	\harmony<"F#M7&5", dy=$hdy1, dx=-2, fsize=14pt>
+	_/2. |
+	\harmony<"B7", dy=$hdy1, dx=1, fsize=14pt>
+
+*)
+
+$hdy1 = 15;
+$Ly = -14;
+$Ty = -11;
+$Py = -6;
+$My = 18;
+$dist = 10;
+
+{
+[
+	\title<"My Favorite Things", font="Helvetica">
+	\composer<"Richard Rodgers", font="Helvetica", dy=9>
+	\pageFormat<w=23.1cm, h=32.7cm, lm=2cm, rm=2cm, bm=2cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<1> \meter<"3/4", autoMeasuresNum="system"> 
+	
+
+
+%%%%%%%%%%%%%%%%% mesure 1
+% tab: P
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	e1/4 b1 b1 |
+% tab: T
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	f#1 e1 e1 |
+% tab: P
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	b0/4 e1 e1 |
+% tab: T
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	f#1 e1/2 |
+
+%%%%%%%%%%%%%%%%% mesure 5
+% tab: P
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	e1/4 b1 b1 |
+% tab: T
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	f#1 e1 e1 |
+% tab: P
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	b0/4 e1 e1 |
+% tab: T
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	f#1 e1/2 |
+
+%%%%%%%%%%%%%%%%% mesure 9
+% tab: T G
+	\harmony<"Am7", dy=$hdy1, dx=0, fsize=14pt>
+	e1/4 b1 a1 |
+	\harmony<"D7", dy=$hdy1, dx=0, fsize=14pt>
+	e1 f#1 e1 |
+% tab: P C
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	d1 a1 g1 |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	c1/2. |
+%%%%%%%%%%%%%%%%% mesure 13
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	b0/4 c1 d1 |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	e1 f#1 g1 |
+% tab: T C
+	\harmony<"F#m7&5", dy=$hdy1, dx=0, fsize=14pt>
+	a1 b1 a1 |
+% tab: P
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=14pt>
+	d#1/2.
+	\repeatEnd
+
+%%%%%%%%%%%%%%%%% mesure 17
+% tab: P
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	e1/4 b1 b1 |
+% tab: T
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	f#1 e1 e1 |
+% tab: P
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	b0/4 e1 e1 |
+% tab: T
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	f#1 e1/2 |
+
+%%%%%%%%%%%%%%%%% mesure 21
+% tab: T
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	e1/4 b1 b1 |
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	f#1 e1 e1 |
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	b0/4 e1 e1 |
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	f#1 e1/2 |
+
+%%%%%%%%%%%%%%%%% mesure 25
+% tab: T C
+	\harmony<"Am7", dy=$hdy1, dx=0, fsize=14pt>
+	e1/4 b1 a1 |
+	\harmony<"D7", dy=$hdy1, dx=0, fsize=14pt>
+	e1 f#1 e1 |
+% tab: P C
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	d1 a1 g1 |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	c1/2. |
+%%%%%%%%%%%%%%%%% mesure 29
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	b0/4 c1 d1 |
+% tab: P C
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	e1 f#1 g1 |
+% tab: T C
+	\harmony<"F#m7&5", dy=$hdy1, dx=0, fsize=14pt>
+	a1 a#1 b1 |
+% tab: P
+	\harmony<"B7&9", dy=$hdy1, dx=0, fsize=14pt>
+	c2/2. |
+
+%%%%%%%%%%%%%%%%% mesure 33
+% tab: P
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	_/4 b1/4 b1 |
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	b1/2 e1/4 |
+% tab: T G
+	\harmony<"F#m7&5", dy=$hdy1, dx=0, fsize=14pt>
+	_ a1 a1 |
+% tab: P
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=14pt>
+	a1/2 d#1/4 |
+
+%%%%%%%%%%%%%%%%% mesure 37
+% tab: P G
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	_ g1 g1 |
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	g1/2 b0/4 |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\tieBegin e1/2. |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	e/2 \tieEnd e1/4 |
+
+%%%%%%%%%%%%%%%%% mesure 41
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	e1/4 f#1 e1 |
+% tab: T C
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	f#1 e1 f#1 |
+	\harmony<"A7", dy=$hdy1, dx=0, fsize=14pt>
+	g1 a1 g1 |
+	\harmony<"A7", dy=$hdy1, dx=0, fsize=14pt>
+	a1/2 g1/4 |
+
+%%%%%%%%%%%%%%%%% mesure 45
+% tab: P
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	b1/4 c2 b1 |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	\tieBegin c2/2. |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	c \tieEnd |
+% tab: T
+	\harmony<"D7", dy=$hdy1, dx=0, fsize=14pt>
+	b1 |
+
+%%%%%%%%%%%%%%%%% mesure 49
+% tab: P C
+	\harmony<"G6", dy=$hdy1, dx=0, fsize=14pt>
+	\tieBegin g1/2. |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	g |
+	\harmony<"G6", dy=$hdy1, dx=0, fsize=14pt>
+	g |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	g \tieEnd |
+
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	_/2. |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	_/2. |
+	\harmony<"F#M7&5", dy=$hdy1, dx=0, fsize=14pt>
+	_/2. |
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=14pt>
+	_/2. 
+	\repeatEnd
+]
+}

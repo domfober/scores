@@ -1,0 +1,113 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+
+$MSize = 12;
+$MPos = 20;
+
+$Hy = -15;
+$Ly = -15;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"Au café du canal", font="Helvetica">
+	\composer<"Pierre Perret", font="Helvetica", fsize=10pt, dy=2>
+	\pageFormat<w=25cm, h=35.6cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=4cm>
+	\footer<"Typeset with Guido", dy=-2>
+	\footer<"https://guidoeditor.grame.fr", dy=-6>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\key<-1> \meter<"3/4", autoMeasuresNum="system">
+% tab: T C
+	\harmony<"F", dy=$Hy>
+	\lyrics<"5'", dy=$Ty> (a1/8) _/8 \lyrics<"4'", dy=$Ty> (f1) \lyrics<"3''", dy=$Ty> (g1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"4'", dy=$Ty> (f1) |
+	\harmony<"F", dy=$Hy>
+	\lyrics<"5'", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"3''", dy=$Ty> (g1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"4'", dy=$Ty> (f1)  |
+% tab: P C
+	\harmony<"E", dy=$Hy>
+	\lyrics<"5'", dy=$Py> (g1/2) _/4 |
+	\harmony<"E", dy=$Hy>
+	_/2. |
+
+	\harmony<"G", dy=$Hy>
+	_/8 \lyrics<"5'", dy=$Py> (g1/8) \lyrics<"5'", dy=$Py> (g1) \lyrics<"5'", dy=$Py> (g1) \lyrics<"5'", dy=$Py> (g1) \lyrics<"5'", dy=$Py> (g1) |
+% tab: T
+	\harmony<"B&", dy=$Hy>
+	\lyrics<"3''", dy=$Ty> (g1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"4'", dy=$Ty> (f1) 
+	\harmony<"B&", dy=$Hy> \lyrics<"3''", dy=$Ty> (g1) \lyrics<"5", dy=$Ty> (e1) |
+	\harmony<"A", dy=$Hy>
+	\lyrics<"4'", dy=$Ty> (f1/2.) |
+	\harmony<"G", dy=$Hy>
+	_/2. |
+	
+	\harmony<"F", dy=$Hy>
+	_/8 \lyrics<"4'", dy=$Ty> (f1/8) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"4'", dy=$Ty> (f1) |
+	\harmony<"F", dy=$Hy>
+	\lyrics<"4'", dy=$Ty> (f1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"3'", dy=$Ty> (d1) |
+	\harmony<"E", dy=$Hy>
+	\lyrics<"5", dy=$Ty> (e1/2) _/4 |
+	\harmony<"F", dy=$Hy>
+	_/2. |
+	 
+% tab: T
+	\harmony<"A", dy=$Hy>
+	\lyrics<"3", dy=$Ty> (a0/4) \lyrics<"2''", dy=$Ty> (c#1) \lyrics<"3'", dy=$Ty> (d1) |
+	\harmony<"A", dy=$Hy>
+	\lyrics<"5", dy=$Ty> (e1/8) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"2''", dy=$Ty> (c#1) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"2''", dy=$Ty> (c#1) |
+	\harmony<"D", dy=$Hy>
+	\lyrics<"3'", dy=$Ty> (d1/2.) |
+	\harmony<"D", dy=$Hy>
+	_/2. |
+	
+	\harmony<"B&", dy=$Hy>
+	\lyrics<"7'", dy=$Ty> (d2/2) \lyrics<"5''", dy=$Ty> (b&1/8) \lyrics<"8", dy=$Ty> (c2) |
+	\harmony<"B&", dy=$Hy>
+	\lyrics<"7'", dy=$Ty> (d2) \lyrics<"8", dy=$Ty> (c2) \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"8", dy=$Ty> (c2) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"5''", dy=$Ty> (b&1) |
+	\harmony<"A", dy=$Hy>
+	\tieBegin \lyrics<"8", dy=$Ty> (c2/2.) |
+	\harmony<"A", dy=$Hy>
+	\lyrics<"8", dy=$Ty> (c2/2) \tieEnd _/4 |
+	
+% tab: T C
+	\harmony<"A", dy=$Hy>
+	_/8 \lyrics<"8", dy=$Ty> (c2/8) \lyrics<"8", dy=$Ty> (c2) \lyrics<"8", dy=$Ty> (c2) \lyrics<"8", dy=$Ty> (c2) \lyrics<"8", dy=$Ty> (c2) |
+	\harmony<"A", dy=$Hy>
+	\lyrics<"8", dy=$Ty> (c2) \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"8", dy=$Ty> (c2) \lyrics<"5'", dy=$Ty> (a1) |
+% tab: T C 
+	\harmony<"G", dy=$Hy>
+	\lyrics<"5''", dy=$Ty> (b&1/2.) |
+	\harmony<"G", dy=$Hy>
+	_/2. |
+	
+	\harmony<"G", dy=$Hy>
+	_/8 \lyrics<"5''", dy=$Ty> (b&1/8) \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"5''", dy=$Ty> (b&1) |
+	\harmony<"G", dy=$Hy>
+	\lyrics<"5''", dy=$Ty> (b&1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"3''", dy=$Ty> (g1) |
+	\harmony<"F", dy=$Hy>
+	\lyrics<"5'", dy=$Ty> (a1/2.) |
+	\harmony<"F", dy=$Hy>
+	_/2. |
+	
+	\harmony<"F", dy=$Hy>
+	_/8 \lyrics<"4'", dy=$Ty> (f1/8) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"4'", dy=$Ty> (f1) |
+	\harmony<"F", dy=$Hy>
+	\lyrics<"4'", dy=$Ty> (f1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) \lyrics<"4'", dy=$Ty> (f1) |
+	\harmony<"E", dy=$Hy>
+	\lyrics<"5", dy=$Ty> (e1/2.) |
+	\harmony<"C", dy=$Hy>
+	_/2.
+	\repeatEnd
+]
+,
+[
+\set<autoEndBar="off">
+\staffFormat<"1-line", distance=10> \clef<"none">
+\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+]
+
+}
