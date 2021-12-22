@@ -265,7 +265,7 @@ END {
 	print ",";
 	print "[";
 	print "\\set<autoEndBar=\"off\">";
-	print "\\staffFormat<\"1-line\", distance=10> \\clef<\"none\">"; 
+	print "\\staffFormat<\"1-line\", distance=$dist> \\clef<\"none\">"; 
 	print "\\instr<\"P\", fsize=16pt, dx=-10, dy=1.5>";
 	print "\\instr<\"T\", fsize=16pt, dx=-14.5, dy=-5>";
 	print "]";
