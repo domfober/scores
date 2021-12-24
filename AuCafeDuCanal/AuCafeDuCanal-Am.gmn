@@ -29,16 +29,15 @@ $dist = 10;
 	e2/8 _/8 c2 d2 e2 c2 |
 	\harmony<"C", dy=$Hy>
 	e2 d2 c2 d2 e2 c2   |
-% tab: T
-	\harmony<"D", dy=$Hy>
+	\harmony<"G", dy=$Hy>
 	d2/2 _/4 |
-	\harmony<"D", dy=$Hy>
+	\harmony<"G", dy=$Hy>
 	_/2. |
 	
 %% mesure 5
-	\harmony<"D", dy=$Hy>
-	_/8 d2/8 d2 d2 d2 d2 |
 % tab: P
+	\harmony<"F", dy=$Hy>
+	_/8 d2/8 d2 d2 d2 d2 |
 	\harmony<"F", dy=$Hy>
 	d2 c2 b1 c2  
 	\harmony<"G", dy=$Hy> d2 b1 |
@@ -57,15 +56,15 @@ $dist = 10;
 % tab: T
 	\harmony<"B", dy=$Hy>
 	b1/2 _/4 |
-	\harmony<"D", dy=$Hy>
+	\harmony<"B", dy=$Hy>
 	_/2. |
 	 
 %% mesure 13
 % tab: P C
 	\harmony<"E", dy=$Hy>
-	e1/4 g1 a1 |
+	e1/4 g#1 a1 |
 	\harmony<"E", dy=$Hy>
-	b1/8 a1 g1 a1 b1 g1 |
+	b1/8 a1 g#1 a1 b1 g#1 |
 % tab: T C
 	\harmony<"A", dy=$Hy>
 	a1/2. |
@@ -106,9 +105,9 @@ $dist = 10;
 	_/8 c1/8 c1 c1 c1 c1 |
 	\harmony<"C", dy=$Hy>
 	c1 b0 c1 e1 d1 c1 |
-	\harmony<"F", dy=$Hy>
+	\harmony<"G", dy=$Hy>
 	b0/2. |
-	\harmony<"E", dy=$Hy>
+	\harmony<"G", dy=$Hy>
 	_/2.
 	
 ]

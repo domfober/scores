@@ -10,6 +10,7 @@ $Hy = -15;
 $Ly = -15;
 $Ty = -11;
 $Py = -6;
+$dist = 10;
 
 {
 [
@@ -28,16 +29,15 @@ $Py = -6;
 	\lyrics<"7'", dy=$Py> (e2/8) _/8 \lyrics<"6'", dy=$Py> (c2) \lyrics<"8", dy=$Py> (d2) \lyrics<"7'", dy=$Py> (e2) \lyrics<"6'", dy=$Py> (c2) |
 	\harmony<"C", dy=$Hy>
 	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"8", dy=$Py> (d2) \lyrics<"7'", dy=$Py> (e2) \lyrics<"6'", dy=$Py> (c2)   |
-% tab: T
-	\harmony<"D", dy=$Hy>
-	\lyrics<"7'", dy=$Ty> (d2/2) _/4 |
-	\harmony<"D", dy=$Hy>
+	\harmony<"G", dy=$Hy>
+	\lyrics<"8", dy=$Py> (d2/2) _/4 |
+	\harmony<"G", dy=$Hy>
 	_/2. |
 	
 %% mesure 5
-	\harmony<"D", dy=$Hy>
-	_/8 \lyrics<"7'", dy=$Ty> (d2/8) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"7'", dy=$Ty> (d2) \lyrics<"7'", dy=$Ty> (d2) |
 % tab: P
+	\harmony<"F", dy=$Hy>
+	_/8 \lyrics<"8", dy=$Py> (d2/8) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) |
 	\harmony<"F", dy=$Hy>
 	\lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2) \lyrics<"7", dy=$Py> (b1) \lyrics<"6'", dy=$Py> (c2)  
 	\harmony<"G", dy=$Hy> \lyrics<"8", dy=$Py> (d2) \lyrics<"7", dy=$Py> (b1) |
@@ -56,15 +56,15 @@ $Py = -6;
 % tab: T
 	\harmony<"B", dy=$Hy>
 	\lyrics<"6'", dy=$Ty> (b1/2) _/4 |
-	\harmony<"D", dy=$Hy>
+	\harmony<"B", dy=$Hy>
 	_/2. |
 	 
 %% mesure 13
 % tab: P C
 	\harmony<"E", dy=$Hy>
-	\lyrics<"4'", dy=$Py> (e1/4) \lyrics<"5'", dy=$Py> (g1) \lyrics<"5''", dy=$Py> (a1) |
+	\lyrics<"4'", dy=$Py> (e1/4) \lyrics<"4''", dy=$Py> (g#1) \lyrics<"5''", dy=$Py> (a1) |
 	\harmony<"E", dy=$Hy>
-	\lyrics<"7", dy=$Py> (b1/8) \lyrics<"5''", dy=$Py> (a1) \lyrics<"5'", dy=$Py> (g1) \lyrics<"5''", dy=$Py> (a1) \lyrics<"7", dy=$Py> (b1) \lyrics<"5'", dy=$Py> (g1) |
+	\lyrics<"7", dy=$Py> (b1/8) \lyrics<"5''", dy=$Py> (a1) \lyrics<"4''", dy=$Py> (g#1) \lyrics<"5''", dy=$Py> (a1) \lyrics<"7", dy=$Py> (b1) \lyrics<"4''", dy=$Py> (g#1) |
 % tab: T C
 	\harmony<"A", dy=$Hy>
 	\lyrics<"5'", dy=$Ty> (a1/2.) |
@@ -105,16 +105,16 @@ $Py = -6;
 	_/8 \lyrics<"3'", dy=$Py> (c1/8) \lyrics<"3'", dy=$Py> (c1) \lyrics<"3'", dy=$Py> (c1) \lyrics<"3'", dy=$Py> (c1) \lyrics<"3'", dy=$Py> (c1) |
 	\harmony<"C", dy=$Hy>
 	\lyrics<"3'", dy=$Py> (c1) \lyrics<"4", dy=$Py> (b0) \lyrics<"3'", dy=$Py> (c1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"5", dy=$Py> (d1) \lyrics<"3'", dy=$Py> (c1) |
-	\harmony<"F", dy=$Hy>
+	\harmony<"G", dy=$Hy>
 	\lyrics<"4", dy=$Py> (b0/2.) |
-	\harmony<"E", dy=$Hy>
+	\harmony<"G", dy=$Hy>
 	_/2.
 	
 ]
 ,
 [
 \set<autoEndBar="off">
-\staffFormat<"1-line", distance=10> \clef<"none">
+\staffFormat<"1-line", distance=$dist> \clef<"none">
 \instr<"P", fsize=16pt, dx=-10, dy=1.5>
 \instr<"T", fsize=16pt, dx=-14.5, dy=-5>
 ]
