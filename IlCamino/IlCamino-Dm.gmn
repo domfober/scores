@@ -1,8 +1,8 @@
 (*
   lyrics for measure 1, 2, 3:
-	_ \lyrics<"5,4',7", dy=$Py> ({ e1/4, f1, a1}) _/4 |
+	_ \lyrics<"5,4',7", dy=$Ty> ({ e1/4, f1, a1}) _/4 |
   lyrics for measure 4:
-	_ \lyrics<"6'',7'',12", dy=$Py> ({ c#2/2, g2, c3} ) 
+	_ \lyrics<"6'',7'',12", dy=$Ty> ({ c#2/2, g2, c3} ) 
 
   lyrics for measure 16, 17:
 	\lyrics<"5',6',9'", dy=$Py> ({g1/2., c2, c3}) |
@@ -80,16 +80,16 @@ $dist = 12;
 	c3/2. |
 	b&2 |
 	\harmony<"C7", dy=$hdy1, dx=0, fsize=16pt>
-	g1/16 c2 \tie(c3/8 c/2)|
+	g2/16 c2 \tie(c3/8 c/2)|
 % tab: T
-	g1/16 c2 \tie(b&2/8 b&/2) |
+	g2/16 c2 \tie(b&2/8 b&/2) |
 % mesure 18
 % tab: T C
 	\harmony<"A7", dy=$hdy1, dx=0, fsize=16pt>
 	b&2/2 
-	c#1/12 e1 a1 |
+	c#2/12 e1 a1 |
 	a2/2 
-	c#1/12 e1 g1 
+	c#2/12 e1 g1 
 	\repeatEnd
 \space<1>
 	\repeatBegin
@@ -116,6 +116,7 @@ $dist = 12;
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
 	c#2/2. |
 
+% mesure 27
 % tab: T
 	\harmony<"B7", dy=$hdy1, dx=0, fsize=16pt>
 	b1/2. |
@@ -123,16 +124,16 @@ $dist = 12;
 	\harmony<"Em", dy=$hdy1, dx=0, fsize=16pt>
 	a1/8 g1 g1 a1 g1 a1 |
 	g1/2. |
+% mesure 30
 % tab: T
 	\harmony<"D+", dy=$hdy1, dx=0, fsize=16pt>
 	g1/8 f#1 f#1 g1 f#1 g1 |
 	\harmony<"B7", dy=$hdy1, dx=0, fsize=16pt>
 	f#1/2. |
-% tab: P
-	\harmony<"Em", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
 	f#1/8 e1 e1 f#1 e1 f#1  |
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % tab: T
 	\harmony<"A7", dy=$hdy1, dx=0, fsize=16pt>
 	e1/2. |
