@@ -1,0 +1,192 @@
+(*
+  set system distance to 150
+*)
+
+$hdy1 = -15;
+$Ty = -11;
+$Py = -6;
+$My = 18;
+$dist = 10;
+
+{
+[
+	\title<"Gan Ainm (2)">
+	\title<"Reel", dy=-8, fsize=16pt>
+	\pageFormat<w=21cm, h=29.7cm, lm=2cm, rm=2cm, bm=3cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \key<1> \meter<"C", autoMeasuresNum="system"> 
+	
+%%%%%%%%%%%%% mesure 1
+% tab: P G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	d1/8 g1 b1 g1 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1
+% tab: P G
+	g1 e1 g1 |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	d1/8 g1 b1 g1 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1
+% tab: P G
+	g1
+% tab: T G
+	e1/12 f#1 
+% tab: P G
+	g1 |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	d1/8 g1 b1 g1 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1
+% tab: P G
+	g1
+% tab: T G
+	a1 b1 |
+
+%%%%%%%%%%%%% mesure 4
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	c2 a1 
+% tab: P G
+	b1 g1 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1
+% tab: P G
+	g1 e1 g1 |
+
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	c2 a1 
+% tab: P G
+	b1 g1 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1
+% tab: P G
+	g1 e1 g1 |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	d1/8 g1 b1 g1 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1
+% tab: P G
+	g1
+% tab: T G
+	e1/12 f#1 
+% tab: P G
+	g1 |
+
+%%%%%%%%%%%%% mesure 7
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	g1/8 d2 d2 d2 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	e2 d2 d2 b1 |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	g1
+% tab: T G
+	a1 
+% tab: P G
+	b1 g1
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1/12 b1 a1
+% tab: P G
+	g1/8 
+% tab: T G
+	a1
+\repeatEnd
+
+%%%%%%%%%%%%% mesure 9
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	b1/4 g1/8 b1
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1 
+% tab: P G
+	b1 g1
+% tab: T G
+	a1 |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	b1/4 g1/8 b1
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1 
+% tab: P G
+	b1 e1 g1 |
+
+%%%%%%%%%%%%% mesure 11
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	b1/4 g1/8 b1
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1
+% tab: P G
+	g1
+% tab: T G
+	a1 b1 |
+
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	c2 a1 
+% tab: P G
+	b1 g1 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1
+% tab: P G
+	g1 e1 g1 |
+
+%%%%%%%%%%%%% mesure 13
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	b1/4 g1/8 b1
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1 
+% tab: P G
+	b1 g1
+% tab: T G
+	a1 |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	b1/4 g1/8 b1
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1 
+% tab: P G
+	b1 e1 g1 |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	g1/8 d2 d2 d2 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	e2 d2 d2 b1 |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	g1/8 
+% tab: T G
+	a1 
+% tab: P G
+	b1 g1 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	a1 
+% tab: P G
+	g1 e1/4 
+\repeatEnd
+
+]
+}

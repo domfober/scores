@@ -1,0 +1,199 @@
+(*
+  set system distance to 150
+*)
+
+$hdy1 = -15;
+$Ty = -11;
+$Py = -6;
+$My = 18;
+$dist = 10;
+
+{
+[
+	\title<"Gan Ainm (2)">
+	\title<"Reel", dy=-8, fsize=16pt>
+	\pageFormat<w=21cm, h=29.7cm, lm=2cm, rm=2cm, bm=3cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \key<1> \meter<"C", autoMeasuresNum="system"> 
+	
+%%%%%%%%%%%%% mesure 1
+% tab: P G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"5", dy=$Py> (d1/8) \lyrics<"6", dy=$Py> (g1) \lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1) 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1)
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Py> (g1) |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"5", dy=$Py> (d1/8) \lyrics<"6", dy=$Py> (g1) \lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1) 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1)
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1)
+% tab: T G
+	\lyrics<"5", dy=$Ty> (e1/12) \lyrics<"6", dy=$Ty> (f#1) 
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1) |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"5", dy=$Py> (d1/8) \lyrics<"6", dy=$Py> (g1) \lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1) 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1)
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1)
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1) \lyrics<"6'", dy=$Ty> (b1) |
+
+%%%%%%%%%%%%% mesure 4
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8", dy=$Ty> (c2) \lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1) 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1)
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Py> (g1) |
+
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6'", dy=$Py> (c2) \lyrics<"5''", dy=$Py> (a1) 
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1) 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1)
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Py> (g1) |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"5", dy=$Py> (d1/8) \lyrics<"6", dy=$Py> (g1) \lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1) 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1)
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1)
+% tab: T G
+	\lyrics<"5", dy=$Ty> (e1/12) \lyrics<"6", dy=$Ty> (f#1) 
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1) |
+
+%%%%%%%%%%%%% mesure 7
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1/8) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) \lyrics<"7", dy=$Py> (b1) |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6", dy=$Py> (g1)
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1)
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1/12) \lyrics<"6'", dy=$Ty> (b1) \lyrics<"7", dy=$Ty> (a1)
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1/8) 
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1)
+\repeatEnd
+
+%%%%%%%%%%%%% mesure 9
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1/4) \lyrics<"6", dy=$Py> (g1/8) \lyrics<"7", dy=$Py> (b1)
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1)
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1) |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1/4) \lyrics<"6", dy=$Py> (g1/8) \lyrics<"7", dy=$Py> (b1)
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Py> (g1) |
+
+%%%%%%%%%%%%% mesure 11
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1/4) \lyrics<"6", dy=$Py> (g1/8) \lyrics<"7", dy=$Py> (b1)
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1)
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1)
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1) \lyrics<"6'", dy=$Ty> (b1) |
+
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8", dy=$Ty> (c2) \lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1) 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1)
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Py> (g1) |
+
+%%%%%%%%%%%%% mesure 13
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1/4) \lyrics<"6", dy=$Py> (g1/8) \lyrics<"7", dy=$Py> (b1)
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1)
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1) |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1/4) \lyrics<"6", dy=$Py> (g1/8) \lyrics<"7", dy=$Py> (b1)
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Py> (g1) |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1/8) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) \lyrics<"7", dy=$Py> (b1) |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1/8) 
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1) 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
+	\lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1) \lyrics<"4'", dy=$Py> (e1/4) 
+\repeatEnd
+
+]
+,
+[
+\set<autoEndBar="off">
+\staffFormat<"1-line", distance=$dist> \clef<"none">
+\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+]
+}
