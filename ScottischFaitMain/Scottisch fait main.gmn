@@ -7,7 +7,7 @@ $Py = -6;
 
 {
 [
-	\title<"Scottish fait main">
+	\title<"Scottisch fait main">
 	\title<"Les Zéoles", fsize=14pt,  dy=-8>
 	\pageFormat<w=23cm, h=32.6cm, lm=2cm, rm=1.5cm, bm=4cm, tm=6cm>
 	\footer<"Typeset with Guido", dy=-6>

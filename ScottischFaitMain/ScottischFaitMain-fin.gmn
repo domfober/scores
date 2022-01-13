@@ -1,0 +1,126 @@
+
+$hdy1 = -16;
+$Ty = -12;
+$Py = -7;
+$My = 18;
+$dist = 11;
+
+{
+[
+	\title<"Scottisch fait main - fin">
+	\title<"Les Zéoles", fsize=14pt,  dy=-8>
+	\pageFormat<w=23cm, h=32.6cm, lm=2cm, rm=2cm, bm=4cm, tm=6cm>
+	\footer<"Typeset with Guido", dy=-6>
+	\footer<"https://guidoeditor.grame.fr", dy=-10>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"4/4", autoMeasuresNum="system"> 
+
+%%%%%%%%%%%% mesure 1
+% tab: T C
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	a1/16 f1 f1 d1 
+	d1 f1 a1 b1
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
+	c2 b1 a1 e1
+	e1/8 a1/16 b1 |
+	
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	c2 b1 a1 f1
+	f1/8 a1/16 b1
+% tab: P
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	\stemsUp
+	c2 b1 g#1 e1
+	\stemsAuto
+	e2 d2 c2 b1 |
+
+% tab: T C
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	a1/16 f1 f1 d1 
+	d1 f1 a1 b1
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
+	c2 b1 a1 e1
+	e1/8 a1/16 b1 |
+
+%%%%%%%%%%%% mesure 4
+	\voltaBegin<"1.", "|-|">
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	c2 b1 a1 f1 
+	f1 e1 d1 f1
+% tab: P
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	e1 b0 g#0 b0 
+	e1 e1 
+% tab: T
+	f#1 g#1
+	\voltaEnd
+	\repeatEnd
+
+	\voltaBegin<"2.", "|-">
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T C
+	c2 b1 a1 f1
+	f1 e1 d1 f1
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P
+	e1 b0 g#0 b0 
+	e1 d1 c1 b0
+	\voltaEnd
+	\repeatBegin
+
+%%%%%%%%%%%% mesure 6
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T
+	c1 a0 a0 a0
+	g#0 a0 b0 c1
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	d1 b0 b0 g0
+	g0 b0 c1 d1 |
+
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P C
+	e1 c1 c1 g0
+	g0 c1 d1 e1
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T
+	f1 e1 d1 f1
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P
+	e1 d1 c1 b0 |
+	
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T
+	c1 a0 a0 a0
+	g#0 a0 b0 c1
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	d1 b0 b0 g0
+	g0 b0 c1 d1 |
+
+	\voltaBegin<"1.", "|-|">
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P C
+	e1 c1 c1 g0
+	g0 c1 d1 e1
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T
+	f1 e1 d1 c1
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P C
+	b0 a0 g#0 b0
+	\voltaEnd
+	\repeatEnd
+
+	\voltaBegin<"2.", "|-|">
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	e1 c1 c1 g0
+	g0 c1 d1 e1
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f1 e1 d1 e1 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	f1 g1 a1 b1
+	\voltaEnd
+	
+]
+}

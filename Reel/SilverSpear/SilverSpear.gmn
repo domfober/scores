@@ -1,0 +1,189 @@
+(*
+  
+*)
+
+$hdy1 = -14.5;
+$Ty = -11;
+$Py = -6;
+$My = 18;
+$dist = 10;
+
+{
+[
+	\title<"The Silver Spear">
+	\title<"Reel", dy=-8, fsize=16pt>
+	\composer<"Irish traditional", dy=6, fsize=12pt>
+	\pageFormat<w=25.1cm, h=35.4cm, lm=2cm, rm=2cm, bm=5cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \key<2> \meter<"C", autoMeasuresNum="system"> 
+	
+% tab: T G
+	a1/8 
+	\repeatBegin
+%%%%%%%%%%%%% mesure 1
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(f#1 a1) \beamBegin \tuplet<"3">(a1/12 a1 a1) \beamEnd
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b1/8 a1 f#1 a1) |
+	
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\bm(d2 
+% tab: T G
+	f#2 
+% tab: P G
+	e2 d2)
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b1 d2 d2 
+% tab: T G
+	a1) |
+	
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f#1 a1 \tuplet<"3">(a1/12 a1 a1)
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b1/8 a1 f#1 a1) |
+
+%%%%%%%%%%%%% mesure 4
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\bm(d2 
+% tab: T G
+	f#2 
+% tab: P G
+	e2 d2)
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\tuplet<"3", position="above">(b1/12 d2 b1) 
+% tab: T G
+	a1/8 
+% tab: P G
+	g1 |
+
+% tab: T G
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f#1 a1 \tuplet<"3">(a1/12 a1 a1)
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b1/8 a1 f#1 a1) |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\bm(d2 
+% tab: T G
+	f#2 
+% tab: P G
+	e2 d2 )
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b1 d2 e2 
+% tab: T G
+	f#2) |
+	
+%%%%%%%%%%%%% mesure 7
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
+	\bm(g2 
+% tab: T G
+	a2 
+% tab: P G
+	g2 e2)
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(f#2 g2 
+% tab: T G
+	f#2 e2) |
+	
+	\voltaBegin<"1.", "|-|">
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(d2 f#2 
+% tab: P G
+	e2 d2 )
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\tuplet<"3", position="above">(b1/12 d2 b1) 
+% tab: T G
+	a1/8 
+% tab: P G
+	g1 
+	\voltaEnd
+	\repeatEnd
+		
+	\voltaBegin<"2.", "|-">
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(d2 f#2 
+% tab: P G
+	e2 d2 )
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b1 d2 
+% tab: T G
+	a1 d2	)
+	\voltaEnd
+	\doubleBar
+	
+%%%%%%%%%%%%% mesure 10
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f#2 a2 \tuplet<"3">(a2/12 a2 a2)
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b2/8 f#2 a2 f#2) |
+	
+% tab: P G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(g2 f#2 e2 d2)
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b1 d2 d2 e2) |
+
+\newLine	
+	
+% tab: T G
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f#2 a2 \tuplet<"3">(a2/12 a2 a2)
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b2/8 f#2 a2 f#2) |
+	
+% tab: P G
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(g2 f#2 e2 d2)
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	\tuplet<"3", position="above">(b1/12 d2 b1) 
+% tab: T G
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	a1/4 |
+		
+%%%%%%%%%%%%% mesure 14
+% tab: T G
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	f#2/8 a2 \tuplet<"3">(a2/12 a2 a2)
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b2/8 f#2 a2 f#2) |
+
+% tab: P G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(g2 f#2 e2 d2)
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b1 d2 e2 f#2) |
+	
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	g2/4. e2/8
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	f#2/4. e2/8 |
+	
+	\voltaBegin<"1.", "|-|">
+% tab: T G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(d2 f#2 e2 d2 )
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(b1 d2 a1 d2	)
+	\voltaEnd
+	\repeatEnd
+		
+	\voltaBegin<"2.", "|-">
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(d2 f#2 
+% tab: P G
+	e2 d2 )
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	b1/4 
+% tab: T G
+	a1/8 
+% tab: P G
+	g1
+	\voltaEnd
+	\doubleBar
+]
+}
