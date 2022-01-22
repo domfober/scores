@@ -1,0 +1,86 @@
+
+	\title<"Vive la Bretagne", font="Helvetica">
+	\pageFormat<w=21cm, h=29.7cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"4/4", autoMeasuresNum="system"> 
+
+%%%%%%%%%%%% Refrain
+H G g
+T6'/8 T6'
+H G g
+T6' T7
+H G g
+T6' T8
+H G g 
+T7'/4 |
+
+H D d 
+T7'/8 T8
+H D d 
+T6' T7 
+
+H G g 
+P7/4 
+H G g 
+P6 |
+
+%%%%%%%%%%%%%% mesure 4
+H G g
+T6'/8 T6'
+H G g
+T6' T7
+H G g
+T6' T8
+H G g 
+T7'/4 |
+
+H D d 
+T7'/8 T8
+H D d 
+T6' T7 
+
+H G g 
+P6/2 
+H G g 
+\doubleBar
+
+%%%%%%%%%%%% Couplet
+H G g
+P7/8 P7
+H G g
+P7 P6
+H G g
+P7 P6'
+H G g
+P8/4 |
+
+H G g
+P7/8 P7
+H G g
+P7 P6
+H G g
+P7 P6'
+H G g
+P8/4 |
+
+H D d 
+T7'/8 T9 
+H D d 
+T7' T8
+H D d 
+T6' T7
+H D d 
+T7'/4 |
+
+H D d 
+T7'/8 T9
+H D d 
+T7' T8
+H D d 
+T6' T7
+H D d 
+P6/4
+
+\repeatEnd
