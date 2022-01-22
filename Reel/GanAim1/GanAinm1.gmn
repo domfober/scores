@@ -12,7 +12,7 @@ $dist = 10;
 [
 	\title<"Gan Ainm">
 	\title<"Reel", dy=-8, fsize=16pt>
-	\pageFormat<w=23.1cm, h=32.7cm, lm=2cm, rm=2cm, bm=3cm, tm=4cm>
+	\pageFormat<w=25.2cm, h=35.64cm, lm=2cm, rm=2cm, bm=3cm, tm=4cm>
 	\accolade<id=1, type="none">
 	\barFormat<"system">
 	\clef<"g"> \key<1> \meter<"C", autoMeasuresNum="system"> 
@@ -126,41 +126,38 @@ $dist = 10;
 	e2
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
 	f#2
-% tab: P G
+% tab: T C
 	d2 d2/12 d2 d2 |
 			
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
 % tab: T G
-	f#2/8
+	f#2/8 d2
 % tab: P G
-	d2 g2
+	g2
 % tab: T G
 	e2
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
 	f#2
-% tab: P G
 	d2
-% tab: T G
 	e2 f#2 |
 
 	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
 % tab: P G
 	g2/4.
-% tab: T G
 	e2/8
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
 	f#2
-% tab: P G
 	d2 d2/12 d2 d2 |
 
 %%%%%%%%%%%%% mesure 13
-	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
 	d2/8 
 % tab: T G
 	e2 f#2
-% tab: P G
 	d2 
 	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
 	g2 d2
 % tab: T G
 	e2 f#2 |
@@ -175,7 +172,6 @@ $dist = 10;
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
 % tab: T G
 	f#2 e2
-% tab: P G
 	d2 c2 |
 	
 % tab: P G

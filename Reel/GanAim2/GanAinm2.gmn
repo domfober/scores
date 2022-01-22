@@ -61,6 +61,7 @@ $dist = 10;
 	g1 e1 g1 |
 
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
 	c2 a1 
 % tab: P G
 	b1 g1 
@@ -87,9 +88,11 @@ $dist = 10;
 % tab: P G
 	g1/8 d2 d2 d2 
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T C
 	e2 d2 d2 b1 |
 
 	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P G
 	g1
 % tab: T G
 	a1 
@@ -172,6 +175,7 @@ $dist = 10;
 % tab: P G
 	g1/8 d2 d2 d2 
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+% tab: T G
 	e2 d2 d2 b1 |
 
 	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
