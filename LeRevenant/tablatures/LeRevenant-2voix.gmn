@@ -1,0 +1,112 @@
+(*
+  gmn file converted from tab file
+*)
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+$Ly = -12;
+$dist = 10;
+
+{
+[
+
+
+	
+%%% set system distance to 340
+	
+	\title<"Le Revenant", font="Helvetica">
+	\pageFormat<w=24cm, h=34cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \meter<"3/4", autoMeasuresNum="system"> 
+
+%%% voix 1
+	\harmony<"A   a   a", dy=$hdy1, dx=3, fsize=16pt>
+\text<"Voix 1", dx=-20, dy=17, fsize=16pt> (
+	\lyrics<"8 8 ) |", dy=$Ty, fattrib="b">( c2/2 c2/4 ) | )
+	\harmony<"F     f     f", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6' |", dy=$Ty, fattrib="b">( d2 c2 b1 | )
+	\harmony<"A   a   a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8 8 |", dy=$Ty, fattrib="b">( c2/2 c2/4 | )
+	\harmony<"D    d    d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6' |", dy=$Ty, fattrib="b">( d2 c2 b1 | )
+
+	\harmony<"A   a   a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8 8 |", dy=$Ty, fattrib="b">( c2/2 c2/4 | )
+	\harmony<"G   g   g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 6' 8 |", dy=$Py, fattrib="b">( b1 c2 d2 | )
+	\harmony<"C    c    c", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6' |", dy=$Py, fattrib="b">( c2/2. | )
+	\harmony<"E    e    e", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 |", dy=$Py, fattrib="b">( b1 | )
+
+	\harmony<"A   a    a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8 8 |", dy=$Ty, fattrib="b">( c2/2 c2/4 | )
+	\harmony<"F      f      f", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6' |", dy=$Ty, fattrib="b">( d2 c2 b1 | )
+	\harmony<"A   a    a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8 8 |", dy=$Ty, fattrib="b">( c2/2 c2/4 | )
+	\harmony<"D     d     d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6' |", dy=$Ty, fattrib="b">( d2 c2 b1 | )
+
+	\harmony<"A       a        a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8 8 |", dy=$Ty, fattrib="b">( c2/2 c2/4 | )
+	\harmony<"G         g          g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 6' 8 |", dy=$Py, fattrib="b">( b1 c2 d2 | )
+	\harmony<"A         a         a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 |", dy=$Ty, fattrib="b">( a1/2. | )
+	\harmony<"A      a       a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 ", dy=$Ty, fattrib="b">( a1  )
+\endBar
+\newLine
+
+%%% voix 2
+	\harmony<"A    a    a", dy=$hdy1, dx=3, fsize=16pt>
+\text<"Voix 2", dx=-17, dy=19, fsize=16pt> (
+	\lyrics<"9' ) \bar<measNum=2>", dy=$Ty, fattrib="b">( a2/2. ) \bar<measNum=2> )
+	\harmony<"F    f    f", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' |", dy=$Ty, fattrib="b">( f2 | )
+	\harmony<"A    a    a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9 |", dy=$Ty, fattrib="b">( e2 | )
+	\harmony<"D     d     d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6' |", dy=$Ty, fattrib="b">( d2/4 c2 b1 | )
+
+	\harmony<"A    a    a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 |", dy=$Ty, fattrib="b">( a1/2. | )
+	\harmony<"G    g     g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 6' 8 |", dy=$Py, fattrib="b">( b1/4 c2 d2 | )
+	\harmony<"C     c      c", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6' |", dy=$Py, fattrib="b">( e2 d2 c2 | )
+	\harmony<"E    e    e", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 |", dy=$Py, fattrib="b">( b1/2. | )
+
+	\harmony<"A    a    a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9' |", dy=$Ty, fattrib="b">( a2/2. | )
+	\harmony<"F    f    f", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' |", dy=$Ty, fattrib="b">( f2 | )
+	\harmony<"A    a    a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9 |", dy=$Ty, fattrib="b">( e2 | )
+	\harmony<"D     d     d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6' |", dy=$Ty, fattrib="b">( d2/4 c2 b1 | )
+
+	\harmony<"A       a       a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 |", dy=$Ty, fattrib="b">( a1/2. | )
+	\harmony<"G         g          g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 6' 8 |", dy=$Py, fattrib="b">( b1/4 c2 d2 | )
+	\harmony<"A        a        a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 |", dy=$Ty, fattrib="b">( a1/2. | )
+	\harmony<"A        a        a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7", dy=$Ty, fattrib="b">( a1 )
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=$dist> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+
+]
+}

@@ -1,0 +1,73 @@
+(*
+  gmn file converted from tab file
+*)
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+$Ly = -12;
+$dist = 10;
+
+{
+[
+	\title<"Le Revenant", font="Helvetica">
+	\pageFormat<w=24cm, h=34cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \meter<"3/4", autoMeasuresNum="system"> 
+
+
+	\harmony<"A        a         a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9,8", dy=$Ty, fattrib="b">( {e2/2, c2} )
+	\lyrics<"9,8", dy=$Ty, fattrib="b">( {e2/4, c2} ) |
+	\harmony<"F              f                f", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8',7'", dy=$Ty, fattrib="b">( { f2, d2} )
+	\lyrics<"9,8", dy=$Ty, fattrib="b">  ( { e2, c2} )
+	\lyrics<"7',6'", dy=$Ty, fattrib="b">( { d2, b1} ) |
+	\harmony<"A       a         a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8,7", dy=$Ty, fattrib="b">( { c2/2, a1 } )
+	\lyrics<"8,7", dy=$Ty, fattrib="b">( { c2/4, a1 } ) |
+	\harmony<"D             d              d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7',4'", dy=$Ty, fattrib="b">( { d2, f1 } )
+	\lyrics<"8,5",   dy=$Ty, fattrib="b">( { c2, e1 } )
+	\lyrics<"6',3'", dy=$Ty, fattrib="b">( { b1, d1 } ) |
+	\harmony<"A       a        a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7,4", dy=$Ty, fattrib="b">( { a1/2, c1 } )
+	\lyrics<"7,4", dy=$Ty, fattrib="b">( { a1/4, c1 } ) |
+
+	\harmony<"G             g             g", dy=$hdy1, dx=0, fsize=16pt>
+\voltaBegin<"1.", "|-|">
+	\lyrics<"7,5",   dy=$Py, fattrib="b">( { b1, d1 } )
+	\lyrics<"6',4'", dy=$Py, fattrib="b">( { c2, e1 } )
+	\lyrics<"8,7",   dy=$Py, fattrib="b">( { d2, b1 } ) |
+	\harmony<"C     c     c", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7',6'", dy=$Py, fattrib="b">( { c2/2., e2 } ) |
+	\harmony<"E     e     e", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8,7", dy=$Py, fattrib="b">( { d2, b1 } ) 
+\voltaEnd
+\repeatEnd
+
+\voltaBegin<"2.", "|-|">
+	\harmony<"G           g            g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7,5",   dy=$Py, fattrib="b">( { b1/4, d1 } )
+	\lyrics<"6',4'", dy=$Py, fattrib="b">( { c2, e1 } )
+	\lyrics<"7,5",   dy=$Py, fattrib="b">( { b1, d1 } ) |
+	\harmony<"A     a     a", dy=$hdy1, dx=0, fsize=16pt>
+	\tieBegin
+	\lyrics<"7,5", dy=$Ty, fattrib="b">( { a1/2., e1 } ) |
+	\harmony<"A     a     a", dy=$hdy1, dx=0, fsize=16pt>
+	{ a1/2., e1 }
+	\tieEnd
+\voltaEnd
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=$dist> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+
+]
+}

@@ -1,0 +1,53 @@
+	\title<"Le Revenant", font="Helvetica">
+	\pageFormat<w=21cm, h=29.7cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \meter<"3/4", autoMeasuresNum="system"> 
+
+H A
+T9 T8 T7 |
+
+H F
+T8' T8 T7 |
+
+H A 
+T8 T7 T5 |
+
+H D
+T7' T7 T4' |
+
+H A
+T7 T5 T4 |
+
+H G
+P7 P6 P5 |
+
+H C
+P7' P6' P5' |
+
+H E
+P8 P7 P5' |
+
+H A
+T9 T8 T7 |
+
+H F
+T8' T8 T7 |
+
+H A 
+T8 T7 T5 |
+
+H D
+T7' T7 T4' |
+
+H A
+T7 T5 T4 |
+
+H G
+P7 P6 P5 |
+
+H A 
+T7 T5 T5 |
+
+H A
+T7/2.

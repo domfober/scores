@@ -1,0 +1,86 @@
+	
+%%% set system distance to 340
+	
+	\title<"Le Revenant", font="Helvetica">
+	\pageFormat<w=24cm, h=34cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \meter<"3/4", autoMeasuresNum="system"> 
+
+%%% voix 1
+H A
+\text<"Voix 1", dx=-20, dy=17, fsize=16pt> (
+T8/2 T8/4 ) |
+H F
+T7' T8 T6' |
+H A
+T8/2 T8/4 |
+H D
+T7' T8 T6' |
+
+H A
+T8/2 T8/4 |
+H G
+P7 P6' P8 |
+H C
+P6'/2. |
+H E
+P7 |
+
+H A
+T8/2 T8/4 |
+H F
+T7' T8 T6' |
+H A
+T8/2 T8/4 |
+H D
+T7' T8 T6' |
+
+H A
+T8/2 T8/4 |
+H G
+P7 P6' P8 |
+H A
+T7/2. |
+H A
+T7 
+\endBar
+\newLine
+
+%%% voix 2
+H A
+\text<"Voix 2", dx=-17, dy=19, fsize=16pt> (
+T9'/2. ) \bar<measNum=2>
+H F
+T8' |
+H A
+T9 |
+H D
+T7'/4 T8 T6' |
+
+H A
+T7/2. |
+H G
+P7/4 P6' P8 |
+H C
+P7' P8 P6' |
+H E
+P7/2. |
+
+H A
+T9'/2. |
+H F
+T8' |
+H A
+T9 |
+H D
+T7'/4 T8 T6' |
+
+H A
+T7/2. |
+H G
+P7/4 P6' P8 |
+H A
+T7/2. |
+H A
+T7
