@@ -17,7 +17,7 @@ $dist = 10;
 
 	\title<"Comptine d'un autre été", font="Helvetica">
 	\composer<"Yann Tiersen", font="Helvetica", fsize=12pt, dy=4>
-	\pageFormat<w=29.4cm, h=41.64cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=4cm>
+	\pageFormat<w=27.3cm, h=38.6cm, lm=2.5cm, rm=2.5cm, bm=3cm, tm=4cm>
 	\accolade<id=1, type="none">
 	\barFormat<"system">
 
@@ -77,7 +77,7 @@ _/8
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"10 ", dy=$Ty, fattrib="b">( f#2/4.  )
 \tieBegin 
-	\lyrics<"7' 7' ", dy=$Ty, fattrib="b">( d2/8 d2/2  )
+	\lyrics<"6' 6' ", dy=$Ty, fattrib="b">( b1/8 b/2  )
 \tieEnd |
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"10 ", dy=$Ty, fattrib="b">( f#2/4.  )
@@ -87,24 +87,24 @@ _/8
 
 %%%%%%%%%%%%%% ligne 4
 	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"7',9 ", dy=$Py, fattrib="b">( { e2/4., g2 }  )
+	\lyrics<"9,7", dy=$Py, fattrib="b">( { b1/4., g2 }  )
 \tieBegin 
-	\lyrics<"7,7'", dy=$Py, fattrib="b">( { b1/8, e2}  { b1/2, e2} )
+	\lyrics<"7',6", dy=$Py, fattrib="b">( { g1/8, e2}  { g1/2, e2} )
 \tieEnd |
 	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"8,9", dy=$Py, fattrib="b">( {d2/4., g2}  )
+	\lyrics<"9,7", dy=$Py, fattrib="b">( { b1/4., g2 }  )
 \tieBegin 
-	\lyrics<"7,8", dy=$Py, fattrib="b">( {b1/8, d2} {b1/2, d2} )
+	\lyrics<"8,6", dy=$Py, fattrib="b">( {g1/8, d2} {g1/2, d2} )
 \tieEnd |
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"10 ", dy=$Ty, fattrib="b">( f#2/4.  )
+	\lyrics<"10,6' ", dy=$Py, fattrib="b">( { f#2/4., b1 }  )
 \tieBegin 
 	\lyrics<"7',6", dy=$Ty, fattrib="b">( {d2/8,f#1} {d2/2, f#1}  )
 \tieEnd |
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"10 ", dy=$Ty, fattrib="b">( f#2/4.  )
+	\lyrics<"10,7", dy=$Py, fattrib="b">( { f#2/4., a1 }  )
 \tieBegin 
-	\lyrics<"7,7'", dy=$Ty, fattrib="b">( {a1/8,d2}  {a1/2,d2}  )
+	\lyrics<"7',6", dy=$Ty, fattrib="b">( {d2/8,f#1} {d2/2, f#1}  )
 \tieEnd 
 %	\doubleBar
 	|
