@@ -1,0 +1,282 @@
+(*
+ use system layout settings : set maximum distance to 7
+ add 
+ empty*4 $NL
+ empty*4 $NL
+ to 2nd voice
+*)
+
+
+$hdy1 = 16;
+$Ly = -12;
+$Ty = -11;
+$Py = -6;
+$dist = 10;
+
+$NL = "\doubleBar \newLine";
+
+{
+[
+	\title<"C", font="Helvetica">
+	\pageFormat<w=27cm, h=38.6cm, lm=2.5cm, rm=2cm, bm=5cm, tm=3cm>
+	\accolade<id=1, type="none"> 
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"4/4"> 
+% tab: T
+	\text<"Ionien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d1
+	e1
+	f1
+	g1
+	a1
+	b1
+	c2
+	d2
+	e2
+	f2
+	g2
+	a2
+	b2
+	c3/2
+	$NL
+
+	\text<"Dorien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d1
+	e&1
+	f1
+	g1
+	a1
+	b&1
+	c2
+	d2
+	e&2
+	f2
+	g2
+	a2
+	b&2
+	c3/2
+	$NL
+
+	\text<"Phrygien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d&1
+	e&1
+	f1
+	g1
+	a&1
+	b&1
+	c2
+	d&2
+	e&2
+	f2
+	g2
+	a&2
+	b&2
+	c3/2
+	$NL
+
+	\text<"Lydien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d1
+	e1
+	f#1
+	g1
+	a1
+	b1
+	c2
+	d2
+	e2
+	f#2
+	g2
+	a2
+	b2
+	c3/2
+	$NL
+
+	\text<"Mixolydien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d1
+	e1
+	f1
+	g1
+	a1
+	b&1
+	c2
+	d2
+	e2
+	f2
+	g2
+	a2
+	b&2
+	c3/2
+	$NL
+
+	\text<"Aeolien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d1
+	e&1
+	f1
+	g1
+	a&1
+	b&1
+	c2
+	d2
+	e&2
+	f2
+	g2
+	a&2
+	b&2
+	c3/2
+	$NL
+
+	\text<"Locrien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d&1
+	e&1
+	f1
+	g&1
+	a&1
+	b&1
+	c2
+	d&2
+	e&2
+	f2
+	g&2
+	a&2
+	b&2
+	c3/2	
+	\doubleBar
+	\newPage
+
+
+% tab: P
+	\text<"Ionien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d1
+	e1
+	f1
+	g1
+	a1
+	b1
+	c2
+	d2
+	e2
+	f2
+	g2
+	a2
+	b2
+	c3/2
+	$NL
+
+	\text<"Dorien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d1
+	e&1
+	f1
+	g1
+	a1
+	b&1
+	c2
+	d2
+	e&2
+	f2
+	g2
+	a2
+	b&2
+	c3/2
+	$NL
+
+	\text<"Phrygien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d&1
+	e&1
+	f1
+	g1
+	a&1
+	b&1
+	c2
+	d&2
+	e&2
+	f2
+	g2
+	a&2
+	b&2
+	c3/2
+	$NL
+
+	\text<"Lydien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d1
+	e1
+	f#1
+	g1
+	a1
+	b1
+	c2
+	d2
+	e2
+	f#2
+	g2
+	a2
+	b2
+	c3/2
+	$NL
+
+	\text<"Mixolydien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d1
+	e1
+	f1
+	g1
+	a1
+	b&1
+	c2
+	d2
+	e2
+	f2
+	g2
+	a2
+	b&2
+	c3/2
+	$NL
+
+	\text<"Aeolien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d1
+	e&1
+	f1
+	g1
+	a&1
+	b&1
+	c2
+	d2
+	e&2
+	f2
+	g2
+	a&2
+	b&2
+	c3/2
+	$NL
+
+	\text<"Locrien", dy=$hdy1, dx=0, fsize=14pt> (
+	c1/4 )
+	d&1
+	e&1
+	f1
+	g&1
+	a&1
+	b&1
+	c2
+	d&2
+	e&2
+	f2
+	g&2
+	a&2
+	b&2
+	c3/2	
+	\doubleBar
+]
+}
