@@ -6,12 +6,11 @@ $hdy3 = -16;
 $MSize = 12;
 $MPos = 20;
 
-$Hy = -15;
+$Hy = -14;
 $Ly = -15;
-$Ty = -11;
-$Py = -6;
-$dist = 10;
-
+$Ty = -10;
+$Py = -5;
+$dist = 9;
 
 {
 [
@@ -61,16 +60,17 @@ $dist = 10;
 % tab: T G
 	\lyrics<"7", dy=$Ty> (a1) \lyrics<"7", dy=$Ty> (a1)) |
 % tab: P G
- 	\harmony<"G", dy=$Hy>
+ 	\harmony<"G", dy=$Hy> \stemsUp
 	\lyrics<"7", dy=$Py> (b1/4) \lyrics<"7", dy=$Py> (b1/12) \lyrics<"7", dy=$Py> (b1) \lyrics<"7", dy=$Py> (b1) \bm(\lyrics<"7", dy=$Py> (b1/8) \lyrics<"7", dy=$Py> (b1) 
 % tab: T G
 	\lyrics<"7", dy=$Ty> (a1) \lyrics<"7", dy=$Ty> (a1)) |
+\stemsAuto
 %%%%%%%%%%%%%%% mesure 15
 % tab: P G
  	\harmony<"G", dy=$Hy>
 	\lyrics<"6", dy=$Py> (g1/4) \lyrics<"6", dy=$Py> (g1/12) \lyrics<"6", dy=$Py> (g1) \lyrics<"6", dy=$Py> (g1) \bm(\lyrics<"6", dy=$Py> (g1/8) \lyrics<"6", dy=$Py> (g1) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"6", dy=$Py> (g1)) |
 % tab: T
- 	\harmony<"D", dy=$Hy>
+ 	\harmony<"D |", dy=$Hy> \harmony<"Bm", dy=$Hy, dx=7>
 	\lyrics<"6", dy=$Ty> (f#1/2) \lyrics<"6", dy=$Ty> (f#1) |
 % tab: P
  	\harmony<"C", dy=$Hy>
@@ -101,7 +101,7 @@ $dist = 10;
 	\lyrics<"6", dy=$Py> (g1) 
 % tab: T G
 	\lyrics<"7", dy=$Ty> (a1/6) \lyrics<"7", dy=$Ty> (a1) \lyrics<"6", dy=$Ty> (f#1) |
-	\harmony<"D", dy=$Hy>
+	\harmony<"D |", dy=$Hy>  \harmony<"Bm", dy=$Hy, dx=7>
 	\lyrics<"3'", dy=$Ty> (d1/4.) \tieBegin \lyrics<"2'", dy=$Ty> (b0/8) \lyrics<"2'", dy=$Ty> (b0/2) |
 	\harmony<"D", dy=$Hy>
 	\lyrics<"2'", dy=$Ty> (b0/2) \tieEnd _/4 _/8 \lyrics<"3'", dy=$Ty> (d1/8) |
@@ -117,12 +117,11 @@ $dist = 10;
 % tab: P C
 	\lyrics<"4", dy=$Py> (b0/2) _ |
 	\harmony<"C", dy=$Hy>
-	_/8 \bm(\lyrics<"4'", dy=$Py> (e1) \lyrics<"3'", dy=$Py> (c1) \lyrics<"5", dy=$Py> (d1)) 
-\bm(\lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"6", dy=$Py> (g1) 
+	_/8 \bm(\lyrics<"4'", dy=$Py> (e1) \lyrics<"3'", dy=$Py> (c1) \lyrics<"5", dy=$Py> (d1)) \bm(\lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"5'", dy=$Py> (g1) 
 % tab: T C
-	\lyrics<"7", dy=$Ty> (a1)) |
+	\lyrics<"5'", dy=$Ty> (a1)) |
 %%%%%%%%%%%%%%% mesure 29
-	\harmony<"D", dy=$Hy>
+	\harmony<"D |", dy=$Hy>  \harmony<"Bm", dy=$Hy, dx=7>
 	\lyrics<"6'", dy=$Ty> (b1/4.) \tieBegin \lyrics<"6", dy=$Ty> (f#1/8) \lyrics<"6", dy=$Ty> (f#1/2) \tieEnd |
 	\harmony<"Am", dy=$Hy>
 	 _/8 \bm(\lyrics<"5", dy=$Ty> (e1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"5", dy=$Ty> (e1)) 
