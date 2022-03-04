@@ -1,0 +1,319 @@
+(*
+  corrections accords:
+  mesure 9:
+  	\tieBegin \tuplet<"-3-", position="above", dy1=1, dy2=1>(\lyrics<"9", dy=$Py> (g2/6) 
+	\lyrics<"9,8", dy=$Py, dx=-1> ({g2, d2}) 
+	\lyrics<"9,8,6'", dy=$Py, dx=0> ({g2, d2, c2}))
+	\tieEnd 
+
+  fin:
+  	\lyrics<"3',4'", dy=$Py> ({c1/4, e1})
+	\harmony<"Em", dy=$hdy1, dx=2, fsize=16pt>
+	\lyrics<"4,4'", dy=$Py> ({ b0/4, e1}) _
+*)
+
+$hdy1 = -13;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -10;
+$Py = -5;
+$dist = 9;
+
+{
+[
+	\title<"Bulle Gare de l'Est", font="Helvetica", fsize=30pt>
+	\title<"Trad. bulgare", font="Helvetica", fsize=14pt, dy=-7>
+	\composer<"Arr. François Heim", dy=7>
+	\pageFormat<w=23.1cm, h=32.7cm, lm=2cm, rm=2cm, bm=3cm, tm=4cm>
+%	\footer<"Typeset with Guido", dy=-11>
+%	\footer<"https://guidoeditor.grame.fr", dy=-16>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<free="c#b&"> \meter<"11/16", autoMeasuresNum="system"> 
+% Partie A ----------------
+\mark<"A", enclosure="square", fsize=24pt, dy=8, dx=-19> \space<-1>
+% mesure 1 ----------------
+% tab: T G
+	\harmony<"Dm", dy=$hdy1, dx=3, fsize=16pt>
+	\beamBegin d2/16 a1 e2 f2 \beamEnd
+	\beamBegin d2 e2 f2 \beamEnd
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 d2 \stemsUp \grace(e2/8) \stemsAuto d2/16 c#2  \beamEnd |
+
+% tab: P C
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 d2 d2 c#2 \beamEnd
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+% tab: T C
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1 b&1 c#2 d2 \beamEnd |
+
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 a1 f2 e2 \beamEnd
+	\beamBegin d2 e2 f2 \beamEnd
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 d2 \stemsUp \grace(e2/8) \stemsAuto d2/16 c#2 \beamEnd |
+
+%===============================================================
+\voltaBegin<"1.", "|-|", dy=0>
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 d2 d2 c#2 \beamEnd
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8 a1 \beamEnd
+\voltaEnd
+\repeatEnd
+
+% mesure 6 ----------------
+\voltaBegin<"2.", "|-|", dy=0>
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2/16 d2 d2 c#2 \beamEnd
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8 a1 \beamEnd |
+\voltaEnd
+
+\newLine
+% Partie B ----------------
+\space<8>\repeatBegin
+\mark<"B", enclosure="square", fsize=24pt, dy=8, dx=-23> \space<-1>
+% mesure 7 ----------------
+% tab: T C
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\stemsDown \beamBegin a1/8 \mord(a2)  \beamEnd
+	\beamBegin a2 g2/16 \beamEnd
+	\beamBegin c#3 b&2 a2 g2 \beamEnd |
+
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin f2 a2 g2/8 \beamEnd
+	\beamBegin f2/16 e2 d2 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(e2/8) e2/16 a1 \beamEnd  |
+
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 a1 \stemsUp \grace(e2/8) \stemsDown f2/8 \beamEnd
+	\beamBegin d2/16 e2 f2 \beamEnd
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(e2/8) d2/16 c#2  \beamEnd |
+
+% mesure 10 ----------------
+%===============================================================
+\voltaBegin<"1.", "|-|", dy=0>
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 d2 d2 c#2 \beamEnd
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8 a1 \beamEnd
+\voltaEnd
+\repeatEnd
+
+\voltaBegin<"2.", "|-|", dy=0>
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2/16 d2 \stemsUp \grace(e2/8) \stemsDown d2/16 c#2 \beamEnd
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8 a1 \beamEnd \doubleBar
+\voltaEnd
+\newLine
+
+% Partie C ----------------
+\space<8>\repeatBegin
+\mark<"C", enclosure="square", fsize=24pt, dy=8, dx=-22> \space<-1>
+
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8 \stemsUp \grace(e2/8) \stemsDown f2/8 \beamEnd
+	\beamBegin d2/16 e2 f2 \beamEnd
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(e2/8) d2/16 c#2  \beamEnd |
+
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 d2 d2 c#2 \beamEnd
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1 b&1 c#2 d2 \beamEnd |
+
+% mesure 13 ----------------
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2/16 a1 \stemsUp \grace(e2/8) \stemsDown f2/8 \beamEnd
+	\beamBegin d2/16 e2 f2 \beamEnd
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(e2/8) d2/16 c#2 \beamEnd |
+%===============================================================
+\voltaBegin<"1.", "|-|", dy=0>
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 d2 \stemsUp \grace(e2/8) \stemsDown d2/16 c#2 \beamEnd
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(a1/8) a1 \beamEnd
+\voltaEnd
+\repeatEnd
+
+\voltaBegin<"2.", "|-|", dy=0>
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2/16 d2 \stemsUp \grace(e2/8) \stemsDown d2/16 c#2 \beamEnd
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	a1/8 _ \doubleBar
+\voltaEnd
+\newLine
+
+% Partie D ----------------
+\mark<"D", enclosure="square", fsize=24pt, dy=8, dx=-12>\space<-1>
+% mesure 16 ----------------
+\stemsAuto
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8. a1/16 \beamEnd
+	\beamBegin f2 e2 d2 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(c#2/8) c#2/16 a1 \beamEnd |
+
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 d2 \stemsUp \grace(e2/8) \stemsDown d2/16 c#2 \beamEnd
+\stemsAuto
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1 b&1 c#2 a1 \beamEnd |
+
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8. a1/16 \beamEnd
+	\beamBegin f2 e2 d2 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(c#2/8) c#2/16 a1  \beamEnd |
+
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 d2 \stemsUp \grace(e2/8) \stemsDown d2/16 c#2 \beamEnd
+\stemsAuto
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8 a1/16 e1 \beamEnd |
+
+% mesure 20 ----------------
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8. a1/16 \beamEnd
+	\beamBegin f2 e2 d2 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(c#2/8) c#2/16 a1 \beamEnd |
+
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 d2 \stemsUp \grace(e2/8) \stemsDown d2/16 c#2 \beamEnd
+\stemsAuto
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/16 b&1 c#2 d2 \beamEnd |
+
+	\beamBegin e2 f2 f#2 g2 \beamEnd
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin b&2 a2 g2 \beamEnd
+	\beamBegin f#2 e2 d2 c#2 \beamEnd |
+
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2 d2 \stemsUp \grace(e2/8) \stemsDown d2/16 c#2 \beamEnd
+\stemsAuto
+% tab: T C
+	\beamBegin b&1 a1 g1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8 a1 \beamEnd \doubleBar
+\newLine 
+
+% Partie E ----------------
+% mesure 24 ----------------
+\space<8>\repeatBegin
+\mark<"E", enclosure="square", fsize=24pt, dy=8, dx=-20> \space<-1>
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/16 e1 g1/8 \beamEnd
+	\beamBegin a1/16 g1 \tieBegin a1 \beamEnd
+	\beamBegin a1 \tieEnd g1 a1 b&1 \beamEnd |
+
+	\harmony<"Bb", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin d2/16 a1 c#2/8 \beamEnd
+% tab: P C
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin b&1/16 d2 e2 \beamEnd
+% tab: T C
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(c#2/8) c#2/16 a1 \beamEnd |
+
+	\beamBegin a1 e1 g1/8 \beamEnd
+	\beamBegin a1/16 g1 \tieBegin a1 \beamEnd
+	\beamBegin a1 \tieEnd g1 a1 b&1 \beamEnd |
+
+% mesure 27 ----------------
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin e2/16 d2 \stemsUp \grace(e2/8) \stemsDown d2/16 c#2 \beamEnd
+\stemsAuto
+% tab: T C
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin b&1/16 d2 e2 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(c#2/8) c#2/16 a1 \beamEnd |
+
+	\beamBegin a1 e1 g1/8 \beamEnd
+	\beamBegin a1/16 g1 \tieBegin a1 \beamEnd
+	\beamBegin a1 \tieEnd g1 a1 b&1 \beamEnd |
+
+	\harmony<"Bb", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin d2/16 a1 \mord(c#2/8) \beamEnd
+% tab: P
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin b&1/16 d2 e2 \beamEnd
+% tab: T C
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(c#2/8) c#2/16 a1 \beamEnd |
+
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin g2/16 f2 \stemsUp \grace(g2/8) \stemsDown f2/16 e2  \beamEnd
+\stemsAuto
+% tab: T C
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin d2 c#2 b&1 \beamEnd
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin \mord(c#2/8) b&1/16 a1 \beamEnd |
+
+%===============================================================
+\voltaBegin<"1.", "|-|", dy=0>
+% tab: P C
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin g1/8 a1/16 b&1 \beamEnd
+	\beamBegin g1 a1 b&1 \beamEnd
+% tab: T C
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8 a1/16 e1 \beamEnd
+\voltaEnd
+\repeatEnd
+
+\voltaBegin<"2.", "|-|", dy=0>
+% tab: P C
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin g1/8 b&1/16 a1 \beamEnd
+	\beamBegin g1 a1 b&1 \beamEnd
+% tab: T C
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\beamBegin a1/8 a1 \beamEnd
+\voltaEnd
+
+]
+}
