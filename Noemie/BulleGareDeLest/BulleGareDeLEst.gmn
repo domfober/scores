@@ -1,15 +1,6 @@
 (*
-  corrections accords:
-  mesure 9:
-  	\tieBegin \tuplet<"-3-", position="above", dy1=1, dy2=1>(\lyrics<"9", dy=$Py> (g2/6) 
-	\lyrics<"9,8", dy=$Py, dx=-1> ({g2, d2}) 
-	\lyrics<"9,8,6'", dy=$Py, dx=0> ({g2, d2, c2}))
-	\tieEnd 
-
-  fin:
-  	\lyrics<"3',4'", dy=$Py> ({c1/4, e1})
-	\harmony<"Em", dy=$hdy1, dx=2, fsize=16pt>
-	\lyrics<"4,4'", dy=$Py> ({ b0/4, e1}) _
+ ajout en deuxième voix:
+ empty*44/16
 *)
 
 $hdy1 = -13;
@@ -44,9 +35,8 @@ $dist = 9;
 % tab: P C
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin e2 d2 d2 c#2 \beamEnd
-% tab: T C
+% tab: T G
 	\beamBegin b&1 a1 g1 \beamEnd
-% tab: T C
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin a1 b&1 c#2 d2 \beamEnd |
 
@@ -61,9 +51,12 @@ $dist = 9;
 % tab: P
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin e2 d2 d2 c#2 \beamEnd
-% tab: T C
-	\beamBegin b&1 a1 g1 \beamEnd
+% tab: T G
+	\beamBegin b&1 a1 
+% tab: P G
+	g1 \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P
 	\beamBegin a1/8 a1 \beamEnd
 \voltaEnd
 \repeatEnd
@@ -73,9 +66,12 @@ $dist = 9;
 % tab: P
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin e2/16 d2 d2 c#2 \beamEnd
-% tab: T C
-	\beamBegin b&1 a1 g1 \beamEnd
+% tab: T G
+	\beamBegin b&1 a1 
+% tab: P G
+	g1 \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+% tab: P
 	\beamBegin a1/8 a1 \beamEnd |
 \voltaEnd
 
@@ -84,7 +80,7 @@ $dist = 9;
 \space<8>\repeatBegin
 \mark<"B", enclosure="square", fsize=24pt, dy=8, dx=-23> \space<-1>
 % mesure 7 ----------------
-% tab: T C
+% tab: T G
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
 	\stemsDown \beamBegin a1/8 \mord(a2)  \beamEnd
 	\beamBegin a2 g2/16 \beamEnd
@@ -108,8 +104,10 @@ $dist = 9;
 % tab: P
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin e2 d2 d2 c#2 \beamEnd
-% tab: T C
-	\beamBegin b&1 a1 g1 \beamEnd
+% tab: T G
+	\beamBegin b&1 a1 
+% tab: P G
+	g1 \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin a1/8 a1 \beamEnd
 \voltaEnd
@@ -119,10 +117,12 @@ $dist = 9;
 % tab: P
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin e2/16 d2 \stemsUp \grace(e2/8) \stemsDown d2/16 c#2 \beamEnd
-% tab: T C
-	\beamBegin b&1 a1 g1 \beamEnd
+% tab: T G
+	\beamBegin b&1 a1 
+% tab: P G
+	g1 \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin a1/8 a1 \beamEnd \doubleBar
+	\beamBegin a1/8 a1 \beamEnd |
 \voltaEnd
 \newLine
 
@@ -130,6 +130,7 @@ $dist = 9;
 \space<8>\repeatBegin
 \mark<"C", enclosure="square", fsize=24pt, dy=8, dx=-22> \space<-1>
 
+% tab: T G
 	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin a1/8 \stemsUp \grace(e2/8) \stemsDown f2/8 \beamEnd
 	\beamBegin d2/16 e2 f2 \beamEnd
@@ -297,9 +298,14 @@ $dist = 9;
 \voltaBegin<"1.", "|-|", dy=0>
 % tab: P C
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin g1/8 a1/16 b&1 \beamEnd
-	\beamBegin g1 a1 b&1 \beamEnd
+	\beamBegin g1/8 
 % tab: T C
+	a1/16 b&1 \beamEnd
+	\beamBegin 
+% tab: P C
+	g1 
+% tab: T C
+	a1 b&1 \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin a1/8 a1/16 e1 \beamEnd
 \voltaEnd

@@ -137,7 +137,7 @@ $dist = 9;
 	a1/12 f#1 d1 |
 % tab: P G
 	\harmony<"CMaj7", dy=$hdy1, dx=0, fsize=16pt>
-	g1/6 e1 b1
+	g1/6 e1 g1
 % tab: T G
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
 	d1/12 c1 b0 |
@@ -182,7 +182,7 @@ $dist = 9;
 	a1/12 f#1 d1 |
 % tab: P G
 	\harmony<"CMaj7", dy=$hdy1, dx=0, fsize=16pt>
-	g1/6 e1 b1
+	g1/6 e1 g1
 % tab: T G
 	\harmony<"Bm", dy=$hdy1, dx=0, fsize=16pt>
 	d1/12 c1 b0 |

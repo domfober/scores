@@ -44,14 +44,13 @@ $dist = 9;
 % tab: P C
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6''", dy=$Ty> (c#2) \beamEnd
-% tab: T C
-	\beamBegin \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) \beamEnd
-% tab: T C
+% tab: T G
+	\beamBegin \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"7", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin \lyrics<"5'", dy=$Ty> (a1) \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"6''", dy=$Ty> (c#2) \lyrics<"7'", dy=$Ty> (d2) \beamEnd |
+	\beamBegin \lyrics<"7", dy=$Ty> (a1) \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"6''", dy=$Ty> (c#2) \lyrics<"7'", dy=$Ty> (d2) \beamEnd |
 
 	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin \lyrics<"9", dy=$Ty> (e2) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"8'", dy=$Ty> (f2) \lyrics<"9", dy=$Ty> (e2) \beamEnd
+	\beamBegin \lyrics<"9", dy=$Ty> (e2) \lyrics<"7", dy=$Ty> (a1) \lyrics<"8'", dy=$Ty> (f2) \lyrics<"9", dy=$Ty> (e2) \beamEnd
 	\beamBegin \lyrics<"7'", dy=$Ty> (d2) \lyrics<"9", dy=$Ty> (e2) \lyrics<"8'", dy=$Ty> (f2) \beamEnd
 	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin \lyrics<"9", dy=$Ty> (e2) \lyrics<"7'", dy=$Ty> (d2) \stemsUp \grace(\lyrics<"9", dy=$Ty> (e2/8)) \stemsAuto \lyrics<"7'", dy=$Ty> (d2/16) \lyrics<"6''", dy=$Ty> (c#2) \beamEnd |
@@ -61,10 +60,13 @@ $dist = 9;
 % tab: P
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6''", dy=$Ty> (c#2) \beamEnd
-% tab: T C
-	\beamBegin \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) \beamEnd
+% tab: T G
+	\beamBegin \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1) \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin \lyrics<"5'", dy=$Ty> (a1/8) \lyrics<"5'", dy=$Ty> (a1) \beamEnd
+% tab: P
+	\beamBegin \lyrics<"5''", dy=$Py> (a1/8) \lyrics<"5''", dy=$Py> (a1) \beamEnd
 \voltaEnd
 \repeatEnd
 
@@ -73,10 +75,13 @@ $dist = 9;
 % tab: P
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin \lyrics<"7'", dy=$Py> (e2/16) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6''", dy=$Ty> (c#2) \beamEnd
-% tab: T C
-	\beamBegin \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) \beamEnd
+% tab: T G
+	\beamBegin \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1) \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin \lyrics<"5'", dy=$Ty> (a1/8) \lyrics<"5'", dy=$Ty> (a1) \beamEnd |
+% tab: P
+	\beamBegin \lyrics<"5''", dy=$Py> (a1/8) \lyrics<"5''", dy=$Py> (a1) \beamEnd |
 \voltaEnd
 
 \newLine
@@ -84,20 +89,20 @@ $dist = 9;
 \space<8>\repeatBegin
 \mark<"B", enclosure="square", fsize=24pt, dy=8, dx=-23> \space<-1>
 % mesure 7 ----------------
-% tab: T C
+% tab: T G
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
-	\stemsDown \beamBegin \lyrics<"5'", dy=$Ty> (a1/8) \mord(\lyrics<"9'", dy=$Ty> (a2))  \beamEnd
-	\beamBegin \lyrics<"9'", dy=$Ty> (a2) \lyrics<"7''", dy=$Ty> (g2/16) \beamEnd
-	\beamBegin \lyrics<"10''", dy=$Ty> (c#3) \lyrics<"9''", dy=$Ty> (b&2) \lyrics<"9'", dy=$Ty> (a2) \lyrics<"7''", dy=$Ty> (g2) \beamEnd |
+	\stemsDown \beamBegin \lyrics<"7", dy=$Ty> (a1/8) \mord(\lyrics<"11", dy=$Ty> (a2))  \beamEnd
+	\beamBegin \lyrics<"11", dy=$Ty> (a2) \lyrics<"7''", dy=$Ty> (g2/16) \beamEnd
+	\beamBegin \lyrics<"10''", dy=$Ty> (c#3) \lyrics<"9''", dy=$Ty> (b&2) \lyrics<"11", dy=$Ty> (a2) \lyrics<"7''", dy=$Ty> (g2) \beamEnd |
 
 	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin \lyrics<"8'", dy=$Ty> (f2) \lyrics<"9'", dy=$Ty> (a2) \lyrics<"7''", dy=$Ty> (g2/8) \beamEnd
+	\beamBegin \lyrics<"8'", dy=$Ty> (f2) \lyrics<"11", dy=$Ty> (a2) \lyrics<"7''", dy=$Ty> (g2/8) \beamEnd
 	\beamBegin \lyrics<"8'", dy=$Ty> (f2/16) \lyrics<"9", dy=$Ty> (e2) \lyrics<"7'", dy=$Ty> (d2) \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin \mord(\lyrics<"9", dy=$Ty> (e2/8)) \lyrics<"9", dy=$Ty> (e2/16) \lyrics<"5'", dy=$Ty> (a1) \beamEnd  |
+	\beamBegin \mord(\lyrics<"9", dy=$Ty> (e2/8)) \lyrics<"9", dy=$Ty> (e2/16) \lyrics<"7", dy=$Ty> (a1) \beamEnd  |
 
 	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin \lyrics<"9", dy=$Ty> (e2) \lyrics<"5'", dy=$Ty> (a1) \stemsUp \grace(\lyrics<"9", dy=$Ty> (e2/8)) \stemsDown \lyrics<"8'", dy=$Ty> (f2/8) \beamEnd
+	\beamBegin \lyrics<"9", dy=$Ty> (e2) \lyrics<"7", dy=$Ty> (a1) \stemsUp \grace(\lyrics<"9", dy=$Ty> (e2/8)) \stemsDown \lyrics<"8'", dy=$Ty> (f2/8) \beamEnd
 	\beamBegin \lyrics<"7'", dy=$Ty> (d2/16) \lyrics<"9", dy=$Ty> (e2) \lyrics<"8'", dy=$Ty> (f2) \beamEnd
 	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin \mord(\lyrics<"9", dy=$Ty> (e2/8)) \lyrics<"7'", dy=$Ty> (d2/16) \lyrics<"6''", dy=$Ty> (c#2)  \beamEnd |
@@ -108,10 +113,12 @@ $dist = 9;
 % tab: P
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2) \lyrics<"8", dy=$Py> (d2) \lyrics<"6''", dy=$Ty> (c#2) \beamEnd
-% tab: T C
-	\beamBegin \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) \beamEnd
+% tab: T G
+	\beamBegin \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1) \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin \lyrics<"5'", dy=$Ty> (a1/8) \lyrics<"5'", dy=$Ty> (a1) \beamEnd
+	\beamBegin \lyrics<"5''", dy=$Py> (a1/8) \lyrics<"5''", dy=$Py> (a1) \beamEnd
 \voltaEnd
 \repeatEnd
 
@@ -119,10 +126,12 @@ $dist = 9;
 % tab: P
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin \lyrics<"7'", dy=$Py> (e2/16) \lyrics<"8", dy=$Py> (d2) \stemsUp \grace(\lyrics<"7'", dy=$Py> (e2/8)) \stemsDown \lyrics<"8", dy=$Py> (d2/16) \lyrics<"6''", dy=$Ty> (c#2) \beamEnd
-% tab: T C
-	\beamBegin \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) \beamEnd
+% tab: T G
+	\beamBegin \lyrics<"5''", dy=$Ty> (b&1) \lyrics<"7", dy=$Ty> (a1) 
+% tab: P G
+	\lyrics<"6", dy=$Py> (g1) \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin \lyrics<"5'", dy=$Ty> (a1/8) \lyrics<"5'", dy=$Ty> (a1) \beamEnd \doubleBar
+	\beamBegin \lyrics<"5''", dy=$Py> (a1/8) \lyrics<"5''", dy=$Py> (a1) \beamEnd |
 \voltaEnd
 \newLine
 
@@ -130,8 +139,9 @@ $dist = 9;
 \space<8>\repeatBegin
 \mark<"C", enclosure="square", fsize=24pt, dy=8, dx=-22> \space<-1>
 
+% tab: T G
 	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin \lyrics<"5'", dy=$Ty> (a1/8) \stemsUp \grace(\lyrics<"9", dy=$Ty> (e2/8)) \stemsDown \lyrics<"8'", dy=$Ty> (f2/8) \beamEnd
+	\beamBegin \lyrics<"7", dy=$Ty> (a1/8) \stemsUp \grace(\lyrics<"9", dy=$Ty> (e2/8)) \stemsDown \lyrics<"8'", dy=$Ty> (f2/8) \beamEnd
 	\beamBegin \lyrics<"7'", dy=$Ty> (d2/16) \lyrics<"9", dy=$Ty> (e2) \lyrics<"8'", dy=$Ty> (f2) \beamEnd
 	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin \mord(\lyrics<"9", dy=$Ty> (e2/8)) \lyrics<"7'", dy=$Ty> (d2/16) \lyrics<"6''", dy=$Ty> (c#2)  \beamEnd |
@@ -297,9 +307,14 @@ $dist = 9;
 \voltaBegin<"1.", "|-|", dy=0>
 % tab: P C
 	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
-	\beamBegin \lyrics<"5'", dy=$Py> (g1/8) \lyrics<"5''", dy=$Py> (a1/16) \lyrics<"5''", dy=$Ty> (b&1) \beamEnd
-	\beamBegin \lyrics<"5'", dy=$Py> (g1) \lyrics<"5''", dy=$Py> (a1) \lyrics<"5''", dy=$Ty> (b&1) \beamEnd
+	\beamBegin \lyrics<"5'", dy=$Py> (g1/8) 
 % tab: T C
+	\lyrics<"5'", dy=$Ty> (a1/16) \lyrics<"5''", dy=$Ty> (b&1) \beamEnd
+	\beamBegin 
+% tab: P C
+	\lyrics<"5'", dy=$Py> (g1) 
+% tab: T C
+	\lyrics<"5'", dy=$Ty> (a1) \lyrics<"5''", dy=$Ty> (b&1) \beamEnd
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
 	\beamBegin \lyrics<"5'", dy=$Ty> (a1/8) \lyrics<"5'", dy=$Ty> (a1/16) \lyrics<"5", dy=$Ty> (e1) \beamEnd
 \voltaEnd
@@ -322,5 +337,6 @@ $dist = 9;
 \staffFormat<"1-line", distance=$dist> \clef<"none">
 \instr<"P", fsize=16pt, dx=-10, dy=1.5>
 \instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+empty*44/16
 ]
 }

@@ -86,9 +86,7 @@ $dist = 9;
 \voltaBegin<"2.", "|-|", dy=-2>
 % tab: P G
 	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
-  	\tieBegin \tuplet<"-3-", position="above", dy1=1, dy2=1>(\lyrics<"9", dy=$Py> (g2/6) 
-	\lyrics<"9,8", dy=$Py, dx=-1> ({g2, d2}) 
-	\lyrics<"9,8,6'", dy=$Py, dx=0> ({g2, d2, c2}))
+	\tieBegin \tuplet<"-3-", position="above">(\lyrics<"9", dy=$Py> (g2/6) \lyrics<"8", dy=$Py> (d2) \lyrics<"6'", dy=$Py> (c2))
 	\tieEnd 
 	\tuplet<"-3-", position="above">(\lyrics<"6'", dy=$Py> (c2/12) \lyrics<"7", dy=$Py> (b1) \lyrics<"6", dy=$Py> (g1)) |
 % tab: T G
@@ -139,7 +137,7 @@ $dist = 9;
 	\lyrics<"7", dy=$Ty> (a1/12) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"3'", dy=$Ty> (d1) |
 % tab: P G
 	\harmony<"CMaj7", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"6", dy=$Py> (g1/6) \lyrics<"4'", dy=$Py> (e1) \lyrics<"7", dy=$Py> (b1)
+	\lyrics<"6", dy=$Py> (g1/6) \lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Py> (g1)
 % tab: T G
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"3'", dy=$Ty> (d1/12) \lyrics<"4", dy=$Ty> (c1) \lyrics<"2'", dy=$Ty> (b0) |
@@ -184,15 +182,15 @@ $dist = 9;
 	\lyrics<"7", dy=$Ty> (a1/12) \lyrics<"6", dy=$Ty> (f#1) \lyrics<"3'", dy=$Ty> (d1) |
 % tab: P G
 	\harmony<"CMaj7", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"6", dy=$Py> (g1/6) \lyrics<"4'", dy=$Py> (e1) \lyrics<"7", dy=$Py> (b1)
+	\lyrics<"6", dy=$Py> (g1/6) \lyrics<"4'", dy=$Py> (e1) \lyrics<"6", dy=$Py> (g1)
 % tab: T G
 	\harmony<"Bm", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"3'", dy=$Ty> (d1/12) \lyrics<"4", dy=$Ty> (c1) \lyrics<"2'", dy=$Ty> (b0) |
 % tab: P G
 	\harmony<"CMaj7", dy=$hdy1, dx=-1, fsize=16pt>
-  	\lyrics<"3',4'", dy=$Py> ({c1/4, e1})
+	\lyrics<"3'", dy=$Py> (c1/4)
 	\harmony<"Em", dy=$hdy1, dx=2, fsize=16pt>
-	\lyrics<"4,4'", dy=$Py> ({ b0/4, e1}) _
+	\lyrics<"4", dy=$Py> (b0/4) _
 ]
 ,
 [
