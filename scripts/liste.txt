@@ -26,6 +26,8 @@ Castle Kelly:x::Reel::Irlande::Reel/CastleKelly.pdf
 Ce n’est rien:x:::J. Clerc::chansons:Chansons/Ce-n-est-rien.pdf
 Ce sont les filles de Landéda:x:x::trad.:Bretagne::Bretagne/Les-filles-de-Landeda.pdf
 Cochinchine:x:::trad.:Bretagne::Bretagne/Cochinchine.pdf
+Cumbia sobre al mar (A):x::Cumbia::::Cumbia/Cumbia-sobre-al-mar-A.pdf
+Cumbia sobre al mar (E):x::Cumbia::::Cumbia/Cumbia-sobre-al-mar-E.pdf
 Danse de l’ours:x:x:Polka:trad.:::Polka/Danse-de-l-ours.pdf
 Deux étoiles:x::Valse:Noémie Dessaint:::Noemie/Deux-etoiles.pdf
 Dirty Old Town:x::::Irlande::Irlande/DirtyOldTown.pdf
@@ -84,6 +86,7 @@ Matin d’automne:x:x:Mazurka:Rémi Geffroy:::Mazurkas/Matin-dautomne.pdf
 Mazurka:x:x:Mazurka:Balbelettes:::Mazurkas/Mazurka-Balbelettes.pdf
 Mazurka des écoliers de Saint-Genest:x::Mazurka:Gilles Chabenat:::Mazurkas/Mazurka-ecoliers-st-genest.pdf
 Mazurka du bal perdu:x::Mazurka:Loic Etienne:::Mazurkas/MazurkaDuBalPerdu.pdf
+Mazurka finlandaise:x::Mazurka:trad.:Finlande::Mazurkas/Mazurka-finlandaise.pdf
 Menuet 3:x::Classique:J.S. Bach:::Classique/Menuet.pdf
 Milonga para as Missoes:x::Tango::::Tango/Milonga.pdf
 Minor swing:x::Jazz::::Jazz/Minor-swing.pdf
@@ -103,7 +106,6 @@ Porth Mhuirgheasa:x::Jig:trad.:Irlande::Jigs/Porth_mhuirgheasa.pdf
 Puma:x::Scottish::::Scottish/Puma.pdf
 Reel beatrice:x::Reel::::Reel/Reel-beatrice.pdf
 Reel traditionnel:x::Reel::Irlande::Reel/Reel-traditionnel.pdf
-Rémy Geffroy:x::Recueils::::Recueils/Remi-Geffroy.pdf
 San Francisco:x:::Moustaki::chansons:Chansons/San-francisco.pdf
 Santiano:x:::H. Auffray::chansons:Chansons/Santiano.pdf
 Scottish à Lucien:x::Scottish::::Scottish/Scottishlucien.pdf
