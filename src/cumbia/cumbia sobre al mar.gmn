@@ -12,8 +12,8 @@ $Py = -6;
 [
 	\title<"cumbia sobre al mar", font="Comic Sans MS">
 	\pageFormat<w=21cm, h=29.7cm, lm=2cm, rm=2cm, bm=3cm, tm=4cm>
-	\footer<"Typeset with Guido", dy=-7>
-	\footer<"https://guidoeditor.grame.fr", dy=-11>
+	\footer<"Typeset with Guido", dy=-6>
+	\footer<"https://guidoeditor.grame.fr", dy=-10>
 	\accolade<id=1, type="none">
 	\barFormat<"system">
 
