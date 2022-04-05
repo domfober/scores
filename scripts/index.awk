@@ -1,6 +1,5 @@
 function display(genre, id) {
 	gsub("Cercle", "Cercle circassien", genre);
-	gsub("Bourree", "Bourrée", genre);
 	gsub("ID", id, genre);
 	return genre;
 }

@@ -1,7 +1,6 @@
 function printentry(genre) {
 	label = genre;
 	gsub("Cercle", "Cercle circassien", genre);
-	gsub("Bourree", "Bourrée", genre);
 	print "    <li><a href=#"label">"genre"</a>";
 }
 
