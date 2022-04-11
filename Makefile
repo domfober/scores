@@ -4,7 +4,12 @@ OUTDIR := Recueils
 DOCS   := docs
 PDFDIR := pdf
 SRCDIR := $(DOCS)/$(PDFDIR)
-DIRS   := $(shell find $(SRCDIR) -type d -name "[A-Z]*" | sed -e 's/docs\/pdf\///' )
+DIRS   := $(shell find $(SRCDIR) -type d -name "[A-Z]*" | sed -e 's/docs\/pdf\///' | grep -v prive)
+
+PROGDIR  := Programme
+PROGLIST := $(shell cat $(PROGDIR)/liste.txt)
+PROGLIST := $(PROGLIST:%=$(PROGDIR)/%)
+
 SCRIPTS := scripts
 SHAREDAWK := -v DIR=$(PDFDIR)
 
@@ -15,6 +20,8 @@ ORIGIN := $(shell cat $(LISTE) | cut -d: -f 6 | sort -u)
 GENRFILE :=  $(DOCS)/genre.html
 ORIGFILE :=  $(DOCS)/origin.html
 CHANFILE :=  $(DOCS)/chansons.html
+
+.PHONY: Programme
 
 help:
 	@echo "Targets:"
@@ -33,11 +40,15 @@ all:
 	make origin
 	make chansons
 
+programme: Programme.pdf
+
+Programme.pdf : $(PROGDIR)/liste.txt $(PROGLIST)
+	gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=$@ $(PROGLIST)
+
 recueils : $(OUT)
 
-
 test:
-	echo $(OUT)
+	echo $(PROGLIST)
 
 $(OUTDIR)/%.pdf: 
 	gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=$@ $(SRCDIR)/$(*F)/*.pdf
