@@ -1,5 +1,5 @@
 Air in G:x::Classique:J.S. Bach:::Classique/Air-in-G.pdf:
-All of me:x:x:Jazz::::Jazz/All-of-me.pdf:
+All of me:x:x:Jazz:Gerald Marks - Seymour Simons:::Jazz/All-of-me.pdf:
 Along with the girls:x::Jig:trad.:Irlande::Jigs/Along-with-girls.pdf:
 Amazing grace:x:::trad.:Ecosse::Ecosse/Amazing-grace.pdf:
 Amsterdam:x:::J. Brel::chansons:Chansons/Amsterdam.pdf:
@@ -38,7 +38,7 @@ Emmenez moi:x:::Aznavour::chansons:Chansons/Emmenez-moi.pdf:
 Faraway:x::Valse:Pete Jung:::Valse/Faraway.pdf:
 Father Kelly:x::Reel::Irlande::Reel/Father-kelly.pdf:
 Fermoy lassies:x::Reel::Irlande::Reel/Fermoy-lassies.pdf:
-Fever:x::Jazz::::Jazz/Fever.pdf:
+Fever:x::Jazz:John Davenport - Eddie Cooley:::Jazz/Fever.pdf:
 Flagston of memories:x::Reel::::Reel/Flagstone-of-memories.pdf:
 FlatWorld:x::Valse::Irlande::Valse/flatworld.pdf:
 Fugue en la mineur:x::Classique:J.S. Bach:::Classique/Fugue-lam.pdf:
@@ -137,4 +137,5 @@ Valse des roses:x::Valse:trad.:::Valse/Valse-des-roses.pdf:
 Valse triste:x::Valse::::Valse/Valse-triste.pdf:
 Valse vénézuélienne:x::Valse:trad.:::Valse/Valse-Venezuelienne.pdf:
 Wailing Reel:x::Reel::::Reel/Wailing-Reel.pdf:
+Waltz for Debby:x::Jazz:Bill Evans:::Jazz/WaltzForDebby.pdf:
 Zelda:x:x:Cercle::::Cercle/Zelda.pdf:
