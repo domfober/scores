@@ -1,0 +1,149 @@
+(*
+  
+*)
+
+$hdy1 = -5;
+$Ty = -11;
+$Py = -6;
+$Ly = -12;
+$My = 18;
+$dist = 10;
+
+{
+    [
+	\title<"The Wellerman", font="Helvetica">
+	\pageFormat<w=21cm, h=29.7cm, lm=2cm, rm=2cm, bm=3cm, tm=4 cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \key<-1> \meter<"C", autoMeasuresNum="system"> 
+
+
+	a1*1/8 |
+% mes 2
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d d/16 d d/8 f a a a. a/16 |
+	
+% mes 3
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	b&/8 g/16 g g/8 g/16 b& 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d2 d a1*1/8 a. a/16 |
+	
+% mes 4
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d1*1/8 d d f 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	a a a a |
+
+% mes 5
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	a g f/16 f e/8 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d/4 _ |
+	
+% mes 6
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	d2*1/4 d/8. b&1*1/16 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	c2 c a1*1/8 a. a/16 |
+	
+% mes 7
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	b&/8 g g/16 g b&/8 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d2 a1 a/4 |
+	
+% mes 8
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	d2*1/4 d/8 b&1*1/16 b& 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	c2 c a1*1/8 a a |
+
+% mes 9
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	a g f e 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d/2 |
+
+	\newLine
+	\repeatBegin
+% mes 9
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d/8 d/16 d 
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	d/8 d/16 f 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	a/8 a 
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	a. a/16 |
+	
+% mes 10
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	b&/8 g/16 g 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	g d g b& 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d2/8 a1 
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	a1. a/16 |
+	
+% mes 11
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	d1*1/8 d 
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	d d/16 f 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	a/8 a/16 f 
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	d f a f |
+
+% mes 12
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	a/8 g 
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	f/16 f e/8 
+	\harmony<"D", dy=$hdy1, dx=2, fsize=16pt>
+	\harmony<"A", dy=$hdy1, dx=6, fsize=16pt>	d/4 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	{ f, a, d2 } |
+	
+% mes 13
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	{ d2/4, b&1, f } 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	{ d2/8., b&1, f }  b&1*1/16 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	{ c2, a1, f } { c2, a1, f }  { a1/8, f } 
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	{ a., f } a/16 |
+	
+% mes 14
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	{ b&/8, g, d } { g, d } 
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	{ g/16, d } { g/16, d } { b&/8, g, d }
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	{ d2, a1, f } { a1, f } 
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	{ a/4, f } |
+	
+% mes 15
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>
+	{ d2/4, b&1, f } 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	{ d2/8, b&1, f }  b&1*1/16 b&
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	{ c2, a1, f } { c2, a1, f }  { a1/8, f } 
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	{ a, f } a/16 a |
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	a/8 g 
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	f e 
+	\harmony<"D C B& A", dy=$hdy1, dx=0, fsize=16pt>
+	d/2 
+	\repeatEnd
+
+    ]
+}

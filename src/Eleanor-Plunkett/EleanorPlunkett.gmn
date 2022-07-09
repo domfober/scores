@@ -1,0 +1,112 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+
+{
+[
+	\title<"Eleanor Plunkett">
+	\title<"Irish Song", fsize=14pt,  dy=-6>
+	\composer<"Turlough O'Carolan (1675-1740)", fsize=12pt,  dy=4>
+	\pageFormat<w=21cm, h=29cm, lm=2cm, rm=2cm, bm=3cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"3/4"> 
+	\key<1>
+	\tempo<"[1/4] = 90", dx=6, dy=2>
+	
+
+	\beamBegin \lyrics<"6", dy=$Ty, fattrib="b">(f#/8) 
+	\lyrics<"6", dy=$Py, fattrib="b">(g) \lyrics<"7", dy=$Ty, fattrib="b">(a) \beamEnd | 
+
+	\harmony<"G", dy=$hdy1, dx=-1> 
+	\lyrics<"7 7", dy=$Py, fattrib="b">(b/4 b) \grace(\bm(a/16 b)) 
+	\lyrics<"7", dy=$Ty, fattrib="b">(a/8) \lyrics<"6", dy=$Py, fattrib="b">(g)
+
+	\harmony<"G", dy=$hdy1, dx=3> 
+	\lyrics<"6 6 9", dy=$Py, fattrib="b">(g/4 g g2/8) \lyrics<"10", dy=$Ty, fattrib="b">(f#)
+
+	\harmony<"C", dy=$hdy1, dx=3> 
+	\lyrics<"7' 7'   7' 8", dy=$Py, fattrib="b">(e/4 e \grace(\bm(e/16 f#)) e/8 d ) |
+
+	\harmony<"G", dy=$hdy1, dx=-1> 
+	\lyrics<"7 7", dy=$Py, fattrib="b">(b1/4 b) \grace(\bm(a/16 b)) 
+	\lyrics<"7", dy=$Ty, fattrib="b">(a/8)  \lyrics<"6", dy=$Py, fattrib="b">(g)
+
+	\lyrics<"5 7 7 6'", dy=$Ty, fattrib="b">(
+	\harmony<"A", dy=$hdy1, dx=5>e/4 a a/8 b )
+
+	\voltaBegin<"1.","|-">
+	\harmony<"D", dy=$hdy1, dx=5> 
+	\lyrics<"7 6", dy=$Ty, fattrib="b">(a/4. f#/8) 
+	\lyrics<"6", dy=$Py, fattrib="b">(g) \lyrics<"7", dy=$Ty, fattrib="b">(a)
+	\repeatEnd
+	\voltaEnd
+
+	\voltaBegin<"2.", "|-">
+	\harmony<"D", dy=$hdy1, dx=0> 
+	\lyrics<"7", dy=$Ty, fattrib="b">(a/2) 
+	\lyrics<"8'", dy=$Py, fattrib="b">(g2/8) \lyrics<"9'", dy=$Ty, fattrib="b">(a)
+	\voltaEnd
+	
+	\repeatBegin
+	\harmony<"G", dy=$hdy1, dx=0> 
+	\lyrics<"10", dy=$Py, fattrib="b">(b/4) \lyrics<"9'", dy=$Ty, fattrib="b">(a/8) 
+	\lyrics<"8' 7' 8", dy=$Py, fattrib="b">(g e d)
+
+	\harmony<"E", dy=$hdy1, dx=3> 
+	\lyrics<"7' 7'", dy=$Py, fattrib="b">(e/2 e/8) \lyrics<"10", dy=$Ty, fattrib="b">(f#)
+
+	\lyrics<"9 9 10", dy=$Py, fattrib="b">(
+	\harmony<"C", dy=$hdy1, dx=3> g/4 g b ) |
+
+	\harmony<"D", dy=$hdy1, dx=0> 
+	\lyrics<"9' 10' 9'", dy=$Ty, fattrib="b">(a b/8 a) \lyrics<"8'", dy=$Py, fattrib="b">(g) 
+	\lyrics<"10", dy=$Ty, fattrib="b">(f#)
+
+	\harmony<"C", dy=$hdy1, dx=5> 
+	\lyrics<"8'", dy=$Py, fattrib="b">(g/4) 
+	\lyrics<"9'", dy=$Ty, fattrib="b">(a/8) 
+	\lyrics<"8'", dy=$Py, fattrib="b">(g)
+	\lyrics<"10 9", dy=$Ty, fattrib="b">(f# e)
+
+	\lyrics<"8 7 8", dy=$Py, fattrib="b">(
+	\harmony<"G", dy=$hdy1, dx=5> d/4 b1 d2 ) |
+
+	\lyrics<"7' 8' 5'", dy=$Py, fattrib="b">(
+	\harmony<"C", dy=$hdy1, dx=-1> e/4 g g1 )
+
+	\harmony<"G", dy=$hdy1, dx=3> 
+	\lyrics<"7 7", dy=$Py, fattrib="b">(b1 b) 
+	\lyrics<"7", dy=$Ty, fattrib="b">(a/8) \lyrics<"6", dy=$Py, fattrib="b">(g)
+
+	\harmony<"E", dy=$hdy1, dx=3> 
+	\lyrics<"4'", dy=$Py, fattrib="b">(e/4) 
+	\lyrics<"7 7", dy=$Ty, fattrib="b">(a a/8) \lyrics<"7", dy=$Py, fattrib="b">(b)
+
+	\voltaBegin<"1.","|-">
+	\harmony<"D", dy=$hdy1, dx=3> 
+	\lyrics<"7", dy=$Ty, fattrib="b">(a/2) 
+	\lyrics<"8'", dy=$Py, fattrib="b">(g2/8) \lyrics<"9'", dy=$Ty, fattrib="b">(a)
+	\repeatEnd
+	\voltaEnd
+
+	\voltaBegin<"2.", "|-|">
+	\lyrics<"7", dy=$Ty, fattrib="b">( 
+	\harmony<"D", dy=$hdy1, dx=0> a1/2. )
+	\voltaEnd
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=10> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+	empty*39/8 \repeatEnd
+	empty*6/8  \repeatBegin
+	empty*30/4 \repeatEnd
+]
+}

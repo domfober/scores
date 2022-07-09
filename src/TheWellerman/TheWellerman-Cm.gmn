@@ -1,0 +1,68 @@
+(*
+  
+*)
+
+$hdy1 = -5;
+$Ty = -11;
+$Py = -6;
+$Ly = -12;
+$My = 18;
+$dist = 10;
+
+{
+[
+	\title<"The Wellerman", font="Helvetica">
+	\pageFormat<w=21cm, h=29.7cm, lm=2cm, rm=2cm, bm=3cm, tm=4 cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \key<-3> \meter<"C", autoMeasuresNum="system"> 
+	
+% tab: P C
+	g1/8 | 
+	\harmony<"C", dy=$hdy1, dx=-1.5, fsize=16pt>
+	c c/16 c c/8 e& 
+	g g g. g/16 |
+
+% tab: T C
+	\harmony<"F", dy=$hdy1, dx=-1.5, fsize=16pt>
+	a&/8 f/16 f 
+	f/8 f/16 a& 
+	\harmony<"C", dy=$hdy1, dx=-1.5, fsize=16pt>
+	c2 c g1/8 g. g/16 |
+
+	\harmony<"C", dy=$hdy1, dx=-1.5, fsize=16pt>
+	c1/8 c c e& 
+	g g g g |
+
+	\harmony<"G", dy=$hdy1, dx=-1.5, fsize=16pt>
+	g f e&/16 e& d/8 
+	\harmony<"C", dy=$hdy1, dx=-1.5, fsize=16pt>
+	c/4 _ |
+
+% mes 5
+	\harmony<"A&", dy=$hdy1, dx=-1.5, fsize=16pt>
+	c2/4 c/8. a&1/16 
+	\harmony<"E&", dy=$hdy1, dx=-1.5, fsize=16pt>
+	b& b& g/8 g. g/16 |
+
+	\harmony<"F", dy=$hdy1, dx=-1.5, fsize=16pt>
+	a&/8 f f/16 f a&/8
+	\harmony<"C", dy=$hdy1, dx=-1.5, fsize=16pt>
+ 	c2 g1 g/4 |
+
+	\harmony<"A&", dy=$hdy1, dx=-1.5, fsize=16pt>
+	c2/4 c/8 a&1/16 a& 
+	\harmony<"E&", dy=$hdy1, dx=-1.5, fsize=16pt>
+	b&1 b& g/8 g g |
+	
+	\harmony<"G", dy=$hdy1, dx=-1.5, fsize=16pt>
+	g f e& d 
+	\harmony<"C", dy=$hdy1, dx=-1.5, fsize=16pt>
+	c/2
+
+%	\repeatBegin
+
+%	\repeatEnd
+
+]
+}
