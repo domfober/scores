@@ -1,11 +1,11 @@
-Air in G:x::Classique:J.S. Bach:::Classique/Air-in-G.pdf:
 Adèle Blanc Sec:x::Scottish:Frédéric Paris:::Scottish/Adele_Blanc_Sec.pdf:
+Air in G:x::Classique:J.S. Bach:::Classique/Air-in-G.pdf:
 All of me:x:x:Jazz:Gerald Marks - Seymour Simons:::Jazz/All-of-me.pdf:
 Along with the girls:x::Jig:trad.:Irlande::Jigs/Along-with-girls.pdf:
 Amazing grace:x:::trad.:Ecosse::Ecosse/Amazing-grace.pdf:
 Amsterdam:x:::J. Brel::chansons:Chansons/Amsterdam.pdf:
 Archibald:x::Valse:trad.:Ecosse::Valse/Archibald.pdf:
-Armaguedon:x::Jig:::En cours…:Jigs/Armaguedon.pdf:
+Armaguedon:x:x:Jig:::En cours…:Jigs/Armaguedon.pdf:
 Au café du canal:x::Valse:Pierre Perret::chansons:Chansons/AuCafeDuCanal.pdf:
 Avant deux de travers:x:::trad.:Bretagne::Bretagne/Avant-deux-travers.pdf:
 Avant deux de travers 1:x:::trad.:Bretagne::Bretagne/Avant-deux-travers1.pdf:
@@ -27,12 +27,13 @@ Castle Kelly:x::Reel::Irlande:En cours…:Reel/CastleKelly.pdf:
 Ce n’est rien:x:::J. Clerc::chansons:Chansons/Ce-n-est-rien.pdf:
 Ce sont les filles de Landéda:x:x::trad.:Bretagne::Bretagne/Les-filles-de-Landeda.pdf:
 Cercle Aqui:x::Cercle:::En cours…:Cercle/CercleAqui.pdf:
-Cercle circachien:x::Cercle:::En cours…:Cercle/CircaChien.pdf:
+Cercle circachien:x:x:Cercle:::En cours…:Cercle/CircaChien.pdf:
 Cochinchine:x:::trad.:Bretagne::Bretagne/Cochinchine.pdf:
 Cumbia sobre al mar (A):x::Cumbia::::Cumbia/Cumbia-sobre-al-mar-A.pdf:
 Cumbia sobre al mar (E):x::Cumbia::::Cumbia/Cumbia-sobre-al-mar-E.pdf:
 Danse de l’ours:x:x:Polka:trad.:::Polka/Danse-de-l-ours.pdf:
 Dirty Old Town:x::::Irlande::Irlande/DirtyOldTown.pdf:
+Dona dona:x::::Yiddish:chansons:Chansons/dona-dona.pdf:
 El choclo:x::Tango:Angel Villoldo:::Tango/El-choclo.pdf:
 El pueblo unido:x:::Sergio Ortega:Chili:chansons:Chansons/El-pueblo-unido.pdf:
 Eleanor Plunkett:x::Valse:Turlough O’Carolan:Irlande::Valse/Eleanor-Plunkett.pdf:
@@ -80,6 +81,7 @@ Le plus bel age:x::Valse::::Valse/LePlusBelAge.pdf:
 Le Revenant:x::Valse::::Valse/Le-revenant.pdf:
 Le tango du bourreau:x:x:Tango::::Tango/Tango-du-Bourreau.pdf:
 Le temps des cerises:x::Valse:::chansons:Chansons/Le-temps-des-cerises.pdf:
+Le tourbillon de la vie:x::Valse:::chansons:Chansons/Le-tourbillon-de-la-vie.pdf:
 Les amants d’un jour:x::Valse:M. Monnot::chansons:Chansons/Les-amants-d-un-jour.pdf:
 Les planètes:x::Bourrée::::Bourree/Les-planetes.pdf:
 Lettre à Elise:x::Classique:Beethoven:::Classique/Elise.pdf:
@@ -92,7 +94,7 @@ Mazurka finlandaise:x::Mazurka:trad.:Finlande::Mazurkas/Mazurka-finlandaise.pdf:
 Menuet 3:x::Classique:J.S. Bach:::Classique/Menuet.pdf:
 Milonga para as Missoes:x::Tango::::Tango/Milonga.pdf:
 Minor swing:x::Jazz::::Jazz/Minor-swing.pdf:
-Mis Kerzu:x::Valse:Florence Pindivic:::Valse/Mis-Kerzu.pdf:
+Mis Kerzu:x:x:Valse:Florence Pindivic:::Valse/Mis-Kerzu.pdf:
 Modes (C):x::Gammes::::Gammes/C-modes.pdf:
 Modes des balkans (Poussé):x::Gammes::::Gammes/BalkansP.pdf:
 Modes des balkans (Tiré):x::Gammes::::Gammes/Balkans.pdf:
@@ -128,6 +130,7 @@ Tarentelle en sol:x::Tartentelle:trad.:Italie::Tarentelle/Tarentelle-sol.pdf:
 Tarentelle simple:x:x:Tartentelle:trad.:Italie::Tarentelle/Tarentelle-simple.pdf:
 The blarney pilgrim:x::Jig::::Jigs/Pilgrim.pdf:
 The entertainer:x::Jazz:Scott Joplin:::Jazz/Entertainer.pdf:
+The last rose of summer:x::Valse:trad.::chansons:Chansons/the_last_rose_of_summer.pdf:
 The leaving of Liverpool:x:::trad.:Irlande::Irlande/The-Leaving-of-Liverpool.pdf:
 The Rose of Raby:x::Mazurka:Dave Shepard:::Mazurkas/The-rose-of-raby.pdf:
 The silver spear:x::Reel::Irlande::Reel/SilverSpear.pdf:
