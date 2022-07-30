@@ -38,6 +38,7 @@ El choclo:x::Tango:Angel Villoldo:::Tango/El-choclo.pdf:
 El pueblo unido:x:::Sergio Ortega:Chili:chansons:Chansons/El-pueblo-unido.pdf:
 Eleanor Plunkett:x::Valse:Turlough O’Carolan:Irlande::Valse/Eleanor-Plunkett.pdf:
 Emmenez moi:x:::Aznavour::chansons:Chansons/Emmenez-moi.pdf:
+Esperanza:x::Scottish:Perrone/Minvielle:::Scottish/esperanza.pdf:
 Faraway:x::Valse:Pete Jung:::Valse/Faraway.pdf:
 Father Kelly:x::Reel::Irlande::Reel/Father-kelly.pdf:
 Fermoy lassies:x::Reel::Irlande::Reel/Fermoy-lassies.pdf:
@@ -56,6 +57,7 @@ Hamish:x::Scottish::::Scottish/Hamish.pdf:
 I’ll Buy Boots for Maggie:x:x:Polka::Irlande::Polka/Boots-for-Maggie.pdf:
 Il camino:x::Valse:Aldo Romano:::Valse/IlCamino.pdf:
 Inisher waltz:x::Valse:Thomas Walsh:Irlande::Valse/Inisher-waltz.pdf:
+Ivoirine:x::Gavotte:Stéphane Milleret:::Gavotte/ivoirine_2_voix_lam.pdf:
 J’envoie valser:x:x:Valse:Gérard Bourgeois::chansons:Valse/Jenvoie-valser.pdf:
 Java des bombes atomiques:x:::B. Vian, A. Goraguer::chansons:Chansons/Java-des-bombes-atomiques.pdf:
 Jour de Pluie:x:x:Valse:Minuit Guibolles:::Valse/JourDePluie.pdf:
