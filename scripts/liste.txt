@@ -78,6 +78,7 @@ La serinissima:x:x::Loren Mckennitt:Irlande::Irlande/La-serenissima.pdf:
 La tendresse:x:::Bourvil::chansons:Chansons/La-tendresse.pdf:
 La Traversée:x::Gavotte:Amélie Denarié:::Gavotte/La_Traversee.pdf:
 Last night waltz:x:x:Valse:trad.:Irlande::Valse/Valse-irlandaise-Last-night.pdf:
+Le banquet:x::Valse:Yann Tiersen:::Valse/le-banquet.pdf:
 Le petit vin blanc:x::Valse:::chansons:Chansons/Le-petit-vin-blanc.pdf:
 Le plus bel age:x::Valse::::Valse/LePlusBelAge.pdf:
 Le Revenant:x::Valse::::Valse/Le-revenant.pdf:
@@ -117,6 +118,7 @@ Sardane:x::Sardane::Espagne::Sardane/Sardane.pdf:
 Scottish à Lucien:x::Scottish::::Scottish/Scottishlucien.pdf:
 Scottish à Natacha:x::Scottish::::Scottish/ScottishNatacha.pdf:
 Scottish aux Roberts:x::Scottish::::Scottish/Scottishrobert.pdf:
+Scottish du camion:x::Scottish:Danile Marinelli:::Scottish/Scottish-du-camion.pdf:
 Scottish fait main:x:x:Scottish:Les Zéoles:::Scottish/ScottischFaitMain.pdf:
 Scottish La boite à bois:x::Scottish:Nikita Pfister:::Scottish/La-boite-a-bois.pdf:
 Sous le ciel de Paris:x::Valse:::chansons:Chansons/Sous-le-ciel-de-paris.pdf:
@@ -146,6 +148,7 @@ Valse d’Amélie:x::Valse:Yann Tiersen:::Valse/Valse-Amelie.pdf:
 Valse des roses:x::Valse:trad.:::Valse/Valse-des-roses.pdf:
 Valse triste:x::Valse::::Valse/Valse-triste.pdf:
 Valse vénézuélienne:x::Valse:trad.:::Valse/Valse-Venezuelienne.pdf:
+Vici-Luna:x::Gavotte:Stéphane Milleret:::Gavotte/vici_luna.pdf:
 Wailing Reel:x::Reel::::Reel/Wailing-Reel.pdf:
 Waltz for Debby:x::Jazz:Bill Evans:::Jazz/WaltzForDebby.pdf:
 Zelda:x:x:Cercle::::Cercle/Zelda.pdf:
