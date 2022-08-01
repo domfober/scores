@@ -1,0 +1,133 @@
+(*
+	engine setup
+	maximum distance : 5
+	no optimal page fill
+*)
+
+$Hy = 17;
+$NL = "\doubleBar \newLine";
+$NP = "\doubleBar \newPage";
+
+{
+[
+	\pageFormat<w=27.3cm, h=38.61cm, lm=3cm, rm=3cm, bm=3cm, tm=3cm>
+
+	\clef<"g"> \key<-3> 
+	\harmony<"Cm", dy=$Hy>
+	\text<"Cm", dy=20, dx=-3cm, fsize=24pt> ({ c1/1, g0, e&1 } ) |
+	\harmony<"Fm", dy=$Hy> { c1/1, a&0, f1 } |
+	\harmony<"B&", dy=$Hy> { d1/1, b&0, f1 } |
+	\harmony<"E&", dy=$Hy> { e&1/1, b&0, g1 } |
+	\harmony<"A&", dy=$Hy> { c1/1, a&0, e&1 } |
+	\harmony<"Ddim", dy=$Hy> { d1/1, a&0, f1 } |
+	\harmony<"G", dy=$Hy> 		{ g0/1, b0, d1 } |
+	\harmony<"Cm", dy=$Hy> 	{ c1/1, g0, e&1 } 
+$NL
+	\harmony<"Cm", dy=$Hy> { c1/1, g1, e&1 } |
+	\harmony<"Fm", dy=$Hy> { c1/1, a&1, f1 } |
+	\harmony<"B&", dy=$Hy> { d1/1, b&1, f1 } |
+	\harmony<"E&", dy=$Hy> { e&1/1, b&1, g1 } |
+	\harmony<"A&", dy=$Hy> { c1/1, a&1, e&1 } |
+	\harmony<"Ddim", dy=$Hy> { d1/1, a&1, f1 } |
+	\harmony<"G", dy=$Hy> 		{ g1/1, b0, d1 } |
+	\harmony<"Cm", dy=$Hy> 	{ c1/1, g1, e&1 } 
+$NL
+	\harmony<"Cm", dy=$Hy> { c2/1, g1, e&1 } |
+	\harmony<"Fm", dy=$Hy> { c2/1, a&1, f1 } |
+	\harmony<"B&", dy=$Hy> { d2/1, b&1, f1 } |
+	\harmony<"E&", dy=$Hy> { e&2/1, b&1, g1 } |
+	\harmony<"A&", dy=$Hy> { c2/1, a&1, e&1 } |
+	\harmony<"Ddim", dy=$Hy> { d2/1, a&1, f1 } |
+	\harmony<"G", dy=$Hy> 		{ g1/1, b1, d1 } |
+	\harmony<"Cm", dy=$Hy> 	{ c2/1, g1, e&1 } 
+$NL
+	\harmony<"Cm", dy=$Hy> { c2/1, g1, e&2 } |
+	\harmony<"Fm", dy=$Hy> { c2/1, a&1, f2 } |
+	\harmony<"B&", dy=$Hy> { d2/1, b&1, f2 } |
+	\harmony<"E&", dy=$Hy> { e&2/1, b&1, g2 } |
+	\harmony<"A&", dy=$Hy> { c2/1, a&1, e&2 } |
+	\harmony<"Ddim", dy=$Hy> { d2/1, a&1, f2 } |
+	\harmony<"G", dy=$Hy> 		{ g1/1, b1, d2 } |
+	\harmony<"Cm", dy=$Hy> 	{ c2/1, g1, e&2 } 
+$NL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\clef<"g"> \key<-4> 
+	\harmony<"Fm", dy=$Hy>
+	\text<"Fm", dy=20, dx=-3cm, fsize=24pt> ({ c1/1, a&0, f1 } ) |
+	\harmony<"B&", dy=$Hy> { b&0, d&1, f1 } |
+	\harmony<"E&", dy=$Hy> { e&1, b&0, g1 } |
+	\harmony<"A&", dy=$Hy> { c1, a&0, e&1 } |
+	\harmony<"D&", dy=$Hy> { d&1, a&0, f1 } |
+	\harmony<"Gdim", dy=$Hy> { g0, b&0, d&1 } |
+	\harmony<"C", dy=$Hy> 		{ g0, c1, e&1 } |
+	\harmony<"Fm", dy=$Hy> 	{ c1, a&0, f1 } 
+$NL
+	\harmony<"Fm", dy=$Hy> { c1/1, a&1, f1 } |
+	\harmony<"B&", dy=$Hy> { b&1, d&1, f1 } |
+	\harmony<"E&", dy=$Hy> { e&1, b&1, g1 } |
+	\harmony<"A&", dy=$Hy> { c1, a&1, e&1 } |
+	\harmony<"D&", dy=$Hy> { d&1, a&1, f1 } |
+	\harmony<"Gdim", dy=$Hy> { g1, b&0, d&1 } |
+	\harmony<"C", dy=$Hy> 		{ g1, c1, e&1 } |
+	\harmony<"Fm", dy=$Hy> 	{ c1, a&1, f1 } 
+$NL
+	\harmony<"Fm", dy=$Hy> { c2, a&1, f1 } |
+	\harmony<"B&", dy=$Hy> { b&1, d&2, f1 } |
+	\harmony<"E&", dy=$Hy> { e&2, b&1, g1 } |
+	\harmony<"A&", dy=$Hy> { c2, a&1, e&1 } |
+	\harmony<"D&", dy=$Hy> { d&2, a&1, f1 } |
+	\harmony<"Gdim", dy=$Hy> { g1, b&1, d&1 } |
+	\harmony<"C", dy=$Hy> 		{ g1, c2, e&1 } |
+	\harmony<"Fm", dy=$Hy> 	{ c2, a&1, f1 } 
+$NL
+	\harmony<"Fm", dy=$Hy> { c2, a&1, f2 } |
+	\harmony<"B&", dy=$Hy> { b&1, d&2, f2 } |
+	\harmony<"E&", dy=$Hy> { e&2, b&1, g2 } |
+	\harmony<"A&", dy=$Hy> { c2, a&1, e&2 } |
+	\harmony<"D&", dy=$Hy> { d&2, a&1, f2 } |
+	\harmony<"Gdim", dy=$Hy> { g1, b&1, d&2 } |
+	\harmony<"C", dy=$Hy> 		{ g1, c2, e&2 } |
+	\harmony<"Fm", dy=$Hy> 	{ c2, a&1, f2 } 
+$NP
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\clef<"g"> \key<-5> 
+	\harmony<"B&m", dy=$Hy>
+	\text<"Bbm", dy=20, dx=-3cm, fsize=24pt> ({  b&0, d&1, f1 } ) |
+	\harmony<"E&", dy=$Hy> { e&1, b&0, g&1 } |
+	\harmony<"A&", dy=$Hy> { c1, a&0, e&1 } |
+	\harmony<"D&", dy=$Hy> { d&1, a&0, f1 } |
+	\harmony<"G&", dy=$Hy> { g0, b&0, d&1 } |
+	\harmony<"Cdim", dy=$Hy> 		{ g&0, c1, e&1 } |
+	\harmony<"F", dy=$Hy> 	{ c1, a0, f1 } |
+	\harmony<"B&", dy=$Hy> { b&0, d&1, f1 }
+$NL
+	\harmony<"B&m", dy=$Hy> {  b&1, d&1, f1 } |
+	\harmony<"E&", dy=$Hy> { e&1, b&1, g&1 } |
+	\harmony<"A&", dy=$Hy> { c1, a&1, e&1 } |
+	\harmony<"D&", dy=$Hy> { d&1, a&1, f1 } |
+	\harmony<"G&", dy=$Hy> { g&1, b&0, d&1 } |
+	\harmony<"Cdim", dy=$Hy> 		{ g&1, c1, e&1 } |
+	\harmony<"F", dy=$Hy> 	{ c1, a1, f1 } |
+	\harmony<"B&", dy=$Hy> { b&1, d&1, f1 }
+$NL
+	\harmony<"B&m", dy=$Hy> {  b&1, d&2, f1 } |
+	\harmony<"E&", dy=$Hy> { e&2, b&1, g&1 } |
+	\harmony<"A&", dy=$Hy> { c2, a&1, e&1 } |
+	\harmony<"D&", dy=$Hy> { d&2, a&1, f1 } |
+	\harmony<"G&", dy=$Hy> { g&1, b&1, d&1 } |
+	\harmony<"Cdim", dy=$Hy> 		{ g&1, c2, e&1 } |
+	\harmony<"F", dy=$Hy> 	{ c2, a1, f1 } |
+	\harmony<"B&", dy=$Hy> { b&1, d&2, f1 }
+$NL
+	\harmony<"B&m", dy=$Hy> {  b&1, d&2, f2 } |
+	\harmony<"E&", dy=$Hy> { e&2, b&1, g&2 } |
+	\harmony<"A&", dy=$Hy> { c2, a&1, e&2 } |
+	\harmony<"D&", dy=$Hy> { d&2, a&1, f2 } |
+	\harmony<"G&", dy=$Hy> { g&1, b&1, d&2 } |
+	\harmony<"Cdim", dy=$Hy> 		{ g&1, c2, e&2 } |
+	\harmony<"F", dy=$Hy> 	{ c2, a1, f2 } |
+	\harmony<"B&", dy=$Hy> { b&1, d&2, f2 }
+
+	\doubleBar
+]
+}
