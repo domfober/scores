@@ -1,0 +1,104 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+$dist = 10;
+
+{
+[
+	\title<"Tabou">
+	\title<"Scottish", fsize=14pt,  dy=-8>
+	\pageFormat<w=23cm, h=32.6cm, lm=2cm, rm=2cm, bm=3cm, tm=6cm>
+%	\footer<"Typeset with Guido", dy=-6>
+%	\footer<"https://guidoeditor.grame.fr", dy=-10>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<-1> \meter<"4/4", autoMeasuresNum="system"> 
+
+% mesure 1
+	\harmony<"Dm", dy=$hdy1, dx=3, fsize=16pt> 
+% tab: T
+	\bm(\lyrics<"3'", dy=$Ty> (d1/8) \lyrics<"2''", dy=$Ty> (c#1) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"5", dy=$Ty> (e1))  \bm(\lyrics<"4'", dy=$Ty> (f1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"4'", dy=$Ty> (f1)) |
+% mesure 2
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> 
+% tab: P
+	\bm(\lyrics<"4'", dy=$Py> (e1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"5", dy=$Py> (d1))  \bm(\lyrics<"3'", dy=$Py> (c1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"5", dy=$Py> (d1) \lyrics<"3'", dy=$Py> (c1)) |
+
+\voltaBegin<"1-3.","|-">
+% tab: T
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt> 
+	\bm(\lyrics<"3'", dy=$Ty> (d1) \lyrics<"2''", dy=$Ty> (c#1) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"5", dy=$Ty> (e1)) \lyrics<"4'", dy=$Ty> (f1/4) _ |
+	\harmony<"Am7", dy=$hdy1, dx=0, fsize=16pt>
+	\bm(\lyrics<"4'", dy=$Ty> (f1/8) \lyrics<"5", dy=$Ty> (e1) \lyrics<"3", dy=$Ty> (a0) \tieBegin \lyrics<"4'", dy=$Ty> (f1)) \lyrics<"4'", dy=$Ty> (f1/4) \tieEnd \lyrics<"5", dy=$Ty> (e1)
+\repeatEnd
+\voltaEnd
+
+\newLine
+\voltaBegin<"2-4.", "|-|">
+% tab: T
+	\harmony<"Dm", dy=$hdy1, dx=2, fsize=16pt> 
+	\bm(\lyrics<"4'", dy=$Ty> (f1/8) \lyrics<"5", dy=$Ty> (e1) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"4'", dy=$Ty> (f1))
+% tab: P
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> 
+	\bm(\lyrics<"4'", dy=$Py> (e1) \lyrics<"5", dy=$Py> (d1) \lyrics<"3'", dy=$Py> (c1) \lyrics<"4'", dy=$Py> (e1)) |
+% tab: T
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt> 
+	\bm(\lyrics<"3'", dy=$Ty> (d1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"4'", dy=$Ty> (f1) ) \lyrics<"3'", dy=$Ty> (d1/2)
+\repeatEnd
+\voltaEnd
+\repeatBegin
+
+% mesure 7
+% tab: T C
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt> 
+	\lyrics<"5'", dy=$Ty> (a1/4.) \lyrics<"5''", dy=$Ty> (b&1/8) \bm(\lyrics<"5'", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"5'", dy=$Ty> (a1)) |
+% mesure 8
+% tab: P C
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> 
+	\bm(\lyrics<"5'", dy=$Py> (g1) \lyrics<"5''", dy=$Py> (a1) \lyrics<"5'", dy=$Py> (g1) \lyrics<"4'", dy=$Py> (e1)) \bm(\lyrics<"3'", dy=$Py> (c1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"5", dy=$Py> (d1) \lyrics<"4'", dy=$Py> (e1)) |
+% mesure 9
+% tab: T
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt> 
+	\lyrics<"4'", dy=$Ty> (f1/4.) \lyrics<"5", dy=$Ty> (e1/8) \bm(\lyrics<"3'", dy=$Ty> (d1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"3'", dy=$Ty> (d1)) |
+% mesure 10
+	\harmony<"Am7", dy=$hdy1, dx=0, fsize=16pt> 
+	\bm(\lyrics<"5", dy=$Ty> (e1) \lyrics<"3", dy=$Ty> (a0) \lyrics<"4", dy=$Ty> (c1) \lyrics<"3'", dy=$Ty> (d1)) \bm(\lyrics<"5", dy=$Ty> (e1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"3''", dy=$Ty> (g1) \lyrics<"4''", dy=$Ty> (g#1)) |
+% mesure 11
+% tab: T C
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt> 
+	\lyrics<"5'", dy=$Ty> (a1/4.) \lyrics<"5''", dy=$Ty> (b&1/8) \bm(\lyrics<"5'", dy=$Ty> (a1) \lyrics<"3''", dy=$Ty> (g1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"5'", dy=$Ty> (a1)) |
+% mesure 12
+% tab: P C
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> 
+	\bm(\lyrics<"5'", dy=$Py> (g1) \lyrics<"5''", dy=$Py> (a1) \lyrics<"5'", dy=$Py> (g1) \lyrics<"4'", dy=$Py> (e1)) \bm(\lyrics<"3'", dy=$Py> (c1) \lyrics<"4'", dy=$Py> (e1) \lyrics<"5", dy=$Py> (d1) \lyrics<"4'", dy=$Py> (e1)) |
+% mesure 13
+% tab: T
+	\harmony<"Dm", dy=$hdy1, dx=2, fsize=16pt> 
+	\bm(\lyrics<"4'", dy=$Ty> (f1/8) \lyrics<"5", dy=$Ty> (e1) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"4'", dy=$Ty> (f1))
+% tab: P
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt> 
+	\bm(\lyrics<"4'", dy=$Py> (e1) \lyrics<"5", dy=$Py> (d1) \lyrics<"3'", dy=$Py> (c1) \lyrics<"4'", dy=$Py> (e1)) |
+
+\voltaBegin<"1.","|-">
+% tab: T
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt> 
+	\bm(\lyrics<"3'", dy=$Ty> (d1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"3'", dy=$Ty> (d1) \lyrics<"4", dy=$Ty> (c1)) \bm(\lyrics<"3'", dy=$Ty> (d1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"3''", dy=$Ty> (g1)) 
+\repeatEnd
+\voltaEnd
+
+\voltaBegin<"2.", "|-|">
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt> 
+	\bm(\lyrics<"3'", dy=$Ty> (d1) \lyrics<"4'", dy=$Ty> (f1) \lyrics<"5", dy=$Ty> (e1) \lyrics<"4'", dy=$Ty> (f1)) \lyrics<"3'", dy=$Ty> (d1/2)
+\voltaEnd
+]
+,
+[
+\set<autoEndBar="off">
+\staffFormat<"1-line", distance=$dist> \clef<"none">
+\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+]
+}
