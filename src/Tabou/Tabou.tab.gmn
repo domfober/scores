@@ -36,7 +36,7 @@ $dist = 10;
 \repeatEnd
 \voltaEnd
 
-\newLine
+%\newLine
 \voltaBegin<"2-4.", "|-|">
 % tab: T
 	\harmony<"Dm", dy=$hdy1, dx=2, fsize=16pt> 
