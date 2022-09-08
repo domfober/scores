@@ -6,9 +6,9 @@ PDFDIR := pdf
 SRCDIR := $(DOCS)/$(PDFDIR)
 DIRS   := $(shell find $(SRCDIR) -type d -name "[A-Z]*" | sed -e 's/docs\/pdf\///' | grep -v prive)
 
-PROGDIR  := Programme
-PROGLIST := $(shell cat $(PROGDIR)/liste.txt)
-PROGLIST := $(PROGLIST:%=$(PROGDIR)/%)
+#PROGDIR  := Programme
+#PROGLIST := $(shell cat $(PROGDIR)/liste.txt)
+#PROGLIST := $(PROGLIST:%=$(PROGDIR)/%)
 
 SCRIPTS := scripts
 SHAREDAWK := -v DIR=$(PDFDIR)
@@ -40,10 +40,10 @@ all:
 	make origin
 	make chansons
 
-programme: Programme.pdf
+#programme: Programme.pdf
 
-Programme.pdf : $(PROGDIR)/liste.txt $(PROGLIST)
-	gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=$@ $(PROGLIST)
+#Programme.pdf : $(PROGDIR)/liste.txt $(PROGLIST)
+#	gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile=$@ $(PROGLIST)
 
 recueils : $(OUT)
 

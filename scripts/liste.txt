@@ -7,12 +7,12 @@ Amsterdam:x:::J. Brel::chansons:Chansons/Amsterdam.pdf:
 Archibald:x::Valse:trad.:Ecosse::Valse/Archibald.pdf:
 Armaguedon:x:x:Jig:::En cours…:Jigs/Armaguedon.pdf:
 Au café du canal:x::Valse:Pierre Perret::chansons:Chansons/AuCafeDuCanal.pdf:
-Avant deux de travers:x:::trad.:Bretagne::Bretagne/Avant-deux-travers.pdf:
-Avant deux de travers 1:x:::trad.:Bretagne::Bretagne/Avant-deux-travers1.pdf:
-Avant deux de travers 2:x:::trad.:Bretagne::Bretagne/Avant-deux-travers2.pdf:
-Avant deux de travers 3:x:::trad.:Bretagne::Bretagne/Avant-deux-travers3.pdf:
-Avant deux de travers 4:x:::trad.:Bretagne::Bretagne/Avant-deux-travers4.pdf:
-Avant deux de travers 5:x:::trad.:Bretagne::Bretagne/Avant-deux-travers5.pdf:
+Avant deux de travers:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers.pdf:
+Avant deux de travers 1:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers1.pdf:
+Avant deux de travers 2:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers2.pdf:
+Avant deux de travers 3:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers3.pdf:
+Avant deux de travers 4:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers4.pdf:
+Avant deux de travers 5:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers5.pdf:
 Bal à quatre:x:x::trad.:Bretagne::Bretagne/Bal-a-quatre.pdf:
 Balkans:x::Recueils::::Recueils/Repertoire-Russie-Balkan.pdf:
 Ballade irlandaise:x:x::trad.:Irlande::Irlande/Ballade-irlandaise.pdf:
