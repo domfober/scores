@@ -122,6 +122,7 @@ Scottish aux Roberts:x::Scottish::::Scottish/Scottishrobert.pdf:
 Scottish du camion:x::Scottish:Danile Marinelli:::Scottish/Scottish-du-camion.pdf:
 Scottish fait main:x:x:Scottish:Les Zéoles:::Scottish/ScottischFaitMain.pdf:
 Scottish La boite à bois:x::Scottish:Nikita Pfister:::Scottish/La-boite-a-bois.pdf:
+Sommarvals:x::Valse:Ale Möller:::Valse/Sommarvals.pdf:
 Sous le ciel de Paris:x::Valse:::chansons:Chansons/Sous-le-ciel-de-paris.pdf:
 Sous les ponts de Paris:x::Valse:Vincent Scotto::chansons:Valse/Sous-les-ponts-de-paris.pdf:
 Sous les toits de la rue Tiquetone:x::Valse:Daniel Denécheau:::Valse/Sous-les-toits-de-la-rue-Tiquetonne.pdf:
@@ -141,6 +142,7 @@ The Rose of Raby:x::Mazurka:Dave Shepard:::Mazurkas/The-rose-of-raby.pdf:
 The silver spear:x::Reel::Irlande::Reel/SilverSpear.pdf:
 The white petticoat:x::Jig::Irlande::Jigs/The-white-petticoat.pdf:
 Tristesse:x::Classique:Chopin:::Classique/Tristesse.pdf:
+Ttukurukuttukuttuku:x::Scottish:trad.::chansons:Chansons/Ttukurukuttukuttuku.pdf:
 Vals efter Jonte i Byom:x::Valse::Suède::Suede/Vals.pdf:Bifil
 Valse à Eddy:x::Valse::::Valse/Valse-a-Eddy.pdf:
 Valse à Mary:x::Valse:B. Loffet:::Valse/Valse-a-Mary.pdf:
