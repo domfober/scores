@@ -74,6 +74,7 @@ La cumparsita:x::Tango::::Tango/Cumparsita.pdf::
 La femme de marbre:x::Mazurka:Stéphane Delicq:::Mazurkas/La-femme-de-marbre.pdf::
 La femme fusée:x::Cercle:Amélie Denarié:::Cercle/La_Femme_Fusee.pdf::
 La noce:x:x:Valse::::Valse/La-noce.pdf::
+La nonchalante:x::Mazurka:Emmanuel Pariselle:::Mazurkas/La-nonchalante.pdf::
 La Paimpolaise:x::Valse:::chansons:Chansons/Paimpolaise.pdf::
 La planète bleue tourne et vire:x::Valse::Balkans::Valse/La-planete-bleue-tourne-et-vire.pdf::
 La serinissima:x:x::Loren Mckennitt:Irlande::Irlande/La-serenissima.pdf::
