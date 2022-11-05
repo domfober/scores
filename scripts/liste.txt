@@ -76,6 +76,7 @@ La femme fusée:x::Cercle:Amélie Denarié:::Cercle/La_Femme_Fusee.pdf::
 La noce:x:x:Valse::::Valse/La-noce.pdf::
 La nonchalante:x::Mazurka:Emmanuel Pariselle:::Mazurkas/La-nonchalante.pdf::
 La Paimpolaise:x::Valse:::chansons:Chansons/Paimpolaise.pdf::
+La petite Cancalaise:x::Scottish:trad.:Bretagne::Scottish/Petite-cancalaise.pdf::
 La planète bleue tourne et vire:x::Valse::Balkans::Valse/La-planete-bleue-tourne-et-vire.pdf::
 La serinissima:x:x::Loren Mckennitt:Irlande::Irlande/La-serenissima.pdf::
 La tendresse:x:::Bourvil::chansons:Chansons/La-tendresse.pdf::
@@ -119,16 +120,20 @@ San Francisco:x:::Moustaki::chansons:Chansons/San-francisco.pdf::
 Santiano:x:::H. Auffray::chansons:Chansons/Santiano.pdf::
 Sardane:x::Sardane::Espagne::Sardane/Sardane.pdf::
 Scottish à Lucien:x::Scottish::::Scottish/Scottishlucien.pdf::
+Scottish à Marc:x::Scottish::::Scottish/scottish-a-marc.pdf::
 Scottish à Natacha:x::Scottish::::Scottish/ScottishNatacha.pdf::
 Scottish aux Roberts:x::Scottish::::Scottish/Scottishrobert.pdf::
 Scottish du camion:x::Scottish:Danile Marinelli:::Scottish/Scottish-du-camion.pdf::
+Scottish du père Roussel:x::Scottish:trad.:Bretagne::Scottish/Scottish-du-Pere-Roussel.pdf::
 Scottish fait main:x:x:Scottish:Les Zéoles:::Scottish/ScottischFaitMain.pdf::
+Scottish Hajième:x::Scottish:JM Siche:::Scottish/scottish-siche.pdf::
 Scottish La boite à bois:x::Scottish:Nikita Pfister:::Scottish/La-boite-a-bois.pdf::
 Sommarvals:x::Valse:Ale Möller:::Valse/Sommarvals.pdf::x
 Sous le ciel de Paris:x::Valse:::chansons:Chansons/Sous-le-ciel-de-paris.pdf::
 Sous les ponts de Paris:x::Valse:Vincent Scotto::chansons:Valse/Sous-les-ponts-de-paris.pdf::
 Sous les toits de la rue Tiquetone:x::Valse:Daniel Denécheau:::Valse/Sous-les-toits-de-la-rue-Tiquetonne.pdf::
 Stewball:x:::trad.::chansons:Chansons/Stewball.pdf::
+Tabou:x::Scottish:Jen Michel Corgeron:::Scottish/Tabou.pdf::
 Tango pour Claude:x::Tango:Richard Galiano:::Tango/Tango-pour-Claude.pdf::
 Tarentelle:x::Tartentelle:trad.:Italie:En cours…:Tarentelle/Tarentelle2.pdf::
 Tarentelle (traditionnelle):x::Tartentelle:trad.:Italie::Tarentelle/Tarentelle1.pdf::
