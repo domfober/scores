@@ -1,0 +1,145 @@
+(*
+  gmn file converted from tab file
+*)
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+$Ly = -12;
+$dist = 10;
+
+{
+[
+
+
+	\pageFormat<w=23cm, h=32.7cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=5cm>
+	\title<"Et Bam">
+	\composer<"Mentissa", dy=6>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \meter<"3/4", autoMeasuresNum="system">
+	\tempo<"[3/4] = 56", dy=2 >
+
+	\lyrics<"8 7' |", dy=$Ty, fattrib="b">( c2/8 d2 | )
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9 7' 8 |", dy=$Ty, fattrib="b">( e2/4 d2 c2 | )
+
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+\tie(
+	\lyrics<"7 |", dy=$Ty, fattrib="b">( a1/2. | )
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 |", dy=$Ty, fattrib="b">( a1/2. | )
+% meas. 5
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 ) 8 7' |", dy=$Ty, fattrib="b">( a1/2 ) c2/8 d2 | )
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9 7' 8 |", dy=$Ty, fattrib="b">( e2/4 d2 c2 | )
+
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+\tie(
+	\lyrics<"8' |", dy=$Ty, fattrib="b">( f2/2. | )
+% meas. 8
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' |", dy=$Ty, fattrib="b">( f2/2. | )
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' ) 7' 9 |", dy=$Ty, fattrib="b">( f2/2 ) d2/8 e2 | )
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' 9 7' |", dy=$Ty, fattrib="b">( f2/4 e2 d2 | )
+% meas. 11
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 7' 9 |", dy=$Ty, fattrib="b">( d2/2 d2/8 e2 | )
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' 9 7' |", dy=$Ty, fattrib="b">( f2/4 e2 d2 | )
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 7' 9 |", dy=$Ty, fattrib="b">( d2/2 d2/8 e2 | )
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' 9 7' |", dy=$Ty, fattrib="b">( f2/4 e2 d2 | )
+
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+\tie (
+	\lyrics<"7' |", dy=$Py, fattrib="b">( e2/2. | )
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+% meas. 14
+	\lyrics<"7' |", dy=$Py, fattrib="b">( e2/2. | )
+\voltaBegin<"1.">
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' ) ", dy=$Py, fattrib="b">( e2/2 )  )
+\voltaEnd
+\repeatEnd
+\voltaBegin<"2.">
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' ", dy=$Py, fattrib="b">( e2/2  )
+\fermata(
+	\lyrics<"8' )", dy=$Ty, fattrib="b">( f2/4 ) )
+\voltaEnd
+
+% Refrain
+\repeatBegin
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9 8' |", dy=$Ty, fattrib="b">( e2/2 f2/4 | )
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9 8' |", dy=$Ty, fattrib="b">( e2/2 f2/4 | )
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9 |", dy=$Ty, fattrib="b">( e2/2. | )
+
+% meas. 20
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' ", dy=$Py, fattrib="b">( g2/4  )
+	\lyrics<"8' ", dy=$Ty, fattrib="b">( f2  )
+	\lyrics<"7' |", dy=$Py, fattrib="b">( e2 | )
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+\tie(
+	\lyrics<"8' |", dy=$Ty, fattrib="b">( f2/2. | )
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' ) |", dy=$Ty, fattrib="b">( f2 ) | )
+
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9' 9' 9' |", dy=$Ty, fattrib="b">( a2/4 a2/4. a2/8 | )
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9' ", dy=$Ty, fattrib="b">( a2/4   )
+	\lyrics<"8' ", dy=$Py, fattrib="b">( g2  )
+	\lyrics<"8' |", dy=$Ty, fattrib="b">( f2 | )
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+\tie(
+	\lyrics<"7' |", dy=$Py, fattrib="b">( e2/2. | )
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' ) ", dy=$Py, fattrib="b">( e2/2 )  )
+	\lyrics<"6' 8 |", dy=$Py, fattrib="b">( c2/8 d2 | )
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 6' 8 |", dy=$Py, fattrib="b">( e2/2 c2/8 d2 | )
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8' 7' |", dy=$Py, fattrib="b">( e2/4 g2 e2 | )
+
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+\tie(
+	\lyrics<"8 |", dy=$Py, fattrib="b">( d2/2. | )
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8 |", dy=$Py, fattrib="b">( d2/2. | )
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8 )", dy=$Py, fattrib="b">( d2/2 ) )
+	\lyrics<"8 7' |", dy=$Py, fattrib="b">( d2/8 e2 | )
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' 9 7' |", dy=$Ty, fattrib="b">( f2/4 e2 d2 | )
+\voltaBegin<"1.">
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9 8' ", dy=$Ty, fattrib="b">( e2/2 f2/4  )
+\voltaEnd
+\repeatEnd
+
+\voltaBegin<"2.">
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7", dy=$Py, fattrib="b">( b1/2 )
+\voltaEnd
+\daCapo<dy=6>
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=$dist> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+
+]
+}

@@ -1,0 +1,117 @@
+(*
+  gmn file converted from tab file
+*)
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+$Ly = -12;
+$dist = 10;
+
+{
+[
+
+
+	\pageFormat<w=23cm, h=32.7cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=5cm>
+	\title<"Thunder">
+	\composer<"Gabry Ponte x LUM!X x Prezioso", dy=6>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \meter<"12/8", autoMeasuresNum="system">
+	\tempo<"[3/8] = 132", dy=4 >
+
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 7 9 7' 8 7 7 9 9", dy=$Ty, fattrib="b">( a1/4 a1/8 e2 d2 c2 a1/4 a1/8 e2 e2  )
+	\lyrics<"8'", dy=$Py, fattrib="b">( g2 ) |
+
+% mesure 2
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9' 8' 8' 8' 8' 8'", dy=$Ty, fattrib="b">( a2/4 f2/8 f2 f2 f2 f2/2.) | 
+
+% mesure 3
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 7' 7' 7' 7' 8' 6' 6' 8 7'", dy=$Py, fattrib="b">( e2/4 e2/8 e2 e2 e2 g2/4 c2/8 c2 d2 e2) | 
+
+% mesure 4
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' ", dy=$Py, fattrib="b">( e2/4  )
+	\lyrics<"8 8 ", dy=$Py, fattrib="b">( d2/8 d2/4  )
+	\lyrics<"8 ", dy=$Py, fattrib="b">( d2/8   )
+	\lyrics<"9' 9' 9' ", dy=$Ty, fattrib="b">( a2 a2 a2  )
+	\lyrics<"8' 8' 8' ", dy=$Py, fattrib="b">( g2 g2 g2  )
+\repeatEnd
+
+% mesure 5
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\tieBegin
+	\lyrics<"7", dy=$Ty, fattrib="b">( a1/4. a1/4 )
+	\tieEnd
+	\lyrics<"7 7' 8 7' ", dy=$Ty, fattrib="b">( a1/8 d2/4 c2/8 d2/4  )
+	\tieBegin
+	\lyrics<"8 |", dy=$Ty, fattrib="b">( c2/8 ) | 
+
+% mesure 6
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	c2/4. c2/4
+	\tieEnd
+	\lyrics<"7 9 7' 8 7' ", dy=$Ty, fattrib="b">( a1/8 e2 d2 c2 d2/4  )
+	\tieBegin
+	\lyrics<"6'", dy=$Py, fattrib="b">( c2/8) | 
+
+% mesure 7
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	c2/4. c2/4
+	\tieEnd
+	\lyrics<"7", dy=$Ty, fattrib="b">( a1/8 )
+	\lyrics<"7' 8 6' 8", dy=$Py, fattrib="b">(e2 d2 c2 d2/4  )
+	\lyrics<"7", dy=$Ty, fattrib="b">( a1/8) | 
+
+% mesure 8
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6' 8", dy=$Py, fattrib="b">( e2 d2 c2 d2/4 )
+	\lyrics<"7", dy=$Ty, fattrib="b">( a1/8 )
+	\lyrics<"7' 8 6' 8 ", dy=$Py, fattrib="b">( e2 d2 c2 d2/4  )
+	\tieBegin
+	\lyrics<"8", dy=$Ty, fattrib="b">( c2/8 ) | 
+
+% mesure 9
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt> c2/4. c2/4
+	\tieEnd
+	\lyrics<"8' 8'", dy=$Py, fattrib="b">( g2/8 g2 )
+	\lyrics<"9 9", dy=$Ty, fattrib="b">( e2 e2 )
+	\tieBegin
+	\lyrics<"9", dy=$Ty, fattrib="b">(e2/4.) | 
+
+% mesure 10
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	e2/4. e2/4
+	\tieEnd
+	\lyrics<"8' 8'", dy=$Py, fattrib="b">( g2/8 g2 )
+	\lyrics<"9 9", dy=$Ty, fattrib="b">( e2 e2 )
+	\tieBegin
+	\lyrics<"9", dy=$Ty, fattrib="b">(e2/4.) | 
+
+% mesure 11
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	e2/4. e2/4
+	\tieEnd
+	\lyrics<"8' 8' 7' 7' 7' 8'", dy=$Py, fattrib="b"> (g2/8 g e e e/4	g/8) |
+
+% mesure 12
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8' 7' 7' 7' 7'", dy=$Py, fattrib="b"> (g2 e2 e2 e2/4 e/8)
+	\lyrics<"9' 9' 9' ", dy=$Ty, fattrib="b">( a2 a2 a2  )
+	\lyrics<"8' 8' 8' ", dy=$Py, fattrib="b">( g2 g2 g2  )
+	\repeatEnd  
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=$dist> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+
+]
+}
