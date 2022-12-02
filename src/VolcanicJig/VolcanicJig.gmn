@@ -5,12 +5,13 @@ $hdy3 = -16;
 $Ty = -11;
 $Py = -6;
 $dist = 10;
+$fsize = 8;
 
 {
 [
 	\title<"Volcanic Jig">
 	\composer<"Natalie MacMaster", fsize=14pt,  dy=5>
-	\pageFormat<w=25cm, h=38cm, lm=2cm, rm=2cm, bm=3cm, tm=4cm>
+	\pageFormat<w=30.5cm, h=43cm, lm=2cm, rm=2cm, bm=3cm, tm=6cm>
 	\accolade<id=1, type="none">
 	\barFormat<"system">
 
@@ -19,81 +20,119 @@ $dist = 10;
 % mesure 1
 %	\harmony<"Dm", dy=$hdy1, dx=3, fsize=16pt> 
 % tab: T
-\text<"A", dx=-27, dy=6>
+\text<"A", dx=-31, dy=6, fsize=$fsize>
 	(f#2/8) \bar<measNum=1>	
-	g f# e b1 c2 d |
+	g2 f#2 e2 b1 c2 d2 |
 % mesure 2
 % tab: P
-	d c b1 c2/4 b1/8 |
+	d2 c2 b1 c2/4 b1/8 |
 % mesure 3
-	a f# d2 c b1 a |
+% tab: T G
+	a1 f#1 d2 c2 b1 a1 |
 % mesure 4
-	b1 e2 b1 d#2 e f# |
+% tab: P
+	b1 e2 b1 d#2 e2 
+% tab: T
+f#2 |
 % mesure 5
-	g f# e b1 c2 d |
+	g2 f#2 e2 b1 c2 d2 |
 % mesure 6
-	d c b1 c2/4 b1/8 |
+% tab: P
+	d2 c2 b1 c2/4 b1/8 |
 % mesure 7
-	a c2 b1 a g f# |
+% tab: T G
+	a1 c2 b1 a1 g1 f#1 |
 % mesure 8
-	g/4. g/4 
+% tab: P G
+	g1/4. g1/4 
 \repeatEnd
 
 %%%%%%%%%%%%%%%%  B  %%%%%%%%%%%%%%
 \newLine
-\text<"B", dx=-27, dy=6>
+\text<"B", dx=-27, dy=6, fsize=$fsize>
+% tab: T
 	(f#2/8) 	
 \repeatBegin 
 % mesure 10
-	\bm(g2/8 a) b1/4 e2/8 g |
+% tab: T C
+	\bm(g2/8 a2) b1/4 e2/8 g2 |
 % mesure 11
-	a g e d e g |
-	a b c/4 e/8 g |
+	a2 g2 e2 d2 e2 g2 |
+	a2 b2 
+% tab: P C
+c2/4 e2/8 g2 |
 % mesure 13
-	a b g a g e |
-	g f# d d a1 c#2 |
+% tab: T C
+	a2 b2 g2 a2 g2 e2 |
+	g2 f#2 d2 d2 a1 
+% tab: P
+c#2 |
 % mesure 15
-	d e f# f# e d |
-	c d e e d c 
+% tab: T
+	d2 e2 f#2 f#2 e2 d2 |
+% tab: P
+	c2 d2 e2 e2 d2 c2 
 \voltaBegin<"1.", "|-|">
-	b1 c2 d d e f# 
+% tab: T
+	b1 c2 d2 d2 e2 f#2 
 \voltaEnd
 \repeatEnd
 \voltaBegin<"2.", "|-|">
-	b1 c2 d d c b1 
+% tab: P C
+	b1 c2 d2 d2 c2 b1 
 \voltaEnd
-	g2 e b1/4 e2/8 g |
+	g2 e2 b1/4 e2/8 g2 |
 
 %%%%%%%%%%%%%%%%  C  %%%%%%%%%%%%%%
 \newLine
-\text<"C", dx=-27, dy=6>
-	(a1 d a) b d b | 
-	a f# d d/4 b/8 |
-	a b g a b c2 |
-	d/4. d/8 c b1 |
+\text<"C", dx=-27, dy=6, fsize=$fsize>
+% tab: T C
+	(a1 d1 a1) b1 d1 b1 | 
+	a1 f#1 d1 d1/4 b1/8 |
+	a1 b1 g1 a1 b1 c2 |
+% tab: P
+	d2/4. d2/8 c2 b1 |
  
-	a d a b d b |
-	a f# d d b c2 |
-	d c b1 c2 b1 g |
-	a/4. a/4 b/8 |
+% tab: T C
+	a1 d1 a1 b1 d1 b1 |
+	a1 f#1 d1 d1 b1 c2 |
+% tab: P G
+	d2 c2 b1 c2 b1 g1 |
+% tab: T C
+	a1/4. a1/4 b1/8 |
 	
-	a1 d a b d b | 
-	a f# d d/4 b/8 |
-	a b g a b c2 |
-	d/4. d/8 c b1 |
+	a1 d1 a1 b1 d1 b1 | 
+	a1 f#1 d1 d1/4 b1/8 |
+	a1 b1 g1 a1 b1 c2 |
+% tab: P
+	d2/4. d2/8 c2 b1 |
 
-	a b g a b c2 |
-	c d b1 c2 d e |
-	e f# d e f# g |
-	g a f# g a b 
+% tab: T C
+	a1 b1 g1 a1 b1 c2 |
+% tab: P
+	c2 d2 b1 c2 d2 e2 |
+% tab: T G
+	e2 f#2 d2 e2 f#2 g2 |
+	g2 a2 f#2 g2 a2 b2 
 	\doubleBar
 	
 %%%%%%%%%%%%%%%%  D  %%%%%%%%%%%%%%
 \newLine
-\text<"D", dx=-27, dy=6>
+\text<"D", dx=-27, dy=6, fsize=$fsize>
+% tab: T C
 	(b1) b2 b1 a2 b1 g2 |
-	b1 f#2 b1 e2 d b1
-
-
+	b1 f#2 b1 
+% tab: P
+e2 d2 b1 |
+% tab: T
+	g1 e2 g1 d2 g1 c2 |
+% tab: P G
+	g1 b1 g1 c2 b1 g1 |
+	c2 g2 c2 g2 a2 c2 |
+	c2 g2 c2 g2 a2 c2 |
+% tab: T C
+	b1 e2 b1 g2 f#2 e2 |
+	b1 e2 b1 a1 g1 f#1
+	\repeatEnd
 ]
 }
