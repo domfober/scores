@@ -1,0 +1,75 @@
+
+$clefmeter="\clef<'none'> \meter<'3/4'>";
+$common='\staffFormat<style="1-line", distance=20hs>
+	\restFormat<dy=-4> \stemsUp
+	\set<autoEndBar="off">';
+
+{
+[
+	\title<"Travail rythmique sur les grilles d'accords", fsize=12pt, dx=0cm>
+	\pageFormat<w=16.8cm, h=23.7cm, lm=2cm, rm=2cm, bm=2cm, tm=4cm>
+	$clefmeter
+	$common
+	\accol<range="1-8", type="none">  
+	\barFormat<"system">
+	\systemFormat<dx=4cm>
+	\instr<"1", fsize=16pt, dx=-10, dy=-2>
+	{ e/2., g, b } |
+]
+,
+[
+	$clefmeter
+	$common
+	\instr<"2", fsize=16pt, dx=-10, dy=-2>
+	_/4 { e, g, b } { e, g, b } |
+]
+,
+[
+	$clefmeter
+	$common
+	\instr<"3", fsize=16pt, dx=-10, dy=-2>
+	{ e/2, g, b } { e/4, g, b } |
+]
+,
+[
+	$clefmeter
+	$common
+	\instr<"4", fsize=16pt, dx=-10, dy=-2>
+	{ e/4., g, b } e/8 { e/4, g, b } |
+]
+,
+[
+	$clefmeter
+	$common
+	\instr<"5", fsize=16pt, dx=-10, dy=-2>
+	{ e/4., g, b } e/8 { e, g, b } e |
+]
+,
+[
+	$clefmeter
+	$common
+	\instr<"6", fsize=16pt, dx=-10, dy=-2>
+	{ e/8, g, b } { e/4, g, b } e/8 { e/4, g, b } |
+]
+,
+[
+	$clefmeter
+	$common
+	\instr<"7", fsize=16pt, dx=-10, dy=-2>
+	{ e/8, g, b } { e/4, g, b } e/8 { e, g, b } e |
+]
+,
+[
+	$clefmeter
+	$common
+	\instr<"8", fsize=16pt, dx=-10, dy=-2>
+	{ e/8, g, b } { e/4, g, b } { e, g, b } e/8 |
+]
+,
+[
+	$clefmeter
+	$common
+	\instr<"MG", fsize=16pt, dx=-12, dy=-2>
+	\text<"B">(empty) \text<"A">(empty) \text<"A">(empty)|
+]
+}

@@ -1,0 +1,132 @@
+
+	\title<"La fête des feuilles", font="Helvetica">
+	\composer<"Noémie", font="Helvetica", fsize=12pt, dy=4>
+	\pageFormat<w=21cm, h=29.7cm, lm=2cm, rm=2cm, bm=2cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<0> \meter<"2/4", autoMeasuresNum="system"> 
+
+%%%%%%%%%%%% Partie A
+\mark<"A", fsize=18pt, dx=-2cm, dy=3>
+H Gg
+P4 P4
+|
+H Gg
+P6 P6
+|
+H Dd
+T6 
+P6
+|
+H Gg
+P5/2
+|
+H Dd
+T6/4 T6
+|
+H Dd
+T5 T3'
+|
+H A a
+P4/2
+|
+
+H Dd
+T3/4 T3
+|
+H Dd
+T6 T6
+|
+H Dd
+T5 T6
+|
+H Dd
+T3'/2
+|
+H Dd
+T6/4 T6
+|
+H Dd
+T5 T3'
+|
+H Gg
+P4/2
+|
+
+H Gg
+P4/4 P4/4
+|
+H Gg
+P6 P6
+|
+H Dd
+T6 
+P6
+|
+H Gg
+P5/2
+|
+H Dd
+T6/4 T6
+|
+H Dd
+T5 T3'
+|
+H A a
+P4/2
+\repeatEnd
+\newLine
+
+%%%%%%%%%%%% Partie B
+\mark<"B", fsize=18pt, dx=-1.7cm, dy=3>
+\repeatBegin
+H Gg
+P4/4 P5
+|
+H Gg
+P6 P5
+|
+H Dd
+T6 T5
+|
+H Aa
+T4/2
+|
+H Aa
+T3/4 T4
+|
+H Dd
+T6 T5
+|
+H Dd
+T3' T4
+|
+H Gg
+P4/2
+|
+
+H Gg
+P4/4 P5
+|
+H Gg
+P6 P5
+|
+H Dd
+T6 T5
+|
+H Aa
+T4/2
+|
+H Aa
+T4/4 T4
+|
+H Dd
+T3' T3'
+|
+H Dd
+T5 T6
+|
+H Gg
+P4/2
+\repeatEnd

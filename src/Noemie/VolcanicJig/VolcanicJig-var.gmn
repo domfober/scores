@@ -1,0 +1,207 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+$dist = 10;
+$fsize = 8;
+
+{
+[
+	\title<"Volcanic Jig">
+	\title<"Variation on the D part", dy=-10>
+	\composer<"Natalie MacMaster", fsize=14pt,  dy=5>
+	\pageFormat<w=30cm, h=42.5cm, lm=2cm, rm=2cm, bm=3cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<1> \meter<"6/8", autoMeasuresNum="system"> 
+
+%	\harmony<"Dm", dy=$hdy1, dx=3, fsize=16pt> 
+% tab: T C
+	\repeatBegin
+	d2/8 b2 d2 a2 d2 g2 |
+	d2 f#2 d2 e2 d2 b1 |
+% tab: P C
+	\stemsUp
+	g1 e2 g1 d2 g1 c2 |
+	g1 b1 g1 c2 b1 g1 |
+
+	e1 c2 e1 c2 d2 e1 |
+	e1 c2 e1 c2 d2 e1 |
+% tab: T
+	f#1 d2 f#1 d2 e2 g2 |
+	\stemsAuto
+	g2 f#2 e2 g2 f#2 e2 
+	\repeatEnd
+
+% tab: T C
+	d2/8 b2 d2 a2 d2 g2 |
+	d2 f#2 d2 e2 d2 b1 |
+% tab: P C
+	\stemsUp
+	g1 e2 g1 d2 g1 b1 |
+	\stemsAuto
+	c2/4. c2/8 b1 g1 |
+
+	e1 d1 e1 c1 b0 c1 |
+% tab: T C
+	e1 d1 e1 g1 f#1 g1 |
+	f#1 e1 f#1 g1 a1 b1 |
+% tab: P G
+	c2 b1 c2 d2/4. |
+
+%%%%%%%% page 2 %%%%%%%%%%
+	\stemsUp
+% tab: T
+	d1/8 d2 d1 c2 d1 b1 |
+	d1 c2 d1 d2 d1 c2 |
+	\stemsAuto
+% tab: P G
+	d1 b1 d1 b1 c2 c2 |
+	c2 d2 d2 d2 c2 b1 |
+
+	b1 d2 d2 d2 g2 g2 |
+% tab: T C
+	g2 f#2 f#2 f#2 a2 a2 |
+	a2 g2 g2 g2 a2 g2 |
+	b2/4. a2/4 g2/8 |
+
+	d2/8 b2 d2 a2 d2 g2 |
+	d2 f#2 d2 e2 d2 b1 |
+% tab: P C
+	\stemsUp
+	g1 e2 g1 d2 g1 c2 |
+	g1 b1 g1 c2 b1 g1 |
+
+	e1 c2 e1 c2 d2 e1 |
+	e1 c2 e1 c2 d2 e1 |
+% tab: T C
+	f#1 d2 f#1 d2 e2 g2 |
+	\stemsAuto
+	g2 f#2 e2 g2 f#2 e2 |
+
+%%%% ligne 5 p.2
+	d2 b2 d2 a2 d2 g2 |
+	d2 f#2 d2 e2 d2 b1 |
+% tab: P C
+	\stemsUp
+	g1 e2 g1 d2 g1 c2 |
+	g1 b1 g1 c2 b1 g1 |
+	\stemsAuto
+	e1 c2 e1 c2/4 c2/8 |
+	c2/4 c2/8 e1 c2 c2 |
+% tab: T
+	c2/4 f#1/8 f#1 f#1 d2 |
+	d2 d2 d2 d2 c2 b1 |
+
+% tab: P
+	d2/4. d2/8 c2 b1 |
+	d2/4. d2/8 c2 b1 |
+% tab: T C
+	d2 e2 g2 a2 b2 c2/2
+	c2/8 b1 c2 |
+	
+	d2 e2 g2 a2 b2 c2/2
+	c2/8 b1 c2 |
+% tab: P C
+	d2 e2 g2 g2 e2 d2 |
+	d2 e2 g2 g2 e2 d2 |
+
+% tab: T C
+	g2 a2 b2 a2 g2 e2 |	
+	g2 a2 b2 a2 g2 e2 |	
+	g2 a2 b2 a2 g2 e2 |	
+	g2 a2 b2 a2 g2 e2 |	
+
+	\stemsUp \grace(b/8) \stemsAuto a2 g2 a2 \stemsUp \grace(b/8) \stemsAuto a2 g2 a2 |
+	\stemsUp \grace(b/8) \stemsAuto a2 g2 a2 \stemsUp \grace(b/8) \stemsAuto a2 g2 a2 |
+	b2/4. a2 |
+% tab: P C
+	g2 g2/8 e2 d2 |
+
+% tab: T C
+	d2/8 b2 d2 a2 d2 g2 |
+	d2 f#2 d2 e2 d2 b1 |
+% tab: P C
+	\stemsUp	
+	g1 e2 g1 d2 g1 c2 |
+	g1 b1 g1 c2 b1 g1 |
+
+	e1 c2 e1 c2 d2 e1 |
+	e1 c2 e1 c2 d2 e1 |
+% tab: T C
+	f#1 d2 f#1 \stemsAuto d2 e2 g2 |
+	g2 f#2 e2 g2 f#2 e2 |
+
+%%%%%%%%%% page 3 %%%%%%%%%%%%%%%%
+	d2 b2 d2 a2 d2 g2 |
+	d2 f#2 d2 e2 d2 b1 |
+% tab: P C
+	g1 e2 g1 d2 g1 c2 |
+% tab: T C
+	g1 b1 g1 c2 b1 a1 |
+
+% tab: P C
+	e1 c1 g1 
+% tab: T G
+	f#1 d1 a1 |
+	c1 e1 c2 a1 f#1 d2 |
+	c2 a1 d2 c2 a2 f#2 |
+	c2 a1 g2 f#2 g2 a2 |
+
+	b2/4. b2/16 a2 b2/12 a2 g2 |
+	a2/4. \stemsUp \grace(b2/8) \stemsAuto a2/8 g2 e2 |
+% tab: P C
+	g2 e2 d2 e2 d2 b1 |
+% tab: T C
+	c2/4. c2/8 b1 a1 |	
+
+	a2/4. a2/8 g2 f#2 |
+	g2/4. g2/8 a2 g2 |
+	f#2 g2 f#2 e2 f#2 e2 |
+	d2/4. d2/8 c2 b1 |
+
+	c2/16 b1 c2 b1 a1 g1 e1/8 d1 b0 |
+% tab: P
+	e1/8 d1 b0 e1/8 d1 b0 |
+% tab: T C
+	c1 b0 c1 c1 d1 f#1 |
+	g1 f#1 g1 g1 a1 b1 |
+
+% tab: P
+	c2 b1 c2 c2/4 c2/8 |
+	c2 b1 c2 c2 b1 c2 |
+% tab: T C
+	d2 c#2 d2
+	f#1/4 d2/8 |
+% tab: P C
+	d2 e2 g2 g2 e2 d2 |
+
+	d2 e2 g2 g2 d2 e2 |
+	g2/4. g2/8 d2 g2 |
+% tab: T C
+	g2 a2 a2 a2 g2 d2 |
+	a2 g2 d2  a2 g2 d2  |
+
+	a2 g2 d2 a2 g2 d2 |
+	a2 g2 d2 a2 g2 a2 |
+	b2/4. a2 |
+% tab: P C
+	g2 g2/8 e2 d2 |
+
+	\text<"FADE OUT WITH THIS PART", font="Arial", fsize=12pt, dy=17, dx=-2>(
+% tab: T C
+	d2/8 b2 d2 a2 d2 g2) |
+	d2 f#2 d2 e2 d2 b1 |
+% tab: P C
+	\stemsUp g1 e2 g1 d2 g1 c2 |
+	g1 b1 g1 c2 b1 g1 |
+	e1 c2 e1 c2 d2 e1 |
+	e1 c2 e1 c2 d2 e1 |
+% tab: T
+	f#1 d2 f#1 d2 e2 g2 |
+	g2 f#2 e2 g2 f#2 e2 
+]
+}
