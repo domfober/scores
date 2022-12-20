@@ -75,6 +75,29 @@ T5 T3'
 |
 H A a
 P4/2
+
+%%%%%%%%%%%%%%%%
+H Dd
+T3/4 T3
+|
+H Dd
+T6 T6
+|
+H Dd
+T5 T6
+|
+H Dd
+T3' T3'
+|
+H Dd
+T5 T6
+|
+H Gg
+P6/2
+|
+H Gg
+P6
+
 \repeatEnd
 \newLine
 

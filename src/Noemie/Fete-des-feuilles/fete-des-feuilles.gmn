@@ -17,7 +17,7 @@ $dist = 10;
 
 	\title<"La fête des feuilles", font="Helvetica">
 	\composer<"Noémie", font="Helvetica", fsize=12pt, dy=4>
-	\pageFormat<w=21cm, h=29.7cm, lm=2cm, rm=2cm, bm=2cm, tm=4cm>
+	\pageFormat<w=25.1cm, h=35.6cm, lm=2cm, rm=2cm, bm=2cm, tm=4cm>
 	\accolade<id=1, type="none">
 	\barFormat<"system">
 
@@ -25,107 +25,107 @@ $dist = 10;
 
 %%%%%%%%%%%% Partie A
 \mark<"A", fsize=18pt, dx=-2.5cm, dy=3>
-	\harmony<"G    g", dy=$hdy1, dx=2, fsize=16pt>
+	\harmony<"G      g", dy=$hdy1, dx=2, fsize=16pt>
 	\lyrics<"4 4", dy=$Py, fattrib="b">( b0 b0 )
 |
-	\harmony<"G   g", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"G     g", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"6 6", dy=$Py, fattrib="b">( g1 g1 )
 |
-	\harmony<"D     d", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"D      g", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"6 ", dy=$Ty, fattrib="b">( f#1  )
 	\lyrics<"6", dy=$Py, fattrib="b">( g1 )
 |
-	\harmony<"G   g", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"G      g", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5", dy=$Py, fattrib="b">( d1/2 )
 |
 	\harmony<"D     d", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"6 6", dy=$Ty, fattrib="b">( f#1/4 f#1 )
 |
-	\harmony<"D   d", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"D     d", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5 3'", dy=$Ty, fattrib="b">( e1 d1 )
 |
-	\harmony<"A   a", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"4", dy=$Py, fattrib="b">( b0/2 )
-|
+	\harmony<"A       a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4", dy=$Ty, fattrib="b">( b0/2 )
+\bar<dx=6.8>
+\newLine
 
-	\harmony<"D   d", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"D      d", dy=$hdy1, dx=3, fsize=16pt>
 	\lyrics<"3 3", dy=$Ty, fattrib="b">( a0/4 a0 )
 |
-	\harmony<"D     d", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"D      d", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"6 6", dy=$Ty, fattrib="b">( f#1 f#1 )
 |
-	\harmony<"D   d", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"D      d", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5 6", dy=$Ty, fattrib="b">( e1 f#1 )
 |
-	\harmony<"D   d", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"D       d", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"3'", dy=$Ty, fattrib="b">( d1/2 )
 |
 	\harmony<"D     d", dy=$hdy1, dx=1, fsize=16pt>
 	\lyrics<"6 6", dy=$Ty, fattrib="b">( f#1/4 f#1 )
 |
-	\harmony<"D   d", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"D      d", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5 3'", dy=$Ty, fattrib="b">( e1 d1 )
 |
 	\harmony<"G    g", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"4", dy=$Py, fattrib="b">( b0/2 )
 |
+\newLine
 
-	\harmony<"G   g", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"G      g", dy=$hdy1, dx=3, fsize=16pt>
 	\lyrics<"4 4", dy=$Py, fattrib="b">( b0/4 b0/4 )
 |
-	\harmony<"G   g", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"G      g", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"6 6", dy=$Py, fattrib="b">( g1 g1 )
 |
-	\harmony<"D         d", dy=$hdy1, dx=1, fsize=16pt>
+	\harmony<"D      d", dy=$hdy1, dx=1, fsize=16pt>
 	\lyrics<"6 ", dy=$Ty, fattrib="b">( f#1  )
 	\lyrics<"6", dy=$Py, fattrib="b">( g1 )
 |
-	\harmony<"G        g", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"G       g", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5", dy=$Py, fattrib="b">( d1/2 )
 |
-	\harmony<"D         d", dy=$hdy1, dx=1, fsize=16pt>
+	\harmony<"D      d", dy=$hdy1, dx=1, fsize=16pt>
 	\lyrics<"6 6", dy=$Ty, fattrib="b">( f#1/4 f#1 )
 |
-	\harmony<"D        d", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"D      d", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5 3'", dy=$Ty, fattrib="b">( e1 d1 )
 |
 	\harmony<"A      a", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"4", dy=$Py, fattrib="b">( b0/2 )
+	\lyrics<"4", dy=$Ty, fattrib="b">( b0/2 )
+|
+\newLine
+	\harmony<"D      d", dy=$hdy1, dx=3, fsize=16pt>
+	\lyrics<"3 3", dy=$Ty, fattrib="b">( a0/4 a0 )
+|
+	\harmony<"D      d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6 6", dy=$Ty, fattrib="b">( f#1 f#1 )
+|
+	\harmony<"D      d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"5 6", dy=$Ty, fattrib="b">( e1 f#1 )
+|
+	\harmony<"D      d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"3' 3'", dy=$Ty, fattrib="b">( d1 d1 )
+|
+	\harmony<"D      d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"5 6", dy=$Ty, fattrib="b">( e1 f#1 )
+|
+	\harmony<"G      g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6", dy=$Py, fattrib="b">( g1/2 )
+|
+	\harmony<"G   g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6", dy=$Py, fattrib="b">( g1 )
+
 \repeatEnd
 \newLine
 
 %%%%%%%%%%%% Partie B
 \mark<"B", fsize=18pt, dx=-2cm, dy=4>
 \repeatBegin
-	\harmony<"G          g", dy=$hdy1, dx=3, fsize=16pt>
+	\harmony<"G            g", dy=$hdy1, dx=3.5, fsize=16pt>
 	\lyrics<"4 5", dy=$Py, fattrib="b">( b0/4 d1 )
 |
-	\harmony<"G          g", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"6 5", dy=$Py, fattrib="b">( g1 d1 )
-|
-	\harmony<"D          d", dy=$hdy1, dx=1, fsize=16pt>
-	\lyrics<"6 5", dy=$Ty, fattrib="b">( f#1 e1 )
-|
-	\harmony<"A        a", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"4", dy=$Ty, fattrib="b">( c1/2 )
-|
-	\harmony<"A           a", dy=$hdy1, dx=1, fsize=16pt>
-	\lyrics<"3 4", dy=$Ty, fattrib="b">( a0/4 c1 )
-|
-	\harmony<"D            d", dy=$hdy1, dx=1, fsize=16pt>
-	\lyrics<"6 5", dy=$Ty, fattrib="b">( f#1 e1 )
-|
-	\harmony<"D           d", dy=$hdy1, dx=1, fsize=16pt>
-	\lyrics<"3' 4", dy=$Ty, fattrib="b">( d1 c1 )
-|
-	\harmony<"G         g", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"4", dy=$Py, fattrib="b">( b0/2 )
-|
-
-	\harmony<"G           g", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"4 5", dy=$Py, fattrib="b">( b0/4 d1 )
-|
-	\harmony<"G           g", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"G             g", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"6 5", dy=$Py, fattrib="b">( g1 d1 )
 |
 	\harmony<"D            d", dy=$hdy1, dx=1, fsize=16pt>
@@ -134,17 +134,42 @@ $dist = 10;
 	\harmony<"A         a", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"4", dy=$Ty, fattrib="b">( c1/2 )
 |
-	\harmony<"A           a", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"A              a", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"3 4", dy=$Ty, fattrib="b">( a0/4 c1 )
+|
+	\harmony<"D              d", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"6 5", dy=$Ty, fattrib="b">( f#1 e1 )
+|
+	\harmony<"D              d", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"3' 4", dy=$Ty, fattrib="b">( d1 c1 )
+|
+	\harmony<"G           g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4", dy=$Py, fattrib="b">( b0/2 )
+|
+
+	\harmony<"G               g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4 5", dy=$Py, fattrib="b">( b0/4 d1 )
+|
+	\harmony<"G               g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6 5", dy=$Py, fattrib="b">( g1 d1 )
+|
+	\harmony<"D              d", dy=$hdy1, dx=1, fsize=16pt>
+	\lyrics<"6 5", dy=$Ty, fattrib="b">( f#1 e1 )
+|
+	\harmony<"A            a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"4", dy=$Ty, fattrib="b">( c1/2 )
+|
+	\harmony<"A               a", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"4 4", dy=$Ty, fattrib="b">( c1/4 c1 )
 |
-	\harmony<"D           d", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"D               d", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"3' 3'", dy=$Ty, fattrib="b">( d1 d1 )
 |
-	\harmony<"D           d", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"D               d", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5 6", dy=$Ty, fattrib="b">( e1 f#1 )
 |
-	\harmony<"G        g", dy=$hdy1, dx=0, fsize=16pt>
-	\lyrics<"4", dy=$Py, fattrib="b">( b0/2 )
+	\harmony<"G           g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6", dy=$Py, fattrib="b">( g1/2 )
 \repeatEnd
 ]
 ,
