@@ -54,6 +54,7 @@ Gan Ainm 1:x::Reel::Irlande::Reel/GanAinm1.pdf::
 Gan Ainm 2:x::Reel::Irlande::Reel/GanAinm2.pdf::
 Ganglat från Appelbo:x::::Suède::Suede/Ganglat.pdf:Bifil:
 Gavotte de l’Aven:x::Gavotte::::Gavotte/Gavotte-Aven.pdf::
+Good bye Makedonia:x::::Balkans::Balkans/Goodbye-Macedonia.pdf::
 Greensleeves:x::Jig::Irlande::Jigs/Greensleeves.pdf::
 Hamish:x::Scottish::::Scottish/Hamish.pdf::
 I’ll Buy Boots for Maggie:x:x:Polka::Irlande::Polka/Boots-for-Maggie.pdf::
