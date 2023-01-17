@@ -1,5 +1,7 @@
 Adèle Blanc Sec:x::Scottish:Frédéric Paris:::Scottish/Adele_Blanc_Sec.pdf::
 Air in G:x::Classique:J.S. Bach:::Classique/Air-in-G.pdf::
+Alambic:x::Bourrée:Norbert Pignol:::Bourree/alambic.pdf::
+Alio:x::Mazurka:Pascale Rubens:::Mazurkas/alioam.pdf::
 All of me:x:x:Jazz:Gerald Marks - Seymour Simons:::Jazz/All-of-me.pdf::
 Along with the girls:x::Jig:trad.:Irlande::Jigs/Along-with-girls.pdf::
 Amazing grace:x:::trad.:Ecosse::Ecosse/Amazing-grace.pdf::
@@ -156,6 +158,7 @@ Valse à Eddy:x::Valse::::Valse/Valse-a-Eddy.pdf::
 Valse à Mary:x::Valse:B. Loffet:::Valse/Valse-a-Mary.pdf::
 Valse à Nini:x::Valse::::Valse/Valse-a-Nini.pdf::
 Valse d’Amélie:x::Valse:Yann Tiersen:::Valse/Valse-Amelie.pdf::
+Valse débranchée:x::Valse:Norbert Pignol:::Valse/valse_debranchee.pdf::
 Valse des roses:x::Valse:trad.:::Valse/Valse-des-roses.pdf::
 Valse triste:x::Valse::::Valse/Valse-triste.pdf::
 Valse vénézuélienne:x::Valse:trad.:::Valse/Valse-Venezuelienne.pdf::
