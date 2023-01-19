@@ -6,7 +6,10 @@ $Ty = -11;
 $Py = -6;
 $dist = 10;
 $fsize = 8;
-
+(*
+accords 
+G G C C D D B B G G C C D D G
+*)
 {
 [
 	\title<"Volcanic Jig">
