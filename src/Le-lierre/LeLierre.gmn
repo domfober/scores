@@ -1,0 +1,71 @@
+
+$hdy1 = -7;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+$NL = "\bar";
+$MT = "\newPage";    % la moitié 
+$NT = "\newPage"; 
+$ET = "\doubleBar";
+$TDY = 18;
+
+{
+[
+	\title<"Le lierre">
+	\title<"Bourrée à 2 temps", fsize=14pt,  dy=-8>
+	\pageFormat<w=21cm, h=29.7 cm, lm=2.5cm, rm=2.5cm, bm=4.5cm, tm=5cm>
+%	\footer<"Typeset with Guido", dy=-4>
+%	\footer<"https://guidoeditor.grame.fr", dy=-8>
+
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+\clef<"g"> \key<0> \meter<"2/4", autoMeasuresNum="system">
+
+% theme 
+	\harmony<"A", dy=$hdy1, dx=4, fsize=16pt>
+	e2/8. d/16 c/8 b1 |
+	c2 
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	d b1 g |
+	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
+	e2/8. d/16 c/8 b1 |
+	c2/16 b1 c2 d 
+ 	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	e/8 g |
+
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	e2/8. d/16 c/8 b1 c2 
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	d b1 g |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a/8. b/16 c2 b1 a/8 |
+ 	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	b/4 e2
+	\repeatEnd
+\newLine
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	a1/8. b/16 c2/8 a1 |
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	b/16 a b c2 d/8 e/16 f |
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	e/8. d/16 c/8 b1 |
+	c2/16 b1 c2 d 
+ 	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	b1/8 g | 
+
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	a1/8. b/16 c2/8 a1 |
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	b/16 a b c2 d/8 e/16 f |
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
+	e/8. d/16 
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	c/16 d c b1 |
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	a/2
+	\repeatEnd
+
+]
+}
