@@ -12,13 +12,13 @@ $My = 18;
 	\title<"I'll Buy Boots for Maggie">
 	\composer<"Irish Polka", dy=2>
 	\pageFormat<w=23.1cm, h=32.7cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=5cm>
-	\footer<"Typeset with Guido", dy=-9>
-	\footer<"https://guidoeditor.grame.fr", dy=-14>
+%	\footer<"Typeset with Guido", dy=-9>
+%	\footer<"https://guidoeditor.grame.fr", dy=-14>
 	\accolade<id=1, type="none">
 	\barFormat<"system">
 	\clef<"g"> \key<0> \meter<"2/4", autoMeasuresNum="system"> 
 	
-	\tempo<"[1/4] = 120", dy=2>
+	\tempo<"[1/4] = 130", dy=2>
 % tab: T Cc
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5':7", dy=$Ty> (a1/8.) \lyrics<"6'", dy=$Ty> (b1/16) \lyrics<"8", dy=$Ty> (c2/8) \lyrics<"7'", dy=$Ty> (d2) |
@@ -80,9 +80,9 @@ $My = 18;
 	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"8", dy=$Ty> (c2) \lyrics<"6'", dy=$Ty> (b1) \lyrics<"7", dy=$Ty> (a1/4) |
 % tab: T G
-	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"4'", dy=$Ty> (f1/8) \lyrics<"7", dy=$Ty> (a1/16) \lyrics<"7", dy=$Ty> (a1) a/8 \lyrics<"6'", dy=$Ty> (b1|)
-	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"8", dy=$Ty> (c2) \lyrics<"6'", dy=$Ty> (b1) \lyrics<"7", dy=$Ty> (a1/4) |
 % tab: T G
 	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>
