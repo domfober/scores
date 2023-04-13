@@ -20,7 +20,7 @@ $My = 18;
 	
 	\tempo<"[1/4] = 130", dy=2>
 % tab: T Cc
-	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5':7", dy=$Ty> (a1/8.) \lyrics<"6'", dy=$Ty> (b1/16) \lyrics<"8", dy=$Ty> (c2/8) \lyrics<"7'", dy=$Ty> (d2) |
 % tab: P C
 	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
@@ -31,11 +31,11 @@ $My = 18;
 % tab: P C
 	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"8", dy=$Py> (d2/8) \lyrics<"7", dy=$Py> (b1) |
-	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"7", dy=$Py> (b1) \lyrics<"5''", dy=$Py> (a1) \lyrics<"5'", dy=$Py> (g1) \lyrics<"4'", dy=$Py> (e1) |
 
 % tab: T C
-	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5'", dy=$Ty> (a1/8.) \lyrics<"6'", dy=$Ty> (b1/16) \lyrics<"8", dy=$Ty> (c2/8) \lyrics<"7'", dy=$Ty> (d2) |
 % tab: P C
 	\harmony<"C", dy=$hdy1, dx=0, fsize=16pt>
@@ -47,15 +47,15 @@ $My = 18;
 	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"8", dy=$Py> (d2/8) \lyrics<"7", dy=$Py> (b1) |
 % tab: T C
-	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"6'", dy=$Ty> (b1) \lyrics<"5'", dy=$Ty> (a1) \lyrics<"5'", dy=$Ty> (a1/4)
 	\repeatEnd
 
 \newLine
 % tab: T G
-	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5", dy=$Ty> (e1/8) \lyrics<"7", dy=$Ty> (a1/16) \lyrics<"7", dy=$Ty> (a1) a/8 \lyrics<"6'", dy=$Ty> (b1|)
-	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"8", dy=$Ty> (c2) \lyrics<"6'", dy=$Ty> (b1) \lyrics<"7", dy=$Ty> (a1/4) |
 % tab: T G
 	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
@@ -69,15 +69,15 @@ $My = 18;
 	\lyrics<"8", dy=$Ty> (c2) \lyrics<"6'", dy=$Ty> (b1) \lyrics<"7", dy=$Ty> (a1/4) |
 
 % tab: P C
-	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"7'", dy=$Py> (e2/8) \lyrics<"8'", dy=$Py> (g2/16) \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2/8) \lyrics<"6'", dy=$Py> (c2) |
 % tab: T G
-	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"6'", dy=$Ty> (b1) \lyrics<"7", dy=$Ty> (a1) \lyrics<"7", dy=$Ty> (a1/4) |
 
-	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"5", dy=$Ty> (e1/8) \lyrics<"7", dy=$Ty> (a1/16) \lyrics<"7", dy=$Ty> (a1) a/8 \lyrics<"6'", dy=$Ty> (b1|)
-	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"8", dy=$Ty> (c2) \lyrics<"6'", dy=$Ty> (b1) \lyrics<"7", dy=$Ty> (a1/4) |
 % tab: T G
 	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
@@ -91,10 +91,10 @@ $My = 18;
 	\lyrics<"8", dy=$Ty> (c2) \lyrics<"6'", dy=$Ty> (b1) \lyrics<"7", dy=$Ty> (a1/4) |
 
 % tab: P C
-	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"7'", dy=$Py> (e2/8) \lyrics<"8'", dy=$Py> (g2/16) \lyrics<"7'", dy=$Py> (e2) \lyrics<"8", dy=$Py> (d2/8) \lyrics<"6'", dy=$Py> (c2) |
 % tab: T G
-	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>
 	\lyrics<"6'", dy=$Ty> (b1) \lyrics<"7", dy=$Ty> (a1) \lyrics<"7", dy=$Ty> (a1/4)
 ]
 ,
