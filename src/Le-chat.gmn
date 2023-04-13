@@ -1,0 +1,160 @@
+(*
+
+  
+*)
+
+$hdy1 = 11;
+
+{
+[
+	\title<"Le chat que j'ai apprivoisé">
+	\composer<"Trio Loubelya", dy=16>
+	\pageFormat<w=25.2cm, h=35.6cm, lm=2cm, rm=2cm, bm=2cm, tm=4cm>
+	\staffFormat<"1-line"> \clef<"none"> 
+	\meter<"3/4", autoMeasuresNum="system"> 
+	
+%%%%%%%%%%%%%%%%%% mesure 1
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt> empty/2. |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt> empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt> empty |
+	\harmony<"E&", dy=$hdy1, dx=0, fsize=16pt> empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>  empty |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"E&", dy=$hdy1, dx=0, fsize=16pt> empty |
+
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Cm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Cm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"E&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Cm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Cm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"A&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Cm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"E&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"A&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"D7", dy=$hdy1, dx=0, fsize=16pt>	 empty/2
+	\harmony<"Dm7", dy=$hdy1, dx=0, fsize=16pt>	 empty/4 |
+
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"E&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"A&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"D7", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Bm", dy=$hdy1, dx=0, fsize=16pt>	 empty/4
+	\harmony<"Bdim", dy=$hdy1, dx=0, fsize=16pt>	 empty/2 |
+	\harmony<"Cm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>	 empty/2
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>	 empty/4 |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Cm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"E&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"A&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Eb", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Ebmaj7", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"E&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>	 empty/4
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>	 empty/4 |
+
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"A&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Bdim", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Cm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"E", dy=$hdy1, dx=0, fsize=16pt>	 empty/2
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=16pt>	 empty/4 |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Cm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"A&m", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Cm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"B&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"E&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"A&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"D", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"E&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"E&", dy=$hdy1, dx=0, fsize=16pt>	 empty |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>	 empty 
+]
+}
