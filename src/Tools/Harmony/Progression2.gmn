@@ -1,0 +1,84 @@
+$dy=16;
+$dyt=-6;
+$hsize = 4;
+
+{
+[
+	\pageFormat<w=25cm, h=35.7cm, lm=2cm, rm=2cm, bm=3cm, tm=5cm>
+ 	\barFormat<"system">
+	\clef<"g"> \meter<"C"> 
+	\harmony<"Dm7", dy=$dy, fsize=$hsize>
+	\text<"Clefs pour l'harmonie - p.45", dy=22, dx=-2.5cm> (
+ 	{ c/2, f, a})
+	\harmony<"G7", dy=$dy, fsize=$hsize>
+	{ b0, f1, a } |
+	\harmony<"Dm7", dy=$dy, fsize=$hsize>
+	{ c/2, f, a}
+	\harmony<"G7(sus 4)", dy=$dy, fsize=$hsize>
+	{ c/2, f, a} |
+	\harmony<"Dm7/G", dy=$dy, fsize=$hsize>
+	{ c/1, d, f, a}
+	\harmony<"FM7/G", dy=$dy, fsize=$hsize>
+	{c, e, f, a }
+	\endBar
+
+\newLine
+	\harmony<"Dm7", dy=$dy, fsize=$hsize>
+	\text<"Clefs pour l'harmonie - p.46", dy=22, dx=-1.9cm> (
+ 	{ f/1, a, c2 }) |
+	\harmony<"G7(sus 4)", dy=$dy, fsize=$hsize>
+ 	{ f1/1, a, c2 } |
+	\harmony<"G7", dy=$dy, fsize=$hsize>
+ 	{ f1/1, a, b } |
+	\harmony<"CM7", dy=$dy, fsize=$hsize>
+ 	{ e, g, b }
+	\doubleBar
+
+	\harmony<"Dm7(9)", dy=$dy, fsize=$hsize>
+ 	{ c, f, a, e2 } |
+	\harmony<"G7(sus4)", dy=$dy, fsize=$hsize>
+ 	{ c1, f, a, e2 } |
+	\harmony<"G7(9,13)", dy=$dy, fsize=$hsize>
+ 	{ b0, f1, a, e2 } |
+	\harmony<"CM7(6,9)", dy=$dy, fsize=$hsize>
+ 	{ b0, e1, a, d2 } 
+	\endBar
+
+\newLine
+ 	\meter<"4/4">
+	\text<"Clefs pour l'harmonie - p.47", dy=18, dx=-2.2cm> (
+	\noteFormat<style="()">(g1/1)) _/4 _/8 e2/8 f g/4 f e d c 
+	\tie(d/8 d/1 d/4.) c/8 b1 a g 
+	\tie(a a/1 a/4.)
+	g/8 f e f \tie( g/8 g/1)
+	\repeatEnd
+]
+,
+[
+	\clef<"f"> \meter<"C"> 
+	d0/2 g-1 d0 g-1 g/1 g
+
+\newLine
+ 	d0/1 g g c 
+	\doubleBar
+	d g g c
+
+\newLine
+ 	\meter<"4/4">
+	g-1/4. c0/8 d g/4 \tie (b-1/8
+	\stemsDown
+	b)
+	\tie(\accent(g0/8) g/4 g/8) c d f
+	\stemsAuto
+	g-1 \accent(g0/4) c/8 d \tie( \accent(f) f) g
+	g-1 \accent(g0) _/4 _/8 c/4 d/8 
+	g-1/4. c0/8 d g/4 \tie (b-1/8
+	\stemsDown
+	b)
+	\tie(\accent(g0/8) g/4 g/8) c d f
+	\stemsAuto
+	g-1 \accent(g0/4) c/8 d \tie( \accent(f) f) g
+	g-1 \accent(g0) _/4 _/8 c/4 d/8 
+	\repeatEnd
+]
+}
