@@ -1,0 +1,34 @@
+
+$Hy = 3;
+$Hx = 7;
+$NL = "\newLine";
+
+{
+[
+	\pageFormat<w=21cm, h=29.7cm, lm=3cm, rm=3cm, bm=3cm, tm=7cm>
+	\title<"Triglav">
+	\composer<"Naragonia", dy=8>
+	\staffFormat<"0-line">
+	\clef<"g"> 
+	\harmony<"Am", dy=$Hy, dx=$Hx>
+	\text<"a", dy=10, dx=-2cm, fsize=12pt> (empty/1) |
+	\harmony<"Dm7", dy=$Hy, dx=$Hx> empty |
+	\harmony<"G9", dy=$Hy, dx=$Hx> empty |
+	\harmony<"DM7", dy=$Hy, dx=$Hx> empty |
+	\harmony<"FM7", dy=$Hy, dx=$Hx> empty |
+	\harmony<"E/G#", dy=$Hy, dx=$Hx> empty |
+	\harmony<"FM7", dy=$Hy, dx=$Hx> empty |
+	\harmony<"E/G#", dy=$Hy, dx=$Hx> empty |
+$NL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\harmony<"Am", dy=$Hy, dx=$Hx>
+	\text<"b", dy=10, dx=-2cm, fsize=12pt> (empty/1) |
+	\harmony<"Am", dy=$Hy, dx=$Hx> empty |
+	\harmony<"Dm", dy=$Hy, dx=$Hx> empty |
+	\harmony<"Dm", dy=$Hy, dx=$Hx> empty |
+	\harmony<"G", dy=$Hy, dx=$Hx> empty |
+	\harmony<"G", dy=$Hy, dx=$Hx> empty |
+	\harmony<"E", dy=$Hy, dx=$Hx> empty |
+	\harmony<"E", dy=$Hy, dx=$Hx> empty 
+]
+}
