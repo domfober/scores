@@ -6,6 +6,12 @@ All of me:x:x:Jazz:Gerald Marks - Seymour Simons:::Jazz/All-of-me.pdf::
 Along with the girls:x::Jig:trad.:Irlande::Jigs/Along-with-girls.pdf::
 Amazing grace:x:::trad.:Ecosse::Ecosse/Amazing-grace.pdf::
 Amsterdam:x:::J. Brel::chansons:Chansons/Amsterdam.pdf::
+An Anglezed Bonetoù Ruz:x::Andro:trad.:Bretagne::Andro/An-Anglezed-bonetou-ruz.pdf::
+An dro d’Alan:x::Andro:trad.:Bretagne::Andro/Andro-dAlan.pdf::
+An dro de Saint-Nazaire:x::Andro:trad.:Bretagne::Andro/Andro-de-Saint-Nazaire.pdf::
+An dro Galicien:x::Andro:trad.:::Andro/Andro-galicien.pdf::
+An dro Gwendal:x::Andro:trad.:Bretagne::Andro/Andro-Gwendal.pdf::
+An dro Vannetais:x::Andro:trad.:Bretagne::Andro/Andro-vannetais.pdf::
 Archibald:x::Valse:trad.:Ecosse::Valse/Archibald.pdf::
 Armaguedon:x:x:Jig:::En cours…:Jigs/Armaguedon.pdf::
 Astrid:x::Valse:trad.:Suède::Valse/Astrid.pdf::x
@@ -19,8 +25,10 @@ Avant deux de travers 5:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-traver
 Bal à quatre:x:x::trad.:Bretagne::Bretagne/Bal-a-quatre.pdf::
 Balkans:x::Recueils::::Recueils/Repertoire-Russie-Balkan.pdf::
 Ballade irlandaise:x:x::trad.:Irlande::Irlande/Ballade-irlandaise.pdf::
+Balleydesmond:x::Polka:trad.:Irlande::Polka/Balleydesmond.pdf::
 Bella Ciao:x:::trad.:Italie:chansons:Chansons/Bella_ciao.pdf::
 Bled:x::Valse:Trio Amestrio:::Valse/Bled.pdf::
+Bonsoir maître de maison:x::Andro:trad.:Bretagne::Andro/Bonsoir_Maitre_de_Maison.pdf::
 Bossy Band Reel:x::Reel::Irlande::Reel/Bossy-Band-Reel.pdf::
 Both sides the tweed:x::Valse:trad.:Ecosse::Valse/Both-sides-the-Tweed.pdf::
 Bourrée 3 temps ou marchoise:x:x:Bourrée::::Bourree/Marchoise.pdf::
@@ -34,6 +42,7 @@ Cercle circachien:x:x:Cercle:::En cours…:Cercle/CircaChien.pdf::
 Cochinchine:x:::trad.:Bretagne::Bretagne/Cochinchine.pdf::
 Cumbia sobre al mar (A):x::Cumbia::::Cumbia/Cumbia-sobre-al-mar-A.pdf::
 Cumbia sobre al mar (E):x::Cumbia::::Cumbia/Cumbia-sobre-al-mar-E.pdf::
+Dans les jardins d’mon père:x::Hanter-dro:trad.:Bretagne::Hanter-dro/Dans_les_jardins_dmon_pere.pdf::
 Danse de l’ours:x:x:Polka:trad.:::Polka/Danse-de-l-ours.pdf::
 Dirty Old Town:x::::Irlande::Irlande/DirtyOldTown.pdf::
 Dona dona:x::::Yiddish:chansons:Chansons/dona-dona.pdf::
@@ -59,14 +68,20 @@ Gavotte de l’Aven:x::Gavotte::::Gavotte/Gavotte-Aven.pdf::
 Good bye Makedonia:x::::Balkans::Balkans/Goodbye-Macedonia.pdf::
 Greensleeves:x::Jig::Irlande::Jigs/Greensleeves.pdf::
 Hamish:x::Scottish::::Scottish/Hamish.pdf::
+Hanter dro - An dro:x::Trikot:trad.:Bretagne::Trikot/Hanter-dro-Andro.pdf::
+Hanter dro de la forêt:x::Hanter-dro:L. Jannekin:Bretagne::Hanter-dro/Hanter-dro-de-la-foret.pdf::
+Hanter dro du pennen:x::Hanter-dro:trad.:Bretagne::Hanter-dro/Hanter-dro-Pennec.pdf::
+Hanter dro Gwendal:x::Hanter-dro:trad.:Bretagne::Hanter-dro/Hanter-dro-Gwendal.pdf::
 I’ll Buy Boots for Maggie:x:x:Polka::Irlande::Polka/Boots-for-Maggie.pdf::
 Il camino:x::Valse:Aldo Romano:::Valse/IlCamino.pdf::
 Inisher waltz:x::Valse:Thomas Walsh:Irlande::Valse/Inisher-waltz.pdf::
 Ivoirine:x::Gavotte:Stéphane Milleret:::Gavotte/ivoirine_2_voix_lam.pdf::
 J’envoie valser:x:x:Valse:Gérard Bourgeois::chansons:Valse/Jenvoie-valser.pdf::
+Jackie Daly’s:x::Polka:trad.:Irlande::Polka/Jacky-daly.pdf::
 Java des bombes atomiques:x:::B. Vian, A. Goraguer::chansons:Chansons/Java-des-bombes-atomiques.pdf::
 Jour de Pluie:x:x:Valse:Minuit Guibolles:::Valse/JourDePluie.pdf::
 Julia Delaney’s Reel:x:x:Reel::Irlande::Reel/JuliaDelaney.pdf::
+Kas a-barh:x::Andro:trad.:Bretagne::Andro/Andro-de-Baud.pdf::
 Kazatchock:x::::Balkans::Balkans/Kazatchock.pdf::
 Kost ar c’hoad:x:::trad.:Bretagne::Bretagne/Kost-ar-choad.pdf::
 L’Auvergnat:x::Valse:G. Brassens::chansons:Chansons/Auvergnat.pdf::
@@ -113,6 +128,7 @@ Mon village:x:::François Heim:Balkans::Balkans/Mon_Village.pdf::
 My favorite things:x::Jazz:Richard Rodgers:::Jazz/MyFavoriteThings.pdf::
 Nina:x::Mazurka::::Mazurkas/Nina.pdf::
 Par dessus les Alpes:x:x:Mazurka:Freddy Dussaillant:::Mazurkas/Par-dessus-les-alpes.pdf::
+Pelot d’Hennebont:x::Andro:trad.:Bretagne::Andro/Pelot-dHennebont.pdf::
 Polka de l’Adélaïde:x::Polka:Eric Raillard:::Polka/Polka-adelaide.pdf::
 Polka de Paimpol:x:x:Polka:trad.:Bretagne::Polka/Polka-de-paimpol.pdf::
 Porth Mhuirgheasa:x::Jig:trad.:Irlande::Jigs/Porth_mhuirgheasa.pdf::

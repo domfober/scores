@@ -22,17 +22,17 @@ $my = 9;
 	\harmony<"Dm", dy=$hdy1, dx=3, fsize=$msize>
 	a/4. f a/4 |
 	\harmony<"Am", dy=$hdy1, dx=0, fsize=$msize>
-	c2/4. a1 c2/4 |
+	c2/4. e1 c2/4 |
 	\harmony<"G", dy=$hdy1, dx=0, fsize=$msize>
 	b1/4. d1 b/4 |
 	\harmony<"F", dy=$hdy1, dx=0, fsize=$msize>
-	f/2
+	a/2
 	\harmony<"E", dy=$hdy1, dx=0, fsize=$msize>
-	e |
+	g# |
 	\harmony<"Dm", dy=$hdy1, dx=0, fsize=$msize>
 	a/4. f a/4 |
 	\harmony<"Am", dy=$hdy1, dx=0, fsize=$msize>
-	c2/4. a1 c2/4 |
+	c2/4. e1 c2/4 |
 	\harmony<"G", dy=$hdy1, dx=0, fsize=$msize>
 	b1/2 
 	\harmony<"F", dy=$hdy1, dx=0, fsize=$msize>
@@ -42,13 +42,13 @@ $my = 9;
 
 	\voltaBegin<"1", "|-|", dy=-3>
 	\harmony<"Am", dy=$hdy1, dx=0, fsize=$msize>
-	c2/2 _/8 a1 b c2 
+	c2/2 _/8 \bm(a1 b c2)
 	\voltaEnd
 	\repeatEnd
 
 	\voltaBegin<"2", "|-", dy=-3>
 	\harmony<"Am", dy=$hdy1, dx=0, fsize=$msize>
-	c2/2 _/8 f1 e d |
+	c2/2 _/8 \bm(f1 e d) |
 	\voltaEnd
 
 	\newLine
@@ -58,7 +58,7 @@ $my = 9;
 	\harmony<"G7", dy=$hdy1, dx=0, fsize=$msize>
 	d/4. c b0/4 |
 	\harmony<"C", dy=$hdy1, dx=0, fsize=$msize>
-	c1/2 _/8 c/8 d e |
+	c1/2 _/8 \bm(c/8 d e) |
 	\harmony<"E", dy=$hdy1, dx=0, fsize=$msize>
 	e/4. g a/8 g |
 	\harmony<"Dm", dy=$hdy1, dx=0, fsize=$msize>
