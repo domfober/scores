@@ -1,0 +1,149 @@
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+$dist = 10;
+$fsize = 8;
+(*
+accords 
+G G C C D D B B G G C C D D G
+*)
+{
+[
+	\title<"Swalow's Tail Reel">
+	\composer<"Irish Folk", fsize=14pt,  dy=5>
+	\pageFormat<w=25.2cm, h=35.64cm, lm=2cm, rm=2cm, bm=3cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<1> \meter<"C/", autoMeasuresNum="system"> 
+
+% mesure 1
+%	\harmony<"Dm", dy=$hdy1, dx=3, fsize=16pt> 
+% tab: P G
+	g2/8 
+% tab: T G
+	f#2 \bar<measNum=1>	
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>  
+	e2 a1 \tuplet<"3">(c2/12 b1 a1) e2/8 a1 c2 a1 |
+% mesure 2
+% tab: T
+	c2 d2 e2 f#2
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>  
+% tab: P G
+	g2 e2 d2 b1 |
+% mesure 3
+	g1/4 b1/8 g1 d2 g1 b1 g1 |
+% mesure 4
+	c2 d2 e2 f#2 g2/4 f#2/8 g2 |
+% mesure 5
+% tab: T G
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>  
+	e2 a1 \tuplet<"3">(c2/12 b1 a1) e2/8 a1 c2 a1 |
+% mesure 6
+	c2 d2 e2 f#2
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>  
+% tab: P G
+	g2/4 
+% tab: T
+	f#2/8 
+% tab: P G
+	g2 |
+% mesure 7
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=16pt>  
+% tab: T G
+	a2 f#2 g2 e2
+% tab: P G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>  
+	d2 b1 g1 b1 |
+% mesure 8
+% tab: T G
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>  
+	a1 c2 
+% tab: P G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>  
+	b1 g1 
+% tab: T G
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>  
+	a1/4 
+	\repeatEnd
+%	\newLine
+%%%%%%%%%%%%%%%%%%%%%%
+	\repeatBegin
+% tab: T G
+	c2/8 d2 \bar<measNum=9>	
+% mesure 9
+	e2 a2 a2 
+% tab: P G
+	g2 
+% tab: T G
+	a2 b2 a2 
+% tab: P G
+	g2 |
+% tab: T G
+% mesure 10
+	e2 d2 e2 f#2 
+% tab: P G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>  
+	g2 e2 d2 b1 |
+% mesure 11
+	g1/4 b1/8 g1 d2 g1 b1 g1 |
+% mesure 12
+% tab: P G
+	c2 d2 e2 
+% tab: T
+	f#2 
+% tab: P G
+	g2/4 
+% tab: T
+	f#2/8 
+% tab: P G
+	g2 |
+% mesure 13
+% tab: T G
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>  
+	e2 a2 a2 
+% tab: P G
+	g2 
+% tab: T G
+	a2 b2 a2 
+% tab: P G
+	g2 |
+% mesure 14
+% tab: T G
+	e2 d2 e2 f#2
+% tab: P G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>  
+	g2/4 
+% tab: T
+	f#2/8 
+% tab: P G
+	g2 |
+% mesure 15
+% tab: T G
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>  
+	a2 f#2 
+% tab: P G
+	g2 
+% tab: T G
+	e2
+% tab: P G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>  
+	d2 b1 g1 b1 |
+% mesure 16
+% tab: T G
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>  
+	a1 c2 
+% tab: P G
+	\harmony<"G", dy=$hdy1, dx=0, fsize=16pt>  
+	b1 g1 
+% tab: T G
+	\harmony<"A", dy=$hdy1, dx=0, fsize=16pt>  
+	a1/4 
+	\repeatEnd
+
+
+]
+}

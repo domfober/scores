@@ -1,0 +1,102 @@
+(*
+  gmn file converted from tab file
+*)
+
+$hdy1 = -15;
+$hdy2 = -13;
+$hdy3 = -16;
+$Ty = -11;
+$Py = -6;
+$Ly = -12;
+$dist = 10;
+
+{
+[
+	\title<"Apéro Fraise", font="Helvetica">
+	\composer<"Noémie Dessaint", font="Helvetica", fsize=12pt, dy=4>
+	\pageFormat<w=21cm, h=29.7cm, lm=2cm, rm=2cm, bm=2cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<0> \meter<"3/4", autoMeasuresNum="system"> 
+
+	\lyrics<"8 7' ", dy=$Ty, fattrib="b">( c2/8 d2  )
+\repeatBegin
+
+	\harmony<"A        a         a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9 7 9 7 9 7 ", dy=$Ty, fattrib="b">( e2/8 a1 e2 a1 e2 a1  )
+|
+	\harmony<"D       d         d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6' 7 6' 8 ", dy=$Ty, fattrib="b">( d2 c2 b1 a1 b1 c2  )
+|
+	\harmony<"F         f         f", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8 5 8 5 8 5 ", dy=$Ty, fattrib="b">( c2 e1 c2 e1 c2 e1  )
+|
+	\harmony<"G         g          g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 6' 8 6' 7 6'", dy=$Py, fattrib="b">( b1 c2 d2 c2 b1 c2 )
+|
+	\harmony<"A          a           a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"9 7 9 7 9 7 ", dy=$Ty, fattrib="b">( e2/8 a1 e2 a1 e2 a1  )
+|
+	\harmony<"D         d           d", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7' 8 6' 7 6' 8 ", dy=$Ty, fattrib="b">( d2 c2 b1 a1 b1 c2  )
+|
+	\harmony<"F          f            f", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8 5 8 5 8 5 ", dy=$Ty, fattrib="b">( c2 e1 c2 e1 c2 e1  )
+|
+
+\voltaBegin<"1.">
+	\harmony<"E          e          e", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 6' 7 6' 7 6' ", dy=$Py, fattrib="b">( b1 c2 b1 c2 b1 c2  )
+\voltaEnd
+\repeatEnd
+\voltaBegin<"2.", "|-">
+	\harmony<"E          e          e", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7 6' 8 7' 8 6' ", dy=$Py, fattrib="b">( b1 c2 d2 e2 d2 c2  )
+\voltaEnd
+|
+\newLine
+\repeatBegin
+	\harmony<"F          f          f", dy=$hdy1, dx=2, fsize=16pt>
+	\tieBegin \lyrics<"8,9", dy=$Ty, fattrib="b">( {c2/2., e2}  )
+|
+	\harmony<"F          f          f", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8,9", dy=$Ty, fattrib="b">( { c2/2., e2} ) \tieEnd
+|
+	\harmony<"G          g          g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6',7'", dy=$Py, fattrib="b">( {c2, e2} )
+|
+	\harmony<"G     g     g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7,7'", dy=$Py, fattrib="b">( {b1, e2} )
+|
+	\harmony<"A      a       a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"8,9", dy=$Ty, fattrib="b">( {c2/4, e2}  )
+	\lyrics<"8,9,6", dy=$Ty, fattrib="b">( {c2/2, e2, b1})
+|
+	\harmony<"A      a      a", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"7,8,9", dy=$Ty, fattrib="b">( {a1/2., c2, e2}  )
+|
+	\harmony<"G     g     g", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6,7", dy=$Py, fattrib="b">( {g1, b1}  )
+|
+\voltaBegin<"1.">
+	\harmony<"E    e    e", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6,7,4'", dy=$Py, fattrib="b">( {g1, b1, e1} )
+\repeatEnd
+\voltaEnd
+\voltaBegin<"2.", "|-">
+	\harmony<"E    e    e", dy=$hdy1, dx=0, fsize=16pt>
+	\lyrics<"6,7,4'", dy=$Py, fattrib="b">( {g1/2, b1, e1} )
+	\lyrics<"8 7' ", dy=$Ty, fattrib="b">( c2/8 d2  )
+\voltaEnd
+
+]
+,
+[
+	\set<autoEndBar="off">
+	\staffFormat<"1-line", distance=$dist> \clef<"none"> 
+	\instr<"P", fsize=16pt, dx=-10, dy=1.5>
+	\instr<"T", fsize=16pt, dx=-14.5, dy=-5>
+
+]
+}
