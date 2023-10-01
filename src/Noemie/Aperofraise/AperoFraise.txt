@@ -10,6 +10,7 @@
 T8/8 T7' 
 \repeatBegin
 
+%%%%%% mes. 1
 H Aaa
 T9/8 T7 T9 T7 T9 T7 
 |
@@ -19,6 +20,7 @@ T7' T8 T6' T7 T6' T8
 H Fff
 T8 T5 T8 T5 T8 T5 
 |
+%%%%%% mes. 4
 H Ggg
 P7 P6' P8 P6' P7 P6'
 |
@@ -32,6 +34,7 @@ H Fff
 T8 T5 T8 T5 T8 T5 
 |
 
+%%%%%% mes. 8
 \voltaBegin<"1.">
 H Eee
 P7 P6' P7 P6' P7 P6' 
@@ -43,6 +46,7 @@ P7 P6' P8 P7' P8 P6'
 \voltaEnd
 \newLine
 
+%%%%%% mes. 10
 H Fff
 T8/4 T9 
 |
@@ -50,11 +54,12 @@ H Fff
 T8/4 T9
 |
 H Ggg 
-|
 P6' P7'
-H Ggg 
 |
+H Ggg 
 P7 P7'
+|
+%%%%%% mes. 14
 H Aaa
 T8/4 T9 T8/4 T9 T6' 
 |
