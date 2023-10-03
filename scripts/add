@@ -1,0 +1,147 @@
+#!/bin/sh
+
+# Format d'une ligne : Titre	Genre	Compositeur	Origine	Volume	Fichier
+
+LISTE=liste.txt		# la liste courante en entrée
+OUTLISTE=liste.csv	# la liste à enrichir en sortie
+DOCS=../docs
+PDF=$DOCS/pdf
+DEST=""		# destination folder
+FILE=""		# input file
+DESTFILE="" # destination file (for cp)
+HTMLFILE="" # file path (for html)
+
+G=$(cat $LISTE | cut -d: -f 2 | grep -v trad | sort -u)
+O=$(cat $LISTE | cut -d: -f 4 | sort -u)
+AUTRE=autre
+
+declare -a genres
+declare -a origin
+
+function genres() {
+	i=0
+	for a in $G
+	do
+		echo $i $a
+		genres[i]=$a
+		i=$(($i + 1))
+	done
+}
+
+function origin() {
+	i=0
+	for a in $O
+	do
+		echo $i $a
+		origin[i]=$a
+		i=$(($i + 1))
+	done
+}
+
+function check_genre() {
+	if [ -z "$1" ]; then
+		echo ""
+	elif [ "$1" == "a" ]; then
+		read -p 'autre genre : ' a
+		echo $a
+	else
+		echo ${genres[$1]}
+	fi
+}
+
+function check_origin() {
+	if [ -z "$1" ]; then 
+		echo ""
+	elif [ "$1" == "a" ]; then
+		read -p 'autre genre : ' a
+		echo $a
+	else
+		echo ${origin[$1]}
+	fi
+}
+
+function check_bool() {
+	case $1 in
+		y | o | Y | O)
+			echo Chansons 
+			;;
+		default)
+			echo
+			;;
+	esac
+}
+
+function check_dest() {
+ 	name=$(basename $FILE)
+	echo $1 $2 $name
+ 	[ -z "$2" ] && DEST=$1 || DEST=$2
+	HTMLFILE=$DEST/$name
+	DESTFILE=$PDF/$HTMLFILE
+ 	if [ -f $DESTFILE ]
+	then
+		echo "Le fichier '$name' existe déjà dans le dossier $PDF/$DEST"
+		read -p 'Remplacer ? [o/n] (n) : ' replace
+		if [ "$replace" != "o" ]; then
+			echo Abandon
+			exit 1
+		fi
+	fi
+}
+
+function check_file() {
+	if [ ! -f "$FILE" ]
+	then
+		echo "'$FILE' n'existe pas ..."
+		exit 1
+	fi
+}
+
+function getInput() {
+	local var=""
+	read -p "$1 : " var
+	while ( [ -z "$var" ] && [ "$2" = "true" ] )
+	do
+		read -p "$1 (Valeur requise) : " var
+	done
+	echo $var	
+}
+
+
+titre=$(getInput 'Titre' true)
+genres	# construit et affiche le tableau des genre
+genre=$(check_genre $(getInput 'Genre [a pour autre]'))
+chant=$(check_bool $(getInput 'Volume chansons [o/n]'))
+while ( [ -z "$genre" ] && [ -z "$chant" ] )
+do
+	echo "Au moins un genre ou volume requis"
+	genre=$(check_genre $(getInput 'Genre [a pour autre]'))
+	chant=$(check_bool $(getInput 'Volume chansons [o/n]'))
+done
+compos=$(getInput 'Compositeur')
+origin	# construit et affiche le tableau des origines
+origin=$(check_origin $(getInput 'Origine [a pour autre]'))
+
+FILE=$(getInput 'Fichier' "true")
+check_file
+check_dest $genre $chant
+
+cat <<!
+
+Vérification:
+-----------------------
+ Titre: $titre
+ Genre: $genre
+ Volume: $chant
+ Compositeur: $compos
+ Origine: $origin
+ Fichier: $FILE -> $DEST
+-----------------------
+!
+read -p 'Confirmer [o/n] : ' ok
+if [ "$ok" == "o" ]
+then
+	echo $titre\;$genre\;$compos\;$origin\;$chant\;$HTMLFILE >> $OUTLISTE
+	[ -d $PDF/$DEST ] || mkdir $PDF/$DEST
+	cp $FILE $DESTFILE
+	echo Enregistrement ajouté dans $OUTLISTE
+fi
