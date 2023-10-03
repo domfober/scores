@@ -1,184 +1,186 @@
-Adèle Blanc Sec:x::Scottish:Frédéric Paris:::Scottish/Adele_Blanc_Sec.pdf::
-Air in G:x::Classique:J.S. Bach:::Classique/Air-in-G.pdf::
-Alambic:x::Bourrée:Norbert Pignol:::Bourree/alambic.pdf::
-Alio:x::Mazurka:Pascale Rubens:::Mazurkas/alioam.pdf::
-All of me:x:x:Jazz:Gerald Marks - Seymour Simons:::Jazz/All-of-me.pdf::
-Along with the girls:x::Jig:trad.:Irlande::Jigs/Along-with-girls.pdf::
-Amazing grace:x:::trad.:Ecosse::Ecosse/Amazing-grace.pdf::
-Amsterdam:x:::J. Brel::chansons:Chansons/Amsterdam.pdf::
-An Anglezed Bonetoù Ruz:x::Andro:trad.:Bretagne::Andro/An-Anglezed-bonetou-ruz.pdf::
-An dro d’Alan:x::Andro:trad.:Bretagne::Andro/Andro-dAlan.pdf::
-An dro de Saint-Nazaire:x::Andro:trad.:Bretagne::Andro/Andro-de-Saint-Nazaire.pdf::
-An dro Galicien:x::Andro:trad.:::Andro/Andro-galicien.pdf::
-An dro Gwendal:x::Andro:trad.:Bretagne::Andro/Andro-Gwendal.pdf::
-An dro Vannetais:x::Andro:trad.:Bretagne::Andro/Andro-vannetais.pdf::
-Archibald:x::Valse:trad.:Ecosse::Valse/Archibald.pdf::
-Armaguedon:x:x:Jig:::En cours…:Jigs/Armaguedon.pdf::
-Astrid:x::Valse:trad.:Suède::Valse/Astrid.pdf::x
-Au café du canal:x::Valse:Pierre Perret::chansons:Chansons/AuCafeDuCanal.pdf::
-Avant deux de travers:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers.pdf::
-Avant deux de travers 1:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers1.pdf::
-Avant deux de travers 2:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers2.pdf::
-Avant deux de travers 3:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers3.pdf::
-Avant deux de travers 4:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers4.pdf::
-Avant deux de travers 5:x::Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers5.pdf::
-Bal à quatre:x:x::trad.:Bretagne::Bretagne/Bal-a-quatre.pdf::
-Balkans:x::Recueils::::Recueils/Repertoire-Russie-Balkan.pdf::
-Ballade irlandaise:x:x::trad.:Irlande::Irlande/Ballade-irlandaise.pdf::
-Balleydesmond:x::Polka:trad.:Irlande::Polka/Balleydesmond.pdf::
-Bella Ciao:x:::trad.:Italie:chansons:Chansons/Bella_ciao.pdf::
-Bled:x::Valse:Trio Amestrio:::Valse/Bled.pdf::
-Bonsoir maître de maison:x::Andro:trad.:Bretagne::Andro/Bonsoir_Maitre_de_Maison.pdf::
-Bossy Band Reel:x::Reel::Irlande::Reel/Bossy-Band-Reel.pdf::
-Both sides the tweed:x::Valse:trad.:Ecosse::Valse/Both-sides-the-Tweed.pdf::
-Bourrée 3 temps ou marchoise:x:x:Bourrée::::Bourree/Marchoise.pdf::
-Broceliande:x::Reel::Irlande:En cours…:Reel/Broceliande.pdf::
-Ça gaze:x::Mazurka:Victor Marceau:::Mazurkas/Ca-gaze.pdf::
-Castle Kelly:x::Reel::Irlande:En cours…:Reel/CastleKelly.pdf::
-Ce n’est rien:x:::J. Clerc::chansons:Chansons/Ce-n-est-rien.pdf::
-Ce sont les filles de Landéda:x:x::trad.:Bretagne::Bretagne/Les-filles-de-Landeda.pdf::
-Cercle Aqui:x::Cercle:::En cours…:Cercle/CercleAqui.pdf::
-Cercle circachien:x:x:Cercle:::En cours…:Cercle/CircaChien.pdf::
-Cochinchine:x:::trad.:Bretagne::Bretagne/Cochinchine.pdf::
-Cumbia sobre al mar (A):x::Cumbia::::Cumbia/Cumbia-sobre-al-mar-A.pdf::
-Cumbia sobre al mar (E):x::Cumbia::::Cumbia/Cumbia-sobre-al-mar-E.pdf::
-Dans les jardins d’mon père:x::Hanter-dro:trad.:Bretagne::Hanter-dro/Dans_les_jardins_dmon_pere.pdf::
-Danse de l’ours:x:x:Polka:trad.:::Polka/Danse-de-l-ours.pdf::
-Dirty Old Town:x::::Irlande::Irlande/DirtyOldTown.pdf::
-Dona dona:x::::Yiddish:chansons:Chansons/dona-dona.pdf::
-El choclo:x::Tango:Angel Villoldo:::Tango/El-choclo.pdf::
-El pueblo unido:x:::Sergio Ortega:Chili:chansons:Chansons/El-pueblo-unido.pdf::
-Eleanor Plunkett:x::Valse:Turlough O’Carolan:Irlande::Valse/Eleanor-Plunkett.pdf::
-Emmenez moi:x:::Aznavour::chansons:Chansons/Emmenez-moi.pdf::
-Esperanza:x::Scottish:Perrone/Minvielle:::Scottish/Esperanza.pdf::
-Faraway:x::Valse:Pete Jung:::Valse/Faraway.pdf::
-Father Kelly:x::Reel::Irlande::Reel/Father-kelly.pdf::
-Fermoy lassies:x::Reel::Irlande::Reel/Fermoy-lassies.pdf::
-Fever:x::Jazz:John Davenport - Eddie Cooley:::Jazz/Fever.pdf::
-Flagston of memories:x::Reel::::Reel/Flagstone-of-memories.pdf::
-FlatWorld:x::Valse::Irlande::Valse/flatworld.pdf::
-Fugue en la mineur:x::Classique:J.S. Bach:::Classique/Fugue-lam.pdf::
-Gamme chromatique:x::Gammes::::Gammes/chromatique.pdf::
-Gammes majeures:x::Gammes::::Gammes/maj-scales.pdf::
-Gammes mineures:x::Gammes::::Gammes/min-scales.pdf::
-Gan Ainm 1:x::Reel::Irlande::Reel/GanAinm1.pdf::
-Gan Ainm 2:x::Reel::Irlande::Reel/GanAinm2.pdf::
-Ganglat från Appelbo:x::::Suède::Suede/Ganglat.pdf:Bifil:
-Gavotte de l’Aven:x::Gavotte::::Gavotte/Gavotte-Aven.pdf::
-Good bye Makedonia:x::::Balkans::Balkans/Goodbye-Macedonia.pdf::
-Greensleeves:x::Jig::Irlande::Jigs/Greensleeves.pdf::
-Hamish:x::Scottish::::Scottish/Hamish.pdf::
-Hanter dro - An dro:x::Trikot:trad.:Bretagne::Trikot/Hanter-dro-Andro.pdf::
-Hanter dro de la forêt:x::Hanter-dro:L. Jannekin:Bretagne::Hanter-dro/Hanter-dro-de-la-foret.pdf::
-Hanter dro du pennen:x::Hanter-dro:trad.:Bretagne::Hanter-dro/Hanter-dro-Pennec.pdf::
-Hanter dro Gwendal:x::Hanter-dro:trad.:Bretagne::Hanter-dro/Hanter-dro-Gwendal.pdf::
-I’ll Buy Boots for Maggie:x:x:Polka::Irlande::Polka/Boots-for-Maggie.pdf::
-Il camino:x::Valse:Aldo Romano:::Valse/IlCamino.pdf::
-Inisher waltz:x::Valse:Thomas Walsh:Irlande::Valse/Inisher-waltz.pdf::
-Ivoirine:x::Gavotte:Stéphane Milleret:::Gavotte/ivoirine_2_voix_lam.pdf::
-J’envoie valser:x:x:Valse:Gérard Bourgeois::chansons:Valse/Jenvoie-valser.pdf::
-Jackie Daly’s:x::Polka:trad.:Irlande::Polka/Jacky-daly.pdf::
-Java des bombes atomiques:x:::B. Vian, A. Goraguer::chansons:Chansons/Java-des-bombes-atomiques.pdf::
-Jour de Pluie:x:x:Valse:Minuit Guibolles:::Valse/JourDePluie.pdf::
-Julia Delaney’s Reel:x:x:Reel::Irlande::Reel/JuliaDelaney.pdf::
-Kas a-barh:x::Andro:trad.:Bretagne::Andro/Andro-de-Baud.pdf::
-Kazatchock:x::::Balkans::Balkans/Kazatchock.pdf::
-Kost ar c’hoad:x:::trad.:Bretagne::Bretagne/Kost-ar-choad.pdf::
-L’Auvergnat:x::Valse:G. Brassens::chansons:Chansons/Auvergnat.pdf::
-L’internationale:x:::::chansons:Chansons/Internationale.pdf::
-La « Dos » :x::Sardane::Espagne::Sardane/LaDos.pdf::
-La bohème:x:::Aznavour::chansons:Chansons/LaBoheme.pdf::
-La cumparsita:x::Tango::::Tango/Cumparsita.pdf::
-La femme de marbre:x::Mazurka:Stéphane Delicq:::Mazurkas/La-femme-de-marbre.pdf::
-La femme fusée:x::Cercle:Amélie Denarié:::Cercle/La_Femme_Fusee.pdf::
-La noce:x:x:Valse::::Valse/La-noce.pdf::
-La nonchalante:x::Mazurka:Emmanuel Pariselle:::Mazurkas/La-nonchalante.pdf::
-La Paimpolaise:x::Valse:::chansons:Chansons/Paimpolaise.pdf::
-La petite Cancalaise:x::Scottish:trad.:Bretagne::Scottish/Petite-cancalaise.pdf::
-La planète bleue tourne et vire:x::Valse::Balkans::Valse/La-planete-bleue-tourne-et-vire.pdf::
-La serinissima:x:x::Loren Mckennitt:Irlande::Irlande/La-serenissima.pdf::
-La tendresse:x:::Bourvil::chansons:Chansons/La-tendresse.pdf::
-La Traversée:x::Gavotte:Amélie Denarié:::Gavotte/La_Traversee.pdf::
-Last night waltz:x:x:Valse:trad.:Irlande::Valse/Valse-irlandaise-Last-night.pdf::
-Le banquet:x::Valse:Yann Tiersen:::Valse/le-banquet.pdf::
-Le petit vin blanc:x::Valse:::chansons:Chansons/Le-petit-vin-blanc.pdf::
-Le plus bel age:x::Valse::::Valse/LePlusBelAge.pdf::
-Le Revenant:x::Valse::::Valse/Le-revenant.pdf::
-Le tango du bourreau:x:x:Tango::::Tango/Tango-du-Bourreau.pdf::
-Le temps des cerises:x::Valse:::chansons:Chansons/Le-temps-des-cerises.pdf::
-Le tourbillon de la vie:x::Valse:::chansons:Chansons/Le-tourbillon-de-la-vie.pdf::
-Les amants d’un jour:x::Valse:M. Monnot::chansons:Chansons/Les-amants-d-un-jour.pdf::
-Les planètes:x::Bourrée::::Bourree/Les-planetes.pdf::
-Lettre à Elise:x::Classique:Beethoven:::Classique/Elise.pdf::
-Lily Marlène:x:::Norbert Schultze::chansons:Chansons/Lily-marlene.pdf::
-Maria:x::Tango::::Tango/Maria.pdf::
-Mazurka:x:x:Mazurka:Balbelettes:::Mazurkas/Mazurka-Balbelettes.pdf::
-Mazurka des écoliers de Saint-Genest:x::Mazurka:Gilles Chabenat:::Mazurkas/Mazurka-ecoliers-st-genest.pdf::
-Mazurka du bal perdu:x::Mazurka:Loic Etienne:::Mazurkas/MazurkaDuBalPerdu.pdf::
-Mazurka finlandaise:x::Mazurka:trad.:Finlande::Mazurkas/Mazurka-finlandaise.pdf::
-Menuet 3:x::Classique:J.S. Bach:::Classique/Menuet.pdf::
-Milonga para as Missoes:x::Tango::::Tango/Milonga.pdf::
-Minor swing:x::Jazz::::Jazz/Minor-swing.pdf::
-Mis Kerzu:x:x:Valse:Florence Pindivic:::Valse/Mis-Kerzu.pdf::
-Modes (C):x::Gammes::::Gammes/C-modes.pdf::
-Modes des balkans (Poussé):x::Gammes::::Gammes/BalkansP.pdf::
-Modes des balkans (Tiré):x::Gammes::::Gammes/Balkans.pdf::
-Mon amant de Saint Jean:x:x:Valse:::chansons:Chansons/Mon-amant-de-St-Jean.pdf::
-Mon village:x:::François Heim:Balkans::Balkans/Mon_Village.pdf::
-My favorite things:x::Jazz:Richard Rodgers:::Jazz/MyFavoriteThings.pdf::
-Nina:x::Mazurka::::Mazurkas/Nina.pdf::
-Par dessus les Alpes:x:x:Mazurka:Freddy Dussaillant:::Mazurkas/Par-dessus-les-alpes.pdf::
-Pelot d’Hennebont:x::Andro:trad.:Bretagne::Andro/Pelot-dHennebont.pdf::
-Polka de l’Adélaïde:x::Polka:Eric Raillard:::Polka/Polka-adelaide.pdf::
-Polka de Paimpol:x:x:Polka:trad.:Bretagne::Polka/Polka-de-paimpol.pdf::
-Porth Mhuirgheasa:x::Jig:trad.:Irlande::Jigs/Porth_mhuirgheasa.pdf::
-Puma:x::Scottish::::Scottish/Puma.pdf::
-Reel beatrice:x::Reel::::Reel/Reel-beatrice.pdf::
-Reel traditionnel:x::Reel::Irlande::Reel/Reel-traditionnel.pdf::
-San Francisco:x:::Moustaki::chansons:Chansons/San-francisco.pdf::
-Santiano:x:::H. Auffray::chansons:Chansons/Santiano.pdf::
-Sardane:x::Sardane::Espagne::Sardane/Sardane.pdf::
-Scottish à Lucien:x::Scottish::::Scottish/Scottishlucien.pdf::
-Scottish à Marc:x::Scottish::::Scottish/scottish-a-marc.pdf::
-Scottish à Natacha:x::Scottish::::Scottish/ScottishNatacha.pdf::
-Scottish aux Roberts:x::Scottish::::Scottish/Scottishrobert.pdf::
-Scottish du camion:x::Scottish:Danile Marinelli:::Scottish/Scottish-du-camion.pdf::
-Scottish du père Roussel:x::Scottish:trad.:Bretagne::Scottish/Scottish-du-Pere-Roussel.pdf::
-Scottish fait main:x:x:Scottish:Les Zéoles:::Scottish/ScottischFaitMain.pdf::
-Scottish Hajième:x::Scottish:JM Siche:::Scottish/scottish-siche.pdf::
-Scottish La boite à bois:x::Scottish:Nikita Pfister:::Scottish/La-boite-a-bois.pdf::
-Sommarvals:x::Valse:Ale Möller:::Valse/Sommarvals.pdf::x
-Sous le ciel de Paris:x::Valse:::chansons:Chansons/Sous-le-ciel-de-paris.pdf::
-Sous les ponts de Paris:x::Valse:Vincent Scotto::chansons:Valse/Sous-les-ponts-de-paris.pdf::
-Sous les toits de la rue Tiquetone:x::Valse:Daniel Denécheau:::Valse/Sous-les-toits-de-la-rue-Tiquetonne.pdf::
-Stewball:x:::trad.::chansons:Chansons/Stewball.pdf::
-Tabou:x::Scottish:Jen Michel Corgeron:::Scottish/Tabou.pdf::
-Tango pour Claude:x::Tango:Richard Galiano:::Tango/Tango-pour-Claude.pdf::
-Tarentelle:x::Tartentelle:trad.:Italie:En cours…:Tarentelle/Tarentelle2.pdf::
-Tarentelle (traditionnelle):x::Tartentelle:trad.:Italie::Tarentelle/Tarentelle1.pdf::
-Tarentelle Calabraise:x::Tartentelle:trad.:Italie:En cours…:Tarentelle/Tarentelle-calabraise.pdf::
-Tarentelle carbonara:x:x:Tartentelle:trad.:Italie::Tarentelle/Tarentelle-carbonara.pdf::
-Tarentelle en sol:x::Tartentelle:trad.:Italie::Tarentelle/Tarentelle-sol.pdf::
-Tarentelle simple:x:x:Tartentelle:trad.:Italie::Tarentelle/Tarentelle-simple.pdf::
-The blarney pilgrim:x::Jig::::Jigs/Pilgrim.pdf::
-The entertainer:x::Jazz:Scott Joplin:::Jazz/Entertainer.pdf::
-The last rose of summer:x::Valse:trad.::chansons:Chansons/the_last_rose_of_summer.pdf::
-The leaving of Liverpool:x:::trad.:Irlande::Irlande/The-Leaving-of-Liverpool.pdf::
-The Rose of Raby:x::Mazurka:Dave Shepard:::Mazurkas/The-rose-of-raby.pdf::
-The silver spear:x::Reel::Irlande::Reel/SilverSpear.pdf::
-The white petticoat:x::Jig::Irlande::Jigs/The-white-petticoat.pdf::
-Tristesse:x::Classique:Chopin:::Classique/Tristesse.pdf::
-Ttukurukuttukuttuku:x::Scottish:trad.::chansons:Chansons/Ttukurukuttukuttuku.pdf::x
-Vals efter Jonte i Byom:x::Valse::Suède::Suede/Vals.pdf:Bifil:
-Valse à Eddy:x::Valse::::Valse/Valse-a-Eddy.pdf::
-Valse à Mary:x::Valse:B. Loffet:::Valse/Valse-a-Mary.pdf::
-Valse à Nini:x::Valse::::Valse/Valse-a-Nini.pdf::
-Valse d’Amélie:x::Valse:Yann Tiersen:::Valse/Valse-Amelie.pdf::
-Valse débranchée:x::Valse:Norbert Pignol:::Valse/valse_debranchee.pdf::
-Valse des roses:x::Valse:trad.:::Valse/Valse-des-roses.pdf::
-Valse triste:x::Valse::::Valse/Valse-triste.pdf::
-Valse vénézuélienne:x::Valse:trad.:::Valse/Valse-Venezuelienne.pdf::
-Vici-Luna:x::Gavotte:Stéphane Milleret:::Gavotte/vici_luna.pdf::
-Wailing Reel:x::Reel::::Reel/Wailing-Reel.pdf::
-Waltz for Debby:x::Jazz:Bill Evans:::Jazz/WaltzForDebby.pdf::
-Zelda:x:x:Cercle::::Cercle/Zelda.pdf::
+Adèle Blanc Sec:Scottish:Frédéric Paris:::Scottish/Adele_Blanc_Sec.pdf
+Air in G:Classique:J.S. Bach:::Classique/Air-in-G.pdf
+Alambic:Bourrée:Norbert Pignol:::Bourree/alambic.pdf
+Alio:Mazurka:Pascale Rubens:::Mazurkas/alioam.pdf
+All of me:Jazz:Gerald Marks - Seymour Simons:::Jazz/All-of-me.pdf
+Along with the girls:Jig:trad.:Irlande::Jigs/Along-with-girls.pdf
+Amazing grace::trad.:Ecosse::Ecosse/Amazing-grace.pdf
+Amsterdam::J. Brel::chansons:Chansons/Amsterdam.pdf
+An Anglezed Bonetoù Ruz:Andro:trad.:Bretagne::Andro/An-Anglezed-bonetou-ruz.pdf
+An dro d’Alan:Andro:trad.:Bretagne::Andro/Andro-dAlan.pdf
+An dro de Saint-Nazaire:Andro:trad.:Bretagne::Andro/Andro-de-Saint-Nazaire.pdf
+An dro Galicien:Andro:trad.:::Andro/Andro-galicien.pdf
+An dro Gwendal:Andro:trad.:Bretagne::Andro/Andro-Gwendal.pdf
+An dro Vannetais:Andro:trad.:Bretagne::Andro/Andro-vannetais.pdf
+Archibald:Valse:trad.:Ecosse::Valse/Archibald.pdf
+Armaguedon:Jig:::En cours…:Jigs/Armaguedon.pdf
+Astrid:Valse:trad.:Suède::Valse/Astrid.pdf
+Au café du canal:Valse:Pierre Perret::chansons:Chansons/AuCafeDuCanal.pdf
+Avant deux de travers:Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers.pdf
+Avant deux de travers 1:Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers1.pdf
+Avant deux de travers 2:Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers2.pdf
+Avant deux de travers 3:Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers3.pdf
+Avant deux de travers 4:Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers4.pdf
+Avant deux de travers 5:Avant-deux:trad.:Bretagne::Bretagne/Avant-deux-travers5.pdf
+Bal à quatre::trad.:Bretagne::Bretagne/Bal-a-quatre.pdf
+Balkans:Recueils::::Recueils/Repertoire-Russie-Balkan.pdf
+Ballade irlandaise::trad.:Irlande::Irlande/Ballade-irlandaise.pdf
+Balleydesmond:Polka:trad.:Irlande::Polka/Balleydesmond.pdf
+Bella Ciao::trad.:Italie:chansons:Chansons/Bella_ciao.pdf
+Bled:Valse:Trio Amestrio:::Valse/Bled.pdf
+Bonsoir maître de maison:Andro:trad.:Bretagne::Andro/Bonsoir_Maitre_de_Maison.pdf
+Bossy Band Reel:Reel::Irlande::Reel/Bossy-Band-Reel.pdf
+Both sides the tweed:Valse:trad.:Ecosse::Valse/Both-sides-the-Tweed.pdf
+Bourrée 3 temps ou marchoise:Bourrée::::Bourree/Marchoise.pdf
+Broceliande:Reel::Irlande:En cours…:Reel/Broceliande.pdf
+Ça gaze:Mazurka:Victor Marceau:::Mazurkas/Ca-gaze.pdf
+Castle Kelly:Reel::Irlande:En cours…:Reel/CastleKelly.pdf
+Ce n’est rien::J. Clerc::chansons:Chansons/Ce-n-est-rien.pdf
+Ce sont les filles de Landéda::trad.:Bretagne::Bretagne/Les-filles-de-Landeda.pdf
+Cercle Aqui:Cercle:::En cours…:Cercle/CercleAqui.pdf
+Cercle circachien:Cercle:::En cours…:Cercle/CircaChien.pdf
+Cochinchine::trad.:Bretagne::Bretagne/Cochinchine.pdf
+Cumbia sobre al mar (A):Cumbia::::Cumbia/Cumbia-sobre-al-mar-A.pdf
+Cumbia sobre al mar (E):Cumbia::::Cumbia/Cumbia-sobre-al-mar-E.pdf
+Dans les jardins d’mon père:Hanter-dro:trad.:Bretagne::Hanter-dro/Dans_les_jardins_dmon_pere.pdf
+Danse de l’ours:Polka:trad.:::Polka/Danse-de-l-ours.pdf
+Dirty Old Town:::Irlande::Irlande/DirtyOldTown.pdf
+Dona dona:::Yiddish:chansons:Chansons/dona-dona.pdf
+El choclo:Tango:Angel Villoldo:::Tango/El-choclo.pdf
+El pueblo unido::Sergio Ortega:Chili:chansons:Chansons/El-pueblo-unido.pdf
+Eleanor Plunkett:Valse:Turlough O’Carolan:Irlande::Valse/Eleanor-Plunkett.pdf
+Emmenez moi::Aznavour::chansons:Chansons/Emmenez-moi.pdf
+Esperanza:Scottish:Perrone/Minvielle:::Scottish/Esperanza.pdf
+Faraway:Valse:Pete Jung:::Valse/Faraway.pdf
+Father Kelly:Reel::Irlande::Reel/Father-kelly.pdf
+Fermoy lassies:Reel::Irlande::Reel/Fermoy-lassies.pdf
+Fever:Jazz:John Davenport - Eddie Cooley:::Jazz/Fever.pdf
+Flagston of memories:Reel::::Reel/Flagstone-of-memories.pdf
+FlatWorld:Valse::Irlande::Valse/flatworld.pdf
+Fugue en la mineur:Classique:J.S. Bach:::Classique/Fugue-lam.pdf
+Gan Ainm 1:Reel::Irlande::Reel/GanAinm1.pdf
+Gan Ainm 2:Reel::Irlande::Reel/GanAinm2.pdf
+Ganglat från Appelbo:::Suède::Suede/Ganglat.pdf
+Gavotte de l’Aven:Gavotte::::Gavotte/Gavotte-Aven.pdf
+Good bye Makedonia:::Balkans::Balkans/Goodbye-Macedonia.pdf
+Greensleeves:Jig::Irlande::Jigs/Greensleeves.pdf
+Hamish:Scottish::::Scottish/Hamish.pdf
+Hanter dro - An dro:Trikot:trad.:Bretagne::Trikot/Hanter-dro-Andro.pdf
+Hanter dro de la forêt:Hanter-dro:L. Jannekin:Bretagne::Hanter-dro/Hanter-dro-de-la-foret.pdf
+Hanter dro du pennen:Hanter-dro:trad.:Bretagne::Hanter-dro/Hanter-dro-Pennec.pdf
+Hanter dro Gwendal:Hanter-dro:trad.:Bretagne::Hanter-dro/Hanter-dro-Gwendal.pdf
+I’ll Buy Boots for Maggie:Polka::Irlande::Polka/Boots-for-Maggie.pdf
+Il camino:Valse:Aldo Romano:::Valse/IlCamino.pdf
+Inisher waltz:Valse:Thomas Walsh:Irlande::Valse/Inisher-waltz.pdf
+Ivoirine:Gavotte:Stéphane Milleret:::Gavotte/ivoirine_2_voix_lam.pdf
+J’envoie valser:Valse:Gérard Bourgeois::chansons:Valse/Jenvoie-valser.pdf
+Jackie Daly’s:Polka:trad.:Irlande::Polka/Jacky-daly.pdf
+Java des bombes atomiques::B. Vian, A. Goraguer::chansons:Chansons/Java-des-bombes-atomiques.pdf
+Jour de Pluie:Valse:Minuit Guibolles:::Valse/JourDePluie.pdf
+Julia Delaney’s Reel:Reel::Irlande::Reel/JuliaDelaney.pdf
+Kas a-barh:Andro:trad.:Bretagne::Andro/Andro-de-Baud.pdf
+Kazatchock:::Balkans::Balkans/Kazatchock.pdf
+Kost ar c’hoad::trad.:Bretagne::Bretagne/Kost-ar-choad.pdf
+L’Auvergnat:Valse:G. Brassens::chansons:Chansons/Auvergnat.pdf
+L’internationale::::chansons:Chansons/Internationale.pdf
+La « Dos » :Sardane::Espagne::Sardane/LaDos.pdf
+La bohème::Aznavour::chansons:Chansons/LaBoheme.pdf
+La cumparsita:Tango::::Tango/Cumparsita.pdf
+La femme de marbre:Mazurka:Stéphane Delicq:::Mazurkas/La-femme-de-marbre.pdf
+La femme fusée:Cercle:Amélie Denarié:::Cercle/La_Femme_Fusee.pdf
+La noce:Valse::::Valse/La-noce.pdf
+La nonchalante:Mazurka:Emmanuel Pariselle:::Mazurkas/La-nonchalante.pdf
+La Paimpolaise:Valse:::chansons:Chansons/Paimpolaise.pdf
+La petite Cancalaise:Scottish:trad.:Bretagne::Scottish/Petite-cancalaise.pdf
+La planète bleue tourne et vire:Valse::Balkans::Valse/La-planete-bleue-tourne-et-vire.pdf
+La serinissima::Loren Mckennitt:Irlande::Irlande/La-serenissima.pdf
+La tendresse::Bourvil::chansons:Chansons/La-tendresse.pdf
+La Traversée:Gavotte:Amélie Denarié:::Gavotte/La_Traversee.pdf
+Last night waltz:Valse:trad.:Irlande::Valse/Valse-irlandaise-Last-night.pdf
+Le banquet:Valse:Yann Tiersen:::Valse/le-banquet.pdf
+Le petit vin blanc:Valse:::chansons:Chansons/Le-petit-vin-blanc.pdf
+Le plus bel age:Valse::::Valse/LePlusBelAge.pdf
+Le Revenant:Valse::::Valse/Le-revenant.pdf
+Le tango du bourreau:Tango::::Tango/Tango-du-Bourreau.pdf
+Le temps des cerises:Valse:::chansons:Chansons/Le-temps-des-cerises.pdf
+Le tourbillon de la vie:Valse:::chansons:Chansons/Le-tourbillon-de-la-vie.pdf
+Les amants d’un jour:Valse:M. Monnot::chansons:Chansons/Les-amants-d-un-jour.pdf
+Les planètes:Bourrée::::Bourree/Les-planetes.pdf
+Lettre à Elise:Classique:Beethoven:::Classique/Elise.pdf
+Lily Marlène::Norbert Schultze::chansons:Chansons/Lily-marlene.pdf
+Maria:Tango::::Tango/Maria.pdf
+Mazurka:Mazurka:Balbelettes:::Mazurkas/Mazurka-Balbelettes.pdf
+Mazurka des écoliers de Saint-Genest:Mazurka:Gilles Chabenat:::Mazurkas/Mazurka-ecoliers-st-genest.pdf
+Mazurka du bal perdu:Mazurka:Loic Etienne:::Mazurkas/MazurkaDuBalPerdu.pdf
+Mazurka finlandaise:Mazurka:trad.:Finlande::Mazurkas/Mazurka-finlandaise.pdf
+Menuet 3:Classique:J.S. Bach:::Classique/Menuet.pdf
+Milonga para as Missoes:Tango::::Tango/Milonga.pdf
+Minor swing:Jazz::::Jazz/Minor-swing.pdf
+Mis Kerzu:Valse:Florence Pindivic:::Valse/Mis-Kerzu.pdf
+Modes (C):Gammes::::Gammes/C-modes.pdf
+Modes des balkans (Poussé):Gammes::::Gammes/BalkansP.pdf
+Modes des balkans (Tiré):Gammes::::Gammes/Balkans.pdf
+Mon amant de Saint Jean:Valse:::chansons:Chansons/Mon-amant-de-St-Jean.pdf
+Mon village::François Heim:Balkans::Balkans/Mon_Village.pdf
+My favorite things:Jazz:Richard Rodgers:::Jazz/MyFavoriteThings.pdf
+Nina:Mazurka::::Mazurkas/Nina.pdf
+Par dessus les Alpes:Mazurka:Freddy Dussaillant:::Mazurkas/Par-dessus-les-alpes.pdf
+Pelot d’Hennebont:Andro:trad.:Bretagne::Andro/Pelot-dHennebont.pdf
+Polka de l’Adélaïde:Polka:Eric Raillard:::Polka/Polka-adelaide.pdf
+Polka de Paimpol:Polka:trad.:Bretagne::Polka/Polka-de-paimpol.pdf
+Porth Mhuirgheasa:Jig:trad.:Irlande::Jigs/Porth_mhuirgheasa.pdf
+Puma:Scottish::::Scottish/Puma.pdf
+Reel beatrice:Reel::::Reel/Reel-beatrice.pdf
+Reel traditionnel:Reel::Irlande::Reel/Reel-traditionnel.pdf
+San Francisco::Moustaki::chansons:Chansons/San-francisco.pdf
+Santiano::H. Auffray::chansons:Chansons/Santiano.pdf
+Sardane:Sardane::Espagne::Sardane/Sardane.pdf
+Scottish à Lucien:Scottish::::Scottish/Scottishlucien.pdf
+Scottish à Marc:Scottish::::Scottish/scottish-a-marc.pdf
+Scottish à Natacha:Scottish::::Scottish/ScottishNatacha.pdf
+Scottish aux Roberts:Scottish::::Scottish/Scottishrobert.pdf
+Scottish du camion:Scottish:Danile Marinelli:::Scottish/Scottish-du-camion.pdf
+Scottish du père Roussel:Scottish:trad.:Bretagne::Scottish/Scottish-du-Pere-Roussel.pdf
+Scottish fait main:Scottish:Les Zéoles:::Scottish/ScottischFaitMain.pdf
+Scottish Hajième:Scottish:JM Siche:::Scottish/scottish-siche.pdf
+Scottish La boite à bois:Scottish:Nikita Pfister:::Scottish/La-boite-a-bois.pdf
+Sommarvals:Valse:Ale Möller:::Valse/Sommarvals.pdf
+Sous le ciel de Paris:Valse:::chansons:Chansons/Sous-le-ciel-de-paris.pdf
+Sous les ponts de Paris:Valse:Vincent Scotto::chansons:Valse/Sous-les-ponts-de-paris.pdf
+Sous les toits de la rue Tiquetone:Valse:Daniel Denécheau:::Valse/Sous-les-toits-de-la-rue-Tiquetonne.pdf
+Stewball::trad.::chansons:Chansons/Stewball.pdf
+Tabou:Scottish:Jen Michel Corgeron:::Scottish/Tabou.pdf
+Tango pour Claude:Tango:Richard Galiano:::Tango/Tango-pour-Claude.pdf
+Tarentelle:Tartentelle:trad.:Italie:En cours…:Tarentelle/Tarentelle2.pdf
+Tarentelle (traditionnelle):Tartentelle:trad.:Italie::Tarentelle/Tarentelle1.pdf
+Tarentelle Calabraise:Tartentelle:trad.:Italie:En cours…:Tarentelle/Tarentelle-calabraise.pdf
+Tarentelle carbonara:Tartentelle:trad.:Italie::Tarentelle/Tarentelle-carbonara.pdf
+Tarentelle en sol:Tartentelle:trad.:Italie::Tarentelle/Tarentelle-sol.pdf
+Tarentelle simple:Tartentelle:trad.:Italie::Tarentelle/Tarentelle-simple.pdf
+The blarney pilgrim:Jig::::Jigs/Pilgrim.pdf
+The entertainer:Jazz:Scott Joplin:::Jazz/Entertainer.pdf
+The last rose of summer:Valse:trad.::chansons:Chansons/the_last_rose_of_summer.pdf
+The leaving of Liverpool::trad.:Irlande::Irlande/The-Leaving-of-Liverpool.pdf
+The Rose of Raby:Mazurka:Dave Shepard:::Mazurkas/The-rose-of-raby.pdf
+The silver spear:Reel::Irlande::Reel/SilverSpear.pdf
+The white petticoat:Jig::Irlande::Jigs/The-white-petticoat.pdf
+Tristesse:Classique:Chopin:::Classique/Tristesse.pdf
+Ttukurukuttukuttuku:Scottish:trad.::chansons:Chansons/Ttukurukuttukuttuku.pdf
+Vals efter Jonte i Byom:Valse::Suède::Suede/Vals.pdf
+Valse à Eddy:Valse::::Valse/Valse-a-Eddy.pdf
+Valse à Mary:Valse:B. Loffet:::Valse/Valse-a-Mary.pdf
+Valse à Nini:Valse::::Valse/Valse-a-Nini.pdf
+Valse d’Amélie:Valse:Yann Tiersen:::Valse/Valse-Amelie.pdf
+Valse débranchée:Valse:Norbert Pignol:::Valse/valse_debranchee.pdf
+Valse des roses:Valse:trad.:::Valse/Valse-des-roses.pdf
+Valse triste:Valse::::Valse/Valse-triste.pdf
+Valse vénézuélienne:Valse:trad.:::Valse/Valse-Venezuelienne.pdf
+Vici-Luna:Gavotte:Stéphane Milleret:::Gavotte/vici_luna.pdf
+Wailing Reel:Reel::::Reel/Wailing-Reel.pdf
+Waltz for Debby:Jazz:Bill Evans:::Jazz/WaltzForDebby.pdf
+Zelda:Cercle::::Cercle/Zelda.pdf
+Balleydesmond:Polka:trad.:Irlande::Polka/Balleydesmond.pdf
+L'élan:Chapelloise:Philippe Plard:France::Chapelloise/L_élan.pdf
+Chapelloise à Jules:Chapelloise::::Chapelloise/Chapeloise-à-Jules.pdf
+Accordéon:Valse:Serge Gainsbourg:France:Chansons:Chansons/l_accordéon.pdf
+Au bonheur des filles:Bourrée:Philippe Borne:::Bourrée/au-bonheur.pdf
