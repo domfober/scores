@@ -1,7 +1,14 @@
 #!/bin/sh
+
+FLAT=0
+if [ $# -eq 2 ]
+then
+	FLAT=$2
+fi
 DIR=$(dirname $0)
 cat $DIR/header.txt || exit 1
-cat $1 | awk -f $DIR/tab2gmn.awk  || exit 1
+cat $1 | awk -v FLAT=$FLAT -f $DIR/tab2gmn.awk  || exit 1
 cat $DIR/footer.txt || exit 1
+
 exit 0
  
