@@ -1,0 +1,343 @@
+
+$font="Helvetica";
+% start of auto variables
+$INSTRSize=2.0;
+$TABSize=1.6;
+$PushDy=3.5;
+$PullDy=1.6;
+$TabStaffDist=4;
+
+$HarmMainDy=-0.5;
+$HarmSubDy=-1.0;
+$HarmMainSize=2.5;
+$HarmSubSize=2.0;
+% end of auto variables
+{
+    [
+        \title<"Scottish russe",font=$font> \title<"Scottish",font=$font,fsize=14pt,dy=-6>
+         \composer<"Roland Martinez",fsize=12pt,dy=4> \footer<"3 rangs 18 basses - clavier standard",dy=0>
+         \pageFormat<w=25.2cm,h=35.64cm,lm=2.5cm,rm=2.5cm,bm=5cm,tm=5cm>
+         \accolade<id=1,type="none"> \barFormat<"system"> \clef<"g"> \key<-2>
+         \meter<"4/4",autoMeasuresNum="system"> 
+        
+        %%%%%%%%%% mes 1
+        % tab: T C
+        	d/8 e&/16 d c#/8 d e& f# a c2 
+        | 
+        %%%%%%%%%% mes 2
+        	c b&1 a b& g/2 
+        | 
+        %%%%%%%%%% mes 3
+        	g/8 g#/16 g f#/8 g g# a d2 f 
+        | 
+        %%%%%%%%%% mes 4
+        % tab: P C
+        	f e& d e& c/2 
+        | 
+        %%%%%%%%%% mes 5
+        	c/8 c/16 c& c/8 e& a/4 g 
+        | 
+        %%%%%%%%%% mes 6
+        % tab: T C
+        	b&1*1/8 a b& d2 a/4 g 
+        | 	
+        %%%%%%%%%% mes 7
+        	\voltaBegin<"1.","|-|"> a1*1/8 b& a g# a c#2 e g 
+        | 
+        %%%%%%%%%% mes 8
+        	g f# f f# d a1 f# e& \voltaEnd 
+         \repeatEnd 
+        %%%%%%%%%% mes 9
+        	\voltaBegin<"2.","|-"> a1 b& b c2 c# d e f# 
+        | 
+        %%%%%%%%%% mes 10
+        % tab: P G
+        	g/4 d g1*1/2 \voltaEnd 
+         \repeatBegin 
+        	
+        %%%%%%%%%%%%%%%%%%%%% partie 2
+        %%%%%%%%%% mes 11
+        % tab: T C
+        	f2*1/8 g/16 f e/8 f a g f e& 
+        | 
+        %%%%%%%%%% mes 12
+        	e& d c# d b&/2 
+        | 
+        %%%%%%%%%% mes 13
+        	d/8 e&/16 d c#/8 d a f# d c 
+        | 
+        %%%%%%%%%% mes 14
+        	c b&1 a b& g2*1/2 
+        | 
+        %%%%%%%%%% mes 15
+        	a1*1/8 b&/16 a g#/8 a e&2*1/4. a1*1/8 
+        | 
+        %%%%%%%%%% mes 16
+        	a g f# g d2*1/4. g1*1/8 
+        | 
+        %%%%%%%%%% mes 17
+        	g f# f f# d f a f 
+        | 
+        %%%%%%%%%% mes 18
+        	\voltaBegin<"1.","|-|"> g f# g a b& c2 d e& \voltaEnd 
+         \repeatEnd \voltaBegin<"2.","|-|"> 
+        % tab: P G
+        	g1*1/4 d g0*1/2 \voltaEnd 
+        
+        % H: Ddx=2/1 |
+        % H: Gm |
+        % H: G |
+        % H: Cm |
+        % H: Cm |
+        % H: Gm |
+        % H: A |
+        % H: D 
+        % H: A/2 D |
+        % H: G/1 |
+        
+        % H: F/1 |
+        % H: B& |
+        % H: D |
+        % H: Gm |
+        % H: Adim |
+        % H: Gm |
+        % H: D7 |
+        % H: Gm 
+        % H: Gm 
+        
+        
+    ],
+    
+    [
+        \set<autoEndBar="off"> 
+        \clef<"none"> 
+        \instr<"P\nT",autopos="on",repeat="on",fsize=$INSTRSize,dx=-4,dy=1>
+         
+        \staffFormat<style="3-lines",lineThickness=0.05,size=2,distance=$TabStaffDist>
+         
+        
+        \lyrics<"3'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PushDy>( empty/16 ) 
+        \lyrics<"3'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"2''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"3'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
+        | 
+        % ====== measure 2
+        
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty/2 ) 
+        | 
+        % ====== measure 3
+        
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"4''",fsize=$TABSize,dy=$PullDy>( empty/16 ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"4''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        | 
+        % ====== measure 4
+        
+        \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"6'",fsize=$TABSize,dy=$PushDy>( empty/2 ) 
+        | 
+        % ====== measure 5
+        
+        \lyrics<"6'",fsize=$TABSize,dy=$PushDy>( empty/8 ) 
+        \lyrics<"6'",fsize=$TABSize,dy=$PushDy>( empty/16 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"6'",fsize=$TABSize,dy=$PushDy>( empty/8 ) 
+        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"8''",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        \lyrics<"8'",fsize=$TABSize,dy=$PushDy>( empty ) 
+        | 
+        % ====== measure 6
+        
+        \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"9'",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        | 
+        % ====== measure 7
+        
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"4''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        | 
+        % ====== measure 8
+        
+        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"10",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"10",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        % ====== measure 9
+        
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"10",fsize=$TABSize,dy=$PullDy>( empty ) 
+        | 
+        % ====== measure 10
+        
+        \lyrics<"9",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"6",fsize=$TABSize,dy=$PushDy>( empty/2 ) 
+        % ====== measure 11
+        
+        \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty/16 ) 
+        \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"9'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        | 
+        % ====== measure 12
+        
+        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"9''",fsize=$TABSize,dy=$PullDy>( empty/2 ) 
+        | 
+        % ====== measure 13
+        
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty/16 ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"9'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"10",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
+        | 
+        % ====== measure 14
+        
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty/2 ) 
+        | 
+        % ====== measure 15
+        
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty/16 ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"4''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty/4. ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        | 
+        % ====== measure 16
+        
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty/4. ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        | 
+        % ====== measure 17
+        
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"4'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"3'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"4'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"4'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        | 
+        % ====== measure 18
+        
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        % ====== measure 19
+        
+        \lyrics<"6",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        \lyrics<"5",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"3",fsize=$TABSize,dy=$PushDy>( empty/2 ) 
+    ],
+    
+    [
+        \staff<2> 
+        \set<autoEndBar="off"> 
+        \clef<"none"> 
+        
+        \harmony<"D",dy=$HarmMainDy,dx=2,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"Gm",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"G",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"Cm",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"Cm",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"Gm",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"A",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"D",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        \harmony<"A",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/2 
+        \harmony<"D",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/2 
+        | 
+        \harmony<"G",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"F",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"B&",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"D",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"Gm",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"Adim",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        
+        | 
+        \harmony<"Gm",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"D7",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        | 
+        \harmony<"Gm",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+        \harmony<"Gm",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> empty/1 
+    ]
+}
