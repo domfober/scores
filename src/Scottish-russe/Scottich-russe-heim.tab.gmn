@@ -15,7 +15,7 @@ $HarmSubSize=2.0;
 {
     [
         \title<"Scottish russe",font=$font> \title<"Scottish",font=$font,fsize=14pt,dy=-6>
-         \composer<"Roland Martinez",fsize=12pt,dy=4> \footer<"3 rangs 18 basses - clavier standard",dy=0>
+         \composer<"Roland Martinez",fsize=12pt,dy=4> \footer<"3 rangs 18 basses - clavier Heim",dy=0>
          \pageFormat<w=25.2cm,h=35.64cm,lm=2.5cm,rm=2.5cm,bm=5cm,tm=5cm>
          \accolade<id=1,type="none"> \barFormat<"system"> \clef<"g"> \key<-2>
          \meter<"4/4",autoMeasuresNum="system"> 
@@ -117,30 +117,30 @@ $HarmSubSize=2.0;
          
         
         \lyrics<"3'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
-        \lyrics<"3''",fsize=$TABSize,dy=$PushDy>( empty/16 ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty/16 ) 
         \lyrics<"3'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"2''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
         \lyrics<"3'",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"3''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
         | 
         % ====== measure 2
         
         \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty/2 ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty/2 ) 
         | 
         % ====== measure 3
         
-        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
         \lyrics<"4''",fsize=$TABSize,dy=$PullDy>( empty/16 ) 
-        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
-        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"4''",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
@@ -148,7 +148,7 @@ $HarmSubSize=2.0;
         | 
         % ====== measure 4
         
-        \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PushDy>( empty ) 
         \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
         \lyrics<"8",fsize=$TABSize,dy=$PushDy>( empty ) 
         \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
@@ -161,42 +161,42 @@ $HarmSubSize=2.0;
         \lyrics<"7",fsize=$TABSize,dy=$PushDy>( empty ) 
         \lyrics<"6'",fsize=$TABSize,dy=$PushDy>( empty/8 ) 
         \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
-        \lyrics<"8''",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
-        \lyrics<"8'",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"8'",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        \lyrics<"9",fsize=$TABSize,dy=$PushDy>( empty ) 
         | 
         % ====== measure 6
         
         \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"9'",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
-        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"11",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"9'",fsize=$TABSize,dy=$PullDy>( empty ) 
         | 
         % ====== measure 7
         
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
         \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"4''",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6''",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"9'",fsize=$TABSize,dy=$PullDy>( empty ) 
         | 
         % ====== measure 8
         
-        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"9'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"10",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"10",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"3''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
         % ====== measure 9
         
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
@@ -213,18 +213,18 @@ $HarmSubSize=2.0;
         % ====== measure 11
         
         \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
-        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty/16 ) 
+        \lyrics<"9'",fsize=$TABSize,dy=$PullDy>( empty/16 ) 
         \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
         \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"11",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"9'",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty ) 
         | 
         % ====== measure 12
         
-        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6''",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
@@ -233,11 +233,11 @@ $HarmSubSize=2.0;
         % ====== measure 13
         
         \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
-        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty/16 ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty/16 ) 
         \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
         \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"9'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"11",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"10",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
@@ -246,50 +246,50 @@ $HarmSubSize=2.0;
         
         \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty/2 ) 
+        \lyrics<"9'",fsize=$TABSize,dy=$PullDy>( empty/2 ) 
         | 
         % ====== measure 15
         
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
         \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty/16 ) 
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"4''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty/4. ) 
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty/4. ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
         | 
         % ====== measure 16
         
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty/4. ) 
-        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
         | 
         % ====== measure 17
         
-        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"4'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"3'",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
         | 
         % ====== measure 18
         
-        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"3''",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"5''",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
         \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty ) 
-        \lyrics<"6''",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PullDy>( empty ) 
         % ====== measure 19
         
         \lyrics<"6",fsize=$TABSize,dy=$PushDy>( empty/4 ) 

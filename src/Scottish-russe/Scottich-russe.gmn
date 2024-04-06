@@ -7,7 +7,7 @@ $font = "Helvetica";
 	\title<"Scottish russe", font=$font>
 	\title<"Scottish", font=$font, fsize=14pt, dy=-6>
 	\composer<"Roland Martinez", fsize=12pt, dy=4>
-	\footer<"3 rangs 18 basses - clavier standard", dy=0>
+	\footer<"3 rangs 18 basses - clavier Heim", dy=0>
 	\pageFormat<w=25.2cm, h=35.64cm, lm=2.5cm, rm=2.5cm, bm=5cm, tm=5cm>
 	\accolade<id=1, type="none">
 	\barFormat<"system">
@@ -20,7 +20,7 @@ $font = "Helvetica";
 %%%%%%%%%% mes 2
 	c b&1 a b& g/2 |
 %%%%%%%%%% mes 3
-	g/8 g#/16 g f#/8 g g# a d2 f |
+	g/8 g#/16 g f#/8 g g# b d2 f |
 %%%%%%%%%% mes 4
 % tab: P C
 	f e& d e& c/2 |
@@ -60,7 +60,7 @@ $font = "Helvetica";
 %%%%%%%%%% mes 16
 	a g f# g d2/4. g1/8 |
 %%%%%%%%%% mes 17
-	g f# f f# d f a f |
+	g f# f f# d f# a f# |
 %%%%%%%%%% mes 18
 	\voltaBegin<"1.", "|-|">
 	g f# g a b& c2 d e& 
