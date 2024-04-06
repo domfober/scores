@@ -1,0 +1,109 @@
+
+$hdy1 = 16;
+$fsize = 7;
+$msize = 5;
+$my = 9;
+$TABSize=1.8;
+
+{
+[
+	\title<"Mazurka Mañana">
+%	\title<"Mazurka", fsize=12pt, dy=-6>
+	\title<"Variations",fsize=12pt,dy=-6>
+%	\composer<"Amélie Denarié", fsize=14pt,  dy=9>
+	\pageFormat<w=25.2cm, h=35.64cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \meter<"9/8", autoMeasuresNum="system"> 
+	\key<1>
+% tab: P G
+	g/4 b/8 
+	\space<7mm> \repeatBegin
+	\mark<"A", enclosure="square", fsize=$fsize, dy=$my, dx=-9>
+	\space<-5mm> 
+% mesure 1
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=$msize>
+	e2/4 b1/8 g1/4 b1/8 |
+% mesure 2
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=$msize>
+% tab: T G
+	e2/4 f#2/8 e2/4. d2/4 c2/8 |
+% mesure 3
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=$msize>
+% tab: P G
+	e2/4 b1/8 g1/4 b1/8 e2/4 b1/8|
+% mesure 4
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=$msize>
+% tab: T G
+	c2/4 d2/8 c2/4. b1/4 a1/8 |
+% mesure 5
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=$msize>
+% tab: P G
+	b1/4 g1/8 e1/4 g1/8 b1/4 g1/8 |
+% mesure 6
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=$msize>
+% tab: T G
+	a1/4 b1/8 a1/4. g1/4 f#1/8 |
+	\voltaBegin<"1", "|-|", dy=-3>
+% mesure 7
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=$msize>
+% tab: P G
+	\dispDur<1,2,1>(g1/4.) { b0, e1 } { b0, e1 } |
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=$msize>
+% tab: T G
+	\dispDur<1,2,1>(f#1/4.) { b0, d#1 } g1/4 b1/8
+	\voltaEnd
+	\repeatEnd
+
+% mesure 9
+	\voltaBegin<"2", "|-", dy=-3>
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=$msize>
+% tab: P G
+	\tie(b1/2. b1/4.) |
+	\tie(b1/2. b1/4.) |
+	\voltaEnd
+
+	\newLine
+	\mark<"B", enclosure="square", fsize=$fsize, dy=$my, dx=-7, fsize=$fsize>
+% mesure 11
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=$msize>
+	b1/4 e1/8 g1/4 b1/8 e2/4 b1/8 |
+% mesure 12
+	\harmony<"C", dy=$hdy1, dx=0, fsize=$msize>
+	c2/4 d2/8 e2/4 d2/8 c2/4 b1/8 |
+% mesure 13
+	\harmony<"G", dy=$hdy1, dx=0, fsize=$msize>
+	g1/4 b0/8 d1/4 g1/8 b1/4  g1/8|
+% mesure 14
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=$msize>
+% tab: T G
+	a1/4 b1/8 c2/4 b1/8 a1/4 f#1/8 |
+% mesure 15
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=$msize>
+% tab: P G
+	g/4 e/8 b0/4 e1/8 g/4 e/8 |
+% mesure 16
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=$msize>
+% tab: T G
+	\tie(d#/4. d#/4) e/8 f#/4 g/8 |
+% mesure 17
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=$msize>
+% tab: P G
+	\dispDur<1,2,1>(e/4.) {g, b} {g, b}|
+% mesure 18
+	\voltaBegin<"1", "|-|", dy=-3>
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=$msize>
+% tab: T G
+	\dispDur<1,2,1>(d#/4.) { f#/2., a }
+	\voltaEnd
+	\repeatEnd
+	
+	\voltaBegin<"2", "|-|", dy=-3>
+	\harmony<"Em", dy=$hdy1, dx=0, fsize=$msize>
+% tab: P G
+	\dispDur<1,2,1>(e/4.) { g0/2., b }
+	\voltaEnd
+
+]
+}
