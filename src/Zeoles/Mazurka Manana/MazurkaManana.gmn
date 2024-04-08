@@ -24,7 +24,7 @@ $TABSize=1.8;
 	\space<-5mm> 
 % mesure 1
 	\harmony<"Em", dy=$hdy1, dx=0, fsize=$msize>
-	e2/4 b1/8 g1/4 b1/8 |
+	e2/4 b1/8 g1/4 b1/8 e2/4 b1/8 |
 % mesure 2
 	\harmony<"Am", dy=$hdy1, dx=0, fsize=$msize>
 % tab: T G
@@ -95,14 +95,14 @@ $TABSize=1.8;
 	\voltaBegin<"1", "|-|", dy=-3>
 	\harmony<"B7", dy=$hdy1, dx=0, fsize=$msize>
 % tab: T G
-	\dispDur<1,2,1>(d#/4.) { f#/2., a }
+	\sl<dy1=-1, dy2=-3, dx2=5>(\dispDur<1,2,1>(d#/4.) { f#/2., a })
 	\voltaEnd
 	\repeatEnd
 	
 	\voltaBegin<"2", "|-|", dy=-3>
 	\harmony<"Em", dy=$hdy1, dx=0, fsize=$msize>
 % tab: P G
-	\dispDur<1,2,1>(e/4.) { g0/2., b }
+	\sl<curve="up",dy1=-7, dy2=-6, dx2=5>(\dispDur<1,2,1>(e/4.) { g0/2., b })
 	\voltaEnd
 
 ]
