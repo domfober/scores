@@ -1,0 +1,74 @@
+
+$hdy1 = -3;
+
+{
+[
+
+
+	\pageFormat<w=23cm, h=32.7cm, lm=2.5cm, rm=2.5cm, bm=14cm, tm=5cm>
+	\title<"Gaspacho">
+	\composer<"Baltazar Montanaro, Sophie Cavez", fsize=10pt, dy=8>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \meter<"6/8", autoMeasuresNum="system">
+	\key<-2>
+
+% meas. 1
+	\harmony<"Bb", dy=$hdy1, dx=0, fsize=16pt>
+	d2/4. d/8 c d |
+	f g f c/4 a1/8 |
+% meas. 3
+	\harmony<"E&", dy=$hdy1, dx=0, fsize=16pt>
+	\stemsUp
+	b&/4. b&/8 g b& |
+	\harmony<"Cm7", dy=$hdy1, dx=0, fsize=16pt>
+	\stemsAuto
+	d2 e& d c/4 b&1/8 |
+% meas. 5
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	d2/4 g1/8 g f g |
+	g f d g a b& |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a/4. a/8 b& c2 |
+% meas. 8
+\voltaBegin<"1.">
+	c2/4. c/8 d e& 
+\voltaEnd
+\repeatEnd
+\voltaBegin<"2.">
+	\harmony<"Cm7", dy=$hdy1, dx=0, fsize=16pt>
+	e&/2. |
+\voltaEnd
+\newLine
+	\repeatBegin
+% meas. 10
+	\harmony<"Bb", dy=$hdy1, dx=0, fsize=16pt>
+	d2/8 c d b&/4 \tie(a/8 |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a/4) f/8 d c b&1 |
+	\harmony<"Cm", dy=$hdy1, dx=0, fsize=16pt>
+% meas. 12
+	c2 b&1 c2 d2/4 \tie(c/8 |
+	c) b&1 c2 a1 b& c2 |
+	\harmony<"Bb", dy=$hdy1, dx=0, fsize=16pt>
+% meas. 14
+	d2/8 c d b&/4 \tie(a/8 |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a/4) f/8 d c b&1 |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+% meas. 16
+	\stemsUp
+	b& g b& b& g b& |
+\voltaBegin<"1.">
+	\harmony<"Csus", dy=$hdy1, dx=0, fsize=16pt>
+	\stemsAuto
+	c2/4. c/8 d e& 
+\voltaEnd
+	\repeatEnd
+\voltaBegin<"2.">
+	\harmony<"Csus", dy=$hdy1, dx=0, fsize=16pt>
+	c/4. _ 
+\voltaEnd
+
+]
+}
