@@ -1,0 +1,111 @@
+
+$Hy = 17;
+$Hy2 = 20;
+$Hsize = 5;
+
+{
+[
+	\title<"Adèle blanc sec", font="Arial">
+	\composer<"Frédéric Paris", font="Arial", fsize=12pt, dy=8>
+	\pageFormat<w=25.2cm, h=35.64cm, lm=2.2cm, rm=2.2cm, bm=3cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\key<0> \meter<"2/4", autoMeasuresNum="system">
+%% mesure 1
+	\bm(a/16 b) |
+	\harmony<"Am", dy=$Hy, fsize=$Hsize>
+	c2 b1 c2 e 
+	\harmony<"Dm",dy=$Hy, fsize=$Hsize>
+	d c d f |
+	\harmony<"E",dy=$Hy, fsize=$Hsize>
+	e/8 b1 
+	\harmony<"E7",dy=$Hy, fsize=$Hsize>
+	b c2/16 d |
+	\harmony<"C",dy=$Hy, fsize=$Hsize>
+	e/8. g/16 
+	\harmony<"Dm",dy=$Hy, fsize=$Hsize>
+	f e f g |
+	\harmony<"E",dy=$Hy, fsize=$Hsize>
+	e/4. a1/16 b |
+
+	\harmony<"Am",dy=$Hy, fsize=$Hsize>
+	c2 b1 c2 e 
+	\harmony<"Dm",dy=$Hy, fsize=$Hsize>
+	d c d f |
+	\harmony<"E",dy=$Hy, fsize=$Hsize>
+	e/8 b1 
+	\harmony<"E7",dy=$Hy, fsize=$Hsize>
+	b c2/16 d |
+	\harmony<"F",dy=$Hy, fsize=$Hsize>
+	e/8 d/16 c 
+	\harmony<"G",dy=$Hy, fsize=$Hsize>
+	b1 c2 d e |
+\voltaBegin <"1.", "|-|">
+	\harmony<"Am",dy=$Hy2, fsize=$Hsize>
+	a1/4. a/16 b 
+\voltaEnd
+\repeatEnd
+\voltaBegin <"2.", "|-">
+	\harmony<"Am",dy=$Hy2, fsize=$Hsize>
+	a1/8 b/16 c2 d e f g 
+\voltaEnd
+
+\repeatBegin
+	\harmony<"F",dy=$Hy, fsize=$Hsize>
+	a/8 g/16 f e f g a |
+	\harmony<"G7",dy=$Hy, fsize=$Hsize>
+	d e f g 
+	\harmony<"C",dy=$Hy, fsize=$Hsize>
+	e e d e |
+	\harmony<"Dm",dy=$Hy, fsize=$Hsize>
+	f/8 e/16 d 
+	\harmony<"Dm6",dy=$Hy, fsize=$Hsize>
+	b1/8. f2/16 |
+	\harmony<"E",dy=$Hy, fsize=$Hsize>
+	e d b1 d2 
+	\harmony<"Am",dy=$Hy, fsize=$Hsize>
+	c/8 a1 |
+
+	\harmony<"F",dy=$Hy, fsize=$Hsize>
+	a2/8 g/16 f e f g a |
+	\harmony<"G7",dy=$Hy, fsize=$Hsize>
+	d e f g 
+	\harmony<"C",dy=$Hy, fsize=$Hsize>
+	e e d e |
+	\harmony<"Dm",dy=$Hy, fsize=$Hsize>
+	f/8 e/16 d 
+	\harmony<"Dm6",dy=$Hy, fsize=$Hsize>
+	b1/8. f2/16 |
+	\harmony<"E",dy=$Hy, fsize=$Hsize>
+	e d b1 c2 
+	\harmony<"Am",dy=$Hy, fsize=$Hsize>
+	a1/4
+\repeatEnd
+],
+[
+%	\instr<"Basse", autopos="on">
+	_/8 |
+	a/8 _/16 c/16 d/8 _/16 f/16 
+	e/8 _/16 e/8 _/16 e/8 
+	c/8 _/16 e 	d/8 _/16 f 
+	e/8 _/16 e/8 _/16 e/8 
+	a/8 _/16 c/16 d/8 _/16 f/16 
+	e/8 _/16 e/8 _/16 e/8
+	f/4 g 
+	a _ 
+\repeatEnd
+
+	a g 
+\repeatBegin
+	f/8 _/16 f/8 _/16 f/8 
+	g/8 _/16 g/8 _/16 c/8 
+	d/8 _/16 f/8 _/16 b/8 
+	e/8 _/16 g#/8 _/16 a/8 
+	f/8 _/16 f/8 _/16 f/8 
+	g/8 _/16 g/8 _/16 c/8 
+	d/8 _/16 f/8 _/16 b/8 
+	g#/4 a
+\repeatEnd	
+]
+}

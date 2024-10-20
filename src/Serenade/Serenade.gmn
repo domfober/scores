@@ -1,0 +1,112 @@
+$titleFont = "Lucida Calligraphy";
+$titleSize = 9;
+$styleFont = "Avenir";
+$styleSize = 5;
+$albumFont = "Avenir";
+$albumSize = 5;
+$composerFont = "Avenir";
+$composerSize = 5;
+
+% markers settings
+$my   = 5; 
+$mx   = -16;
+$msize = 6;
+$font = "Helvetica";
+$HarmMainSize = 6;
+$HarmMainDy = -3;
+
+{
+[
+	\title<"Serenade", font=$titleFont, fsize=$titleSize>
+	\title<"Valse n° 2", font=$styleFont, fsize=$styleSize, dy=-6>
+	\composer<"Chostakovitch", font=$composerFont, fsize=$composerSize, dy=2>
+	\pageFormat<w=25.2cm, h=35.64cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<0> \meter<"3/4", autoMeasuresNum="system">
+%	\instr<"","e" >
+%%%%%%%%%% mes 1
+	\harmony<"Am",dy=$HarmMainDy,dx=4,fsize=$HarmMainSize>
+	e2/2. |
+	\harmony<"Am/E",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	c/2 b1/4 |
+	\harmony<"Am",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	a/2 _/4 |
+%%%%%%%%%% mes 4
+	\harmony<"Am/E",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	_ a b |
+	\harmony<"Am",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	c2 a1 c2 |
+	\harmony<"Am/E",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	e/2 f/4 |
+	\harmony<"E7/G#",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	e/2. |
+%%%%%%%%%% mes 8
+	\harmony<"E7",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	d/2. |
+	\harmony<"E7/G#",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	d/2  |
+	\harmony<"E7",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	b1/2 a/4 |
+	\harmony<"E7/G#",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	\tie(g#/2. |
+	\harmony<"E7",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	g#/4) e/4 g# |
+%%%%%%%%%% mes 12
+	\harmony<"E7/G#",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	b g b |
+	\harmony<"E7",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	d2 e f |
+	\harmony<"Am",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	d#/2. |
+	\harmony<"Am",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	e |
+%%%%%%%%%% mes 16
+	\harmony<"Am",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	c3 |
+	\harmony<"Am",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	b2/2 a/4 |
+	\harmony<"Dm",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	g/2 f/4 |
+	\harmony<"Dm",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	d/2. |
+%%%%%%%%%% mes 20
+	\harmony<"G",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	b2/2. |
+	\harmony<"G",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	a/2 g/4 |
+	\harmony<"C",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	e/2. |
+	\harmony<"C",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	_/4 c d |
+%%%%%%%%%% mes 24
+	\harmony<"C",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	e e/8 d e f |
+	\harmony<"G",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	d/4 d/8 c d e |
+	\harmony<"C",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	c/4 _/2 |
+	\harmony<"C",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	_/4 c d |
+%%%%%%%%%% mes 28
+	\harmony<"C",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	e e/8 d e f |
+	\harmony<"G",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	d/4 d/8 c d e |
+	\harmony<"C",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	c/4 _/2 
+\repeatEnd
+	\harmony<"A",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	_/4 a b |
+%%%%%%%%%% mes 32
+	\harmony<"A",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	c3 c/8 b2 c3 d |
+	\harmony<"E",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	b2/4 b/8 a b c3 |
+%%%%%%%%%% mes 34
+	\harmony<"A",dy=$HarmMainDy,dx=0,fsize=$HarmMainSize> 
+	a2/1 _/2 
+
+] 
+}
