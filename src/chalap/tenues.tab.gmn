@@ -1,0 +1,86 @@
+
+$hdy1=16;
+$TabStaffDist=4;
+% start of auto variables
+$INSTRSize=2.0;
+$TABSize=1.6;
+$PushDy=3.5;
+$PullDy=1.6;
+
+$HarmMainDy=-0.5;
+$HarmSubDy=-1.0;
+$HarmMainSize=2.5;
+$HarmSubSize=2.0;
+% end of auto variables
+{
+    [
+        \pageFormat<w=23cm,h=32.7cm,lm=2.5cm,rm=2.5cm,bm=6cm,tm=5cm> \title<"Exercice">
+         \accolade<id=1,type="none"> \barFormat<"system"> \clef<"g"> \meter<"3/4",autoMeasuresNum="system">
+         \key<0> \stemsDown 
+        % tab: T G
+        	\harmony<"Am",dy=$hdy1,dx=3,fsize=16pt> a/2 c2*1/4 
+        | 
+        % tab: P 
+        	\harmony<"G",dy=$hdy1,dx=0,fsize=16pt> b1*1/2 d2*1/4 
+        | 
+        % tab: T 
+        	\harmony<"Am",dy=$hdy1,dx=0,fsize=16pt> c/2 e/4 
+        | 
+        % tab: P 
+        	\harmony<"G",dy=$hdy1,dx=0,fsize=16pt> d/2 b1*1/4 
+        | 
+        % tab: T 
+        	\harmony<"Am",dy=$hdy1,dx=0,fsize=16pt> c2*1/2 a1*1/4 
+        | 
+        % tab: P 
+        	\harmony<"G",dy=$hdy1,dx=0,fsize=16pt> b/2 g/4 
+        | 
+        % tab: T 
+        	\harmony<"Am",dy=$hdy1,dx=0,fsize=16pt> \tie( a1*1/2. 
+        | a/4 ) _/2 
+    ],
+    
+    [
+        \set<autoEndBar="off"> 
+        \clef<"none"> 
+        \instr<"P\nT",autopos="on",repeat="on",fsize=$INSTRSize,dx=-4,dy=1>
+         
+        \staffFormat<style="3-lines",lineThickness=0.05,size=2,distance=$TabStaffDist>
+         
+        
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/2 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        | 
+        % ====== measure 2
+        
+        \lyrics<"7",fsize=$TABSize,dy=$PushDy>( empty/2 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        | 
+        % ====== measure 3
+        
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/2 ) 
+        \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        | 
+        % ====== measure 4
+        
+        \lyrics<"8",fsize=$TABSize,dy=$PushDy>( empty/2 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        | 
+        % ====== measure 5
+        
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/2 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        | 
+        % ====== measure 6
+        
+        \lyrics<"7",fsize=$TABSize,dy=$PushDy>( empty/2 ) 
+        \lyrics<"6",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        | 
+        % ====== measure 7
+        
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/2. ) 
+        | 
+        % ====== measure 8
+        empty/4 empty/2 
+    ]
+}

@@ -1,0 +1,134 @@
+
+$hdy1 = -6;
+$Ly = -14;
+$Ty = -11;
+$Py = -6;
+$My = 18;
+$dist = 10;
+
+{
+[
+	\clef<"g"> \key<0> \meter<"6/8">
+%%%%%%%%%%%%%%%%% mesure 1
+	a/8 e c b0/4 c1/8
+	a/8 e c b0/4 c1/8
+%%%%%%%%%%%%%%%%% mesure 3
+	e a a e a a
+	c2 b1 a b/4.
+%%%%%%%%%%%%%%%%% mesure 5
+	a/8 e c b0/4 c1/8
+	a/8 e c b0/4 c1/8
+%%%%%%%%%%%%%%%%% mesure 7
+	e a a a g f |
+	e b0 e1 a0/4.
+	\repeatEnd
+%%%%%%%%%%%%%%%%% mesure 9
+	\repeatBegin
+	e1/8 a1 a a b c2 
+	d1 g g b c2 d
+%%%%%%%%%%%%%%%%% mesure 11
+	f1 g a f g a
+	e g# g# a/4 g#/8
+%%%%%%%%%%%%%%%%% mesure 13
+	e1/8 a1 a a b c2 
+	d1 g g b c2 d
+%%%%%%%%%%%%%%%%% mesure 14
+	c a1 a a g f
+	e b0 e1
+
+	\repeatEnd
+],
+[
+	\title<"Jump in the sun", font="Helvetica">
+	\composer<"John Kirkpatrick", font="Helvetica", fsize=4, dy=9>
+	\pageFormat<w=23.1cm, h=32.7cm, lm=2.5cm, rm=2.5cm, bm=3cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<0> \meter<"6/8", autoMeasuresNum="system"> 
+
+%%%%%%%%%%%%%%%%% mesure 1
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a0/8 c1 e
+	\harmony<"Am/E", dy=$hdy1, dx=0, fsize=14pt>
+	d#/4 e/8 |
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a0/8 c1 e
+	\harmony<"Am/E", dy=$hdy1, dx=0, fsize=14pt>
+	d#/4 e/8 |
+%%%%%%%%%%%%%%%%% mesure 3
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a e e
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a e e |
+%%%%%%%%%%%%%%%%% mesure 4
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	e d c 
+	\harmony<"E", dy=$hdy1, dx=0, fsize=14pt>
+	b0/4. |
+%%%%%%%%%%%%%%%%% mesure 5
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a0/8 c1 e
+	\harmony<"Am/G#", dy=$hdy1, dx=0, fsize=14pt>
+	d#/4 e/8 |
+%%%%%%%%%%%%%%%%% mesure 6
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a0/8 c1 e
+	\harmony<"Am/E", dy=$hdy1, dx=0, fsize=14pt>
+	d#/4 e/8 |
+%%%%%%%%%%%%%%%%% mesure 7
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a e e
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=14pt>
+	f e d |
+%%%%%%%%%%%%%%%%% mesure 8
+	\harmony<"E", dy=$hdy1, dx=0, fsize=14pt>
+	c d b0 
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a0/4. 
+	\repeatEnd
+	\repeatBegin
+%%%%%%%%%%%%%%%%% mesure 9
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a1/8 e e
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	c2 b1 a |
+%%%%%%%%%%%%%%%%% mesure 10
+	\harmony<"G", dy=$hdy1, dx=0, fsize=14pt>
+	b e e
+	\harmony<"G", dy=$hdy1, dx=0, fsize=14pt>
+	d2 c b1 |
+%%%%%%%%%%%%%%%%% mesure 11
+	\harmony<"F", dy=$hdy1, dx=0, fsize=14pt>
+	c2 b1 a 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=14pt>
+	c2 b1 a |
+%%%%%%%%%%%%%%%%% mesure 12
+	\harmony<"E", dy=$hdy1, dx=0, fsize=14pt>
+	b e e
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=14pt>
+	f/4 e/8 |
+%%%%%%%%%%%%%%%%% mesure 13
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a1/8 e e
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	c2 b1 a |
+%%%%%%%%%%%%%%%%% mesure 14
+	\harmony<"G", dy=$hdy1, dx=0, fsize=14pt>
+	b e e
+	\harmony<"G", dy=$hdy1, dx=0, fsize=14pt>
+	d2 c b1 |
+%%%%%%%%%%%%%%%%% mesure 15
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a e e
+	\harmony<"Dm", dy=$hdy1, dx=0, fsize=14pt>
+	f e d |
+%%%%%%%%%%%%%%%%% mesure 16
+	\harmony<"E", dy=$hdy1, dx=0, fsize=14pt>
+	c d b0
+	\harmony<"Am", dy=$hdy1, dx=0, fsize=14pt>
+	a0/4. 
+	\repeatEnd
+]
+
+}
