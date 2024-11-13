@@ -1,0 +1,192 @@
+
+$MSize=12;
+$MPos=20;
+$Hy=18;
+$Vy=-6;
+% start of auto variables
+$INSTRSize=2.0;
+$TABSize=1.6;
+$PushDy=3.5;
+$PullDy=1.6;
+$TabStaffDist=4;
+
+$HarmMainDy=-0.5;
+$HarmSubDy=-1.0;
+$HarmMainSize=2.5;
+$HarmSubSize=2.0;
+% end of auto variables
+{
+    [
+        \title<"Mouchti",font="Helvetica"> \composer<"R. Martinez",font="Helvetica",dy=8>
+         \pageFormat<w=25cm,h=35.6cm,lm=2.5cm,rm=2.5cm,bm=4cm,tm=6cm> \accolade<id=1,type="none">
+         \barFormat<"system"> \meter<"9/8",autoMeasuresNum="system",autoBarlines="off">
+         
+        % tab: T C
+        	e/8 a/4 c2*1/8 
+         \repeatBegin \harmony<"Am",dy=$Hy> \tie( e/4. e ) e1*1/8 a/4 c2*1/8 
+        | \harmony<"Am7/G",dy=$Hy> \tie( e/4. e ) e1*1/8 a/4 c2*1/8 
+        | \harmony<"F#m&5",dy=$Hy> e/4. d/4 e/8 d/4 c/8 
+        | \harmony<"Dm",dy=$Hy> d/4 c/8 \tie( c/2 
+        | \harmony<"G",dy=$Hy> c/4. ) c/4 d/8 d/4 e/8 
+        | \voltaBegin<"1.","|-|",dy=$Vy> 
+        % tab: P C
+        	\harmony<"C",dy=$Hy> \tie( c/2. c/4. ) 
+        | \harmony<"E",dy=$Hy> b1*1/4. _/4 \harmony<"E7",dy=$Hy> e/8 a/4 c2*1/8 
+        \voltaEnd 
+         \repeatEnd \voltaBegin<"2.","|-",dy=$Vy> \harmony<"C",dy=$Hy> \tie
+        ( c2*1/2. c/4. 
+        | c ) _/4 a1*1/8 b/4 c2*1/8 \voltaEnd \newLine 
+         \repeatBegin 
+        % tab: T C
+        	\harmony<"Dm",dy=$Hy> f/4. f/4 e/8 d/4 c/8 
+        | 
+        % tab: P C
+        	\harmony<"E",dy=$Hy> b1*1/4. _/4 d2*1/8 e/4 f/8 
+        | \harmony<"E7",dy=$Hy> g#/4. g#/4 f/8 e/4 d/8 
+        | 
+        % tab: T C
+        	\harmony<"Am",dy=$Hy> c/4. a1*1/4. _/4 c2*1/8 
+        | \harmony<"B",dy=$Hy> b1*1/4. \tie( f#/4. f#/4 ) a/8 
+        | 
+        % tab: P C
+        	\harmony<"E",dy=$Hy> g#/4. a b 
+        | \voltaBegin<"1.","|-|",dy=$Vy> 
+        % tab: T C
+        	\harmony<"Am",dy=$Hy> a b c2 
+        | \harmony<"G",dy=$Hy> b1*1/4 c2*1/8 d/4 a1*1/8 b/4 c2*1/8 \voltaEnd 
+         \repeatEnd \voltaBegin<"2.","|-|",dy=$Vy> \harmony<"Am",dy=$Hy>
+         \tie( a1*1/2. a/4. 
+        | a/4. ) _/4 e/8 a/4 c2*1/8 \voltaEnd 
+    ],
+    
+    [
+        \set<autoEndBar="off"> 
+        \clef<"none"> 
+        \instr<"P\nT",autopos="on",repeat="on",fsize=$INSTRSize,dx=-4,dy=1>
+         
+        \staffFormat<style="3-lines",lineThickness=0.05,size=2,distance=$TabStaffDist>
+         
+        
+        \lyrics<"5",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        % ====== measure 2
+        
+        \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty/4. ) empty 
+        \lyrics<"5",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        | 
+        % ====== measure 3
+        
+        \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty/4. ) empty 
+        \lyrics<"5",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        | 
+        % ====== measure 4
+        
+        \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty/4. ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        | 
+        % ====== measure 5
+        
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/2 ) 
+        | 
+        % ====== measure 6
+        empty/4. 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        | 
+        % ====== measure 7
+        
+        \lyrics<"6'",fsize=$TABSize,dy=$PushDy>( empty/2. ) empty/4. 
+        | 
+        % ====== measure 8
+        
+        \lyrics<"7",fsize=$TABSize,dy=$PushDy>( empty/4. ) empty/4 
+        \lyrics<"4'",fsize=$TABSize,dy=$PushDy>( empty/8 ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        \lyrics<"6'",fsize=$TABSize,dy=$PushDy>( empty/8 ) 
+        % ====== measure 9
+        
+        \lyrics<"6'",fsize=$TABSize,dy=$PushDy>( empty/2. ) empty/4. 
+        | 
+        % ====== measure 10
+        empty empty/4 
+        \lyrics<"5'",fsize=$TABSize,dy=$PushDy>( empty/8 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        \lyrics<"6'",fsize=$TABSize,dy=$PushDy>( empty/8 ) 
+        % ====== measure 11
+        
+        \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty/4. ) 
+        \lyrics<"8'",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"9",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        | 
+        % ====== measure 12
+        
+        \lyrics<"7",fsize=$TABSize,dy=$PushDy>( empty/4. ) empty/4 
+        \lyrics<"8",fsize=$TABSize,dy=$PushDy>( empty/8 ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PushDy>( empty/8 ) 
+        | 
+        % ====== measure 13
+        
+        \lyrics<"8''",fsize=$TABSize,dy=$PushDy>( empty/4. ) 
+        \lyrics<"8''",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        \lyrics<"7''",fsize=$TABSize,dy=$PushDy>( empty/8 ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PushDy>( empty/4 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PushDy>( empty/8 ) 
+        | 
+        % ====== measure 14
+        
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/4. ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/4. ) empty/4 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        | 
+        % ====== measure 15
+        
+        \lyrics<"6'",fsize=$TABSize,dy=$PullDy>( empty/4. ) 
+        \lyrics<"6",fsize=$TABSize,dy=$PullDy>( empty/4. ) empty/4 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        | 
+        % ====== measure 16
+        
+        \lyrics<"5''",fsize=$TABSize,dy=$PushDy>( empty/4. ) 
+        \lyrics<"5'",fsize=$TABSize,dy=$PushDy>( empty ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PushDy>( empty ) 
+        | 
+        % ====== measure 17
+        
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"6'",fsize=$TABSize,dy=$PullDy>( empty ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty ) 
+        | 
+        % ====== measure 18
+        
+        \lyrics<"6'",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7'",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"6'",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        % ====== measure 19
+        
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/2. ) empty/4. 
+        | 
+        % ====== measure 20
+        empty/4. empty/4 
+        \lyrics<"5",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+        \lyrics<"7",fsize=$TABSize,dy=$PullDy>( empty/4 ) 
+        \lyrics<"8",fsize=$TABSize,dy=$PullDy>( empty/8 ) 
+    ]
+}

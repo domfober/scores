@@ -1,0 +1,81 @@
+
+
+$MSize = 12;
+$MPos = 20;
+
+$Hy = 18;
+$Vy = -6;
+
+{
+[
+	\title<"Mouchti", font="Helvetica">
+	\composer<"R. Martinez", font="Helvetica", dy=8>
+	\pageFormat<w=25cm, h=35.6cm, lm=2.5cm, rm=2.5cm, bm=6cm, tm=6cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\meter<"9/8", autoMeasuresNum="system", autoBarlines="off">
+% tab: T C
+	e/8 a/4 c2/8 
+	\repeatBegin
+	\harmony<"Am", dy=$Hy>
+	\tie(e/4. e) e1/8 a/4 c2/8 |
+	\harmony<"Am7/G", dy=$Hy>
+	\tie(e/4. e) e1/8 a/4 c2/8 |
+	\harmony<"F#m&5", dy=$Hy>
+	e/4. d/4 e/8 d/4 c/8 |
+	\harmony<"Dm", dy=$Hy>
+	d/4 c/8 \tie (c/2 |
+	\harmony<"G", dy=$Hy>
+	c/4.) c/4 d/8 d/4 e/8 |
+\voltaBegin<"1.", "|-|", dy=$Vy>
+% tab: P C
+	\harmony<"C", dy=$Hy>
+	\tie(c/2. c/4.) |
+	\harmony<"E", dy=$Hy>
+	b1/4. _/4
+	\harmony<"E7", dy=$Hy>
+	e/8 a/4 c2/8 
+\voltaEnd
+	\repeatEnd
+\voltaBegin<"2.", "|-", dy=$Vy>
+	\harmony<"C", dy=$Hy>
+	\tie (c2/2. c/4. |
+	c) _/4 a1/8 b/4 c2/8
+\voltaEnd
+\newLine
+\repeatBegin
+% tab: T C
+	\harmony<"Dm", dy=$Hy>
+	f/4. f/4 e/8 d/4 c/8 |
+% tab: P C
+	\harmony<"E", dy=$Hy>
+	b1/4. _/4 d2/8 e/4 f/8 |
+	\harmony<"E7", dy=$Hy>
+	g#/4. g#/4 f/8 e/4 d/8 |
+% tab: T C
+	\harmony<"Am", dy=$Hy>
+	c/4. a1/4. _/4 c2/8 |
+	\harmony<"B", dy=$Hy>
+	b1/4. \tie(f#/4. f#/4) a/8 |
+% tab: P C
+	\harmony<"E", dy=$Hy>
+	g#/4. a b |
+\voltaBegin<"1.", "|-|", dy=$Vy>
+% tab: T C
+	\harmony<"Am", dy=$Hy>
+	a b c2 |
+	\harmony<"G", dy=$Hy>
+	b1/4 c2/8 d/4 a1/8 b/4 c2/8
+\voltaEnd
+	\repeatEnd
+
+\voltaBegin<"2.", "|-|", dy=$Vy>
+	\harmony<"Am", dy=$Hy>
+	\tie(a1/2. a/4. |
+	a/4.) _/4
+	e/8 a/4 c2/8 
+\voltaEnd
+
+]
+}
