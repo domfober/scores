@@ -1,12 +1,10 @@
-body {
-	margin: 0;
-}
+body { margin: 0; }
 
-H1 { 
+h2 { 
 	font-family : verdana,Arial,Helvetica; 
 	font-weight : bold; 
-	font-size : 14pt; 
-	color: black;
+	font-size : 12pt; 
+	color: rgb(28, 28, 224);
 } 
 table { height: 100% }
 
