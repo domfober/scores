@@ -57,6 +57,16 @@ function getMajorScale(pitch) {
     return out;
 }
 
+function getPentaScale(pitch) {
+    let out = [];
+    out.push(pitch);
+    out.push((pitch + 2) % 12);
+    out.push((pitch + 4) % 12);
+    out.push((pitch + 7) % 12);
+    out.push((pitch + 9) % 12);
+    return out;
+}
+
 var gShow = getHarmMinorScale;
 var gScale = getHarmMinorScale;
 var gChord = getMajorChord;
@@ -85,6 +95,12 @@ function minorscale() {
 //--------------------------------------------
 function majorscale() {
     gScale = getMajorScale;
+    gShow = gScale;
+}
+
+//--------------------------------------------
+function pentascale() {
+    gScale = getPentaScale;
     gShow = gScale;
 }
 

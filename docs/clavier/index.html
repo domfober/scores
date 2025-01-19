@@ -44,12 +44,16 @@
  <label for="accord">Accord</label><br>
 </div>
 <br/>
+
 <div id=scale  class=control>
  <input type="radio" id="minor" name="scale" value="Mineure" checked onClick=minorscale()>
  <label for="gamme">Mineur</label><br>
  <input type="radio" id="major" name="scale" value="Majeure" onClick=majorscale()>
  <label for="chord">Majeur</label><br>
+ <input type="radio" id="penta" name="scale" value="Penta" onClick=pentascale()>
+ <label for="chord">Penta</label><br>
 </div>
+
 <div id=chord style="visibility: hidden;"  class=control>
  <input type="radio" id="major" name="ch" value="Maj" checked onClick=majorchord(false)>
  <label for="major">Maj</label><br>
