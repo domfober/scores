@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="contact: dfober@gmail.com">
+
+    <title>Clavier accordéon</title>
+    
+    <!-- PAJ CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div id=kbd class="center main">
+		<table>
+			<tr> 
+			<td>
+<div class=control>
+<p>Clavier </p>
+  <input type="radio" id="heim" name="kmode" value="Heim" checked onClick=setkeys("heim")>
+  <label for="heim">Heim</label><br>
+  <input type="radio" id="milleret" name="kmode" value="Milleret" onClick=setkeys("mill")>
+  <label for="milleret">Milleret</label><br>
+  <input type="radio" id="chroma" name="kmode" value="Chroma" onClick=setkeys("chrom")>
+  <label for="chroma">Chroma</label><br>
+  <input type="radio" id="chroma2" name="kmode" value="Chroma2" onClick=setkeys("chrom2")>
+  <label for="chroma2">Chroma2</label><br>
+</div>
+</td>
+				<td id='left'> </td> 
+				 <td id='center'> </td> 
+				 <td id='right'> </td> 
+				 <td> 
+<div class=control>
+<p>Select </p>
+  <input type="radio" id="gamme" name="mode" value="Gamme" checked onClick=scalemode()>
+  <label for="gamme">Gamme</label><br>
+  <input type="radio" id="accord" name="mode" value="Accord" onClick=chordmode()>
+  <label for="accord">Accord</label><br>
+</div>
+<br/>
+<div id=scale  class=control>
+  <input type="radio" id="minor" name="scale" value="Mineure" checked onClick=minorscale()>
+  <label for="gamme">Mineure</label><br>
+  <input type="radio" id="major" name="scale" value="Majeure" onClick=majorscale()>
+  <label for="chord">Majeure</label><br>
+</div>
+<div id=chord style="visibility: hidden;"  class=control>
+  <input type="radio" id="major" name="ch" value="Maj" checked onClick=majorchord(false)>
+  <label for="major">Majeur</label><br>
+  <input type="radio" id="minor" name="ch" value="Min" onClick=minorchord(false)>
+  <label for="minor">Mineur</label><br>
+  <input type="radio" id="maj7" name="ch" value="Maj7" onClick=majorchord(true)>
+  <label for="maj7">Maj7</label><br>
+  <input type="radio" id="min7" name="ch" value="Min7" onClick=minorchord(true)>
+  <label for="min7">Min7</label><br>
+</div>
+				 </td> 
+			</tr> 
+		</table>
+	</div>
+	
+    <script src="claviers.js"></script>
+    <script src="run.js"></script>
+</body>
+</html>

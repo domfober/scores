@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+}
+
+H1 { 
+	font-family : verdana,Arial,Helvetica; 
+	font-weight : bold; 
+	font-size : 14pt; 
+	color: black;
+} 
+table { height: 100% }
+
+.on {
+	background-color: rgb(75, 228, 182);
+}
+
+.main {
+	height: 100vh;
+}
+
+.key {
+	font-family : verdana,Arial,Helvetica; 
+	font-weight : bold; 
+	font-size : 12pt; 
+	color: black;
+	padding: 12px;
+	border-color: black;
+	border-radius: 50%;
+	border-width: 1px;
+	border-style: solid;
+	margin: 8px;
+	width: 16px;
+	aspect-ratio: 1;
+}
+
+.center {
+	align-items: center;
+	display: flex;
+	justify-content: center;	
+}
+
+.control {
+	font-size : 12pt; 
+	margin: 10px;
+}
