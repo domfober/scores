@@ -22,14 +22,14 @@
 			<td>
 <div class=control>
 <h2>Clavier </h2>
- <input type="radio" id="heim" name="kmode" value="Heim" checked onClick=setkeys("heim")>
- <label for="heim">Heim</label><br>
- <input type="radio" id="milleret" name="kmode" value="Milleret" onClick=setkeys("mill")>
- <label for="milleret">Milleret</label><br>
- <input type="radio" id="chroma" name="kmode" value="Chroma" onClick=setkeys("chrom")>
- <label for="chroma">Chroma</label><br>
- <input type="radio" id="chroma2" name="kmode" value="Chroma2" onClick=setkeys("chrom2")>
- <label for="chroma2">Chroma2</label><br>
+<label for="heim">Heim</label><br>
+<input type="radio" id="heim" name="kmode" value="Heim" checked onClick=setkeys("heim")><br/>
+<label for="milleret">Milleret</label><br>
+<input type="radio" id="milleret" name="kmode" value="Milleret" onClick=setkeys("mill")><br/>
+<label for="chroma">Chroma</label><br>
+<input type="radio" id="chroma" name="kmode" value="Chroma" onClick=setkeys("chrom")><br/>
+<label for="chroma2">Chroma2</label><br>
+<input type="radio" id="chroma2" name="kmode" value="Chroma2" onClick=setkeys("chrom2")>
 </div>
 </td>
 				<td id='left'> </td> 
@@ -46,15 +46,15 @@
 <br/>
 <div id=scale  class=control>
  <input type="radio" id="minor" name="scale" value="Mineure" checked onClick=minorscale()>
- <label for="gamme">Mineure</label><br>
+ <label for="gamme">Mineur</label><br>
  <input type="radio" id="major" name="scale" value="Majeure" onClick=majorscale()>
- <label for="chord">Majeure</label><br>
+ <label for="chord">Majeur</label><br>
 </div>
 <div id=chord style="visibility: hidden;"  class=control>
  <input type="radio" id="major" name="ch" value="Maj" checked onClick=majorchord(false)>
- <label for="major">Majeur</label><br>
+ <label for="major">Maj</label><br>
  <input type="radio" id="minor" name="ch" value="Min" onClick=minorchord(false)>
- <label for="minor">Mineur</label><br>
+ <label for="minor">Min</label><br>
  <input type="radio" id="maj7" name="ch" value="Maj7" onClick=majorchord(true)>
  <label for="maj7">Maj7</label><br>
  <input type="radio" id="min7" name="ch" value="Min7" onClick=minorchord(true)>
