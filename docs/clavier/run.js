@@ -148,6 +148,10 @@ function setkeys(mode) {
             break;
         case 'chrom2': gKbd   = claviers.chroma2;
             break;
+        case 'chrom3': gKbd   = claviers.chroma3;
+            break;
+        case 'chrom4': gKbd   = claviers.chroma4;
+            break;
     }
     create(gKbd)
 }

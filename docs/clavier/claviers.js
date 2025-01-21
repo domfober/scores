@@ -167,5 +167,91 @@ const claviers = {
             { name:  'A', pitch: 9 }, 
             { name:  'F#', pitch: 6 }
         ]
-    }
+    },
+    chroma3 : {
+        rang2 : [
+            { name: 'E', pitch: 4 }, 
+            { name: 'C#', pitch: 1 }, 
+            { name: 'Bb', pitch: 10 }, 
+            { name: 'G', pitch: 7 }, 
+            { name: 'E', pitch: 4 }, 
+            { name: 'C#', pitch: 1 }, 
+            { name: 'Bb', pitch: 10 }, 
+            { name: 'G', pitch: 7 }, 
+            { name: 'E', pitch: 4 }, 
+            { name: 'C#', pitch: 1 }, 
+            { name: 'Bb', pitch: 10 }, 
+            { name: 'G', pitch: 7 }, 
+        ],
+        rang3 : [ 
+            { name: 'D', pitch: 2 }, 
+            { name: 'B', pitch: 11 }, 
+            { name: 'G#', pitch: 8 }, 
+            { name: 'F', pitch: 5 }, 
+            { name: 'D', pitch: 2 }, 
+            { name: 'B', pitch: 11 }, 
+            { name: 'G#', pitch: 8 }, 
+            { name: 'F', pitch: 5 }, 
+            { name: 'D', pitch: 2 }, 
+            { name: 'B', pitch: 11 }, 
+            { name: 'G#', pitch: 8 }
+        ],
+        rang1 : [ 
+            { name:  'Eb', pitch: 3 }, 
+            { name: 'C', pitch: 0 }, 
+            { name: 'A', pitch: 9 }, 
+            { name: 'F#', pitch: 6 }, 
+            { name:  'Eb', pitch: 3 }, 
+            { name:  'C', pitch: 0 }, 
+            { name:  'A', pitch: 9 }, 
+            { name:  'F#', pitch: 6 }, 
+            { name:  'Eb', pitch: 3 }, 
+            { name:  'C', pitch: 0 }, 
+            { name:  'A', pitch: 9 }
+        ]
+    },
+    chroma4 : {
+        rang3 : [
+            { name: 'C#', pitch: 1 }, 
+            { name: 'Bb', pitch: 10 }, 
+            { name: 'G', pitch: 7 }, 
+            { name: 'E', pitch: 4 }, 
+            { name: 'C#', pitch: 1 }, 
+            { name: 'Bb', pitch: 10 }, 
+            { name: 'G', pitch: 7 }, 
+            { name: 'E', pitch: 4 }, 
+            { name: 'C#', pitch: 1 }, 
+            { name: 'Bb', pitch: 10 }, 
+            { name: 'G', pitch: 7 }, 
+        ],
+        rang2 : [ 
+            { name: 'D', pitch: 2 }, 
+            { name: 'B', pitch: 11 }, 
+            { name: 'G#', pitch: 8 }, 
+            { name: 'F', pitch: 5 }, 
+            { name: 'D', pitch: 2 }, 
+            { name: 'B', pitch: 11 }, 
+            { name: 'G#', pitch: 8 }, 
+            { name: 'F', pitch: 5 }, 
+            { name: 'D', pitch: 2 }, 
+            { name: 'B', pitch: 11 }, 
+            { name: 'G#', pitch: 8 },
+            { name: 'F', pitch: 5 },
+        ],
+        rang1 : [ 
+            { name: 'C', pitch: 0 }, 
+            { name: 'A', pitch: 9 }, 
+            { name: 'F#', pitch: 6 }, 
+            { name:  'Eb', pitch: 3 }, 
+            { name:  'C', pitch: 0 }, 
+            { name:  'A', pitch: 9 }, 
+            { name:  'F#', pitch: 6 }, 
+            { name:  'Eb', pitch: 3 }, 
+            { name:  'C', pitch: 0 }, 
+            { name:  'A', pitch: 9 }, 
+            { name:  'F#', pitch: 6 }
+        ]
+    },
+
+
 }
