@@ -41,3 +41,10 @@ table { height: 100% }
 	font-size : 12pt; 
 	margin: 10px;
 }
+
+.noselect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

@@ -163,6 +163,7 @@ function makecol(list, id) {
     list.forEach (item => {
         let key = document.createElement('div');
         key.classList.add("key");
+        key.classList.add("noselect");
         key.setAttribute("name", item.pitch);
         key.addEventListener ('mousedown', mouseDown);
         key.addEventListener ('mouseup', mouseUp);
