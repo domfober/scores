@@ -42,14 +42,14 @@
 				 <td> 
 <div class=control>
 <h2>Select </h2>
- <input type="radio" id="gamme" name="mode" value="Gamme" checked onClick=scalemode()>
+ <input type="radio" id="gamme" name="mode" value="Gamme" onClick=scalemode()>
  <label for="gamme">Gamme</label><br>
- <input type="radio" id="accord" name="mode" value="Accord" onClick=chordmode()>
+ <input type="radio" id="accord" name="mode" value="Accord" checked onClick=chordmode()>
  <label for="accord">Accord</label><br>
 </div>
 <br/>
 
-<div id=scale  class=control>
+<div id=scale style="visibility: hidden;"  class=control>
  <input type="radio" id="minor" name="scale" value="Mineure" checked onClick=minorscale()>
  <label for="gamme">Mineur</label><br>
  <input type="radio" id="major" name="scale" value="Majeure" onClick=majorscale()>
@@ -58,10 +58,10 @@
  <label for="chord">Penta</label><br>
 </div>
 
-<div id=chord style="visibility: hidden;"  class=control>
- <input type="radio" id="major" name="ch" value="Maj" checked onClick=majorchord(false)>
+<div id=chord class=control>
+ <input type="radio" id="major" name="ch" value="Maj" onClick=majorchord(false)>
  <label for="major">Maj</label><br>
- <input type="radio" id="minor" name="ch" value="Min" onClick=minorchord(false)>
+ <input type="radio" id="minor" name="ch" value="Min" checked onClick=minorchord(false)>
  <label for="minor">Min</label><br>
  <input type="radio" id="maj7" name="ch" value="Maj7" onClick=majorchord(true)>
  <label for="maj7">Maj7</label><br>

@@ -42,7 +42,7 @@ const claviers = {
             { name:  'F#', pitch: 6 }
         ]
     },
-    milleret : {
+    milleretold : {
         rang3 : [
             { name: 'C#', pitch: 1 }, 
             { name: 'Bb', pitch: 10 }, 
@@ -84,7 +84,48 @@ const claviers = {
             { name:  'F#', pitch: 6 }
         ]
     },
-    chroma : {
+    milleret : {
+        rang3 : [
+            { name: 'C', pitch: 0 }, 
+            { name: 'C#', pitch: 1 }, 
+            { name: 'Bb', pitch: 10 }, 
+            { name: 'G', pitch: 7 }, 
+            { name: 'Eb', pitch: 3 }, 
+            { name: 'C#', pitch: 1 }, 
+            { name: 'Bb', pitch: 10 }, 
+            { name: 'G', pitch: 7 }, 
+            { name: 'Eb', pitch: 3 }, 
+            { name: 'C#', pitch: 1 }, 
+            { name: 'Bb', pitch: 10 }
+        ],
+        rang2 : [ 
+            { name: 'D', pitch: 2 }, 
+            { name: 'B', pitch: 11 }, 
+            { name: 'G#', pitch: 8 }, 
+            { name: 'F', pitch: 5 }, 
+            { name: 'D', pitch: 2 }, 
+            { name: 'B', pitch: 11 }, 
+            { name: 'G#', pitch: 8 }, 
+            { name: 'F', pitch: 5 }, 
+            { name: 'D', pitch: 2 }, 
+            { name: 'B', pitch: 11 }, 
+            { name: 'G#', pitch: 8 },
+            { name: 'G', pitch: 7 }
+        ],
+        rang1 : [ 
+            { name: 'A', pitch: 9 }, 
+            { name: 'F#', pitch: 6 }, 
+            { name: 'E', pitch: 4 }, 
+            { name: 'C', pitch: 0 }, 
+            { name: 'A', pitch: 9 }, 
+            { name: 'F#', pitch: 6 }, 
+            { name: 'E', pitch: 4 }, 
+            { name: 'C', pitch: 0 }, 
+            { name: 'A', pitch: 9 }, 
+            { name: 'F#', pitch: 6 },
+            { name: 'E', pitch: 4 }
+        ]
+    },    chroma : {
         rang3 : [
             { name: 'C#', pitch: 1 }, 
             { name: 'Bb', pitch: 10 }, 

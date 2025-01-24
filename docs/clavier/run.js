@@ -67,9 +67,9 @@ function getPentaScale(pitch) {
     return out;
 }
 
-var gShow = getHarmMinorScale;
+var gShow = getMinorChord;
 var gScale = getHarmMinorScale;
-var gChord = getMajorChord;
+var gChord = getMinorChord;
 var gKbd   = claviers.heim;
 
 //--------------------------------------------
