@@ -1,6 +1,6 @@
 
 var gState = {
-    map: claviers.heim,
+    map: claviers.r3b18.Heim,
     chord: getMajorChord,
     scale: getHarmMinorScale,
     show: getMinorChord
@@ -82,7 +82,6 @@ function push(event) {
 
 //--------------------------------------------
 function deselectAll() {
-console.log ("deselectall");
     let elts = document.getElementsByClassName ("pullOn")
     for (i=elts.length-1; i >=0; i--)
         elts[i].classList.remove("pullOn");
@@ -95,24 +94,17 @@ console.log ("deselectall");
 function mouseUp(event) {
     deselectAll();
 }
-
 //--------------------------------------------
-function setkeys(mode) {
-    switch (mode) {
-        case 'heim': gState.map   = claviers.heim;
-            break;
-        case 'mill': gState.map   = claviers.milleret;
-            break;
-        case 'chrom': gState.map   = claviers.chroma;
-            break;
-        case 'chrom2': gState.map   = claviers.chroma2;
-            break;
-        case 'chrom3': gState.map   = claviers.chroma3;
-            break;
-        case 'chrom4': gState.map   = claviers.chroma4;
-            break;
+function setKeyboard()
+{
+    let section = this.getAttribute('section');
+// console.log("setKeyboard", section)
+    let kbd = claviers[section][this.id];
+    if (kbd) {        
+        gState.map = kbd;
+        createKeyboard (kbd);
     }
-    create(gState.map)
+    else console.error ("unknown keyboard id:", this.id );
 }
 
 //--------------------------------------------
@@ -132,11 +124,6 @@ function leftClick(event, elt) {
 
 //--------------------------------------------
 function mouseDown(event) {
-//  console.log("mouseDown", event.target);
-//  console.log("     this", this);
-//     let rect = this.getBoundingClientRect();
-//     let mid = (rect.right - rect.left) / 2; 
-    // let push = (event.clientX - rect.left) < mid; 
     let push = leftClick(event, this); 
     let elt = getPart (this, push);
     setOn (elt, push);
@@ -189,7 +176,7 @@ function ignoreEvents(elt) {
 }
 
 //--------------------------------------------
-function makeKey(item, invert) {
+function makeKey(item, left) {
     let key = document.createElement('div');
     key.classList.add("key");
     let pct = getPitchClass(item.T.name);
@@ -206,41 +193,36 @@ function makeKey(item, invert) {
     let t = document.createElement('span');
     let p = document.createElement('span');
     
-    // if (invert) {
-    //     t.classList.add("noselect", "push", "bass");
-    //     p.classList.add("noselect", "pull", "bass");
-    // }
-    // else {
+    if (left) {
+        t.classList.add("noselect", "push", "bass");
+        p.classList.add("noselect", "pull", "bass");
+    }
+    else {
         t.classList.add("noselect", "pull");
         p.classList.add("noselect", "push");
-    // }
+    }
     if (hasAccidental (item.T.name)) t.classList.add("acc");
     if (hasAccidental (item.P.name)) p.classList.add("acc");
     t.setAttribute("name", getPitchClass(item.T.name));
     p.setAttribute("name", getPitchClass(item.P.name));
-    // ignoreEvents (t);
-    // ignoreEvents (p);
     t.innerText = item.T.name;
     p.innerText = item.P.name;
-    // if (invert) {
-    //     key.appendChild(t);
-    //     key.appendChild(p);
-    // }
-    // else {
+    if (left) {
+        key.appendChild(t);
+        key.appendChild(p);
+    }
+    else {
         key.appendChild(p);
         key.appendChild(t);
-    // }
+    }
     return key;
 }
 
 //--------------------------------------------
-function makecol(list, div, invert) {
-    // let out = document.createElement('div');
-    // out.setAttribute("id", id);
+function makecol(list, div, left) {
     list.forEach (item => {
-        div.appendChild(makeKey(item, invert));
+        div.appendChild(makeKey(item, left));
     })
-    // return out;
 }
 
 //--------------------------------------------
@@ -255,9 +237,6 @@ function createRightHand(map) {
     makecol(map.rang3, left, false);
     makecol(map.rang2, center, false);
     makecol(map.rang1, right, false);
-    // left.appendChild (leftdiv);
-    // center.appendChild (centerdiv);
-    // right.appendChild (rightdiv);
 }
 
 //--------------------------------------------
@@ -272,15 +251,25 @@ function createLeftHand(map) {
     makecol(map.rang1, left, true);
     makecol(map.rang2, center, true);
     makecol(map.rang3, right, true);
-    // left.appendChild (leftdiv);
-    // center.appendChild (centerdiv);
-    // right.appendChild (rightdiv);
+}
+
+//--------------------------------------------
+function createKeyboard(map) {
+    createLeftHand (map.gauche);
+    createRightHand (map.droite);
+}
+
+//--------------------------------------------
+function keyboardInfo(map) {
+    let div = document.getElementById('currentKbd');
+    div.innerHTML = getKeyboardInfo (map)
 }
 
 //--------------------------------------------
 function create(map) {
-    createLeftHand (map.gauche);
-    createRightHand (map.droite);
+    createKeyboard (map);
+    makeKbdMenu (document.getElementById('menu'));
+    keyboardInfo(map);
 }
 
 create (gState.map);

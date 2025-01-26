@@ -1,12 +1,27 @@
-body { margin: 0; }
+body { margin: 0; font-family : verdana,Arial,Helvetica; }
 
 h2 { 
-	font-family : verdana,Arial,Helvetica; 
 	font-weight : bold; 
 	font-size : 12pt; 
 	color: rgb(28, 28, 224);
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+} 
+h3 { 
+	font-size : 10pt; 
+	color: rgb(102, 102, 231);
+	margin-bottom: 5px;
 } 
 table { height: 100% }
+
+.ksection {
+	font-size : 10pt; 
+	align-items: center;
+	justify-content: center;
+	margin-left: 5px;
+	margin-right: 5px;
+}
 
 .pushOn {
 	background-color: rgb(116, 206, 250);
@@ -20,9 +35,26 @@ table { height: 100% }
 }
 
 .main {
-	height: 100vh;
+	height: 90vh;
 }
 
+.menu {
+	height: 100vh;
+	position: absolute;
+	x: 0;
+	y: 0;
+	background-color: rgb(240, 240, 228);
+	margin-left: -300px;
+}
+
+.info {
+	position: absolute;
+	font-size : 10pt; 
+	color: grey;
+	margin-left: 5px;
+	x: 0;
+	y: 0;
+}
 .soufflet { height: 150px; width: auto; }
 
 .key {
