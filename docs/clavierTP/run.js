@@ -87,9 +87,7 @@ function deselectAll() {
 }
 
 //--------------------------------------------
-function mouseUp(event) {
-    deselectAll();
-}
+function mouseUp(event) { deselectAll(); }
 
 //--------------------------------------------
 function openMenu(id) {
@@ -151,7 +149,8 @@ function touchDown(event) {
 
 //--------------------------------------------
 function touchMove(event) {
-    let push = gTouch.x > event.touches[0].clientX;
+    let dir = gTouch.x - event.touches[0].clientX;
+    let push = (hasClass(this, "bass")) ? dir <0 : dir > 0;
     let elt = getPart (this, push);
     if (gTouch.push == null) {
         setOn (elt, push);
