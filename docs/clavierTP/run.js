@@ -87,9 +87,6 @@ function deselectAll() {
 }
 
 //--------------------------------------------
-function mouseUp(event) { deselectAll(); }
-
-//--------------------------------------------
 function openMenu(id) {
     let menu = document.getElementById(id);
     menu.classList.add ('show');
@@ -124,34 +121,17 @@ function getPart(div, push) {
     return null;
 }
 
-//--------------------------------------------
-function pushClick(event, elt) { 
-    let rect = elt.getBoundingClientRect();
-    let mid = (rect.right - rect.left) / 2; 
-    if (hasClass(elt, "bass"))
-        return (event.clientX - rect.left) > mid; 
-    return (event.clientX - rect.left) < mid; 
-}
-
-//--------------------------------------------
-function mouseDown(event) {
-    let push = pushClick(event, this); 
-    let elt = getPart (this, push);
-    setOn (elt, push);
-}
-
 var gTouch = { x: -1, push: null } ;
 //--------------------------------------------
-function touchDown(event) {
-    gTouch.x = event.touches[0].clientX;
-    gTouch.push = null;
-}
+function mouseDown(event) { gTouch.x = event.clientX;  gTouch.push = null; }
+function touchDown(event) { gTouch.x = event.touches[0].clientX; gTouch.push = null; }
+function mouseUp(event) { deselectAll(); gTouch.x = 0; gTouch.push = null; }
 
 //--------------------------------------------
-function touchMove(event) {
-    let dir = gTouch.x - event.touches[0].clientX;
-    let push = (hasClass(this, "bass")) ? dir <0 : dir > 0;
-    let elt = getPart (this, push);
+function move(x, target) {
+    let dir = gTouch.x - x;
+    let push = (hasClass(target, "bass")) ? dir <0 : dir > 0;
+    let elt = getPart (target, push);
     if (gTouch.push == null) {
         setOn (elt, push);
     } else if (gTouch.push !== push) {
@@ -162,13 +142,11 @@ function touchMove(event) {
 }
 
 //--------------------------------------------
-function mouseOver(event) {
-    if (hasClass(this, "bass"))
-        document.body.style.cursor = pushClick(event, this) ? 'e-resize' : 'w-resize';
-    else
-        document.body.style.cursor = pushClick(event, this) ? 'w-resize' : 'e-resize';;
+function touchMove(event) { move (event.touches[0].clientX, this); }
+function mouseMove(event) {
+    if (gTouch.x > 0)
+        move (event.clientX, this);
 }
-function mouseLeave(event) { document.body.style.cursor = 'initial'; }
     
 //--------------------------------------------
 function hasAccidental(item) {
@@ -186,13 +164,12 @@ function makeKey(item, left) {
     let pcp = getPitchClass(item.P.name);
     if ((pct >= 0) && (pcp >=0)) {
         key.addEventListener ('mousedown', mouseDown, {capture: true});
+        key.addEventListener ('mousemove', mouseMove, {capture: true});
         key.addEventListener ('touchstart', touchDown, {passive: true});
         key.addEventListener ('touchmove', touchMove, {passive: true});
         key.addEventListener ('mouseup', mouseUp, {capture: true});
         key.addEventListener ('touchend', mouseUp, {passive: true});
-        key.addEventListener ('mouseover', mouseOver, {capture: true});
-        key.addEventListener ('mouseleave', mouseLeave, {capture: true});
-    }
+     }
     let t = document.createElement('span');
     let p = document.createElement('span');
     
