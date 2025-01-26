@@ -1,54 +1,56 @@
 
 var gState = {
     map: claviers.r3b18.Heim,
-    chord: getMajorChord,
-    scale: getHarmMinorScale,
     show: getMinorChord
 };
 
 //--------------------------------------------
-function scalemode() {
-    document.getElementById("chord").style.visibility = "hidden";
-    document.getElementById("scale").style.visibility = "visible";
-    gState.show = gState.scale;
+function setMode(mode) {
+    switch (mode) {
+		case "GMaj":    majorscale(); break;
+		case "GMin":    minorscale(); break;
+		case "GPenta":  pentascale(); break;
+		case "AMaj":    majorchord(false); break;
+		case "AMin":    minorchord(false); break;
+		case "AMaj7":   majorchord(true); break;
+		case "AMin7":   minorchord(true); break;
+    }
+    modeInfo(gState.show);
+    localStorage.setItem('mode', mode);
 }
 
 //--------------------------------------------
-function chordmode() {
-    document.getElementById("scale").style.visibility = "hidden";
-    document.getElementById("chord").style.visibility = "visible";
-    gState.show = gState.chord;
+function switchMode(elt) {
+    let mode = elt.id;
+    setMode (mode);
 }
 
 //--------------------------------------------
-function minorscale() {
-    gState.scale = getHarmMinorScale;
-    gState.show = gState.scale;
+function getModeInfo(show) {
+    let out = "Mode: ";
+    if (show == getHarmMinorScale)
+        return out + "gamme min. harm"
+    if (show == getMajorScale)
+        return out + "gamme maj."
+    if (show == getPentaScale)
+        return out + "gamme penta. maj"
+    if (show == getMinorChord)
+        return out + "accord min"
+    if (show == getMajorChord)
+        return out + "accord maj"
+    if (show == getMinor7Chord)
+        return out + "accord min 7"
+    if (show == getMajor7Chord)
+        return out + "accord maj 7"
+    return out;
 }
 
 //--------------------------------------------
-function majorscale() {
-    gState.scale = getMajorScale;
-    gState.show = gState.scale;
-}
-
-//--------------------------------------------
-function pentascale() {
-    gState.scale = getPentaScale;
-    gState.show = gState.scale;
-}
-
-//--------------------------------------------
-function majorchord(sev) {
-    gState.chord = sev ? getMajor7Chord : getMajorChord;
-    gState.show = gState.chord;
-}
-
-//--------------------------------------------
-function minorchord(sev) {
-    gState.chord = sev ? getMinor7Chord : getMinorChord;
-    gState.show = gState.chord;
-}
+function minorscale()    { gState.show = getHarmMinorScale; }
+function majorscale()    { gState.show = getMajorScale; }
+function pentascale()    { gState.show = getPentaScale; }
+function majorchord(sev) { gState.show = sev ? getMajor7Chord : getMajorChord; }
+function minorchord(sev) { gState.show = sev ? getMinor7Chord : getMinorChord; }
 
 //--------------------------------------------
 function hasClass (elt, name) {
@@ -71,14 +73,8 @@ function setOn(elt, push) {
 }
 
 //--------------------------------------------
-function pull(event) {
-    setOn (this, false);
-}
-
-//--------------------------------------------
-function push(event) {
-    setOn (this, true);
-}
+function pull(event) { setOn (this, false); }
+function push(event) { setOn (this, true); }
 
 //--------------------------------------------
 function deselectAll() {
@@ -94,6 +90,18 @@ function deselectAll() {
 function mouseUp(event) {
     deselectAll();
 }
+
+//--------------------------------------------
+function openMenu(id) {
+    let menu = document.getElementById(id);
+    menu.classList.add ('show');
+}
+//--------------------------------------------
+function closeMenu(id) {
+    let menu = document.getElementById(id);
+    menu.classList.remove ('show');
+}
+
 //--------------------------------------------
 function setKeyboard()
 {
@@ -103,6 +111,9 @@ function setKeyboard()
     if (kbd) {        
         gState.map = kbd;
         createKeyboard (kbd);
+        keyboardInfo (kbd);
+        localStorage.setItem ('section', section);
+        localStorage.setItem ('kbd', this.id);
     }
     else console.error ("unknown keyboard id:", this.id );
 }
@@ -116,15 +127,17 @@ function getPart(div, push) {
 }
 
 //--------------------------------------------
-function leftClick(event, elt) {
+function pushClick(event, elt) { 
     let rect = elt.getBoundingClientRect();
     let mid = (rect.right - rect.left) / 2; 
+    if (hasClass(elt, "bass"))
+        return (event.clientX - rect.left) > mid; 
     return (event.clientX - rect.left) < mid; 
 }
 
 //--------------------------------------------
 function mouseDown(event) {
-    let push = leftClick(event, this); 
+    let push = pushClick(event, this); 
     let elt = getPart (this, push);
     setOn (elt, push);
 }
@@ -151,14 +164,12 @@ function touchMove(event) {
 
 //--------------------------------------------
 function mouseOver(event) {
-    let curs = leftClick(event, this) ? 'w-resize' : 'e-resize';
-    document.body.style.cursor = curs;
+    if (hasClass(this, "bass"))
+        document.body.style.cursor = pushClick(event, this) ? 'e-resize' : 'w-resize';
+    else
+        document.body.style.cursor = pushClick(event, this) ? 'w-resize' : 'e-resize';;
 }
-
-//--------------------------------------------
-function mouseLeave(event) {
-    document.body.style.cursor = 'initial';
-}
+function mouseLeave(event) { document.body.style.cursor = 'initial'; }
     
 //--------------------------------------------
 function hasAccidental(item) {
@@ -168,17 +179,10 @@ function hasAccidental(item) {
 }
 
 //--------------------------------------------
-function ignoreEvents(elt) {
-    elt.addEventListener ('mousedown', null, {capture: false});
-    elt.addEventListener ('mouseup', null, {capture: false});
-    elt.addEventListener ('touchstart', null, {passive: true});
-    elt.addEventListener ('touchend', null, {passive: true});
-}
-
-//--------------------------------------------
 function makeKey(item, left) {
     let key = document.createElement('div');
     key.classList.add("key");
+    if (left) key.classList.add("bass");
     let pct = getPitchClass(item.T.name);
     let pcp = getPitchClass(item.P.name);
     if ((pct >= 0) && (pcp >=0)) {
@@ -194,12 +198,12 @@ function makeKey(item, left) {
     let p = document.createElement('span');
     
     if (left) {
-        t.classList.add("noselect", "push", "bass");
-        p.classList.add("noselect", "pull", "bass");
+        t.classList.add("noselect", "pull", "bass", "middle");
+        p.classList.add("noselect", "push", "bass", "middle");
     }
     else {
-        t.classList.add("noselect", "pull");
-        p.classList.add("noselect", "push");
+        t.classList.add("noselect", "pull", "middle");
+        p.classList.add("noselect", "push", "middle");
     }
     if (hasAccidental (item.T.name)) t.classList.add("acc");
     if (hasAccidental (item.P.name)) p.classList.add("acc");
@@ -266,10 +270,37 @@ function keyboardInfo(map) {
 }
 
 //--------------------------------------------
+function modeInfo (mode) {
+    let div = document.getElementById('currentMode');
+    div.innerHTML = getModeInfo (mode)
+}
+
+//--------------------------------------------
 function create(map) {
     createKeyboard (map);
     makeKbdMenu (document.getElementById('menu'));
     keyboardInfo(map);
+    modeInfo(gState.show);
+
+    let radio = document.getElementById (getKeyboardName(map));
+    if (radio) radio.checked = true;
 }
 
+//--------------------------------------------
+function restore() {
+    let keyb = localStorage.getItem('kbd');
+    let section = localStorage.getItem('section');
+    let mode = localStorage.getItem('mode');
+    if (mode) {
+        setMode(mode);
+        let radio = document.getElementById (mode);
+        if (radio) radio.checked = true;    
+    }
+    if (keyb && section) {
+        let map = claviers[section] ? claviers[section][keyb] : null;
+        if (map) gState.map = map;
+    }
+}
+
+restore();
 create (gState.map);

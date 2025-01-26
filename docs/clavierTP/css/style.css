@@ -23,20 +23,10 @@ table { height: 100% }
 	margin-right: 5px;
 }
 
-.pushOn {
-	background-color: rgb(116, 206, 250);
-	border-color:rgb(116, 206, 250);
-	border-width: 2px;
-}
-.pullOn {
-	background-color: rgb(75, 228, 182);
-	border-color: rgb(75, 228, 182);
-	border-width: 2px;
-}
+.pushOn { background-color:rgb(255, 193, 79); }
+.pullOn { background-color: rgb(75, 228, 182); }
 
-.main {
-	height: 90vh;
-}
+.main { height: 90vh;}
 
 .menu {
 	height: 100vh;
@@ -44,8 +34,10 @@ table { height: 100% }
 	x: 0;
 	y: 0;
 	background-color: rgb(240, 240, 228);
-	margin-left: -300px;
+	margin-left: -200px;
+	transition: margin-left 1s;
 }
+.menu.show { margin-left: 0px; }
 
 .info {
 	position: absolute;
@@ -55,6 +47,9 @@ table { height: 100% }
 	x: 0;
 	y: 0;
 }
+
+.infoItem { font-size : 9pt; margin-top: 5px;}
+
 .soufflet { height: 150px; width: auto; }
 
 .key {
@@ -78,26 +73,21 @@ table { height: 100% }
   	background-position: center center;
 }
 
-.push {
-	padding-right: 4px;
-	vertical-align: middle;
-}
+.middle { vertical-align: middle; }
 
-.acc.push {
+.push { padding-right: 4px;}
+.pull { padding-left: 4px; }
+
+.push.bass { padding-left: 6px; }
+.pull.bass { padding-right: 4px; margin-left: -5px; }
+.acc.pull  { padding-left: 2px; }
+.acc.pull.bass { margin-left: -7px; }
+.acc.push  {
 	padding-right: 2px;
 	margin-left: -6px;
-	font-size : 95%; 
 }
+.acc { font-size : 95%; }
 
-.pull {
-	padding-left: 4px;
-	vertical-align: middle;
-}
-
-.acc.pull {
-	padding-left: 2px;
-	font-size : 95%; 
-}
 
 .center {
 	align-items: center;
@@ -105,10 +95,10 @@ table { height: 100% }
 	justify-content: center;	
 }
 
-.control {
+/* .control {
 	font-size : 12pt; 
 	margin: 10px;
-}
+} */
 
 .noselect {
     -moz-user-select: none;

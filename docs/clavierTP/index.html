@@ -15,8 +15,58 @@
 </head>
 
 <body>
-	<div id=menu class="menu"></div>
-	<div id=currentKbd class="info"></div>
+	<div class="info noselect">
+		<div id=currentKbd class="infoItem"
+		onmouseenter="this.style.color='blue'"
+		onmouseleave="this.style.color='grey'"
+		onclick="closeMenu('mode'); openMenu('menu')">
+		</div>
+		<div id=currentMode class="infoItem"
+		onmouseenter="this.style.color='blue'"
+		onmouseleave="this.style.color='grey'"
+		onclick="closeMenu('menu'); openMenu('mode')">
+		</div>
+	</div>
+	<div id=menu class="menu" onclick="closeMenu('menu')"></div>
+	<div id=mode class="menu" onclick="closeMenu('mode')">
+		<h2>Mode</h2>
+		<div class="ksection">
+			<h3>Gammes</h3>
+			<table class="menut">
+				<tr>
+					<td>Maj.</td>
+					<td><input type="radio" id="GMaj" name="mode" onClick=switchMode(this)></td>
+				</tr>
+				<tr>
+					<td>Min. harm</td>
+					<td><input type="radio" id="GMin" name="mode" onClick=switchMode(this)></td>
+				</tr>
+				<tr>
+					<td>Penta. maj</td>
+					<td><input type="radio" id="GPenta" name="mode" onClick=switchMode(this)></td>
+				</tr>
+			</table>
+			<h3>Accords</h3>	
+			<table class="menut">
+				<tr>
+					<td>Maj.</td>
+					<td><input type="radio" id="AMaj" name="mode" onClick=switchMode(this)></td>
+				</tr>
+				<tr>
+					<td>Min.</td>
+					<td><input type="radio" id="AMin" name="mode" checked onClick=switchMode(this)></td>
+				</tr>
+				<tr>
+					<td>Maj. 7</td>
+					<td><input type="radio" id="AMaj7" name="mode" onClick=switchMode(this)></td>
+				</tr>
+				<tr>
+					<td>Min. 7</td>
+					<td><input type="radio" id="AMin7" name="mode" onClick=switchMode(this)></td>
+				</tr>
+			</table>
+		</div>
+	</div>
 	<div id=kbd class="center main">
 		<table>
 			<tr> 

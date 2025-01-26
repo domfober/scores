@@ -292,6 +292,20 @@ function makeKbdMenu (div) {
 }
 
 //-----------------------------------
+function getKeyboardName (map) {
+  let out = "";
+  let list = Object.keys(claviers);
+  list.forEach (section => {
+    let kbd = Object.keys(claviers[section])
+    kbd.forEach (item => {
+      if (claviers[section][item] === map) 
+        out = item;
+    })
+  });
+  return out;
+}
+
+//-----------------------------------
 function getKeyboardInfo (map) {
   let out = "";
   let list = Object.keys(claviers);
@@ -299,7 +313,7 @@ function getKeyboardInfo (map) {
     let kbd = Object.keys(claviers[section])
     kbd.forEach (item => {
       if (claviers[section][item] === map) 
-        out = sectionLabels[section] + " : " + item;
+        out = sectionLabels[section] + " : " + item.replaceAll('_', ' ');
     })
   });
   return out;
