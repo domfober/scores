@@ -152,6 +152,8 @@ function setkeys(mode) {
             break;
         case 'chrom4': gKbd   = claviers.chroma4;
             break;
+        case 'darwin': gKbd   = claviers.darwin;
+            break;
     }
     create(gKbd)
 }
@@ -161,16 +163,24 @@ function makecol(list, id) {
     let out = document.createElement('div');
     out.setAttribute("id", id);
     list.forEach (item => {
-        let key = document.createElement('div');
-        key.classList.add("key");
-        key.classList.add("noselect");
-        key.setAttribute("name", item.pitch);
-        key.addEventListener ('mousedown', mouseDown);
-        key.addEventListener ('mouseup', mouseUp);
-        key.addEventListener ('touchstart', mouseDown);
-        key.addEventListener ('touchend', mouseUp);
-        key.innerText = item.name;
-        out.appendChild(key);
+        if (item.name == "shift") {
+            let value = item.value;
+            let shift = document.createElement('div');
+            shift.style.minHeight = item.value + "em";
+            out.appendChild(shift);
+        }
+        else {
+            let key = document.createElement('div');
+            key.classList.add("key");
+            key.classList.add("noselect");
+            key.setAttribute("name", getPitchClass(item.name));
+            key.addEventListener ('mousedown', mouseDown);
+            key.addEventListener ('mouseup', mouseUp);
+            key.addEventListener ('touchstart', mouseDown);
+            key.addEventListener ('touchend', mouseUp);
+            key.innerText = item.name;
+            out.appendChild(key);
+        }
     })
     return out;
 }
