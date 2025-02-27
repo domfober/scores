@@ -1,4 +1,4 @@
-
+const darwinbshift = 2.4;
 const claviers = {
   r3b18 : {
     Heim : {
@@ -209,11 +209,99 @@ const claviers = {
             ]
         }
     }
+  },
+  chroma : {
+    Darwin : {
+      droite : {
+          rang3 : [
+            { T: { name: "F"},  P: { name: "F"} },
+            { T: { name: "D"},  P: { name: "D"} },
+            { T: { name: "B"},  P: { name: "B" } },
+            { T: { name: "G#"}, P: { name: "G#"} },
+            { T: { name: "F"},  P: { name: "F"} },
+            { T: { name: "D"},  P: { name: "D"} },
+            { T: { name: "B"},  P: { name: "B" } },
+            { T: { name: "G#"}, P: { name: "G#"} },
+            { T: { name: "F"},  P: { name: "F"} },
+            { T: { name: "D"},  P: { name: "D"} },
+            { T: { name: "B"},  P: { name: "B" } },
+            { T: { name: "G#"}, P: { name: "G#"} },
+            { name: 'shift', value: 2.4 }
+          ],
+          rang2 : [ 
+            { T: { name: "E"},  P: { name: "E"} },
+            { T: { name: "C#"}, P: { name: "C#"} },
+            { T: { name: "Bb"}, P: { name: "Bb"} },
+            { T: { name: "G"},  P: { name: "G"} },
+            { T: { name: "E"},  P: { name: "E"} },
+            { T: { name: "C#"}, P: { name: "C#"} },
+            { T: { name: "Bb"}, P: { name: "Bb"} },
+            { T: { name: "G"},  P: { name: "G"} },
+            { T: { name: "E"},  P: { name: "E"} },
+            { T: { name: "C#"}, P: { name: "C#"} },
+            { T: { name: "Bb"}, P: { name: "Bb"} },
+            { T: { name: "G"},  P: { name: "G"} }
+          ],
+          rang1 : [ 
+            { name: 'shift', value: 2.4 },
+            { T: { name: "Eb"},  P: { name: "Eb"} },
+            { T: { name: "C"},   P: { name: "C"} },
+            { T: { name: "A"},   P: { name: "A"} },
+            { T: { name: "F#"},  P: { name: "F#"} },
+            { T: { name: "Eb"},  P: { name: "Eb"} },
+            { T: { name: "C"},   P: { name: "C"} },
+            { T: { name: "A"},   P: { name: "A"} },
+            { T: { name: "F#"},  P: { name: "F#"} },
+            { T: { name: "Eb"},  P: { name: "Eb"} },
+            { T: { name: "C"},   P: { name: "C"} },
+            { T: { name: "A"},   P: { name: "A"} },
+            { T: { name: "F#"},  P: { name: "F#"} }
+          ]
+      },
+      gauche : {
+          rang4 : [
+            { T: { name: "bb"}, P: { name: "bb"} },
+            { T: { name: "c"},  P: { name: "c"} },
+            { T: { name: "d"},  P: { name: "d"} },
+            { T: { name: "e"},  P: { name: "e"} },
+            { T: { name: "f#"}, P: { name: "f#"} },
+            { T: { name: "g#"}, P: { name: "g#"} }
+          ],
+          rang3 : [
+            { T: { name: "eb"}, P: { name: "eb"} },
+            { T: { name: "f"},  P: { name: "f"} },
+            { T: { name: "g"},  P: { name: "g"} },
+            { T: { name: "a"},  P: { name: "a"} },
+            { T: { name: "b"},  P: { name: "b"} },
+            { T: { name: "c#"}, P: { name: "c#"} },
+            { name: 'shift', value: darwinbshift }
+          ],
+          rang2 : [ 
+            { T: { name: "Bb"}, P: { name: "Bb"} },
+            { T: { name: "C"},  P: { name: "C"} },
+            { T: { name: "D"},  P: { name: "D"} },
+            { T: { name: "E"},  P: { name: "E"} },
+            { T: { name: "F#"}, P: { name: "F#"} },
+            { T: { name: "G#"}, P: { name: "G#"} },
+            { name: 'shift', value: (darwinbshift*2) }
+          ],
+          rang1 : [ 
+            { T: { name: "Eb"}, P: { name: "Eb"} },
+            { T: { name: "F"},  P: { name: "F"} },
+            { T: { name: "G"},  P: { name: "G"} },
+            { T: { name: "A"},  P: { name: "A"} },
+            { T: { name: "B"},  P: { name: "B"} },
+            { T: { name: "C#"}, P: { name: "C#"} },
+            { name: 'shift', value: (darwinbshift*3) }
+          ]
+      }
     }
+  }
 }
 
 const sectionLabels = {
-  r3b18: "3 rangs 18 basses"
+  r3b18: "3 rangs 18 basses",
+  chroma: "Chromatique"
 }
 
 

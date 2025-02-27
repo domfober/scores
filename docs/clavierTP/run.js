@@ -158,6 +158,12 @@ function hasAccidental(item) {
 //--------------------------------------------
 function makeKey(item, left) {
     let key = document.createElement('div');
+    if (item.name && (item.name == "shift")) {
+        let value = item.value;
+        key.style.minHeight = item.value + "em";
+        return key;
+    }
+
     key.classList.add("key");
     if (left) key.classList.add("bass");
     let pct = getPitchClass(item.T.name);
@@ -225,12 +231,18 @@ function createLeftHand(map) {
     let left = document.getElementById('bleft');
     let center = document.getElementById('bcenter')
     let right = document.getElementById('bright')
+    let b4 = document.getElementById('b4')
     left.innerHTML="";
     center.innerHTML="";
     right.innerHTML="";
+    b4.innerHTML="";
     makecol(map.rang1, left, true);
     makecol(map.rang2, center, true);
-    makecol(map.rang3, right, true);
+    if (map.rang3)
+        makecol(map.rang3, right, true);
+    if (map.rang4) {
+        makecol(map.rang4, document.getElementById('b4'), true);
+    }
 }
 
 //--------------------------------------------
