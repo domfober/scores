@@ -19,7 +19,7 @@ $NL = "\newLine";
 	\harmony<"E/G#", dy=$Hy, dx=$Hx> empty |
 	\harmony<"FM7", dy=$Hy, dx=$Hx> empty |
 	\harmony<"E/G#", dy=$Hy, dx=$Hx> empty |
-$NL
+%$NL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\harmony<"Am", dy=$Hy, dx=$Hx>
 	\text<"b", dy=10, dx=-2cm, fsize=12pt> (empty/1) |

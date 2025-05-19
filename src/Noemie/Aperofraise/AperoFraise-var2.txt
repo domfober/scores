@@ -1,0 +1,183 @@
+
+	\title<"Apéro Fraise">
+	\title<"Variation 2", fsize=14pt, dy=-7>
+	\composer<"Noémie Dessaint", fsize=12pt, dy=4>
+	\pageFormat<w=27.3cm, h=38.61cm, lm=2.5cm, rm=2.5cm, bm=3cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<0> \meter<"3/4", autoMeasuresNum="system"> 
+
+%%%%%% mes. 1
+H Fff
+% tab: T C
+T7/8 T5 T4 T2' T4 T5
+|
+H Fff
+T7 T5 T4 T2' T4 T5
+|
+
+H Ggg
+T6' T5 T4 T2' T4 T5
+|
+%%%%%% mes. 4
+H Ggg
+T6' T5 T4 T2' T4 T5
+|
+|
+H Aaa
+T8 T7 T5 T4 T5 T7
+|
+H Aaa
+T8 T7 T5 T4 T5 T7
+|
+
+% tab: P C
+H Ggg
+P8 P7 P6 P5 P6 P7
+|
+H Ggg
+P8 P7 P6 P5 P6 P7
+|
+
+% tab: T C
+H Fff
+T8 T7 T5 T4 T5 T7
+|
+H Fff
+T8 T7 T5 T4 T5 T7
+|
+H Ggg
+T7' T7 T5 T4 T5 T7
+|
+H Ggg
+T7' T7 T5 T4 T5 T7
+|
+H Aaa
+T9 T8 T7 T5 T7 T8
+|
+H Aaa
+T9 T8 T7 T5 T7 T8
+|
+
+% tab: P C
+H Ggg
+P7' P8 P7 P6 P7 P8
+|
+H Ggg
+P7' P8 P6' P7 P6' P8
+|
+
+
+% tab: T C
+H Fff
+\tie(
+T9/2.
+|
+H Fff
+T9
+)
+|
+H Ggg
+T7'
+|
+H Ggg
+T7'/2 T8/4
+|
+H Aaa
+T6'/2.
+|
+H Aaa
+T7
+|
+
+% tab: P C
+H Ggg
+P6/2.
+|
+H Eee
+P4'
+|
+
+% tab: T C
+H Fff
+T9/2.
+|
+H Fff
+T9/2 
+% tab: P C
+P9/4
+|
+H Ggg
+% tab: T C
+T7'/2.
+|
+H Ggg
+T7'/2 T9/4
+|
+H Aaa
+T6'/2.
+|
+H Aaa
+{
+T6'
+,
+T8
+}
+|
+% tab: P C
+H Ggg
+{
+P6
+,
+P7
+}
+|
+H Eee
+{
+P6/2
+,
+P7
+,
+P7'
+}
+P6'/8 P8
+
+
+
+% H: F f f |
+% H: F f f |
+% H: G g g |
+% H: G g g |
+% H: A a a |
+% H: A a a |
+% H: G g g |
+% H: G g g |
+
+% H: F f f |
+% H: F f f |
+% H: G g g |
+% H: G g g |
+% H: A a a |
+% H: A a a |
+% H: G g g |
+% H: G g g |
+
+% H: F f f |
+% H: F f f |
+% H: G g g |
+% H: G g g |
+% H: A a a |
+% H: A a a |
+% H: G g g |
+% H: E e e |
+
+% H: F f f |
+% H: F f f |
+% H: G g g |
+% H: G g g |
+% H: A a a |
+% H: A a a |
+% H: G g g |
+% H: E e e
+

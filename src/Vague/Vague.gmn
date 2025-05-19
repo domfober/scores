@@ -1,0 +1,74 @@
+
+% markers settings
+$hdy=16;
+$hdy2=20;
+$mx   = -16;
+$msize = 6;
+$font = "Helvetica";
+$TabStaffDist=3;
+
+$mdx = -12;
+$mdy = 5;
+$msize = 8;
+
+%$format = "\pageFormat<w=25.2cm, h=35.64cm, lm=2.5cm, rm=2.5cm, bm=2cm, tm=4cm>";
+$format = "\pageFormat<w=27.3cm, h=38.61cm, lm=2.5cm, rm=2.5cm, bm=3cm, tm=6cm>";
+
+{
+[
+	\title<"Vague", font=$font>
+	\title<"Valse à 3 temps", font=$font, fsize=14pt, dy=-7>
+	\composer<"D'après 'Vague' - Anouar Brahem", fsize=12pt, color="grey", dy=7>
+%	\pageFormat<w=25.2cm, h=35.64cm, lm=2.5cm, rm=2.5cm, bm=2cm, tm=4cm>
+\footer<"Structure: A B A B A B C", fsize=4>
+	$format
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<-3> \meter<"12/8", autoMeasuresNum="system">
+
+%	\mark<"A", enclosure="square", dx=-16, dy=$my, fsize=$msize>
+\stemsDown
+%%%%%%%%%% mes 1
+	\mark<"A", dy=$mdy, fsize=$msize, dx=$mdx>
+	\harmony<"Cm", dx=2, dy=$hdy>
+	c2/8 e& c e& c e& c e& c e& c e& |
+%%%%%%%%%% mes 2
+	\harmony<"Gm", dy=$hdy>
+	b&1 d2 b&1 d2 b&1 d2 b&1 d2 b&1 d2 b&1 d2 |
+%%%%%%%%%% mes 3
+	\harmony<"Cm", dy=$hdy>
+	c2/8 e& c e& c e& c e& c e& c e& |
+%%%%%%%%%% mes 4
+	\harmony<"Gm", dy=$hdy>
+	b&1 d2 b&1 d2 b&1 d2 b&1 d2 b&1 d2 b&1 d2 |
+%%%%%%%%%% mes 5
+	\mark<"B", dy=$mdy, fsize=$msize, dx=$mdx>
+	\harmony<"Fm", dy=$hdy>
+	a&1 c2 a&1 c2 a&1 c2 a&1 c2 a&1 c2 a&1 c2 |
+%%%%%%%%%% mes 6
+	\harmony<"Gm", dy=$hdy>
+	g1 b& g1 b& g1 b& g1 b& g1 b& g1 b&  |
+%%%%%%%%%% mes 7
+	\harmony<"Fm", dy=$hdy>
+	a&1 c2 a&1 c2 a&1 c2 a&1 c2 a&1 c2 a&1 c2 |
+%%%%%%%%%% mes 8
+	\harmony<"Gm", dy=$hdy>
+	g1 b& g1 b& g1 b& g1 b& g1 b& g1 b&  
+\repeatEnd
+%%%%%%%%%% mes 9
+	\mark<"C", dy=$mdy, fsize=$msize, dx=$mdx>
+	\harmony<"F#dim", dy=$hdy>
+	f# a& f# a& f# a& f# a& f# a& f# a& |
+%%%%%%%%%% mes 10
+	\harmony<"Gm", dy=$hdy>
+	g1 b& g1 b& g1 b& g1 b& g1 b& g1 b&  |
+%%%%%%%%%% mes 11
+	\harmony<"F#dim", dy=$hdy>
+	f# a& f# a& f# a& f# a& f# a& f# a& |
+%%%%%%%%%% mes 12
+	\harmony<"Gm", dy=$hdy>
+	g1 b& g1 b& g1 b& g1 b& g1 b& g1 b&  
+\repeatEnd
+] 
+}
