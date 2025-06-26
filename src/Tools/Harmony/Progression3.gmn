@@ -1,0 +1,65 @@
+
+$hdy = 8;
+$hdx = 6;
+$format = "\pageFormat<w=27.3cm, h=38.61cm, lm=3cm, rm=3cm, bm=3cm, tm=5cm>";
+
+{
+
+[
+	$format
+	\meter<"4/4"> \clef<"none">
+	\staffFormat <"1-line">
+	\harmony <"Am", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"Dm", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"G7", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"C", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"F", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"Bdim", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"E7", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"Am", dy=$hdy, dx=$hdx>
+	empty/1 \doubleBar
+\newLine
+	\harmony <"Dm", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"Gm", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"C", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"F", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"B&", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"Edim", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"A7", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"Dm", dy=$hdy, dx=$hdx>
+	empty/1 \doubleBar
+\newLine
+
+	\harmony <"Em", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"Am", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"D", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"G", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"C", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"F#dim", dy=$hdy, dx=3>
+	empty/1 |
+	\harmony <"B7", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"Em", dy=$hdy, dx=$hdx>
+	empty/1 
+
+]
+}

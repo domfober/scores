@@ -1,0 +1,109 @@
+
+$SYSTEM_DISTRIBUTION_LIMIT = 0.10;
+
+$hdy = 8;
+$hdx = 6;
+$hdx2 = 3;
+$format = "\pageFormat<w=27.3cm, h=38.61cm, lm=4cm, rm=4cm, bm=8cm, tm=5cm>";
+
+{
+
+[
+	$format
+	\title<"Progression par 5te", fsize=5>
+	\title<"... dans l'ordre des dièses...", fsize=3, dy=-5>
+
+	\meter<"4/4"> \clef<"none">
+	\staffFormat <"1-line">
+	\harmony <"Am", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"F", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"Bdim", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"E7", dy=$hdy, dx=$hdx2>
+	empty/2
+	\harmony <"B7", dy=$hdy, dx=$hdx2>
+	empty/2
+	 |
+\newLine
+	\key<1>
+	\harmony <"Em", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"C", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"F#dim", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"B7", dy=$hdy, dx=$hdx2>
+	empty/2
+	\harmony <"F#7", dy=$hdy, dx=$hdx2>
+	empty/2
+	 |
+\newLine
+	\key<2>
+	\harmony <"Bm", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"G", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"C#dim", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"F#7", dy=$hdy, dx=$hdx2>
+	empty/2
+	\harmony <"C#7", dy=$hdy, dx=$hdx2>
+	empty/2
+	 |
+\newLine
+	\key<3>
+	\harmony <"F#m", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"D", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"G#dim", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"C#7", dy=$hdy, dx=$hdx2>
+	empty/2
+	\harmony <"G#7", dy=$hdy, dx=$hdx2>
+	empty/2
+	 |
+\newLine
+	\key<4>
+	\harmony <"C#m", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"A", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"D#dim", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"G#7", dy=$hdy, dx=$hdx2>
+	empty/2
+	\harmony <"D#7", dy=$hdy, dx=$hdx2>
+	empty/2
+	 |
+\newLine
+	\key<5>
+	\harmony <"G#m", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"E", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"A#dim", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"D#7", dy=$hdy, dx=$hdx2>
+	empty/2
+	\harmony <"A#7", dy=$hdy, dx=$hdx2>
+	empty/2
+	 |
+\newLine
+	\key<6>
+	\harmony <"D#m", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"B", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"E#dim", dy=$hdy, dx=$hdx>
+	empty/1 |
+	\harmony <"A#7", dy=$hdy, dx=$hdx2>
+	empty/2
+	\harmony <"E#7", dy=$hdy, dx=$hdx2>
+	empty/2
+	 |
+
+]
+}
