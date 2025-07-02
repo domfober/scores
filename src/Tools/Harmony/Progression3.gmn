@@ -7,6 +7,8 @@ $format = "\pageFormat<w=27.3cm, h=38.61cm, lm=3cm, rm=3cm, bm=3cm, tm=5cm>";
 
 [
 	$format
+	\title<"Progression à François">
+	\title<"Par quartes", dy=-7, fsize=5>
 	\meter<"4/4"> \clef<"none">
 	\staffFormat <"1-line">
 	\harmony <"Am", dy=$hdy, dx=$hdx>
