@@ -1,0 +1,158 @@
+
+
+$hdy1 = 17;
+$SYSTEM_DISTRIBUTION_LIMIT = 0.15;
+
+{
+[
+	\title<"My Favorite Things", font="Helvetica">
+	\composer<"Richard Rodgers", font="Helvetica", dy=9>
+	\pageFormat<w=27.3cm, h=38.61cm, lm=2.5cm, rm=2.5cm, bm=4cm, tm=4cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<1> \meter<"3/4", autoMeasuresNum="system"> 
+	
+%\stemsDown
+
+%%%%%%%%%%%%%%%%% mesure 1
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0/2., d1, a } |
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c#, e, b } |
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	{ d, g, a} |
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c#, e, b } |
+
+%%%%%%%%%%%%%%%%% mesure 5
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, e1, g } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, e1, g } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, e1, g } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, e1, g } |
+
+%%%%%%%%%%%%%%%%% mesure 9
+	\harmony<"Am7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, e, g } |
+	\harmony<"D7", dy=$hdy1, dx=0, fsize=14pt>
+	{ a0, c1, f# } |
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, d1, f# } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, c1, e } |
+%%%%%%%%%%%%%%%%% mesure 13
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, d1, f# } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, c1, e } |
+	\harmony<"F#m7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ a0, c1, f# } |
+%%%%%%%%%%%%%%%%% mesure 16
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=14pt>
+	{ a0, d#1, f# } 
+	\repeatEnd
+\newLine
+%%%%%%%%%%%%%%%%% mesure 17
+	\harmony<"EM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ d#, g#, b } |
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c#, e, b } |
+	\harmony<"EM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ d#, g#, b } |
+%%%%%%%%%%%%%%%%% mesure 20
+	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c#, e, b } |
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c#, e, g# } |
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c#, e, g# } |
+%%%%%%%%%%%%%%%%% mesure 23
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c#, e, g# } |
+	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c#, e, g# } |
+	\harmony<"A-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, e, g } |
+%%%%%%%%%%%%%%%%% mesure 26
+	\harmony<"D7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, f#, a } |
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, d1, f# } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, e1, g } |
+%%%%%%%%%%%%%%%%% mesure 29
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, d1, f# } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, e1, g } |
+	\harmony<"F#m7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ a0, c1, f# } |
+	\harmony<"B7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, d#1, f#, a } \doubleBar
+\newLine
+
+%%%%%%%%%%%%%%%%% mesure 33
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0/2., d1, a } |
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0/2., d1, a } |
+	\harmony<"F#m7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ a1, c1, f# } |
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=14pt>
+	{ d#1, f#, a } |
+%%%%%%%%%%%%%%%%% mesure 37
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b1, d1, g } |
+	\harmony<"Em7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b1, d1, g } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b, e1, g } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b, e1, g } \doubleBar
+\newLine
+
+%%%%%%%%%%%%%%%%% mesure 41
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b, e1, g } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b, e1, g } |
+	\harmony<"A7", dy=$hdy1, dx=0, fsize=14pt>
+	{ e, g, c#2 } |
+	\harmony<"A7", dy=$hdy1, dx=0, fsize=14pt>
+	{ e1 ,g, c#2 } |
+%%%%%%%%%%%%%%%%% mesure 41
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b1, d, f#1 } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b1, e, g } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b1, e, g } |
+	\harmony<"D7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, f#, a } \doubleBar
+\newLine
+
+%%%%%%%%%%%%%%%%% mesure 45
+	\harmony<"G6", dy=$hdy1, dx=0, fsize=14pt>
+	{ b1, d, a } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b1, e, g } |
+	\harmony<"G6", dy=$hdy1, dx=0, fsize=14pt>
+	{ b1, d, a } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b1, e, g } |
+	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b1, d, f#1 } |
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b1, e, g } |
+	\harmony<"F#m7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ a1, c1, f# } |
+	\harmony<"B7", dy=$hdy1, dx=0, fsize=14pt>
+	{ d#1, f#, a } 
+
+
+]
+}

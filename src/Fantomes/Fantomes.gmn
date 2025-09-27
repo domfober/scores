@@ -1,0 +1,105 @@
+
+$hdy1 = -3;
+
+{
+[
+	\pageFormat<w=27.3cm, h=38.61cm, lm=3cm, rm=3cm, bm=8cm, tm=5cm>
+	\title<"Fantômes">
+	\composer<"Red Cardell", fsize=10pt, dy=8>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+	\clef<"g"> \meter<"2/4", autoMeasuresNum="system">
+	\key<-2>
+
+% meas. 1
+	\stemsUp
+	a/12 c2 b&1 a b& c2 |
+	d b&1 a b& a g |
+	a/12 c2 b&1 a b& c2 |
+% meas. 3
+	d/2 |
+	a1/12 c2 b&1 a b& c2 |
+	d b&1 a b& a g |
+% meas. 6
+	a/12 c2 b&1 a b& a |
+	g/2 
+\repeatEnd
+\newLine
+\repeatBegin
+% meas. 8
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	g1/16 b& d2 b&2 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a a/8 g/16  |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	f e&/8 f/16 
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	d/4 |
+% meas. 9
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	g1/16 b& d2 b&2 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a a/8 g/16 |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	f e&/8 f/16 
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	d/4 |
+% meas. 10
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	g1/16 b& d2 b&2 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a a/8 g/16 |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	f e&/8 f/16 
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	d/4 |
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	g1/16 b& d2 b&2 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a a/8 g/16 |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	f e&/8 f/16 
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	d/4 
+\repeatEnd
+\newLine
+\repeatBegin
+% meas. 12
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	g1/16 a b& g 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a a/8 b&/16 |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	c2 b&1/8 a/16 
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	d2 b&1 a b& |
+% meas. 13
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	g1/16 a b& g 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a a/8 g/16 |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a g1/8 f/16 
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	d/4 |
+% meas. 13
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	g1/16 a b& g 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a a/8 b&/16 |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	c2 b&1/8 a/16 
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	d2 b&1 a b& |
+% meas. 14
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	g1/16 a b& g 
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a a/8 g/16 |
+	\harmony<"F", dy=$hdy1, dx=0, fsize=16pt>
+	a g1/8 f/16 
+	\harmony<"Gm", dy=$hdy1, dx=0, fsize=16pt>
+	g/4 
+\repeatEnd
+]
+}

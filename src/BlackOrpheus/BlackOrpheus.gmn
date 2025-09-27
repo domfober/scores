@@ -1,0 +1,141 @@
+
+
+$hdy1 = 17;
+$size = "fsize=16pt";
+
+{
+[
+	\title<"Black Orpheus", font="Helvetica">
+	\composer<"Luis Bonfi", font="Helvetica", dy=9>
+	\pageFormat<w=23.1cm, h=32.7cm, lm=2.5cm, rm=2.5cm, bm=6cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<0> \meter<"4/4", autoMeasuresNum="system"> 
+	
+%\stemsDown
+
+%%%%%%%%%%%%%%%%% mesure 1
+	\harmony<"A-", dy=$hdy1, dx=0, $size>
+	{ c/1, e, a } |
+	\harmony<"B-7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ d/2, f, a } 
+	\harmony<"E7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ g#, b, f, d } |
+	\harmony<"A-", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/1, e, a } |
+	\harmony<"B-7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ d/2, f, a } 
+	\harmony<"E7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ g#, b, f, d } |
+%%%%%%%%%%%%%%%%% mesure 5
+	\harmony<"A-", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/1, e, a } |
+	\harmony<"D-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/2, f, a } 
+	\harmony<"G7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, d1, f, a } |
+
+%%%%%%%%%%%%%%%%% mesure 7
+	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0/1, e1, g } |
+	\harmony<"C#dim", dy=$hdy1, dx=0, fsize=14pt>
+	{ a0/2, e1, g& } 
+	\harmony<"A7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ b&0, c#1, e, g } |
+	\harmony<"D-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/1, f, a } |
+
+%%%%%%%%%%%%%%%%% mesure 10
+	\harmony<"G7", dy=$hdy1, dx=0, fsize=14pt>
+	{ d1, f, b } |
+	\harmony<"C6", dy=$hdy1, dx=0, fsize=14pt>
+	{ e, g, a } |
+	\harmony<"FM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, e, a } |
+	\harmony<"B-7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ d, f, a } |
+%%%%%%%%%%%%%%%%% mesure 14
+	\harmony<"E7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ g#, b, f, d } |
+	\harmony<"A-", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/1, e, a } |
+	\harmony<"B-7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ d/2, f, a } 
+	\harmony<"E7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ g#, b, f, d } \doubleBar
+\newLine
+%%%%%%%%%%%%%%%%% mesure 17
+	\harmony<"A-", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/1, e, a } |
+	\harmony<"B-7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ d/2, f, a } 
+	\harmony<"E7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ g#, b, f, d } |
+	\harmony<"A-", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/1, e, a } |
+%%%%%%%%%%%%%%%%% mesure 20
+	\harmony<"B-7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ d/2, f, a } 
+	\harmony<"E7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ g#, b, f, d } |
+%%%%%%%%%%%%%%%%% mesure 21
+	\harmony<"E-7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ g/1, b&, d } |
+	\harmony<"A7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, e, g, b& } |
+	\harmony<"D-", dy=$hdy1, dx=0, fsize=14pt>
+	{ d, f, a } |
+	\harmony<"D-", dy=$hdy1, dx=0, fsize=14pt>
+	{ d, f, a } |
+%%%%%%%%%%%%%%%%% mesure 25
+	\harmony<"D-", dy=$hdy1, dx=0, fsize=14pt>
+	{ d/2, f, a }
+	\harmony<"D-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, f, a } |
+%%%%%%%%%%%%%%%%% mesure 27
+	\harmony<"B-7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ d/2, f, a } 
+	\harmony<"E7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ g#, b, f, d } |
+	\harmony<"A-", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/2, e, a } 
+	\harmony<"A-7/G", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, e, g } |
+	\harmony<"FM7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/1, e, a } |
+	\harmony<"B-7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ d, f, a } 
+	\harmony<"E7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ g#, b, f, d } |
+	\harmony<"A-", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/1, e, a } 
+\daCoda<dy=8, dx=4>
+	\harmony<"B-7&5", dy=$hdy1, dx=0, fsize=14pt>
+	{ d/2, f, a } 
+	\harmony<"E7&9", dy=$hdy1, dx=0, fsize=14pt>
+	{ g#, b, f, d } 
+\repeatEnd
+\newLine
+\coda<dy=8, dx=4>
+	\harmony<"A-", dy=$hdy1, dx=2, fsize=14pt>
+	{ c/1, e, a } |
+	\harmony<"D-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/2, f, a } 
+	\harmony<"A-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, e, g } |
+	\harmony<"D-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/2, f, a } 
+	\harmony<"A-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, e, g } |
+	\harmony<"D-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/2, f, a } 
+	\harmony<"A-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, e, g } |
+	\harmony<"A-", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/1, e, a } |
+	\harmony<"A-", dy=$hdy1, dx=0, fsize=14pt>
+	{ c/1, e, a } 
+
+]
+}
