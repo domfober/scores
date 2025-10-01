@@ -1,0 +1,49 @@
+
+
+$hdy1 = 17;
+$size = "fsize=16pt";
+
+{
+[
+	\title<"Equinox", font="Helvetica">
+	\composer<"John Coltrane", font="Helvetica", dy=9>
+	\pageFormat<w=23.1cm, h=32.7cm, lm=2.5cm, rm=2.5cm, bm=6cm, tm=5cm>
+	\accolade<id=1, type="none">
+	\barFormat<"system">
+
+	\clef<"g"> \key<-3> \meter<"4/4", autoMeasuresNum="system"> 
+	
+%\stemsDown
+
+%%%%%%%%%%%%%%%%% mesure 1
+	\harmony<"C-7", dy=$hdy1, dx=0, $size>
+	{ b&0/1, e&1, g } |
+	{ b&0/1, e&1, g } |
+	{ b&0/1, e&1, g } |
+	{ b&0/1, e&1, g } |
+	\harmony<"F-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ c, e&, a& } |
+	{ c, e&, a& } |
+	\harmony<"C-7", dy=$hdy1, dx=0, $size>
+	{ b&0/1, e&1, g } |
+	{ b&0/1, e&1, g } |
+	\harmony<"A&7", dy=$hdy1, dx=0, $size>
+	{ c, e&, g } |
+	\harmony<"G7", dy=$hdy1, dx=0, $size>
+	{ b0, d1, f } |
+	\harmony<"C-7", dy=$hdy1, dx=0, $size>
+	{ b&0/1, e&1, g } |
+	{ b&0/1, e&1, g } 
+\repeatEnd
+\newLine
+
+\coda<dy=8, dx=4>
+	\harmony<"A&7", dy=$hdy1, dx=0, $size>
+	{ c, e&, g } |
+	\harmony<"G7", dy=$hdy1, dx=0, $size>
+	{ b0, d1, f } |
+	\harmony<"C-7", dy=$hdy1, dx=0, $size>
+	{ b&0/1, e&1, g } |
+	{ b&0/1, e&1, g } |
+]
+}
