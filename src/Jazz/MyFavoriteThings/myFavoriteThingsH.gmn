@@ -60,12 +60,12 @@ $SYSTEM_DISTRIBUTION_LIMIT = 0.15;
 	\harmony<"EM7", dy=$hdy1, dx=0, fsize=14pt>
 	{ d#, g#, b } |
 	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
-	{ c#, e, b } |
+	{ c#, e, a } |
 	\harmony<"EM7", dy=$hdy1, dx=0, fsize=14pt>
 	{ d#, g#, b } |
 %%%%%%%%%%%%%%%%% mesure 20
 	\harmony<"F#m7", dy=$hdy1, dx=0, fsize=14pt>
-	{ c#, e, b } |
+	{ c#, e, a } |
 	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
 	{ c#, e, g# } |
 	\harmony<"AM7", dy=$hdy1, dx=0, fsize=14pt>
@@ -137,11 +137,13 @@ $SYSTEM_DISTRIBUTION_LIMIT = 0.15;
 
 %%%%%%%%%%%%%%%%% mesure 45
 	\harmony<"G6", dy=$hdy1, dx=0, fsize=14pt>
-	{ b1, d, a } |
+	{ b1, d, e } |
 	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
 	{ b1, e, g } |
 	\harmony<"G6", dy=$hdy1, dx=0, fsize=14pt>
-	{ b1, d, a } |
+	{ b1, d, e } |
+
+%%%%%%%%%%%%%%%%% mesure 48
 	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
 	{ b1, e, g } |
 	\harmony<"GM7", dy=$hdy1, dx=0, fsize=14pt>

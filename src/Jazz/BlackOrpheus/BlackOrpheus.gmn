@@ -40,9 +40,7 @@ $size = "fsize=16pt";
 	\harmony<"CM7", dy=$hdy1, dx=0, fsize=14pt>
 	{ b0/1, e1, g } |
 	\harmony<"C#dim", dy=$hdy1, dx=0, fsize=14pt>
-	{ a0/2, e1, g& } 
-	\harmony<"A7&9", dy=$hdy1, dx=0, fsize=14pt>
-	{ b&0, c#1, e, g } |
+	{ a0, e1, g& } 
 	\harmony<"D-7", dy=$hdy1, dx=0, fsize=14pt>
 	{ c/1, f, a } |
 
@@ -130,8 +128,8 @@ $size = "fsize=16pt";
 	{ c, e, g } |
 	\harmony<"D-7", dy=$hdy1, dx=0, fsize=14pt>
 	{ c/2, f, a } 
-	\harmony<"A-7", dy=$hdy1, dx=0, fsize=14pt>
-	{ c, e, g } |
+	\harmony<"E-7", dy=$hdy1, dx=0, fsize=14pt>
+	{ b0, d1, g, b } |
 	\harmony<"A-", dy=$hdy1, dx=0, fsize=14pt>
 	{ c/1, e, a } |
 	\harmony<"A-", dy=$hdy1, dx=0, fsize=14pt>
