@@ -1,0 +1,56 @@
+
+$SPRING = 2.5;
+
+$dist = 16;      % distance between staves
+$dist2 = 24;      % distance between staves
+$dy=15.5;
+$dx=1;
+
+{
+[
+	\title<"Se Seco el Arroyito", font="Arial">
+	\title<"Gammes et accords", font="Arial", fsize=12pt, dy=-6>
+%	\title<"Stage Norbert Pignol - Chalap", font="Arial", fsize=12pt, dy=-6>
+	\composer<"Compay Segundo", font="Arial", color="grey", fsize=10pt, dy=0>
+	\pageFormat<w=21cm, h=29.7cm, lm=3.5cm, rm=2cm, bm=5cm, tm=5cm>
+	\accolade<id=1, type="none"> 
+	\barFormat<"system">
+
+	\instr<"A blues", autopos="on">
+	\stemsOff \staffFormat<distance=$dist>
+	a0 c1 d d# e g a 
+],
+
+[
+	\instr<"C Maj. Bebop", autopos="on">
+	\stemsOff \staffFormat<distance=$dist>
+	c1 d1 e1 f1 g1 g# a b c2
+],
+
+[
+	\instr<"A min. Bebop", autopos="on">
+	\stemsOff \staffFormat<distance=$dist>
+	a0 b c1 d e f f# g# a
+],
+
+[
+	\instr<"Accords", autopos="on">
+	\stemsOff \staffFormat<distance=$dist2>
+	\harmony<"Bdim", dy=$dy, dx=$dx>
+	{ b0, d1, f, a& } b0 d1 f a& b d2 f a& 
+],
+
+[
+	\instr<"Accords", autopos="on">
+	\stemsOff \staffFormat<distance=$dist>
+	\harmony<"B7", dy=$dy, dx=$dx>
+	{ b0, d#1, f#, a } b0 d#1 f# a b d#2 f# a
+],
+
+[
+	\instr<"Accords", autopos="on">
+	\stemsOff \staffFormat<distance=$dist>
+	\harmony<"A-6", dy=$dy, dx=$dx>
+	{ a0, c1, e, f# } a0 c1 e f# a c2 e f#
+]
+}

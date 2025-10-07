@@ -1,0 +1,36 @@
+
+
+
+{
+[
+	\title<"Patterns", font="Arial">
+	\title<"Tierces décorées", font="Arial", fsize=4, dy=-6>
+	\pageFormat<w=21cm, h=29.7cm, lm=3cm, rm=3cm, bm=8cm, tm=5cm>
+	\accolade<id=1, type="none"> 
+	\barFormat<"system">
+
+
+	\clef<"g"> \meter<"2/4">
+
+	\bm(a0/8 g# \noteFormat<color="blue"> (a c1)) 
+	\bm(b0 a# \noteFormat<color="blue"> (b d1) )
+	\bm(c b0 \noteFormat<color="blue"> (c1 e) )
+	\bm(d c# \noteFormat<color="blue"> (d f) )
+	\bm(e d# \noteFormat<color="blue"> (e g) )
+	\bm(f e \noteFormat<color="blue"> (f a) )
+	\bm(g f# \noteFormat<color="blue"> (g b) )
+	a/2 \endBar
+\newLine
+
+	\meter<"3/4">
+	\bm( \text<"Variation", dy=14> (a0/8) g# \noteFormat<color="blue"> (a c1) b0 a) 
+	\bm(b0 a# \noteFormat<color="blue"> (b d1) c b0 )
+	\bm(c1 b0 \noteFormat<color="blue"> (c1 e) d c)
+	\bm(d c# \noteFormat<color="blue"> (d f) e d)
+	\bm(e d# \noteFormat<color="blue"> (e g) f e)
+	\bm(f e \noteFormat<color="blue"> (f a) g f)
+	\bm(g f# \noteFormat<color="blue"> (g b) a g)
+	a/2 \endBar
+
+]
+}
