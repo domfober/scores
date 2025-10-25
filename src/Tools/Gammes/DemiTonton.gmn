@@ -1,0 +1,18 @@
+$hdy=-5;
+$hdy2=-14;
+
+{
+[
+	\title<"Gammes demi ton / ton">
+	\pageFormat<w=25.2cm, h=35.64cm, lm=3cm, rm=3cm, bm=0cm, tm=5cm>
+
+
+%	\meter<"3/4", autoMeasuresNum="system" > \key<0>
+
+% mes. 1
+	\clef<"g">
+	
+	g a& b& b c#2 d e f g
+
+]
+}
