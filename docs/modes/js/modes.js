@@ -162,33 +162,46 @@ console.log (this.name, this.mode, this.instance, nc)
         return out;
     }
 
+    tag (note, tag) {
+        return tag + "(" + note + ")";
+    }
+    pageformat() {
+        return "\\pageFormat<w=20cm, h=10cm, lm=0cm, rm=0cm, bm=2cm, tm=2cm> "
+    }
     toGuidoMode () {
-        let gmn = "[ ";
-        this.instance.forEach( item => {
-            let n = item.substring(0, item.length-1)
+        let gmn = "[ " + this.pageformat();
+        let i = 0;
+        this.instance.forEach( note => {
+            let interv = this.intervals[i++];
+            let color = (interv == 1) ? "red" : "grey";
+            // let fing = '\\fing<' + (interv == 2 ? '"|"' : '"/"') + ', dx=5, dy=-3>';
+            let fing = (i < 8) ? '\\text<"' + interv + '", dx=4.5, dy=-4, color="' + color + '">' : null;
+            let n = note.substring(0, note.length-1)
+             
             if (n == this.noteCaracteristique())
-                gmn += '\\noteFormat<color="red">(' + item +  ") ";
-            else
-                gmn += item +  " ";
+               note = this.tag( note, '\\noteFormat<color="red">');
+            if (fing) note =  this.tag(note, fing);
+            gmn += note + " ";
         });
         return gmn + "]";
     }
 
-    makeChord(elts) {
+    makeChord(elts, key) {
         let gmn = "{ ";
         let sep = "";
         elts.forEach( item => {
-            gmn += sep + item;
+            let t = '\\text<"' + key + '", dy=-4, color="grey", textformat="ct">';
+            gmn += sep + this.tag(item, t);
             sep= ", ";
         })
         return gmn + " } ";
     }
 
     toGuidoCadence () {
-        let gmn = "[ \\space<3mm> ";
+        let gmn = "[ " + this.pageformat() + "\\space<3mm> ";
         this.cadence().forEach( item => {
             let keys = Object.keys(item);
-            gmn += this.makeChord (item[keys[0]]);            
+            gmn += this.makeChord (item[keys[0]], keys[0]); 
         });
         return gmn + "]";
     }
@@ -212,7 +225,9 @@ function changeMode () {
     let m = new mode(mod, guidoNote(base))
     let scale = m.toGuidoMode();
     let cad = m.toGuidoCadence();
-    console.log ("changeMode", mod , guidoNote(base), scale, cad)
+    console.log ("changeMode", mod , guidoNote(base))
+    // console.log ("gmn scale", scale)
+    // console.log ("gmn chord", cad)
     display (m);
     document.getElementById('scale').textContent = scale;
     document.getElementById('cadence').textContent = cad;
@@ -234,4 +249,5 @@ if (typeof process === 'object') {
     var m = new mode(parseInt(process.argv[2]), inst);
     display (m);
 }
-// else changeMode();
+else {
+}

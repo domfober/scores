@@ -24,5 +24,5 @@ GuidoModule().then ( (module) => {
 	var version = guidoEngine.getVersion();
 	console.log( "Guido Engine version " + version.str);
 	guidoEngine.init();
-	// processGMNCode();
+	changeMode();
 });

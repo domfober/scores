@@ -27,9 +27,26 @@
       font-weight: bold;
     }
 
+.header {
+  position: relative;
+  margin-left: 45vw;
+  margin-top: 10vh;
+}
+
 .guido-code {
 	/* display: flex; */
 	margin: auto;
 	height: 20%;
 	width: 40%; 
+}
+
+.scale {
+	/* display: flex; */
+	margin: auto;
+	height: 10vh;
+}
+
+.chord {
+	margin: auto;
+	height: 10vh;
 }
