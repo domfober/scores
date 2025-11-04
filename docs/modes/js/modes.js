@@ -46,7 +46,7 @@ class mode {
         this.instance = this.buildinstance(basenote);
         
         let nc = this.instance[mode.ncaract[n]];
-console.log (this.name, this.mode, this.instance, nc)
+// console.log (this.name, this.mode, this.instance, nc)
         this.noteC = nc.substring(0, nc.length -1)
     }
 
@@ -236,6 +236,7 @@ function changeMode () {
 
 //------------------------------------------------
 function display (m) {
+    document.getElementById('modename').innerHTML = m.name;
     console.log ("Mode", m.mode,  ":", m.name);
     console.log ("Intervalles", m.intervals);
     console.log ("Notes", m.instance);
