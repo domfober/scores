@@ -1,6 +1,7 @@
 
     body {
       font-family: Arial, sans-serif;
+      font-size: 24pt;
       display: block;
       /* flex-direction: column;  */
       align-items: center;
@@ -27,26 +28,44 @@
       font-weight: bold;
     }
 
-.header {
-  position: relative;
-  margin-left: 45vw;
-  margin-top: 10vh;
+table {
+  margin-left: 10vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding : 0;
 }
 
-.guido-code {
-	/* display: flex; */
-	margin: auto;
-	height: 20%;
-	width: 40%; 
+
+.header {
+  position: relative;
+  margin-left: 40vw;
+  margin-top: 5vh;
 }
 
 .scale {
 	/* display: flex; */
 	margin: auto;
-	height: 10vh;
+	width: 50vw;
 }
 
 .chord {
 	margin: auto;
-	height: 10vh;
+	width: 25vw;
+}
+
+.float {
+  float: inline-start;
+  margin-left: 10vw;
+  font-size: 20pt;
+}
+
+@media only screen and ((max-width: 510px) or (max-height: 500px))  {
+    body {
+      font-size: 18pt;
+      margin-left: 15px;
+    }
+    .header {
+      margin-left: 10vw;
+      margin-top: 5vh;
+  }
 }
