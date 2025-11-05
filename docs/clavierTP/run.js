@@ -14,6 +14,7 @@ function setMode(mode) {
 		case "AMin":    minorchord(false); break;
 		case "AMaj7":   majorchord(true); break;
 		case "AMin7":   minorchord(true); break;
+		case "Dim":     dimchord(); break;
     }
     modeInfo(gState.show);
     localStorage.setItem('mode', mode);
@@ -42,6 +43,8 @@ function getModeInfo(show) {
         return out + "accord min 7"
     if (show == getMajor7Chord)
         return out + "accord maj 7"
+    if (show == getDimChord)
+        return out + "accord dim"
     return out;
 }
 
@@ -51,6 +54,7 @@ function majorscale()    { gState.show = getMajorScale; }
 function pentascale()    { gState.show = getPentaScale; }
 function majorchord(sev) { gState.show = sev ? getMajor7Chord : getMajorChord; }
 function minorchord(sev) { gState.show = sev ? getMinor7Chord : getMinorChord; }
+function dimchord()      { gState.show = getDimChord; }
 
 //--------------------------------------------
 function hasClass (elt, name) {

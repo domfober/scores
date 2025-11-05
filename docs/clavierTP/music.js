@@ -30,6 +30,15 @@ function getMinorChord(pitch) {
     return out;
 }
 
+function getDimChord(pitch) {
+    let out = [];
+    out.push(pitch);
+    out.push((pitch + 3) % 12);
+    out.push((pitch + 6) % 12);
+    out.push((pitch + 9) % 12);
+    return out;
+}
+
 function getMinor7Chord(pitch) {
     let out = [];
     out.push(pitch);

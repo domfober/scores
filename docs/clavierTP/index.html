@@ -67,10 +67,14 @@
 					<td>Min. 7</td>
 					<td><input type="radio" id="AMin7" name="mode" onClick=switchMode(this)></td>
 				</tr>
+				<tr>
+					<td>Dim</td>
+					<td><input type="radio" id="Dim." name="mode" onClick=switchMode(this)></td>
+				</tr>
 			</table>
 		</div>
 	</div>
-	<div id=kbd class="center main" onmouseup="mouseUp()">
+	<div id=kbd class="center main" onmouseup="mouseUp()" onclick="closeMenu('menu'); closeMenu('mode')">
 		<table>
 			<tr> 
 				<td id='bleft'> </td> 
