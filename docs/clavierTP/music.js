@@ -48,6 +48,15 @@ function getMinor7Chord(pitch) {
     return out;
 }
 
+function getMinorMaj7Chord(pitch) {
+    let out = [];
+    out.push(pitch);
+    out.push((pitch + 3) % 12);
+    out.push((pitch + 7) % 12);
+    out.push((pitch + 11) % 12);
+    return out;
+}
+
 function getMajorChord(pitch) {
     let out = [];
     out.push(pitch);
@@ -62,6 +71,15 @@ function getMajor7Chord(pitch) {
     out.push((pitch + 4) % 12);
     out.push((pitch + 7) % 12);
     out.push((pitch + 10) % 12);
+    return out;
+}
+
+function getMajorMaj7Chord(pitch) {
+    let out = [];
+    out.push(pitch);
+    out.push((pitch + 4) % 12);
+    out.push((pitch + 7) % 12);
+    out.push((pitch + 11) % 12);
     return out;
 }
 

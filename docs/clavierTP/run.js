@@ -13,7 +13,9 @@ function setMode(mode) {
 		case "AMaj":    majorchord(false); break;
 		case "AMin":    minorchord(false); break;
 		case "AMaj7":   majorchord(true); break;
-		case "AMin7":   minorchord(true); break;
+		case "AMin7":      minorchord(true); break;
+		case "AMajMaj7":   maj7chord(false); break;
+		case "AMinMaj7":   maj7chord(true); break;
 		case "ADim":     dimchord(); break;
     }
     modeInfo(gState.show);
@@ -23,9 +25,9 @@ function setMode(mode) {
 //--------------------------------------------
 function switchMode(elt) {
     let mode = elt.id;
-console.log ("switchMode", mode)
+//console.log ("switchMode", mode)
     setMode (mode);
-console.log (getModeInfo(gState.show), gState.show)
+//console.log (getModeInfo(gState.show), gState.show)
 }
 
 //--------------------------------------------
@@ -42,11 +44,15 @@ function getModeInfo(show) {
     if (show == getMajorChord)
         return out + "accord maj"
     if (show == getMinor7Chord)
-        return out + "accord min 7"
+        return out + "accord min <sup>7</sup>"
     if (show == getMajor7Chord)
-        return out + "accord maj 7"
+        return out + "accord maj <sup>7</sup>"
     if (show == getDimChord)
         return out + "accord dim"
+    if (show == getMinorMaj7Chord)
+        return out + "accord min <sup>Maj. 7</sup>"
+    if (show == getMajorMaj7Chord)
+        return out + "accord maj <sup>Maj. 7</sup>"
     return out;
 }
 
@@ -56,6 +62,7 @@ function majorscale()    { gState.show = getMajorScale; }
 function pentascale()    { gState.show = getPentaScale; }
 function majorchord(sev) { gState.show = sev ? getMajor7Chord : getMajorChord; }
 function minorchord(sev) { gState.show = sev ? getMinor7Chord : getMinorChord; }
+function maj7chord(minor)  { gState.show = minor ? getMinorMaj7Chord : getMajorMaj7Chord; }
 function dimchord()      { gState.show = getDimChord; }
 
 //--------------------------------------------
