@@ -14,7 +14,7 @@ function setMode(mode) {
 		case "AMin":    minorchord(false); break;
 		case "AMaj7":   majorchord(true); break;
 		case "AMin7":   minorchord(true); break;
-		case "Dim":     dimchord(); break;
+		case "ADim":     dimchord(); break;
     }
     modeInfo(gState.show);
     localStorage.setItem('mode', mode);
@@ -23,7 +23,9 @@ function setMode(mode) {
 //--------------------------------------------
 function switchMode(elt) {
     let mode = elt.id;
+console.log ("switchMode", mode)
     setMode (mode);
+console.log (getModeInfo(gState.show), gState.show)
 }
 
 //--------------------------------------------
