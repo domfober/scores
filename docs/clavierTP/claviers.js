@@ -74,12 +74,83 @@ const claviers = {
     Milleret_Pignol : {
       droite: {
         rang3 : [
+            { T: { name:'C'}, P: { name: "F#"} }, 
             { T: { name:'C#'}, P: { name: "F"} }, 
             { T: { name:'Bb'}, P: { name: "Eb"} }, 
             { T: { name:'G'},  P: { name: "F#"} }, 
             { T: { name:'Eb'}, P: { name: "F"} }, 
             { T: { name:'C#'}, P: { name: "Eb"} }, 
             { T: { name:'Bb'}, P: { name: "F#"} }, 
+            { T: { name:'G'},  P: { name: "F"} }, 
+            { T: { name:'Eb'}, P: { name: "Eb"} }, 
+            { T: { name:'C#'}, P: { name: "F#"} }, 
+            { T: { name:'Bb'}, P: { name: "F"} }
+        ],
+        rang2 : [ 
+            { T: { name:'D'},  P: { name: "G"} }, 
+            { T: { name:'B'},  P: { name: "E"} }, 
+            { T: { name:'G#'}, P: { name: "C"} }, 
+            { T: { name:'F'},  P: { name: "A"} }, 
+            { T: { name:'D'},  P: { name: "E"} }, 
+            { T: { name:'B'},  P: { name: "C"} }, 
+            { T: { name:'G#'}, P: { name: "A"} }, 
+            { T: { name:'F'},  P: { name: "E"} }, 
+            { T: { name:'D'},  P: { name: "C"} }, 
+            { T: { name:'B'},  P: { name: "A"} }, 
+            { T: { name:'G#'}, P: { name: "Bb"} },
+            { T: { name:'G'},  P: { name: "E"} }
+        ],
+        rang1 : [ 
+            { T: { name:'A'},  P: { name: "D"} }, 
+            { T: { name:'F#'}, P: { name: "B"} }, 
+            { T: { name:'E'},  P: { name: "G"} }, 
+            { T: { name:'C'},  P: { name: "D"} }, 
+            { T: { name:'A'},  P: { name: "B"} }, 
+            { T: { name:'F#'}, P: { name: "G"} }, 
+            { T: { name:'E'},  P: { name: "D"} }, 
+            { T: { name:'C'},  P: { name: "B"} }, 
+            { T: { name:'A'},  P: { name: "G"} }, 
+            { T: { name:'F#'}, P: { name: "D"} },
+            { T: { name:'E'},  P: { name: "C#"} }
+        ]
+	    },
+	    gauche : {
+          rang3 : [
+            { T: { name: "Eb"}, P: { name: "Bb"} },
+            { T: { name: "G#"}, P: { name: "B"} },
+            { T: { name: "C"},  P: { name: "D"} },
+            { T: { name: "F#"}, P: { name: "F#"} },
+            { T: { name: "C#"}, P: { name: "C#"} },
+            { T: { name: "E"},  P: { name: "A"} }
+          ],
+          rang2 : [ 
+            { T: { name: "B"},  P: { name: "G#"} },
+            { T: { name: "b"},  P: { name: "g#"} },
+            { T: { name: "F"},  P: { name: "F"} },
+            { T: { name: "f"},  P: { name: "f"} },
+            { T: { name: "A"},  P: { name: "E"} },
+            { T: { name: "a"},  P: { name: "e"} }
+          ],
+          rang1 : [ 
+            { T: { name: "Bb"}, P: { name: "Eb"} },
+            { T: { name: "bb"}, P: { name: "eb"} },
+            { T: { name: "G"}, P: { name: "C"} },
+            { T: { name: "g"}, P: { name: "c"} },
+            { T: { name: "D"}, P: { name: "G"} },
+            { T: { name: "d"}, P: { name: "g"} }
+          ]
+      }
+    },
+    Mignol : {
+      droite: {
+        rang3 : [
+            { T: { name:'C'}, P: { name: "F#"} }, 
+            { T: { name:'C#'}, P: { name: "F"} }, 
+            { T: { name:'Bb'}, P: { name: "Eb"} }, 
+            { T: { name:'G'},  P: { name: "F#"} }, 
+            { T: { name:'Eb'}, P: { name: "F"} }, 
+            { T: { name:'C#'}, P: { name: "Eb"} }, 
+            { T: { name:'Bb'}, P: { name: "G#"} }, 
             { T: { name:'G'},  P: { name: "F"} }, 
             { T: { name:'Eb'}, P: { name: "Eb"} }, 
             { T: { name:'C#'}, P: { name: "F#"} }, 
