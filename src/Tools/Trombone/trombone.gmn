@@ -1,0 +1,42 @@
+$tdy = -7;
+{
+[
+	\clef<"f"> 
+
+	\stemsOff
+	empty/8
+	\text<"1", dy=$tdy, dx=-1.3, fsize=5> (
+	{ b&-1/4, \noteFormat<color="blue">(f0), \noteFormat<color="green">(b&), 
+	\noteFormat<color="orange">(d1), \noteFormat<color="red">(f) } )
+	empty/8 |
+	empty/8
+	\text<"2", dy=$tdy, dx=-1.3, fsize=5> (
+	{ a-1/4, \noteFormat<color="blue">(e0), \noteFormat<color="green">(a), 
+	\noteFormat<color="orange">(c1), \noteFormat<color="red">(e) })
+	empty/8 |
+	empty/8
+	\text<"3", dy=$tdy, dx=-1.3, fsize=5> (
+	{ a&-1/4, \noteFormat<color="blue">(e&0), \noteFormat<color="green">(a&), 
+	\noteFormat<color="orange">(c&1), \noteFormat<color="red">(e&) })
+	empty/8 |
+	empty/8
+	\text<"4", dy=$tdy, dx=-1.3, fsize=5> (
+	{ g-1/4, \noteFormat<color="blue">(d0), \noteFormat<color="green">(g), 
+	\noteFormat<color="orange">(b0), \noteFormat<color="red">(d1) })
+	empty/8 |
+	empty/8
+	\text<"5", dy=$tdy, dx=-1.3, fsize=5> (
+	{ f#-1/4, \noteFormat<color="blue">(c#0), \noteFormat<color="green">(f#), 
+	\noteFormat<color="orange">(a#), \noteFormat<color="red">(c#1) })
+	empty/8 |
+	empty/8
+	\text<"6", dy=$tdy, dx=-1.3, fsize=5> (
+	{ f-1/4, \noteFormat<color="blue">(c0), \noteFormat<color="green">(f), 
+	\noteFormat<color="orange">(a), \noteFormat<color="red">(c1) })
+	empty/8 |
+	empty/8
+	\text<"7", dy=$tdy, dx=-1.3, fsize=5> (
+	{ e-1/4, \noteFormat<color="blue">(b), \noteFormat<color="green">(e0), 
+	\noteFormat<color="orange">(g), \noteFormat<color="red">(b) })
+]
+}
