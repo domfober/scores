@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" src="js/libGUIDOEngine.js"></script>
+    <script type="text/javascript" src="js/modes.js"></script>
+    <!-- <link rel="stylesheet" href="stylesheet.css" type="text/css" /> -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  <style>
+    @font-face {
+    font-family: 'guido2regular';
+    font-family: 'guido2';
+    src: url('guido2-webfont.woff2') format('woff2'),
+         url('guido2-webfont.woff') format('woff');
+    }
+  </style>
+  </head>
+ 
+  <body>
+<div class="header">
+    <h1>Modes</h1>
+  <div class="menu">
+    <label for="mode">Mode :</label>
+    <select id="mode" onchange="changeMode()">
+      <option>Ionien</option>
+      <option>Dorien</option>
+      <option>Phrygien</option>
+      <option>Lydien</option>
+      <option>Mixolydien</option>
+      <option>Éolien</option>
+      <option>Locrien</option>
+    </select>
+  </div>
+
+  <div class="menu">
+    <label for="base">Base :</label>
+    <select id="base" onchange="changeMode()">
+      <option>c</option>
+      <option>c&sharp;</option>
+      <option>d&flat;</option>
+      <option>d</option>
+      <option>d&sharp;</option>
+      <option>e&flat;</option>
+      <option>e</option>
+      <option>f</option>
+      <option>f&sharp;</option>
+      <option>g&flat;</option>
+      <option>g</option>
+      <option>g&sharp;</option>
+      <option>a&flat;</option>
+      <option>a</option>
+      <option>a&sharp;</option>
+      <option>b&flat;</option>
+      <option>b</option>
+    </select>
+  </div>
+</div>
+
+<!-- <p style="font-family:'guido2regular', monospace;">A B C 𝄞 ♩ ♪ ♫ ♬</p> -->
+
+<table>
+  <tr><td id="modename">Mode</td><td><div class="guido-code scale" id="scale"></div></td></tr>
+  <tr><td>Cadence</td><td><div class="guido-code chord" id="cadence"></div></td></tr>
+</table>
+<!-- <div class="guido-code scale" id="scale"></div>
+<span class=float>Mode</span> 
+<div class="guido-code chord" id="cadence"></div>
+<span class=float>Cadence</span>  -->
+</body>
+<script type="text/javascript" src="js/guidocode.js"></script>
+</html>

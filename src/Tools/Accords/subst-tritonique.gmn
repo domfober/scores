@@ -1,0 +1,54 @@
+$hdy=-5;
+$hdy2=-14;
+
+$triton = "green";
+$fond = "lightgrey";
+
+{
+[
+	\title<"Substitution tritonique">
+	\pageFormat<w=25.2cm, h=35.64cm, lm=3cm, rm=3cm, bm=0cm, tm=5cm>
+
+
+%	\meter<"3/4", autoMeasuresNum="system" > \key<0>
+
+% mes. 1
+	\clef<"g">
+
+	\harmony<"E7        =>", dy=$hdy, dx=2>
+	{ \noteFormat<color=$fond>(e/1), \noteFormat<color=$triton>(g#), b, \noteFormat<color=$triton>(d2) } 
+	\harmony<"Bb7", dy=$hdy, dx=0>
+	{ f1, \noteFormat<color=$triton>(\acc(a&)), \noteFormat<color=$fond>(\acc(b&)), \noteFormat<color=$triton>(d2) } 
+|
+	\harmony<"A7        =>", dy=$hdy, dx=0>
+	{ \noteFormat<color=$fond>(a0), \noteFormat<color=$triton>(\acc(c#1)), e, \noteFormat<color=$triton>(g) } 
+	\harmony<"E&7", dy=$hdy, dx=-2>
+	{ \noteFormat<color=$triton>(d&1), b&1, \noteFormat<color=$fond>(e&), \noteFormat<color=$triton>(g) } 
+\doubleBar
+
+\newLine
+	\harmony<"D7        =>", dy=$hdy, dx=2>
+	{ \noteFormat<color=$fond>(d/1), \noteFormat<color=$triton>(f#), a, \noteFormat<color=$triton>(c2) } 
+	\harmony<"A&7", dy=$hdy, dx=0>
+	{ \noteFormat<color=$triton>(g&1), \noteFormat<color=$fond>(a&), \noteFormat<color=$triton>(c2), e& } 
+|
+	\harmony<"G7        =>", dy=$hdy, dx=2>
+	{ \noteFormat<color=$fond>(g1), \noteFormat<color=$triton>(b), d2, \noteFormat<color=$triton>(f) } 
+	\harmony<"D&7", dy=$hdy, dx=0>
+	{ \noteFormat<color=$fond>(d&), \noteFormat<color=$triton>(c&), \noteFormat<color=$triton>(f), a&1 } 
+\doubleBar
+
+\newLine
+	\harmony<"C7        =>", dy=$hdy, dx=2>
+	{ \noteFormat<color=$fond>(c1), \noteFormat<color=$triton>(e), g, \noteFormat<color=$triton>(b&) } 
+	\harmony<"G&7", dy=$hdy, dx=0>
+	{ \noteFormat<color=$fond>(g&), \noteFormat<color=$triton>(\acc(b&)), d&, \noteFormat<color=$triton>(f&) } 
+|
+	\harmony<"F7        =>", dy=$hdy, dx=2>
+	{ \noteFormat<color=$fond>(f1), \noteFormat<color=$triton>(a), c2, \noteFormat<color=$triton>(e&2) } 
+	\harmony<"C&7 (B7)", dy=$hdy, dx=0>
+	{ \noteFormat<color=$fond>(b1), \noteFormat<color=$triton>(d#2), f2, \noteFormat<color=$triton>(a1) } 
+\doubleBar
+
+]
+}
