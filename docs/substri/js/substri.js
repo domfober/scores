@@ -1,17 +1,71 @@
 
+const toDegre = {
+    'C': 0,
+    'C#': 1,
+    'Db': 1,
+    'D': 2,
+    'D#': 3,
+    'Eb': 3,
+    'E': 4,
+    'F&': 4,
+    'F': 5,
+    'D': 2,
+    
+}
 
 //------------------------------------------------
 class substriton {
-    constructor (n, basenote) { 
-        this.intervals = this.shift(n);
-        this.name = mode.names[n];
-        this.mode = n;
-        this.baseNote = this.noteName2Interval(basenote);
-        this.instance = this.buildinstance(basenote);
-        
-        let nc = this.instance[mode.ncaract[n]];
-// console.log (this.name, this.mode, this.instance, nc)
-        this.noteC = nc.substring(0, nc.length -1)
+    constructor (chordStr, enharm=true) { 
+        let baseNote = this.parseNote (chordStr);
+        if (baseNote) {
+            let subst = this.makeSubsChord (baseNote, enharm);
+console.log(baseNote, subst);
+        }
+        else console.error (chordStr, ": incorrect chord for substitution")
+    }
+
+    parseNote (note) {
+        let a = note.split(/7/);
+        return (a.length == 2) ? a[0] : null;
+    }
+
+    enharm (note, subs, enharm) {
+        return enharm ? subs + ' (' + note + ')' : note + ' (' + subs + ')';
+    }
+
+    shiftNote (note, count) {
+        let n = note.charCodeAt(0) + count ;
+//console.log(note, note.charCodeAt(0), n);
+        if (n > 71) n -= 7;
+        else if (n < 65) n += 7;
+        return String.fromCharCode(n);
+    }
+
+    makeSubsChord (note, enharm) {
+        // let n = note.charCodeAt(0) + 4 ;
+        // if (n > 71) n -= 7;
+        let alt = note[1] ;
+//        let subs = String.fromCharCode(n);
+        let subs = this.shiftNote(note, 4);
+        if (!alt) {
+            if (subs == 'F')
+                return this.enharm (subs + 'b', 'E', enharm)
+            else if (subs == 'C')
+                return this.enharm (subs + 'b', 'B', enharm)
+            else
+                return subs + 'b';
+        }
+        else if (alt == '#') {}
+        else if (alt == 'b') {
+            let en = this.shiftNote (subs, -1)
+            if (en == 'E') en += 'b';
+            else if (en == 'B') en += 'b';
+
+//            subs += 'bb';
+            return this.enharm (subs + 'bb', en, enharm)
+        }
+        else return null
+        return subs
     }
 
     pageformat() {
@@ -52,9 +106,9 @@ function display (m) {
 
 //------------------------------------------------
 if (typeof process === 'object') {
-    var inst = process.argv[3];
-    var m = new mode(parseInt(process.argv[2]), inst);
-    display (m);
+    let enharm = process.argv[3] == 'true' ? true : false;
+    var m = new substriton(process.argv[2], enharm);
+//    display (m);
 }
 else {
 }
