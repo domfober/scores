@@ -1,0 +1,61 @@
+ <h2>Divers</h2>
+ <ul>
+ <li>Amazone rondeau</li>
+ <li>Andro fausses bouteilles</li>
+ <li>Gavotte d'Alzen</li>
+ <li>Jump In The Sun</li>
+ <li>Kardos</li>
+ <li>La Cumparcita</li>
+ <li>Les trois cailloux</li>
+ <li>Voyageurs</li>
+ </ul>
+
+ <h2>Chansons</h2>
+ <ul>
+ <li>Amsterdam</li>
+ <li>Auvergnat</li>
+ <li>Bella ciao</li>
+ <li>Emmenez moi</li>
+ <li>La foule</li>
+ <li>La tendresse</li>
+ <li>La nonchalante</li>
+ <li>Le café du canal</li>
+ <li>Le tourbillon de la vie</li>
+ <li>Le petit bal perdu</li>
+ <li>Les moulins de mon coeur</li>
+ <li>Les p'tits papiers</li>
+ <li>Les amants d'un jour</li>
+ <li>Mon amant de St Jean</li>
+ <li>Sous le ciel de Paris</li>
+ <li>Tango corse</li>
+ <li>Trois petites notes de musique</li>
+ <li>Göttingen</li>
+ <li>L'accordéon</li>
+ </ul>
+
+ <h2>Mazurkas</h2>
+ <ul>
+ <li>Assis sur le bord du lit</li>
+ <li>Mazurka Mañana</li>
+ </ul>
+
+ <h2>Scottish</h2>
+ <ul>
+ <li>Adele blanc sec</li>
+ <li>Esperanza</li>
+ <li>Tabou</li>
+ </ul>
+
+ <h2>Valses</h2>
+ <ul>
+ <li>Adieu ma Dédé</li>
+ <li>Bled</li>
+ <li>Fonts del segre</li>
+ <li>La mal aimable</li>
+ <li>La noce</li>
+ <li>La planete bleue tourne et vire</li>
+ <li>Louise</li>
+ <li>Le Nez</li>
+ <li>Valse Venezuelienne</li>
+ <li>Valse d'amélie</li>
+ </ul>
