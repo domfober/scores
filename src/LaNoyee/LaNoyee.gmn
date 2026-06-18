@@ -15,8 +15,8 @@ $TDY = 18;
 	\title<"La Noyée">
 	\title<"Yann Tersen (adaptation valse à 3 temps)", fsize=14pt,  dy=-8>
 	\pageFormat<w=24.15cm, h=34.15cm, lm=2.5cm, rm=2.5cm, bm=4.5cm, tm=5cm>
-	\footer<"Typeset with Guido", dy=-4>
-	\footer<"https://guidoeditor.grame.fr", dy=-8>
+%	\footer<"Typeset with Guido", dy=-4>
+%	\footer<"https://guidoeditor.grame.fr", dy=-8>
 
 	\accolade<id=1, type="none">
 	\barFormat<"system">
@@ -26,7 +26,7 @@ $TDY = 18;
 % theme 
 \text<"Thème", dy=$TDY, dx=-15, fsize=14pt> (
 	\harmony<"A          a          a", dy=$hdy1, dx=4, fsize=16pt>
-	\lyrics<"7", dy=$Ty, fattrib="b">( a1/2. )
+	\lyrics<"7", dy=$Ty, fattrib="b">( a1/2. ) |
 )
 	\harmony<"A           a           a", dy=$hdy1, dx=9, fsize=16pt>
 	\lyrics<"6'", dy=$Ty, fattrib="b">( b1 )
@@ -73,7 +73,7 @@ $NL
 $ET
 
 % variation : thème avec 2 touches
-$NT
+\newPage
 	\stemsDown
 	\harmony<"A             a           a", dy=$hdy1, dx=3, fsize=16pt>
 \text<"Variation : thème avec 2 touches", dy=$TDY, dx=-15, fsize=14pt> (
@@ -125,7 +125,7 @@ $NL
 $ET
 
 % variation thème 2
-$MT 
+\newPage 
 	\harmony<"A            a           a", dy=$hdy1, dx=4, fsize=16pt>
 \text<"Variation : thème 2", dy=$TDY, dx=-15, fsize=14pt> (
 	\lyrics<"8", dy=$Ty, fattrib="b">( c2/2. )
@@ -180,7 +180,7 @@ $NL
 $ET
 
 % variation thème 2 à la tierce
-$NT
+\newPage
 	\harmony<"A            a           a", dy=$hdy1, dx=4, fsize=16pt>
 \text<"Variation : thème 2 à la tierce", dy=$TDY, dx=-15, fsize=14pt> (
 	\lyrics<"9", dy=$Ty, fattrib="b">( e2/2. )

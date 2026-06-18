@@ -9,8 +9,8 @@ $texty = -2.5;
 [
 	\title<"Le Revenant">
 	\pageFormat<w=29cm, h=41cm, lm=1.8cm, rm=1.5cm, tm=4cm, bm=4cm>
-	\footer<"Typeset with Guido", dy=-11>
-	\footer<"https://guidoeditor.grame.fr", dy=-16>
+%	\footer<"Typeset with Guido", dy=-11>
+%	\footer<"https://guidoeditor.grame.fr", dy=-16>
 	\accolade<id=1, type="none">
 	\barFormat<"system">
 

@@ -11,8 +11,8 @@ $texty = -2.5;
 	\title<"Variations", dy=-6, fsize=16 pt>
 	\composer<"Grive Musicienne", dy=5>
 	\pageFormat<w=27.1cm, h=38.6cm, lm=2cm, rm=2cm, bm=3cm, tm=3.5cm>
-	\footer<"Typeset with Guido", dy=-13>
-	\footer<"https://guidoeditor.grame.fr", dy=-17>
+%	\footer<"Typeset with Guido", dy=-13>
+%	\footer<"https://guidoeditor.grame.fr", dy=-17>
 	\accolade<id=1, type="none">
 	\barFormat<"system">
 
