@@ -1,0 +1,25 @@
+Substitutions
+
+Norbert
+---------------------
+
+Tonique:
+IMaj7 <=> IIIm7 <=> VIm7
+
+Sous dominante:
+IV <=> IIm7
+
+Dominante:
+V7
+VIIø
+
+Src = https://osonslaguitarejazz.com/harmonie-jazz/substitutions-accords/
+---------------------
+
+Substitution diatonique :
+notes communes des accords
+e.g. D-7 <=> F∆
+	 Bø  <=> G7
+
+Substitution tritonique:
+V7 <=> b II7
