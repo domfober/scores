@@ -132,9 +132,22 @@ class mode {
         return null;        
     }
 
+    adjustV(note, instance) {
+        let out = null;
+        for (let i = 0; (i < instance.length) && !out; i++) {
+            let c = instance[i].replace(/1|2/, '')
+            if (c === note) 
+                out = (i > 1) ? instance[i-2] : instance[instance.length - 3 + i];
+        }
+        out = out.replace(/1|2/, '')
+        return out;
+    }
+
     cadence () {
         let a1 = this.instance[0];
-        let a2 = this.noteCaracteristique();
+        let a2 = this.noteCaracteristique(); // - (this.mode === 3 || this.mode === 6) ? 2 : 0;
+        // adjust V a third below for hyper major and hyper minor
+        if (this.mode === 3 || this.mode === 6) a2 = this.adjustV( a2, this.instance)
         let a3 = this.instance[6];
         let out = [];
         out.push ( this.getChord(a1.substring(0, a1.length - 1)));
@@ -166,7 +179,7 @@ class mode {
         return tag + "(" + note + ")";
     }
     pageformat() {
-        return "\\pageFormat<w=20cm, h=10cm, lm=0cm, rm=0cm, bm=2cm, tm=2cm> "
+        return "\\pageFormat<w=20cm, h=8cm, lm=0cm, rm=0cm, bm=2cm, tm=2cm> "
     }
     toGuidoMode () {
         let gmn = "[ " + this.pageformat();
@@ -235,8 +248,8 @@ function changeMode () {
 }
 
 //------------------------------------------------
-function display (m) {
-    document.getElementById('modename').innerHTML = m.name;
+function display (m, html=true) {
+    if (html) document.getElementById('modename').innerHTML = m.name;
     console.log ("Mode", m.mode,  ":", m.name);
     console.log ("Intervalles", m.intervals);
     console.log ("Notes", m.instance);
@@ -248,7 +261,7 @@ function display (m) {
 if (typeof process === 'object') {
     var inst = process.argv[3];
     var m = new mode(parseInt(process.argv[2]), inst);
-    display (m);
+    display (m, false);
 }
 else {
 }
